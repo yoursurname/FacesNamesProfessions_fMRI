@@ -1,0 +1,885 @@
+3.2377 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.3946 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000260AA112B38>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000260AA0F4F28>, multiSample=False, name='window1', numSamples=2, pos=None, screen=0, size=array([3440, 1440]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='glfw')
+15.3970 	EXP 	window1: mouseVisible = True
+15.3971 	EXP 	window1: recordFrameIntervals = False
+15.6016 	EXP 	window1: recordFrameIntervals = True
+15.7856 	EXP 	window1: recordFrameIntervals = False
+16.8603 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.8629 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.001, name='polygon_2', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.8684 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([0.743, 0.75 ]), texRes=128.0, units='height', win=Window(...))
+16.8705 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.8729 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.8774 	EXP 	Created polygon_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='polygon_3', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.8818 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+16.8829 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.8850 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.8902 	EXP 	Created polygon_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='polygon_3', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.8959 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([0.743, 0.75 ]), texRes=128.0, units='height', win=Window(...))
+16.8973 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.9000 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.9047 	EXP 	Created polygon_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='polygon_3', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.9092 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+16.9104 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.9124 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.9172 	EXP 	Created polygon_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='polygon_3', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.9544 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.1307 	EXP 	text: autoDraw = True
+17.6299 	DATA 	Keypress: 1
+17.6397 	EXP 	text: autoDraw = False
+17.6397 	EXP 	polygon_2: autoDraw = True
+17.7784 	DATA 	Keypress: 1
+33.2506 	EXP 	Imported TrialRows.xlsx as conditions, 5 conditions, 2 params
+33.2509 	EXP 	Created sequence: random, trialTypes=5, nReps=0, seed=None
+33.2548 	EXP 	Imported TrialRows.xlsx as conditions, 5 conditions, 2 params
+33.2550 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+33.2556 	EXP 	New trial (rep=0, index=0): {'TrialRows_Name': '12:18', 'TrialRows_Proffession': '42:48'}
+33.2744 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+33.2747 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+33.2750 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Målare', 'Letter1': 'M.', 'Letter2': 'G.', 'Letter3': 'S.'}
+33.3156 	DATA 	Keypress: s
+33.3163 	DATA 	Keypress: s
+33.3258 	EXP 	polygon_2: autoDraw = False
+33.3258 	EXP 	image: image = 'Images_Faces/SH44.png'
+33.3258 	EXP 	text_4: text = ''
+33.3258 	EXP 	text_4: text = 'Målare'
+33.3258 	EXP 	image: autoDraw = True
+33.3258 	EXP 	text_4: autoDraw = True
+35.9177 	DATA 	Keypress: 2
+36.0687 	DATA 	Keypress: 2
+37.2669 	EXP 	image: autoDraw = False
+37.2669 	EXP 	text_4: autoDraw = False
+37.2669 	EXP 	polygon: autoDraw = True
+40.7709 	EXP 	polygon: autoDraw = False
+40.7709 	EXP 	polygon: autoDraw = False
+40.7709 	EXP 	polygon_3: autoDraw = True
+41.2577 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Svetsare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'S.'}
+41.2916 	EXP 	polygon_3: autoDraw = False
+41.2916 	EXP 	polygon_3: autoDraw = False
+41.2916 	EXP 	image: image = 'Images_Faces/SH46.png'
+41.2916 	EXP 	text_4: text = ''
+41.2916 	EXP 	text_4: text = 'Svetsare'
+41.2916 	EXP 	image: autoDraw = True
+41.2916 	EXP 	text_4: autoDraw = True
+45.2824 	EXP 	image: autoDraw = False
+45.2824 	EXP 	text_4: autoDraw = False
+45.2824 	EXP 	polygon: autoDraw = True
+48.7860 	EXP 	polygon: autoDraw = False
+48.7860 	EXP 	polygon: autoDraw = False
+48.7860 	EXP 	polygon_3: autoDraw = True
+49.2729 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'Letter1': 'J.', 'Letter2': 'F.', 'Letter3': 'S.'}
+49.3076 	EXP 	polygon_3: autoDraw = False
+49.3076 	EXP 	polygon_3: autoDraw = False
+49.3076 	EXP 	image: image = 'Images_Faces/SH48.png'
+49.3076 	EXP 	text_4: text = ''
+49.3076 	EXP 	text_4: text = 'Jurist'
+49.3076 	EXP 	image: autoDraw = True
+49.3076 	EXP 	text_4: autoDraw = True
+53.2954 	EXP 	image: autoDraw = False
+53.2954 	EXP 	text_4: autoDraw = False
+53.2954 	EXP 	polygon: autoDraw = True
+61.3045 	EXP 	polygon: autoDraw = False
+61.3045 	EXP 	polygon: autoDraw = False
+61.3045 	EXP 	polygon_3: autoDraw = True
+61.7903 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Sotare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'P.'}
+61.8258 	EXP 	polygon_3: autoDraw = False
+61.8258 	EXP 	polygon_3: autoDraw = False
+61.8258 	EXP 	image: image = 'Images_Faces/SH45.png'
+61.8258 	EXP 	text_4: text = ''
+61.8258 	EXP 	text_4: text = 'Sotare'
+61.8258 	EXP 	image: autoDraw = True
+61.8258 	EXP 	text_4: autoDraw = True
+65.8154 	EXP 	image: autoDraw = False
+65.8154 	EXP 	text_4: autoDraw = False
+65.8154 	EXP 	polygon: autoDraw = True
+68.3178 	EXP 	polygon: autoDraw = False
+68.3178 	EXP 	polygon: autoDraw = False
+68.3178 	EXP 	polygon_3: autoDraw = True
+68.8044 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'Letter1': 'A.', 'Letter2': 'H.', 'Letter3': 'S.'}
+68.8392 	EXP 	polygon_3: autoDraw = False
+68.8392 	EXP 	polygon_3: autoDraw = False
+68.8392 	EXP 	image: image = 'Images_Faces/SH43.png'
+68.8392 	EXP 	text_4: text = ''
+68.8392 	EXP 	text_4: text = 'Arbetsledare'
+68.8392 	EXP 	image: autoDraw = True
+68.8392 	EXP 	text_4: autoDraw = True
+72.8273 	EXP 	image: autoDraw = False
+72.8273 	EXP 	text_4: autoDraw = False
+72.8273 	EXP 	polygon: autoDraw = True
+77.5827 	EXP 	polygon: autoDraw = False
+77.5827 	EXP 	polygon: autoDraw = False
+77.5827 	EXP 	polygon_3: autoDraw = True
+78.0691 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'Letter1': 'P.', 'Letter2': 'F.', 'Letter3': 'S.'}
+78.1038 	EXP 	polygon_3: autoDraw = False
+78.1038 	EXP 	polygon_3: autoDraw = False
+78.1038 	EXP 	image: image = 'Images_Faces/SH47.png'
+78.1038 	EXP 	text_4: text = ''
+78.1038 	EXP 	text_4: text = 'Plåtslagare'
+78.1038 	EXP 	image: autoDraw = True
+78.1038 	EXP 	text_4: autoDraw = True
+82.0915 	EXP 	image: autoDraw = False
+82.0915 	EXP 	text_4: autoDraw = False
+82.0915 	EXP 	polygon: autoDraw = True
+87.8482 	EXP 	polygon: autoDraw = False
+87.8482 	EXP 	polygon: autoDraw = False
+87.8482 	EXP 	polygon_3: autoDraw = True
+88.3518 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+88.3521 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+88.3524 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Målare', 'Letter1': 'M.', 'Letter2': 'G.', 'Letter3': 'S.'}
+88.3900 	EXP 	polygon_3: autoDraw = False
+88.3900 	EXP 	polygon_3: autoDraw = False
+88.3900 	EXP 	image_3: image = 'Images_Faces/SH44.png'
+88.3900 	EXP 	text_6: text = 'M.\t\t\t\t\t\tG.\t\t\t\t\t\tS.'
+88.3900 	EXP 	image_3: autoDraw = True
+88.3900 	EXP 	text_6: autoDraw = True
+92.3612 	EXP 	image_3: autoDraw = False
+92.3612 	EXP 	text_6: autoDraw = False
+92.3612 	EXP 	polygon: autoDraw = True
+98.1178 	EXP 	polygon: autoDraw = False
+98.1178 	EXP 	polygon: autoDraw = False
+98.1178 	EXP 	polygon_3: autoDraw = True
+98.6043 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'Letter1': 'A.', 'Letter2': 'H.', 'Letter3': 'S.'}
+98.6389 	EXP 	polygon_3: autoDraw = False
+98.6389 	EXP 	polygon_3: autoDraw = False
+98.6389 	EXP 	image_3: image = 'Images_Faces/SH43.png'
+98.6389 	EXP 	text_6: text = 'A.\t\t\t\t\t\tH.\t\t\t\t\t\tS.'
+98.6389 	EXP 	image_3: autoDraw = True
+98.6389 	EXP 	text_6: autoDraw = True
+102.6267 	EXP 	image_3: autoDraw = False
+102.6267 	EXP 	text_6: autoDraw = False
+102.6267 	EXP 	polygon: autoDraw = True
+108.3833 	EXP 	polygon: autoDraw = False
+108.3833 	EXP 	polygon: autoDraw = False
+108.3833 	EXP 	polygon_3: autoDraw = True
+108.8696 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'Letter1': 'J.', 'Letter2': 'F.', 'Letter3': 'S.'}
+108.9044 	EXP 	polygon_3: autoDraw = False
+108.9044 	EXP 	polygon_3: autoDraw = False
+108.9044 	EXP 	image_3: image = 'Images_Faces/SH48.png'
+108.9044 	EXP 	text_6: text = 'J.\t\t\t\t\t\tF.\t\t\t\t\t\tS.'
+108.9044 	EXP 	image_3: autoDraw = True
+108.9044 	EXP 	text_6: autoDraw = True
+110.9779 	DATA 	Keypress: 1
+111.1299 	DATA 	Keypress: 1
+112.8922 	EXP 	image_3: autoDraw = False
+112.8922 	EXP 	text_6: autoDraw = False
+112.8922 	EXP 	polygon: autoDraw = True
+118.6487 	EXP 	polygon: autoDraw = False
+118.6487 	EXP 	polygon: autoDraw = False
+118.6487 	EXP 	polygon_3: autoDraw = True
+119.1349 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Svetsare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'S.'}
+119.1700 	EXP 	polygon_3: autoDraw = False
+119.1700 	EXP 	polygon_3: autoDraw = False
+119.1700 	EXP 	image_3: image = 'Images_Faces/SH46.png'
+119.1700 	EXP 	text_6: text = 'S.\t\t\t\t\t\tG.\t\t\t\t\t\tS.'
+119.1700 	EXP 	image_3: autoDraw = True
+119.1700 	EXP 	text_6: autoDraw = True
+123.1576 	EXP 	image_3: autoDraw = False
+123.1576 	EXP 	text_6: autoDraw = False
+123.1576 	EXP 	polygon: autoDraw = True
+128.9131 	EXP 	polygon: autoDraw = False
+128.9131 	EXP 	polygon: autoDraw = False
+128.9131 	EXP 	polygon_3: autoDraw = True
+129.3995 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'Letter1': 'P.', 'Letter2': 'F.', 'Letter3': 'S.'}
+129.4156 	EXP 	polygon_3: autoDraw = False
+129.4156 	EXP 	polygon_3: autoDraw = False
+129.4156 	EXP 	image_3: image = 'Images_Faces/SH47.png'
+129.4156 	EXP 	text_6: text = 'P.\t\t\t\t\t\tF.\t\t\t\t\t\tS.'
+129.4156 	EXP 	image_3: autoDraw = True
+129.4156 	EXP 	text_6: autoDraw = True
+133.4214 	EXP 	image_3: autoDraw = False
+133.4214 	EXP 	text_6: autoDraw = False
+133.4214 	EXP 	polygon: autoDraw = True
+139.1801 	EXP 	polygon: autoDraw = False
+139.1801 	EXP 	polygon: autoDraw = False
+139.1801 	EXP 	polygon_3: autoDraw = True
+139.6661 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Sotare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'P.'}
+139.7011 	EXP 	polygon_3: autoDraw = False
+139.7011 	EXP 	polygon_3: autoDraw = False
+139.7011 	EXP 	image_3: image = 'Images_Faces/SH45.png'
+139.7011 	EXP 	text_6: text = 'S.\t\t\t\t\t\tG.\t\t\t\t\t\tP.'
+139.7011 	EXP 	image_3: autoDraw = True
+139.7011 	EXP 	text_6: autoDraw = True
+143.6890 	EXP 	image_3: autoDraw = False
+143.6890 	EXP 	text_6: autoDraw = False
+143.6890 	EXP 	polygon: autoDraw = True
+149.4456 	EXP 	polygon: autoDraw = False
+149.4456 	EXP 	polygon: autoDraw = False
+149.4456 	EXP 	polygon_3: autoDraw = True
+149.9314 	EXP 	New trial (rep=0, index=1): {'TrialRows_Name': '0:6', 'TrialRows_Proffession': '30:36'}
+149.9486 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+149.9489 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+149.9491 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-monterare', 'Letter1': 'V.', 'Letter2': 'K.', 'Letter3': 'P.'}
+149.9699 	EXP 	polygon_3: autoDraw = False
+149.9699 	EXP 	polygon_3: autoDraw = False
+149.9699 	EXP 	image: image = 'Images_Faces/SH36.png'
+149.9699 	EXP 	text_4: text = ''
+149.9699 	EXP 	text_4: text = 'VVS-monterare'
+149.9699 	EXP 	image: autoDraw = True
+149.9699 	EXP 	text_4: autoDraw = True
+153.9581 	EXP 	image: autoDraw = False
+153.9581 	EXP 	text_4: autoDraw = False
+153.9581 	EXP 	polygon: autoDraw = True
+160.9663 	EXP 	polygon: autoDraw = False
+160.9663 	EXP 	polygon: autoDraw = False
+160.9663 	EXP 	polygon_3: autoDraw = True
+161.4525 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'Letter1': 'F.', 'Letter2': 'M.', 'Letter3': 'W.'}
+161.4873 	EXP 	polygon_3: autoDraw = False
+161.4873 	EXP 	polygon_3: autoDraw = False
+161.4873 	EXP 	image: image = 'Images_Faces/SH31.png'
+161.4873 	EXP 	text_4: text = ''
+161.4873 	EXP 	text_4: text = 'Fastighetsskötare'
+161.4873 	EXP 	image: autoDraw = True
+161.4873 	EXP 	text_4: autoDraw = True
+165.4753 	EXP 	image: autoDraw = False
+165.4753 	EXP 	text_4: autoDraw = False
+165.4753 	EXP 	polygon: autoDraw = True
+171.2319 	EXP 	polygon: autoDraw = False
+171.2319 	EXP 	polygon: autoDraw = False
+171.2319 	EXP 	polygon_3: autoDraw = True
+171.7179 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare', 'Letter1': 'S.', 'Letter2': 'M.', 'Letter3': 'K.'}
+171.7530 	EXP 	polygon_3: autoDraw = False
+171.7530 	EXP 	polygon_3: autoDraw = False
+171.7530 	EXP 	image: image = 'Images_Faces/SH32.png'
+171.7530 	EXP 	text_4: text = ''
+171.7530 	EXP 	text_4: text = 'Skattehandläggare'
+171.7530 	EXP 	image: autoDraw = True
+171.7530 	EXP 	text_4: autoDraw = True
+175.7408 	EXP 	image: autoDraw = False
+175.7408 	EXP 	text_4: autoDraw = False
+175.7408 	EXP 	polygon: autoDraw = True
+185.5018 	EXP 	polygon: autoDraw = False
+185.5018 	EXP 	polygon: autoDraw = False
+185.5018 	EXP 	polygon_3: autoDraw = True
+185.9878 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'Letter1': 'K.', 'Letter2': 'K.', 'Letter3': 'N.'}
+186.0229 	EXP 	polygon_3: autoDraw = False
+186.0229 	EXP 	polygon_3: autoDraw = False
+186.0229 	EXP 	image: image = 'Images_Faces/SH35.png'
+186.0229 	EXP 	text_4: text = ''
+186.0229 	EXP 	text_4: text = 'Kock'
+186.0229 	EXP 	image: autoDraw = True
+186.0229 	EXP 	text_4: autoDraw = True
+190.0109 	EXP 	image: autoDraw = False
+190.0109 	EXP 	text_4: autoDraw = False
+190.0109 	EXP 	polygon: autoDraw = True
+192.5138 	EXP 	polygon: autoDraw = False
+192.5138 	EXP 	polygon: autoDraw = False
+192.5138 	EXP 	polygon_3: autoDraw = True
+193.0000 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'N.'}
+193.0350 	EXP 	polygon_3: autoDraw = False
+193.0350 	EXP 	polygon_3: autoDraw = False
+193.0350 	EXP 	image: image = 'Images_Faces/SH34.png'
+193.0350 	EXP 	text_4: text = ''
+193.0350 	EXP 	text_4: text = 'Marknadsförare'
+193.0350 	EXP 	image: autoDraw = True
+193.0350 	EXP 	text_4: autoDraw = True
+197.0226 	EXP 	image: autoDraw = False
+197.0226 	EXP 	text_4: autoDraw = False
+197.0226 	EXP 	polygon: autoDraw = True
+206.5336 	EXP 	polygon: autoDraw = False
+206.5336 	EXP 	polygon: autoDraw = False
+206.5336 	EXP 	polygon_3: autoDraw = True
+207.0191 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'Letter1': 'E.', 'Letter2': 'L.', 'Letter3': 'M.'}
+207.0548 	EXP 	polygon_3: autoDraw = False
+207.0548 	EXP 	polygon_3: autoDraw = False
+207.0548 	EXP 	image: image = 'Images_Faces/SH33.png'
+207.0548 	EXP 	text_4: text = ''
+207.0548 	EXP 	text_4: text = 'Elektriker'
+207.0548 	EXP 	image: autoDraw = True
+207.0548 	EXP 	text_4: autoDraw = True
+211.0424 	EXP 	image: autoDraw = False
+211.0424 	EXP 	text_4: autoDraw = False
+211.0424 	EXP 	polygon: autoDraw = True
+214.5467 	EXP 	polygon: autoDraw = False
+214.5467 	EXP 	polygon: autoDraw = False
+214.5467 	EXP 	polygon_3: autoDraw = True
+215.0494 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+215.0496 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+215.0499 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-monterare', 'Letter1': 'V.', 'Letter2': 'K.', 'Letter3': 'P.'}
+215.0866 	EXP 	polygon_3: autoDraw = False
+215.0866 	EXP 	polygon_3: autoDraw = False
+215.0866 	EXP 	image_3: image = 'Images_Faces/SH36.png'
+215.0866 	EXP 	text_6: text = 'V.\t\t\t\t\t\tK.\t\t\t\t\t\tP.'
+215.0866 	EXP 	image_3: autoDraw = True
+215.0866 	EXP 	text_6: autoDraw = True
+219.0576 	EXP 	image_3: autoDraw = False
+219.0576 	EXP 	text_6: autoDraw = False
+219.0576 	EXP 	polygon: autoDraw = True
+222.5618 	EXP 	polygon: autoDraw = False
+222.5618 	EXP 	polygon: autoDraw = False
+222.5618 	EXP 	polygon_3: autoDraw = True
+223.0478 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'Letter1': 'E.', 'Letter2': 'L.', 'Letter3': 'M.'}
+223.0830 	EXP 	polygon_3: autoDraw = False
+223.0830 	EXP 	polygon_3: autoDraw = False
+223.0830 	EXP 	image_3: image = 'Images_Faces/SH33.png'
+223.0830 	EXP 	text_6: text = 'E.\t\t\t\t\t\tL.\t\t\t\t\t\tM.'
+223.0830 	EXP 	image_3: autoDraw = True
+223.0830 	EXP 	text_6: autoDraw = True
+227.0725 	EXP 	image_3: autoDraw = False
+227.0725 	EXP 	text_6: autoDraw = False
+227.0725 	EXP 	polygon: autoDraw = True
+230.5763 	EXP 	polygon: autoDraw = False
+230.5763 	EXP 	polygon: autoDraw = False
+230.5763 	EXP 	polygon_3: autoDraw = True
+231.0626 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'Letter1': 'F.', 'Letter2': 'M.', 'Letter3': 'W.'}
+231.0977 	EXP 	polygon_3: autoDraw = False
+231.0977 	EXP 	polygon_3: autoDraw = False
+231.0977 	EXP 	image_3: image = 'Images_Faces/SH31.png'
+231.0977 	EXP 	text_6: text = 'F.\t\t\t\t\t\tM.\t\t\t\t\t\tW.'
+231.0977 	EXP 	image_3: autoDraw = True
+231.0977 	EXP 	text_6: autoDraw = True
+235.0855 	EXP 	image_3: autoDraw = False
+235.0855 	EXP 	text_6: autoDraw = False
+235.0855 	EXP 	polygon: autoDraw = True
+238.5896 	EXP 	polygon: autoDraw = False
+238.5896 	EXP 	polygon: autoDraw = False
+238.5896 	EXP 	polygon_3: autoDraw = True
+239.0754 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'Letter1': 'K.', 'Letter2': 'K.', 'Letter3': 'N.'}
+239.1101 	EXP 	polygon_3: autoDraw = False
+239.1101 	EXP 	polygon_3: autoDraw = False
+239.1101 	EXP 	image_3: image = 'Images_Faces/SH35.png'
+239.1101 	EXP 	text_6: text = 'K.\t\t\t\t\t\tK.\t\t\t\t\t\tN.'
+239.1101 	EXP 	image_3: autoDraw = True
+239.1101 	EXP 	text_6: autoDraw = True
+243.1029 	EXP 	image_3: autoDraw = False
+243.1029 	EXP 	text_6: autoDraw = False
+243.1029 	EXP 	polygon: autoDraw = True
+246.6022 	EXP 	polygon: autoDraw = False
+246.6022 	EXP 	polygon: autoDraw = False
+246.6022 	EXP 	polygon_3: autoDraw = True
+247.0886 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare', 'Letter1': 'S.', 'Letter2': 'M.', 'Letter3': 'K.'}
+247.1235 	EXP 	polygon_3: autoDraw = False
+247.1235 	EXP 	polygon_3: autoDraw = False
+247.1235 	EXP 	image_3: image = 'Images_Faces/SH32.png'
+247.1235 	EXP 	text_6: text = 'S.\t\t\t\t\t\tM.\t\t\t\t\t\tK.'
+247.1235 	EXP 	image_3: autoDraw = True
+247.1235 	EXP 	text_6: autoDraw = True
+251.1116 	EXP 	image_3: autoDraw = False
+251.1116 	EXP 	text_6: autoDraw = False
+251.1116 	EXP 	polygon: autoDraw = True
+254.6155 	EXP 	polygon: autoDraw = False
+254.6155 	EXP 	polygon: autoDraw = False
+254.6155 	EXP 	polygon_3: autoDraw = True
+255.1019 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'N.'}
+255.1373 	EXP 	polygon_3: autoDraw = False
+255.1373 	EXP 	polygon_3: autoDraw = False
+255.1373 	EXP 	image_3: image = 'Images_Faces/SH34.png'
+255.1373 	EXP 	text_6: text = 'M.\t\t\t\t\t\tL.\t\t\t\t\t\tN.'
+255.1373 	EXP 	image_3: autoDraw = True
+255.1373 	EXP 	text_6: autoDraw = True
+257.6322 	DATA 	Keypress: 3
+257.7995 	DATA 	Keypress: 3
+259.1290 	EXP 	image_3: autoDraw = False
+259.1290 	EXP 	text_6: autoDraw = False
+259.1290 	EXP 	polygon: autoDraw = True
+262.6331 	EXP 	polygon: autoDraw = False
+262.6331 	EXP 	polygon: autoDraw = False
+262.6331 	EXP 	polygon_3: autoDraw = True
+263.1193 	EXP 	New trial (rep=0, index=2): {'TrialRows_Name': '24:30', 'TrialRows_Proffession': '54:60'}
+263.1363 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+263.1366 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+263.1369 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'Letter1': 'K.', 'Letter2': 'B.', 'Letter3': 'V.'}
+263.1747 	EXP 	polygon_3: autoDraw = False
+263.1747 	EXP 	polygon_3: autoDraw = False
+263.1747 	EXP 	image: image = 'Images_Faces/SH59.png'
+263.1747 	EXP 	text_4: text = ''
+263.1747 	EXP 	text_4: text = 'Körskollärare'
+263.1747 	EXP 	image: autoDraw = True
+263.1747 	EXP 	text_4: autoDraw = True
+267.1459 	EXP 	image: autoDraw = False
+267.1459 	EXP 	text_4: autoDraw = False
+267.1459 	EXP 	polygon: autoDraw = True
+272.2041 	DATA 	Keypress: 2
+272.3711 	DATA 	Keypress: 2
+273.9037 	EXP 	polygon: autoDraw = False
+273.9037 	EXP 	polygon: autoDraw = False
+273.9037 	EXP 	polygon_3: autoDraw = True
+274.3900 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Botaniker', 'Letter1': 'B.', 'Letter2': 'H.', 'Letter3': 'U.'}
+274.4247 	EXP 	polygon_3: autoDraw = False
+274.4247 	EXP 	polygon_3: autoDraw = False
+274.4247 	EXP 	image: image = 'Images_Faces/SH58.png'
+274.4247 	EXP 	text_4: text = ''
+274.4247 	EXP 	text_4: text = 'Botaniker'
+274.4247 	EXP 	image: autoDraw = True
+274.4247 	EXP 	text_4: autoDraw = True
+278.4128 	EXP 	image: autoDraw = False
+278.4128 	EXP 	text_4: autoDraw = False
+278.4128 	EXP 	polygon: autoDraw = True
+287.6729 	EXP 	polygon: autoDraw = False
+287.6729 	EXP 	polygon: autoDraw = False
+287.6729 	EXP 	polygon_3: autoDraw = True
+288.1595 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare', 'Letter1': 'G.', 'Letter2': 'B.', 'Letter3': 'T.'}
+288.1941 	EXP 	polygon_3: autoDraw = False
+288.1941 	EXP 	polygon_3: autoDraw = False
+288.1941 	EXP 	image: image = 'Images_Faces/SH56.png'
+288.1941 	EXP 	text_4: text = ''
+288.1941 	EXP 	text_4: text = 'Gruvarbetare'
+288.1941 	EXP 	image: autoDraw = True
+288.1941 	EXP 	text_4: autoDraw = True
+292.1824 	EXP 	image: autoDraw = False
+292.1824 	EXP 	text_4: autoDraw = False
+292.1824 	EXP 	polygon: autoDraw = True
+300.1925 	EXP 	polygon: autoDraw = False
+300.1925 	EXP 	polygon: autoDraw = False
+300.1925 	EXP 	polygon_3: autoDraw = True
+300.6789 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'Letter1': 'P.', 'Letter2': 'A.', 'Letter3': 'V.'}
+300.7136 	EXP 	polygon_3: autoDraw = False
+300.7136 	EXP 	polygon_3: autoDraw = False
+300.7136 	EXP 	image: image = 'Images_Faces/SH60.png'
+300.7136 	EXP 	text_4: text = ''
+300.7136 	EXP 	text_4: text = 'Polis'
+300.7136 	EXP 	image: autoDraw = True
+300.7136 	EXP 	text_4: autoDraw = True
+304.7012 	EXP 	image: autoDraw = False
+304.7012 	EXP 	text_4: autoDraw = False
+304.7012 	EXP 	polygon: autoDraw = True
+310.4580 	EXP 	polygon: autoDraw = False
+310.4580 	EXP 	polygon: autoDraw = False
+310.4580 	EXP 	polygon_3: autoDraw = True
+310.9445 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde', 'Letter1': 'B.', 'Letter2': 'G.', 'Letter3': 'T.'}
+310.9789 	EXP 	polygon_3: autoDraw = False
+310.9789 	EXP 	polygon_3: autoDraw = False
+310.9789 	EXP 	image: image = 'Images_Faces/SH57.png'
+310.9789 	EXP 	text_4: text = ''
+310.9789 	EXP 	text_4: text = 'Bonde'
+310.9789 	EXP 	image: autoDraw = True
+310.9789 	EXP 	text_4: autoDraw = True
+314.9670 	EXP 	image: autoDraw = False
+314.9670 	EXP 	text_4: autoDraw = False
+314.9670 	EXP 	polygon: autoDraw = True
+319.4721 	EXP 	polygon: autoDraw = False
+319.4721 	EXP 	polygon: autoDraw = False
+319.4721 	EXP 	polygon_3: autoDraw = True
+319.9577 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Pastor', 'Letter1': 'P.', 'Letter2': 'B.', 'Letter3': 'S.'}
+319.9932 	EXP 	polygon_3: autoDraw = False
+319.9932 	EXP 	polygon_3: autoDraw = False
+319.9932 	EXP 	image: image = 'Images_Faces/SH55.png'
+319.9932 	EXP 	text_4: text = ''
+319.9932 	EXP 	text_4: text = 'Pastor'
+319.9932 	EXP 	image: autoDraw = True
+319.9932 	EXP 	text_4: autoDraw = True
+323.9809 	EXP 	image: autoDraw = False
+323.9809 	EXP 	text_4: autoDraw = False
+323.9809 	EXP 	polygon: autoDraw = True
+328.7366 	EXP 	polygon: autoDraw = False
+328.7366 	EXP 	polygon: autoDraw = False
+328.7366 	EXP 	polygon_3: autoDraw = True
+329.2401 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+329.2404 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+329.2407 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'Letter1': 'P.', 'Letter2': 'A.', 'Letter3': 'V.'}
+329.2782 	EXP 	polygon_3: autoDraw = False
+329.2782 	EXP 	polygon_3: autoDraw = False
+329.2782 	EXP 	image_3: image = 'Images_Faces/SH60.png'
+329.2782 	EXP 	text_6: text = 'P.\t\t\t\t\t\tA.\t\t\t\t\t\tV.'
+329.2782 	EXP 	image_3: autoDraw = True
+329.2782 	EXP 	text_6: autoDraw = True
+333.2494 	EXP 	image_3: autoDraw = False
+333.2494 	EXP 	text_6: autoDraw = False
+333.2494 	EXP 	polygon: autoDraw = True
+338.0043 	EXP 	polygon: autoDraw = False
+338.0043 	EXP 	polygon: autoDraw = False
+338.0043 	EXP 	polygon_3: autoDraw = True
+338.4906 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde', 'Letter1': 'B.', 'Letter2': 'G.', 'Letter3': 'T.'}
+338.5259 	EXP 	polygon_3: autoDraw = False
+338.5259 	EXP 	polygon_3: autoDraw = False
+338.5259 	EXP 	image_3: image = 'Images_Faces/SH57.png'
+338.5259 	EXP 	text_6: text = 'B.\t\t\t\t\t\tG.\t\t\t\t\t\tT.'
+338.5259 	EXP 	image_3: autoDraw = True
+338.5259 	EXP 	text_6: autoDraw = True
+342.5139 	EXP 	image_3: autoDraw = False
+342.5139 	EXP 	text_6: autoDraw = False
+342.5139 	EXP 	polygon: autoDraw = True
+347.2694 	EXP 	polygon: autoDraw = False
+347.2694 	EXP 	polygon: autoDraw = False
+347.2694 	EXP 	polygon_3: autoDraw = True
+347.7551 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare', 'Letter1': 'G.', 'Letter2': 'B.', 'Letter3': 'T.'}
+347.7904 	EXP 	polygon_3: autoDraw = False
+347.7904 	EXP 	polygon_3: autoDraw = False
+347.7904 	EXP 	image_3: image = 'Images_Faces/SH56.png'
+347.7904 	EXP 	text_6: text = 'G.\t\t\t\t\t\tB.\t\t\t\t\t\tT.'
+347.7904 	EXP 	image_3: autoDraw = True
+347.7904 	EXP 	text_6: autoDraw = True
+351.7779 	EXP 	image_3: autoDraw = False
+351.7779 	EXP 	text_6: autoDraw = False
+351.7779 	EXP 	polygon: autoDraw = True
+356.5334 	EXP 	polygon: autoDraw = False
+356.5334 	EXP 	polygon: autoDraw = False
+356.5334 	EXP 	polygon_3: autoDraw = True
+357.0195 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Botaniker', 'Letter1': 'B.', 'Letter2': 'H.', 'Letter3': 'U.'}
+357.0547 	EXP 	polygon_3: autoDraw = False
+357.0547 	EXP 	polygon_3: autoDraw = False
+357.0547 	EXP 	image_3: image = 'Images_Faces/SH58.png'
+357.0547 	EXP 	text_6: text = 'B.\t\t\t\t\t\tH.\t\t\t\t\t\tU.'
+357.0547 	EXP 	image_3: autoDraw = True
+357.0547 	EXP 	text_6: autoDraw = True
+361.0427 	EXP 	image_3: autoDraw = False
+361.0427 	EXP 	text_6: autoDraw = False
+361.0427 	EXP 	polygon: autoDraw = True
+365.7977 	EXP 	polygon: autoDraw = False
+365.7977 	EXP 	polygon: autoDraw = False
+365.7977 	EXP 	polygon_3: autoDraw = True
+366.2841 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Pastor', 'Letter1': 'P.', 'Letter2': 'B.', 'Letter3': 'S.'}
+366.3193 	EXP 	polygon_3: autoDraw = False
+366.3193 	EXP 	polygon_3: autoDraw = False
+366.3193 	EXP 	image_3: image = 'Images_Faces/SH55.png'
+366.3193 	EXP 	text_6: text = 'P.\t\t\t\t\t\tB.\t\t\t\t\t\tS.'
+366.3193 	EXP 	image_3: autoDraw = True
+366.3193 	EXP 	text_6: autoDraw = True
+370.3070 	EXP 	image_3: autoDraw = False
+370.3070 	EXP 	text_6: autoDraw = False
+370.3070 	EXP 	polygon: autoDraw = True
+375.0625 	EXP 	polygon: autoDraw = False
+375.0625 	EXP 	polygon: autoDraw = False
+375.0625 	EXP 	polygon_3: autoDraw = True
+375.5483 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'Letter1': 'K.', 'Letter2': 'B.', 'Letter3': 'V.'}
+375.5838 	EXP 	polygon_3: autoDraw = False
+375.5838 	EXP 	polygon_3: autoDraw = False
+375.5838 	EXP 	image_3: image = 'Images_Faces/SH59.png'
+375.5838 	EXP 	text_6: text = 'K.\t\t\t\t\t\tB.\t\t\t\t\t\tV.'
+375.5838 	EXP 	image_3: autoDraw = True
+375.5838 	EXP 	text_6: autoDraw = True
+379.5754 	EXP 	image_3: autoDraw = False
+379.5754 	EXP 	text_6: autoDraw = False
+379.5754 	EXP 	polygon: autoDraw = True
+384.3313 	EXP 	polygon: autoDraw = False
+384.3313 	EXP 	polygon: autoDraw = False
+384.3313 	EXP 	polygon_3: autoDraw = True
+384.8173 	EXP 	New trial (rep=0, index=3): {'TrialRows_Name': '6:12', 'TrialRows_Proffession': '36:42'}
+384.8346 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+384.8350 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+384.8353 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'Letter1': 'T.', 'Letter2': 'H.', 'Letter3': 'R.'}
+384.8554 	EXP 	polygon_3: autoDraw = False
+384.8554 	EXP 	polygon_3: autoDraw = False
+384.8554 	EXP 	image: image = 'Images_Faces/SH42.png'
+384.8554 	EXP 	text_4: text = ''
+384.8554 	EXP 	text_4: text = 'Tandläkare'
+384.8554 	EXP 	image: autoDraw = True
+384.8554 	EXP 	text_4: autoDraw = True
+388.8436 	EXP 	image: autoDraw = False
+388.8436 	EXP 	text_4: autoDraw = False
+388.8436 	EXP 	polygon: autoDraw = True
+397.3535 	EXP 	polygon: autoDraw = False
+397.3535 	EXP 	polygon: autoDraw = False
+397.3535 	EXP 	polygon_3: autoDraw = True
+397.8387 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'Letter1': 'S.', 'Letter2': 'I.', 'Letter3': 'R.'}
+397.8744 	EXP 	polygon_3: autoDraw = False
+397.8744 	EXP 	polygon_3: autoDraw = False
+397.8744 	EXP 	image: image = 'Images_Faces/SH41.png'
+397.8744 	EXP 	text_4: text = ''
+397.8744 	EXP 	text_4: text = 'Säkerhetsvakt'
+397.8744 	EXP 	image: autoDraw = True
+397.8744 	EXP 	text_4: autoDraw = True
+399.7832 	DATA 	Keypress: 1
+399.9323 	DATA 	Keypress: 1
+401.8625 	EXP 	image: autoDraw = False
+401.8625 	EXP 	text_4: autoDraw = False
+401.8625 	EXP 	polygon: autoDraw = True
+409.8716 	EXP 	polygon: autoDraw = False
+409.8716 	EXP 	polygon: autoDraw = False
+409.8716 	EXP 	polygon_3: autoDraw = True
+410.3577 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'Letter1': 'P.', 'Letter2': 'I.', 'Letter3': 'P.'}
+410.3927 	EXP 	polygon_3: autoDraw = False
+410.3927 	EXP 	polygon_3: autoDraw = False
+410.3927 	EXP 	image: image = 'Images_Faces/SH40.png'
+410.3927 	EXP 	text_4: text = ''
+410.3927 	EXP 	text_4: text = 'Proffessor'
+410.3927 	EXP 	image: autoDraw = True
+410.3927 	EXP 	text_4: autoDraw = True
+414.3801 	EXP 	image: autoDraw = False
+414.3801 	EXP 	text_4: autoDraw = False
+414.3801 	EXP 	polygon: autoDraw = True
+418.8858 	EXP 	polygon: autoDraw = False
+418.8858 	EXP 	polygon: autoDraw = False
+418.8858 	EXP 	polygon_3: autoDraw = True
+419.3715 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'P.'}
+419.4069 	EXP 	polygon_3: autoDraw = False
+419.4069 	EXP 	polygon_3: autoDraw = False
+419.4069 	EXP 	image: image = 'Images_Faces/SH38.png'
+419.4069 	EXP 	text_4: text = ''
+419.4069 	EXP 	text_4: text = 'Maskinoperatör'
+419.4069 	EXP 	image: autoDraw = True
+419.4069 	EXP 	text_4: autoDraw = True
+423.3945 	EXP 	image: autoDraw = False
+423.3945 	EXP 	text_4: autoDraw = False
+423.3945 	EXP 	polygon: autoDraw = True
+433.1558 	EXP 	polygon: autoDraw = False
+433.1558 	EXP 	polygon: autoDraw = False
+433.1558 	EXP 	polygon_3: autoDraw = True
+433.6420 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'Letter1': 'B.', 'Letter2': 'K.', 'Letter3': 'P.'}
+433.6770 	EXP 	polygon_3: autoDraw = False
+433.6770 	EXP 	polygon_3: autoDraw = False
+433.6770 	EXP 	image: image = 'Images_Faces/SH37.png'
+433.6770 	EXP 	text_4: text = ''
+433.6770 	EXP 	text_4: text = 'Brevbärare'
+433.6770 	EXP 	image: autoDraw = True
+433.6770 	EXP 	text_4: autoDraw = True
+437.6650 	EXP 	image: autoDraw = False
+437.6650 	EXP 	text_4: autoDraw = False
+437.6650 	EXP 	polygon: autoDraw = True
+443.6717 	EXP 	polygon: autoDraw = False
+443.6717 	EXP 	polygon: autoDraw = False
+443.6717 	EXP 	polygon_3: autoDraw = True
+444.1577 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Marknadschef', 'Letter1': 'M.', 'Letter2': 'J.', 'Letter3': 'P.'}
+444.1926 	EXP 	polygon_3: autoDraw = False
+444.1926 	EXP 	polygon_3: autoDraw = False
+444.1926 	EXP 	image: image = 'Images_Faces/SH39.png'
+444.1926 	EXP 	text_4: text = ''
+444.1926 	EXP 	text_4: text = 'Marknadschef'
+444.1926 	EXP 	image: autoDraw = True
+444.1926 	EXP 	text_4: autoDraw = True
+448.1806 	EXP 	image: autoDraw = False
+448.1806 	EXP 	text_4: autoDraw = False
+448.1806 	EXP 	polygon: autoDraw = True
+457.9419 	EXP 	polygon: autoDraw = False
+457.9419 	EXP 	polygon: autoDraw = False
+457.9419 	EXP 	polygon_3: autoDraw = True
+458.4449 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+458.4453 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+458.4455 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'Letter1': 'T.', 'Letter2': 'H.', 'Letter3': 'R.'}
+458.4827 	EXP 	polygon_3: autoDraw = False
+458.4827 	EXP 	polygon_3: autoDraw = False
+458.4827 	EXP 	image_3: image = 'Images_Faces/SH42.png'
+458.4827 	EXP 	text_6: text = 'T.\t\t\t\t\t\tH.\t\t\t\t\t\tR.'
+458.4827 	EXP 	image_3: autoDraw = True
+458.4827 	EXP 	text_6: autoDraw = True
+462.4534 	EXP 	image_3: autoDraw = False
+462.4534 	EXP 	text_6: autoDraw = False
+462.4534 	EXP 	polygon: autoDraw = True
+472.2147 	EXP 	polygon: autoDraw = False
+472.2147 	EXP 	polygon: autoDraw = False
+472.2147 	EXP 	polygon_3: autoDraw = True
+472.7014 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'Letter1': 'B.', 'Letter2': 'K.', 'Letter3': 'P.'}
+472.7360 	EXP 	polygon_3: autoDraw = False
+472.7360 	EXP 	polygon_3: autoDraw = False
+472.7360 	EXP 	image_3: image = 'Images_Faces/SH37.png'
+472.7360 	EXP 	text_6: text = 'B.\t\t\t\t\t\tK.\t\t\t\t\t\tP.'
+472.7360 	EXP 	image_3: autoDraw = True
+472.7360 	EXP 	text_6: autoDraw = True
+476.7239 	EXP 	image_3: autoDraw = False
+476.7239 	EXP 	text_6: autoDraw = False
+476.7239 	EXP 	polygon: autoDraw = True
+486.4848 	EXP 	polygon: autoDraw = False
+486.4848 	EXP 	polygon: autoDraw = False
+486.4848 	EXP 	polygon_3: autoDraw = True
+486.9712 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Marknadschef', 'Letter1': 'M.', 'Letter2': 'J.', 'Letter3': 'P.'}
+487.0058 	EXP 	polygon_3: autoDraw = False
+487.0058 	EXP 	polygon_3: autoDraw = False
+487.0058 	EXP 	image_3: image = 'Images_Faces/SH39.png'
+487.0058 	EXP 	text_6: text = 'M.\t\t\t\t\t\tJ.\t\t\t\t\t\tP.'
+487.0058 	EXP 	image_3: autoDraw = True
+487.0058 	EXP 	text_6: autoDraw = True
+490.9941 	EXP 	image_3: autoDraw = False
+490.9941 	EXP 	text_6: autoDraw = False
+490.9941 	EXP 	polygon: autoDraw = True
+500.7551 	EXP 	polygon: autoDraw = False
+500.7551 	EXP 	polygon: autoDraw = False
+500.7551 	EXP 	polygon_3: autoDraw = True
+501.2409 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'Letter1': 'S.', 'Letter2': 'I.', 'Letter3': 'R.'}
+501.2763 	EXP 	polygon_3: autoDraw = False
+501.2763 	EXP 	polygon_3: autoDraw = False
+501.2763 	EXP 	image_3: image = 'Images_Faces/SH41.png'
+501.2763 	EXP 	text_6: text = 'S.\t\t\t\t\t\tI.\t\t\t\t\t\tR.'
+501.2763 	EXP 	image_3: autoDraw = True
+501.2763 	EXP 	text_6: autoDraw = True
+505.2639 	EXP 	image_3: autoDraw = False
+505.2639 	EXP 	text_6: autoDraw = False
+505.2639 	EXP 	polygon: autoDraw = True
+515.0247 	EXP 	polygon: autoDraw = False
+515.0247 	EXP 	polygon: autoDraw = False
+515.0247 	EXP 	polygon_3: autoDraw = True
+515.5116 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'P.'}
+515.5462 	EXP 	polygon_3: autoDraw = False
+515.5462 	EXP 	polygon_3: autoDraw = False
+515.5462 	EXP 	image_3: image = 'Images_Faces/SH38.png'
+515.5462 	EXP 	text_6: text = 'M.\t\t\t\t\t\tK.\t\t\t\t\t\tP.'
+515.5462 	EXP 	image_3: autoDraw = True
+515.5462 	EXP 	text_6: autoDraw = True
+519.5344 	EXP 	image_3: autoDraw = False
+519.5344 	EXP 	text_6: autoDraw = False
+519.5344 	EXP 	polygon: autoDraw = True
+529.2951 	EXP 	polygon: autoDraw = False
+529.2951 	EXP 	polygon: autoDraw = False
+529.2951 	EXP 	polygon_3: autoDraw = True
+529.7813 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'Letter1': 'P.', 'Letter2': 'I.', 'Letter3': 'P.'}
+529.8165 	EXP 	polygon_3: autoDraw = False
+529.8165 	EXP 	polygon_3: autoDraw = False
+529.8165 	EXP 	image_3: image = 'Images_Faces/SH40.png'
+529.8165 	EXP 	text_6: text = 'P.\t\t\t\t\t\tI.\t\t\t\t\t\tP.'
+529.8165 	EXP 	image_3: autoDraw = True
+529.8165 	EXP 	text_6: autoDraw = True
+533.8044 	EXP 	image_3: autoDraw = False
+533.8044 	EXP 	text_6: autoDraw = False
+533.8044 	EXP 	polygon: autoDraw = True
+543.5656 	EXP 	polygon: autoDraw = False
+543.5656 	EXP 	polygon: autoDraw = False
+543.5656 	EXP 	polygon_3: autoDraw = True
+544.0521 	EXP 	New trial (rep=0, index=4): {'TrialRows_Name': '18:24', 'TrialRows_Proffession': '48:54'}
+544.0693 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+544.0696 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+544.0698 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'Letter1': 'B.', 'Letter2': 'F.', 'Letter3': 'S.'}
+544.0902 	EXP 	polygon_3: autoDraw = False
+544.0902 	EXP 	polygon_3: autoDraw = False
+544.0902 	EXP 	image: image = 'Images_Faces/SH50.png'
+544.0902 	EXP 	text_4: text = ''
+544.0902 	EXP 	text_4: text = 'Bartender'
+544.0902 	EXP 	image: autoDraw = True
+544.0902 	EXP 	text_4: autoDraw = True
+548.0810 	EXP 	image: autoDraw = False
+548.0810 	EXP 	text_4: autoDraw = False
+548.0810 	EXP 	polygon: autoDraw = True
+553.8375 	EXP 	polygon: autoDraw = False
+553.8375 	EXP 	polygon: autoDraw = False
+553.8375 	EXP 	polygon_3: autoDraw = True
+554.3229 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'Letter1': 'H.', 'Letter2': 'F.', 'Letter3': 'S.'}
+554.3589 	EXP 	polygon_3: autoDraw = False
+554.3589 	EXP 	polygon_3: autoDraw = False
+554.3589 	EXP 	image: image = 'Images_Faces/SH49.png'
+554.3589 	EXP 	text_4: text = ''
+554.3589 	EXP 	text_4: text = 'Hovmästare'
+554.3589 	EXP 	image: autoDraw = True
+554.3589 	EXP 	text_4: autoDraw = True
+558.3466 	EXP 	image: autoDraw = False
+558.3466 	EXP 	text_4: autoDraw = False
+558.3466 	EXP 	polygon: autoDraw = True
+561.8507 	EXP 	polygon: autoDraw = False
+561.8507 	EXP 	polygon: autoDraw = False
+561.8507 	EXP 	polygon_3: autoDraw = True
+562.3361 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'VD', 'Letter1': 'V.', 'Letter2': 'E.', 'Letter3': 'S.'}
+562.3719 	EXP 	polygon_3: autoDraw = False
+562.3719 	EXP 	polygon_3: autoDraw = False
+562.3719 	EXP 	image: image = 'Images_Faces/SH53.png'
+562.3719 	EXP 	text_4: text = ''
+562.3719 	EXP 	text_4: text = 'VD'
+562.3719 	EXP 	image: autoDraw = True
+562.3719 	EXP 	text_4: autoDraw = True
+566.3597 	EXP 	image: autoDraw = False
+566.3597 	EXP 	text_4: autoDraw = False
+566.3597 	EXP 	polygon: autoDraw = True
+573.3677 	EXP 	polygon: autoDraw = False
+573.3677 	EXP 	polygon: autoDraw = False
+573.3677 	EXP 	polygon_3: autoDraw = True
+573.8539 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Naprapat', 'Letter1': 'N.', 'Letter2': 'F.', 'Letter3': 'S.'}
+573.8889 	EXP 	polygon_3: autoDraw = False
+573.8889 	EXP 	polygon_3: autoDraw = False
+573.8889 	EXP 	image: image = 'Images_Faces/SH51.png'
+573.8889 	EXP 	text_4: text = ''
+573.8889 	EXP 	text_4: text = 'Naprapat'
+573.8889 	EXP 	image: autoDraw = True
+573.8889 	EXP 	text_4: autoDraw = True
+577.8794 	EXP 	image: autoDraw = False
+577.8794 	EXP 	text_4: autoDraw = False
+577.8794 	EXP 	polygon: autoDraw = True
+585.3878 	EXP 	polygon: autoDraw = False
+585.3878 	EXP 	polygon: autoDraw = False
+585.3878 	EXP 	polygon_3: autoDraw = True
+585.8735 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'Letter1': 'T.', 'Letter2': 'B.', 'Letter3': 'S.'}
+585.9089 	EXP 	polygon_3: autoDraw = False
+585.9089 	EXP 	polygon_3: autoDraw = False
+585.9089 	EXP 	image: image = 'Images_Faces/SH54.png'
+585.9089 	EXP 	text_4: text = ''
+585.9089 	EXP 	text_4: text = 'Trädgårdsmästare'
+585.9089 	EXP 	image: autoDraw = True
+585.9089 	EXP 	text_4: autoDraw = True
+589.8969 	EXP 	image: autoDraw = False
+589.8969 	EXP 	text_4: autoDraw = False
+589.8969 	EXP 	polygon: autoDraw = True
+595.6535 	EXP 	polygon: autoDraw = False
+595.6535 	EXP 	polygon: autoDraw = False
+595.6535 	EXP 	polygon_3: autoDraw = True
+596.1399 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'Letter1': 'S.', 'Letter2': 'F.', 'Letter3': 'R.'}
+596.1744 	EXP 	polygon_3: autoDraw = False
+596.1744 	EXP 	polygon_3: autoDraw = False
+596.1744 	EXP 	image: image = 'Images_Faces/SH52.png'
+596.1744 	EXP 	text_4: text = ''
+596.1744 	EXP 	text_4: text = 'Sjukgymnast'
+596.1744 	EXP 	image: autoDraw = True
+596.1744 	EXP 	text_4: autoDraw = True
+600.1622 	EXP 	image: autoDraw = False
+600.1622 	EXP 	text_4: autoDraw = False
+600.1622 	EXP 	polygon: autoDraw = True
+605.9190 	EXP 	polygon: autoDraw = False
+605.9190 	EXP 	polygon: autoDraw = False
+605.9190 	EXP 	polygon_3: autoDraw = True
+606.4218 	EXP 	Imported Encoding.xlsx as conditions, 6 conditions, 8 params
+606.4223 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+606.4226 	EXP 	New trial (rep=0, index=0): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'Letter1': 'H.', 'Letter2': 'F.', 'Letter3': 'S.'}
+606.4607 	EXP 	polygon_3: autoDraw = False
+606.4607 	EXP 	polygon_3: autoDraw = False
+606.4607 	EXP 	image_3: image = 'Images_Faces/SH49.png'
+606.4607 	EXP 	text_6: text = 'H.\t\t\t\t\t\tF.\t\t\t\t\t\tS.'
+606.4607 	EXP 	image_3: autoDraw = True
+606.4607 	EXP 	text_6: autoDraw = True
+610.4318 	EXP 	image_3: autoDraw = False
+610.4318 	EXP 	text_6: autoDraw = False
+610.4318 	EXP 	polygon: autoDraw = True
+616.1884 	EXP 	polygon: autoDraw = False
+616.1884 	EXP 	polygon: autoDraw = False
+616.1884 	EXP 	polygon_3: autoDraw = True
+616.6744 	EXP 	New trial (rep=0, index=1): {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'Letter1': 'B.', 'Letter2': 'F.', 'Letter3': 'S.'}
+616.7095 	EXP 	polygon_3: autoDraw = False
+616.7095 	EXP 	polygon_3: autoDraw = False
+616.7095 	EXP 	image_3: image = 'Images_Faces/SH50.png'
+616.7095 	EXP 	text_6: text = 'B.\t\t\t\t\t\tF.\t\t\t\t\t\tS.'
+616.7095 	EXP 	image_3: autoDraw = True
+616.7095 	EXP 	text_6: autoDraw = True
+620.6975 	EXP 	image_3: autoDraw = False
+620.6975 	EXP 	text_6: autoDraw = False
+620.6975 	EXP 	polygon: autoDraw = True
+626.4541 	EXP 	polygon: autoDraw = False
+626.4541 	EXP 	polygon: autoDraw = False
+626.4541 	EXP 	polygon_3: autoDraw = True
+626.9398 	EXP 	New trial (rep=0, index=2): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Naprapat', 'Letter1': 'N.', 'Letter2': 'F.', 'Letter3': 'S.'}
+626.9752 	EXP 	polygon_3: autoDraw = False
+626.9752 	EXP 	polygon_3: autoDraw = False
+626.9752 	EXP 	image_3: image = 'Images_Faces/SH51.png'
+626.9752 	EXP 	text_6: text = 'N.\t\t\t\t\t\tF.\t\t\t\t\t\tS.'
+626.9752 	EXP 	image_3: autoDraw = True
+626.9752 	EXP 	text_6: autoDraw = True
+630.9629 	EXP 	image_3: autoDraw = False
+630.9629 	EXP 	text_6: autoDraw = False
+630.9629 	EXP 	polygon: autoDraw = True
+636.7196 	EXP 	polygon: autoDraw = False
+636.7196 	EXP 	polygon: autoDraw = False
+636.7196 	EXP 	polygon_3: autoDraw = True
+637.2049 	EXP 	New trial (rep=0, index=3): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'Letter1': 'S.', 'Letter2': 'F.', 'Letter3': 'R.'}
+637.2408 	EXP 	polygon_3: autoDraw = False
+637.2408 	EXP 	polygon_3: autoDraw = False
+637.2408 	EXP 	image_3: image = 'Images_Faces/SH52.png'
+637.2408 	EXP 	text_6: text = 'S.\t\t\t\t\t\tF.\t\t\t\t\t\tR.'
+637.2408 	EXP 	image_3: autoDraw = True
+637.2408 	EXP 	text_6: autoDraw = True
+641.2285 	EXP 	image_3: autoDraw = False
+641.2285 	EXP 	text_6: autoDraw = False
+641.2285 	EXP 	polygon: autoDraw = True
+646.9852 	EXP 	polygon: autoDraw = False
+646.9852 	EXP 	polygon: autoDraw = False
+646.9852 	EXP 	polygon_3: autoDraw = True
+647.4710 	EXP 	New trial (rep=0, index=4): {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'VD', 'Letter1': 'V.', 'Letter2': 'E.', 'Letter3': 'S.'}
+647.5063 	EXP 	polygon_3: autoDraw = False
+647.5063 	EXP 	polygon_3: autoDraw = False
+647.5063 	EXP 	image_3: image = 'Images_Faces/SH53.png'
+647.5063 	EXP 	text_6: text = 'V.\t\t\t\t\t\tE.\t\t\t\t\t\tS.'
+647.5063 	EXP 	image_3: autoDraw = True
+647.5063 	EXP 	text_6: autoDraw = True
+651.4941 	EXP 	image_3: autoDraw = False
+651.4941 	EXP 	text_6: autoDraw = False
+651.4941 	EXP 	polygon: autoDraw = True
+657.2507 	EXP 	polygon: autoDraw = False
+657.2507 	EXP 	polygon: autoDraw = False
+657.2507 	EXP 	polygon_3: autoDraw = True
+657.7364 	EXP 	New trial (rep=0, index=5): {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'Letter1': 'T.', 'Letter2': 'B.', 'Letter3': 'S.'}
+657.7719 	EXP 	polygon_3: autoDraw = False
+657.7719 	EXP 	polygon_3: autoDraw = False
+657.7719 	EXP 	image_3: image = 'Images_Faces/SH54.png'
+657.7719 	EXP 	text_6: text = 'T.\t\t\t\t\t\tB.\t\t\t\t\t\tS.'
+657.7719 	EXP 	image_3: autoDraw = True
+657.7719 	EXP 	text_6: autoDraw = True
+661.7596 	EXP 	image_3: autoDraw = False
+661.7596 	EXP 	text_6: autoDraw = False
+661.7596 	EXP 	polygon: autoDraw = True
+667.5179 	EXP 	polygon: autoDraw = False
+667.5179 	EXP 	polygon: autoDraw = False
+667.5179 	EXP 	polygon_3: autoDraw = True
+668.0184 	EXP 	polygon_3: autoDraw = False
+668.0184 	EXP 	polygon_3: autoDraw = False
+668.0184 	EXP 	text_2: autoDraw = True
+674.0254 	EXP 	text_2: autoDraw = False
+674.7366 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[3440, 1440]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="white" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="FacesNamesProffessions_Encoding" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instructions">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Instruktioner:&amp;#10;&amp;#10;Du kommer att se bilder presenterade en i taget.&amp;#10;Din uppgift är att avgöra om det är första gången du ser bilden (New) eller om du har sett bilden tidigare (Old).&amp;#10;&amp;#10;Svara på varje bild med hjälp av följande knappar:&amp;#10;1 (pekfinger) = New&amp;#10;2 (långfinger) = Old&amp;#10;&amp;#10;Vid senare tillfälle under uppgiftens gång kommer du att se bilder presenterade en i taget ovanför tre pilar markerade i orange som pekar åt vänster, uppåt och höger.&amp;#10;Din uppgift är att välja den riktning som du minns tidigare har presenterats under den aktuella bilden.&amp;#10;&amp;#10;Svara på varje bild och pil med hjälp av följande knappar:&amp;#10;1 (pekfinger) = Vänster&amp;#10;2 (långfinger) = Upp&amp;#10;3 (ringfinger) = Höger&amp;#10;&amp;#10;I början och i mitten av uppgiften kommer du att se brusiga bilder.&amp;#10;Titta bara på de brusiga bilderna utan att trycka på någon knapp.&amp;#10;&amp;#10;Tryck med pekfingret och meddela när du är redo att börja.&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_0">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3','space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_0" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fix_cross">
+      <PolygonComponent name="polygon">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="black" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="0.1" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="shape" updates="None" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$jitter[0]" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="Uncued_trial">
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="set every repeat" val="'1','2','3'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="image_2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="True" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$StimFile" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.125)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.743, 0.750)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="text_5">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.375)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Letter1 + '\t' * 6 + Letter2 + '\t' * 6 + Letter3" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Finished">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="6" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Bra jobbat!&amp;#10;&amp;#10;Du har slutfört uppgiften. &amp;#10;Fortsätt ligga stilla så kommer vi prata med dig alldeles strax." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="T"/>
+    <Routine name="Scrambled_2">
+      <ImageComponent name="ScrambledImg2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Scrambled2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ScrambledImg2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.125)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.743, 0.750)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="Scrambled_options2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="Gallery_arrowoptions.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="Scrambled_options2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.375)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(1, 0.250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Scrambled_1">
+      <ImageComponent name="ScrambledImg">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Scrambled1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ScrambledImg" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.125)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.743, 0.750)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="Arrow1">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="Gallery_newold.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="Arrow1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.375)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(1, 0.250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Wait_fmri"/>
+    <Routine name="Wait_fMRI">
+      <PolygonComponent name="polygon_2">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="black" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="0.001" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="if (key_resp.keys) == 's':&amp;#10;    core.wait(15)&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="if ((key_resp.keys === &quot;s&quot;)) {&amp;#10;    core.wait(15);&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Instructions_recog">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="You will see images presented one at a time.&amp;#10;Your task is to tell if it is the first time you see the image (New) or if you have seen the image before (Old)&amp;#10;&amp;#10;Respond to each image using the following buttons:&amp;#10;1 (index finger) = New&amp;#10;2 (middle finger) = Old" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Circle">
+      <PolygonComponent name="polygon_3">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="black" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="None" val="circle" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="ImmediateRecall_trial">
+      <KeyboardComponent name="key_resp_ImmediateRecall">
+        <Param name="allowedKeys" updates="set every repeat" val="'1','2','3'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_ImmediateRecall" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="image_3">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$StimFile" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.125)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.743, 0.750)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="text_6">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.375)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Letter1 + '\t' * 6 + Letter2 + '\t' * 6 + Letter3" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Encoding_trial">
+      <KeyboardComponent name="key_resp_1">
+        <Param name="allowedKeys" updates="set every repeat" val="'1','2','3'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_1" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="image">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="0" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$StimFile" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.125)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.743, 0.750)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.375)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="jitter = np.arange(2.5, 10, .25)&amp;#10;shuffle(jitter)&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="jitter = np.arange(2.5, 10, 0.25);&amp;#10;util.shuffle(jitter);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="jitter = np.arange(2.5, 10, 0.25);&amp;#10;util.shuffle(jitter);&amp;#10;psychoJS.experiment.addData(&quot;Jitter&quot;, jitter[0]);&amp;#10;if ((Name === 0)) {&amp;#10;    text_4.text = Proffession;&amp;#10;} else {&amp;#10;    text_4.text = Name;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="jitter = np.arange(2.5, 10, .25)&amp;#10;shuffle(jitter)&amp;#10;thisExp.addData('Jitter', jitter[0])&amp;#10;&amp;#10;if Name == 0:&amp;#10;    text_4.text = Proffession&amp;#10;else:&amp;#10;    text_4.text = Name" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions"/>
+    <Routine name="Wait_fMRI"/>
+    <LoopInitiator loopType="TrialHandler" name="Name_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'TrialRows_Name': '0:6', 'TrialRows_Proffession': '30:36'}, {'TrialRows_Name': '6:12', 'TrialRows_Proffession': '36:42'}, {'TrialRows_Name': '12:18', 'TrialRows_Proffession': '42:48'}, {'TrialRows_Name': '18:24', 'TrialRows_Proffession': '48:54'}, {'TrialRows_Name': '24:30', 'TrialRows_Proffession': '54:60'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="TrialRows.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="0" valType="num"/>
+      <Param name="name" updates="None" val="Name_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="Encoding_Name">
+      <Param name="Selected rows" updates="None" val="$TrialRows_Name" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Mohamed', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'M.', 'Letter3': 'I.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'Letter1': 'U.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'Letter1': 'L.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'Letter1': 'D.', 'Letter2': 'N.', 'Letter3': 'F.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'Letter1': 'V.', 'Letter2': 'N.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'O.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'Letter1': 'E.', 'Letter2': 'O.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'Letter1': 'N.', 'Letter2': 'P.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'Letter1': 'P.', 'Letter2': 'R.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'Letter1': 'I.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'Letter1': 'K.', 'Letter2': 'S.', 'Letter3': 'Å.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'T.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'U.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'Letter1': 'S.', 'Letter2': 'V.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'W.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'K.', 'Letter3': 'A.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'Letter1': 'F.', 'Letter2': 'M.', 'Letter3': 'W.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare', 'Letter1': 'S.', 'Letter2': 'M.', 'Letter3': 'K.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'Letter1': 'E.', 'Letter2': 'L.', 'Letter3': 'M.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'Letter1': 'K.', 'Letter2': 'K.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-monterare', 'Letter1': 'V.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'Letter1': 'B.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Marknadschef', 'Letter1': 'M.', 'Letter2': 'J.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'Letter1': 'P.', 'Letter2': 'I.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'Letter1': 'S.', 'Letter2': 'I.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'Letter1': 'T.', 'Letter2': 'H.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'Letter1': 'A.', 'Letter2': 'H.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Målare', 'Letter1': 'M.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Sotare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Svetsare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'Letter1': 'P.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'Letter1': 'J.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'Letter1': 'H.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'Letter1': 'B.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Naprapat', 'Letter1': 'N.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'Letter1': 'S.', 'Letter2': 'F.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'VD', 'Letter1': 'V.', 'Letter2': 'E.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'Letter1': 'T.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Pastor', 'Letter1': 'P.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare', 'Letter1': 'G.', 'Letter2': 'B.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde', 'Letter1': 'B.', 'Letter2': 'G.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Botaniker', 'Letter1': 'B.', 'Letter2': 'H.', 'Letter3': 'U.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'Letter1': 'K.', 'Letter2': 'B.', 'Letter3': 'V.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'Letter1': 'P.', 'Letter2': 'A.', 'Letter3': 'V.'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Encoding.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="Encoding_Name" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Encoding_trial"/>
+    <Routine name="fix_cross"/>
+    <Routine name="Circle"/>
+    <LoopTerminator name="Encoding_Name"/>
+    <LoopInitiator loopType="TrialHandler" name="ImmediateRecall_Name">
+      <Param name="Selected rows" updates="None" val="$TrialRows_Name" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Mohamed', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'M.', 'Letter3': 'I.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'Letter1': 'U.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'Letter1': 'L.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'Letter1': 'D.', 'Letter2': 'N.', 'Letter3': 'F.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'Letter1': 'V.', 'Letter2': 'N.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'O.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'Letter1': 'E.', 'Letter2': 'O.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'Letter1': 'N.', 'Letter2': 'P.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'Letter1': 'P.', 'Letter2': 'R.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'Letter1': 'I.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'Letter1': 'K.', 'Letter2': 'S.', 'Letter3': 'Å.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'T.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'U.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'Letter1': 'S.', 'Letter2': 'V.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'W.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'K.', 'Letter3': 'A.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'Letter1': 'F.', 'Letter2': 'M.', 'Letter3': 'W.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare', 'Letter1': 'S.', 'Letter2': 'M.', 'Letter3': 'K.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'Letter1': 'E.', 'Letter2': 'L.', 'Letter3': 'M.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'Letter1': 'K.', 'Letter2': 'K.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-monterare', 'Letter1': 'V.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'Letter1': 'B.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Marknadschef', 'Letter1': 'M.', 'Letter2': 'J.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'Letter1': 'P.', 'Letter2': 'I.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'Letter1': 'S.', 'Letter2': 'I.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'Letter1': 'T.', 'Letter2': 'H.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'Letter1': 'A.', 'Letter2': 'H.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Målare', 'Letter1': 'M.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Sotare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Svetsare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'Letter1': 'P.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'Letter1': 'J.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'Letter1': 'H.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'Letter1': 'B.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Naprapat', 'Letter1': 'N.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'Letter1': 'S.', 'Letter2': 'F.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'VD', 'Letter1': 'V.', 'Letter2': 'E.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'Letter1': 'T.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Pastor', 'Letter1': 'P.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare', 'Letter1': 'G.', 'Letter2': 'B.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde', 'Letter1': 'B.', 'Letter2': 'G.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Botaniker', 'Letter1': 'B.', 'Letter2': 'H.', 'Letter3': 'U.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'Letter1': 'K.', 'Letter2': 'B.', 'Letter3': 'V.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'Letter1': 'P.', 'Letter2': 'A.', 'Letter3': 'V.'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Encoding.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="ImmediateRecall_Name" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="ImmediateRecall_trial"/>
+    <Routine name="fix_cross"/>
+    <Routine name="Circle"/>
+    <LoopTerminator name="ImmediateRecall_Name"/>
+    <LoopTerminator name="Name_trials"/>
+    <LoopInitiator loopType="TrialHandler" name="Proffession_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'TrialRows_Name': '0:6', 'TrialRows_Proffession': '30:36'}, {'TrialRows_Name': '6:12', 'TrialRows_Proffession': '36:42'}, {'TrialRows_Name': '12:18', 'TrialRows_Proffession': '42:48'}, {'TrialRows_Name': '18:24', 'TrialRows_Proffession': '48:54'}, {'TrialRows_Name': '24:30', 'TrialRows_Proffession': '54:60'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="TrialRows.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="Proffession_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="Encoding_Proffession">
+      <Param name="Selected rows" updates="None" val="$TrialRows_Proffession" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Mohamed', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'M.', 'Letter3': 'I.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'Letter1': 'U.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'Letter1': 'L.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'Letter1': 'D.', 'Letter2': 'N.', 'Letter3': 'F.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'Letter1': 'V.', 'Letter2': 'N.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'O.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'Letter1': 'E.', 'Letter2': 'O.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'Letter1': 'N.', 'Letter2': 'P.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'Letter1': 'P.', 'Letter2': 'R.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'Letter1': 'I.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'Letter1': 'K.', 'Letter2': 'S.', 'Letter3': 'Å.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'T.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'U.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'Letter1': 'S.', 'Letter2': 'V.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'W.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'K.', 'Letter3': 'A.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'Letter1': 'F.', 'Letter2': 'M.', 'Letter3': 'W.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare', 'Letter1': 'S.', 'Letter2': 'M.', 'Letter3': 'K.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'Letter1': 'E.', 'Letter2': 'L.', 'Letter3': 'M.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'Letter1': 'K.', 'Letter2': 'K.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-monterare', 'Letter1': 'V.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'Letter1': 'B.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Marknadschef', 'Letter1': 'M.', 'Letter2': 'J.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'Letter1': 'P.', 'Letter2': 'I.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'Letter1': 'S.', 'Letter2': 'I.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'Letter1': 'T.', 'Letter2': 'H.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'Letter1': 'A.', 'Letter2': 'H.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Målare', 'Letter1': 'M.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Sotare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Svetsare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'Letter1': 'P.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'Letter1': 'J.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'Letter1': 'H.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'Letter1': 'B.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Naprapat', 'Letter1': 'N.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'Letter1': 'S.', 'Letter2': 'F.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'VD', 'Letter1': 'V.', 'Letter2': 'E.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'Letter1': 'T.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Pastor', 'Letter1': 'P.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare', 'Letter1': 'G.', 'Letter2': 'B.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde', 'Letter1': 'B.', 'Letter2': 'G.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Botaniker', 'Letter1': 'B.', 'Letter2': 'H.', 'Letter3': 'U.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'Letter1': 'K.', 'Letter2': 'B.', 'Letter3': 'V.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'Letter1': 'P.', 'Letter2': 'A.', 'Letter3': 'V.'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Encoding.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="Encoding_Proffession" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Encoding_trial"/>
+    <Routine name="fix_cross"/>
+    <Routine name="Circle"/>
+    <LoopTerminator name="Encoding_Proffession"/>
+    <LoopInitiator loopType="TrialHandler" name="ImmediateRecall_Proffession">
+      <Param name="Selected rows" updates="None" val="$TrialRows_Proffession" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Mohamed', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'K.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'L.', 'Letter3': 'J.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'M.', 'Letter3': 'I.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'Letter1': 'U.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'Letter1': 'L.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'M.', 'Letter3': 'H.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'M.', 'Letter3': 'G.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'Letter1': 'D.', 'Letter2': 'N.', 'Letter3': 'F.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'Letter1': 'V.', 'Letter2': 'N.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'Letter1': 'M.', 'Letter2': 'O.', 'Letter3': 'E.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'Letter1': 'E.', 'Letter2': 'O.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'Letter1': 'N.', 'Letter2': 'P.', 'Letter3': 'D.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0, 'Letter1': 'B.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'Letter1': 'A.', 'Letter2': 'P.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'Letter1': 'P.', 'Letter2': 'R.', 'Letter3': 'C.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'Letter1': 'I.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'Letter1': 'H.', 'Letter2': 'R.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'Letter1': 'C.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'S.', 'Letter3': 'B.'}, {'Task': 'encoding_name', 'corrAns': 2, 'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'Letter1': 'K.', 'Letter2': 'S.', 'Letter3': 'Å.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'T.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'Letter1': 'J.', 'Letter2': 'U.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'Letter1': 'S.', 'Letter2': 'V.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 1, 'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'Letter1': 'R.', 'Letter2': 'W.', 'Letter3': 'A.'}, {'Task': 'encoding_name', 'corrAns': 3, 'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'Letter1': 'W.', 'Letter2': 'K.', 'Letter3': 'A.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'Letter1': 'F.', 'Letter2': 'M.', 'Letter3': 'W.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare', 'Letter1': 'S.', 'Letter2': 'M.', 'Letter3': 'K.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'Letter1': 'E.', 'Letter2': 'L.', 'Letter3': 'M.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'Letter1': 'M.', 'Letter2': 'L.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'Letter1': 'K.', 'Letter2': 'K.', 'Letter3': 'N.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-monterare', 'Letter1': 'V.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'Letter1': 'B.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'Letter1': 'M.', 'Letter2': 'K.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Marknadschef', 'Letter1': 'M.', 'Letter2': 'J.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'Letter1': 'P.', 'Letter2': 'I.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'Letter1': 'S.', 'Letter2': 'I.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'Letter1': 'T.', 'Letter2': 'H.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'Letter1': 'A.', 'Letter2': 'H.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Målare', 'Letter1': 'M.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Sotare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'P.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Svetsare', 'Letter1': 'S.', 'Letter2': 'G.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'Letter1': 'P.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'Letter1': 'J.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'Letter1': 'H.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'Letter1': 'B.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Naprapat', 'Letter1': 'N.', 'Letter2': 'F.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'Letter1': 'S.', 'Letter2': 'F.', 'Letter3': 'R.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'VD', 'Letter1': 'V.', 'Letter2': 'E.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'Letter1': 'T.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 2, 'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Pastor', 'Letter1': 'P.', 'Letter2': 'B.', 'Letter3': 'S.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare', 'Letter1': 'G.', 'Letter2': 'B.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde', 'Letter1': 'B.', 'Letter2': 'G.', 'Letter3': 'T.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Botaniker', 'Letter1': 'B.', 'Letter2': 'H.', 'Letter3': 'U.'}, {'Task': 'encoding_proffession', 'corrAns': 1, 'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'Letter1': 'K.', 'Letter2': 'B.', 'Letter3': 'V.'}, {'Task': 'encoding_proffession', 'corrAns': 3, 'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'Letter1': 'P.', 'Letter2': 'A.', 'Letter3': 'V.'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Encoding.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="ImmediateRecall_Proffession" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="ImmediateRecall_trial"/>
+    <Routine name="fix_cross"/>
+    <Routine name="Circle"/>
+    <LoopTerminator name="ImmediateRecall_Proffession"/>
+    <LoopTerminator name="Proffession_trials"/>
+    <Routine name="Finished"/>
+  </Flow>
+</PsychoPy2experiment>
