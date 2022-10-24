@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on October 21, 2022, at 18:11
+    on October 24, 2022, at 19:59
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -36,7 +36,7 @@ os.chdir(_thisDir)
 
 # Store info about the experiment session
 psychopyVersion = '2021.2.3'
-expName = 'Gallery_fMRI'  # from the Builder filename that created this script
+expName = 'FacesNamesProffessions_Encoding'  # from the Builder filename that created this script
 expInfo = {'participant': '', 'session': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
 if dlg.OK == False:
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\emilo\\OneDrive - Lund University\\Jobb\\Experiments\\Faces_task\\Gallerymemory\\GalleryGame_block_fMRI\\Recall_lastrun.py',
+    originPath='C:\\Users\\emilo\\OneDrive - Lund University\\Jobb\\Experiments\\FacesNamesProffessions\\Recall\\Recall_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -65,8 +65,8 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Setup the Window
 win = visual.Window(
-    size=[3440, 1440], fullscr=True, screen=0, 
-    winType='glfw', allowGUI=False, allowStencil=False,
+    size=[3440, 1440], fullscr=False, screen=0, 
+    winType='glfw', allowGUI=True, allowStencil=False,
     monitor='testMonitor', color='white', colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
@@ -86,7 +86,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "Instructions"
 InstructionsClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text='Instruktioner:\n\nDu kommer att se bilder presenterade en i taget.\nDin uppgift är att avgöra om det är första gången du ser bilden (New) eller om du har sett bilden tidigare (Old).\n\nSvara på varje bild med hjälp av följande knappar:\n1 (pekfinger) = New\n2 (långfinger) = Old\n\nVid senare tillfälle under uppgiftens gång kommer du att se bilder presenterade en i taget ovanför tre pilar markerade i orange som pekar åt vänster, uppåt och höger.\nDin uppgift är att välja den riktning som du minns tidigare har presenterats under den aktuella bilden.\n\nSvara på varje bild och pil med hjälp av följande knappar:\n1 (pekfinger) = Vänster\n2 (långfinger) = Upp\n3 (ringfinger) = Höger\n\nI början och i mitten av uppgiften kommer du att se brusiga bilder.\nTitta bara på de brusiga bilderna utan att trycka på någon knapp.\n\nTryck med pekfingret och meddela när du är redo att börja.\n',
+    text='Instruktioner:\n\nDu kommer att se bilder på ansikten presenterade en i taget.\nUnder varje bild kommer du att se tre bokstäver.\nDin uppgift då är att välja den korrekta första bokstaven i Namnet eller Yrket till personen som visas.\n\nSvara på varje bild med hjälp av följande knappar:\n1 (pekfinger) = VÄNSTER       \n2 (långfinger) = MITTEN\n3 (ringfinger) = HÖGER\n\nNär du ser ett kors på skärmen så ska du bara titta på det.\nEfter varje bildvisning där du väljer första bokstaven så kommer korset i mitten av skärmen att övergå till en cirkel under en kort stund.\nTryck så snabbt du kan på en av knapparna när du ser Cirkeln.\n\n\nVi vet att det är en svår uppgift så gör så gott du kan och lycka till!\n\nTryck med pekfingret och meddela när du är redo att börja.\n',
     font='Open Sans',
     pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
     color='black', colorSpace='rgb', opacity=None, 
@@ -104,6 +104,71 @@ polygon_2 = visual.ShapeStim(
     opacity=None, depth=0.0, interpolate=True)
 key_resp = keyboard.Keyboard()
 
+# Initialize components for Routine "Name_info"
+Name_infoClock = core.Clock()
+text_6 = visual.TextStim(win=win, name='text_6',
+    text='Namn',
+    font='Open Sans',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
+    color='black', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=0.0);
+polygon_5 = visual.ShapeStim(
+    win=win, name='polygon_5', vertices='cross',
+    size=(0.1, 0.1),
+    ori=0.0, pos=(0, 0),
+    lineWidth=0.001,     colorSpace='rgb',  lineColor=None, fillColor='black',
+    opacity=None, depth=-1.0, interpolate=True)
+
+# Initialize components for Routine "trial"
+trialClock = core.Clock()
+key_resp_1 = keyboard.Keyboard()
+image = visual.ImageStim(
+    win=win,
+    name='image', 
+    image='sin', mask=None,
+    ori=0.0, pos=(0, 0.125), size=(0.743, 0.750),
+    color='white', colorSpace='rgb', opacity=None,
+    flipHoriz=False, flipVert=False,
+    texRes=128.0, interpolate=True, depth=-1.0)
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='',
+    font='Open Sans',
+    pos=(0, -0.375), height=0.1, wrapWidth=None, ori=0.0, 
+    color='black', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-2.0);
+jitter = np.arange(2.5, 10, .25)
+shuffle(jitter)
+
+
+# Initialize components for Routine "fix_cross_circle"
+fix_cross_circleClock = core.Clock()
+polygon_4 = visual.ShapeStim(
+    win=win, name='polygon_4', vertices='cross',
+    size=(0.1, 0.1),
+    ori=0.0, pos=(0, 0),
+    lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
+    opacity=None, depth=0.0, interpolate=True)
+Circle = visual.ImageStim(
+    win=win,
+    name='Circle', 
+    image='sin', mask=None,
+    ori=0.0, pos=(0, 0), size=(0.1, 0.1),
+    color=[1,1,1], colorSpace='rgb', opacity=None,
+    flipHoriz=False, flipVert=False,
+    texRes=128.0, interpolate=True, depth=-1.0)
+key_resp_circle = keyboard.Keyboard()
+
+# Initialize components for Routine "fix_cross"
+fix_crossClock = core.Clock()
+polygon = visual.ShapeStim(
+    win=win, name='polygon', vertices='cross',
+    size=(0.1, 0.1),
+    ori=0.0, pos=(0, 0),
+    lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
+    opacity=None, depth=0.0, interpolate=True)
+
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
 key_resp_1 = keyboard.Keyboard()
@@ -134,66 +199,6 @@ polygon = visual.ShapeStim(
     ori=0.0, pos=(0, 0),
     lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
     opacity=None, depth=0.0, interpolate=True)
-
-# Initialize components for Routine "Circle"
-CircleClock = core.Clock()
-polygon_3 = visual.ShapeStim(
-    win=win, name='polygon_3',
-    size=(0.1, 0.1), vertices='circle',
-    ori=0.0, pos=(0, 0),
-    lineWidth=1.0,     colorSpace='rgb',  lineColor='black', fillColor=None,
-    opacity=None, depth=0.0, interpolate=True)
-key_resp_3 = keyboard.Keyboard()
-
-# Initialize components for Routine "fix_cross"
-fix_crossClock = core.Clock()
-polygon = visual.ShapeStim(
-    win=win, name='polygon', vertices='cross',
-    size=(0.1, 0.1),
-    ori=0.0, pos=(0, 0),
-    lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
-    opacity=None, depth=0.0, interpolate=True)
-
-# Initialize components for Routine "trial"
-trialClock = core.Clock()
-key_resp_1 = keyboard.Keyboard()
-image = visual.ImageStim(
-    win=win,
-    name='image', 
-    image='sin', mask=None,
-    ori=0.0, pos=(0, 0.125), size=(0.743, 0.750),
-    color='white', colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-1.0)
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='',
-    font='Open Sans',
-    pos=(0, -0.375), height=0.1, wrapWidth=None, ori=0.0, 
-    color='black', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=-2.0);
-jitter = np.arange(2.5, 10, .25)
-shuffle(jitter)
-
-
-# Initialize components for Routine "fix_cross"
-fix_crossClock = core.Clock()
-polygon = visual.ShapeStim(
-    win=win, name='polygon', vertices='cross',
-    size=(0.1, 0.1),
-    ori=0.0, pos=(0, 0),
-    lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
-    opacity=None, depth=0.0, interpolate=True)
-
-# Initialize components for Routine "Circle"
-CircleClock = core.Clock()
-polygon_3 = visual.ShapeStim(
-    win=win, name='polygon_3',
-    size=(0.1, 0.1), vertices='circle',
-    ori=0.0, pos=(0, 0),
-    lineWidth=1.0,     colorSpace='rgb',  lineColor='black', fillColor=None,
-    opacity=None, depth=0.0, interpolate=True)
-key_resp_3 = keyboard.Keyboard()
 
 # Initialize components for Routine "Finished"
 FinishedClock = core.Clock()
@@ -389,10 +394,98 @@ thisExp.nextEntry()
 # the Routine "Wait_fMRI" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+# ------Prepare to start Routine "Name_info"-------
+continueRoutine = True
+routineTimer.add(3.000000)
+# update component parameters for each repeat
+# keep track of which components have finished
+Name_infoComponents = [text_6, polygon_5]
+for thisComponent in Name_infoComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+Name_infoClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+
+# -------Run Routine "Name_info"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = Name_infoClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=Name_infoClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *text_6* updates
+    if text_6.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        text_6.frameNStart = frameN  # exact frame index
+        text_6.tStart = t  # local t and not account for scr refresh
+        text_6.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(text_6, 'tStartRefresh')  # time at next scr refresh
+        text_6.setAutoDraw(True)
+    if text_6.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_6.tStartRefresh + 3-frameTolerance:
+            # keep track of stop time/frame for later
+            text_6.tStop = t  # not accounting for scr refresh
+            text_6.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(text_6, 'tStopRefresh')  # time at next scr refresh
+            text_6.setAutoDraw(False)
+    
+    # *polygon_5* updates
+    if polygon_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        polygon_5.frameNStart = frameN  # exact frame index
+        polygon_5.tStart = t  # local t and not account for scr refresh
+        polygon_5.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(polygon_5, 'tStartRefresh')  # time at next scr refresh
+        polygon_5.setAutoDraw(True)
+    if polygon_5.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > polygon_5.tStartRefresh + 3-frameTolerance:
+            # keep track of stop time/frame for later
+            polygon_5.tStop = t  # not accounting for scr refresh
+            polygon_5.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(polygon_5, 'tStopRefresh')  # time at next scr refresh
+            polygon_5.setAutoDraw(False)
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in Name_infoComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "Name_info"-------
+for thisComponent in Name_infoComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('text_6.started', text_6.tStartRefresh)
+thisExp.addData('text_6.stopped', text_6.tStopRefresh)
+thisExp.addData('polygon_5.started', polygon_5.tStartRefresh)
+thisExp.addData('polygon_5.stopped', polygon_5.tStopRefresh)
+
 # set up handler to look after randomisation of conditions etc
 Recall_Name = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Gallery_block_recallNC.xlsx', selection='0:30'),
+    trialList=data.importConditions('Recall.xlsx', selection='0:30'),
     seed=None, name='Recall_Name')
 thisExp.addLoop(Recall_Name)  # add the loop to the experiment
 thisRecall_Name = Recall_Name.trialList[0]  # so we can initialise stimuli with some values
@@ -420,6 +513,7 @@ for thisRecall_Name in Recall_Name:
     jitter = np.arange(2.5, 10, .25)
     shuffle(jitter)
     thisExp.addData('Jitter', jitter[0])
+    circlestart = (jitter[0]/2)-0.5
     # keep track of which components have finished
     trialComponents = [key_resp_1, image, text_4]
     for thisComponent in trialComponents:
@@ -540,12 +634,16 @@ for thisRecall_Name in Recall_Name:
     Recall_Name.addData('text_4.started', text_4.tStartRefresh)
     Recall_Name.addData('text_4.stopped', text_4.tStopRefresh)
     
-    # ------Prepare to start Routine "fix_cross"-------
+    # ------Prepare to start Routine "fix_cross_circle"-------
     continueRoutine = True
     # update component parameters for each repeat
+    Circle.setImage('Circle.png')
+    key_resp_circle.keys = []
+    key_resp_circle.rt = []
+    _key_resp_circle_allKeys = []
     # keep track of which components have finished
-    fix_crossComponents = [polygon]
-    for thisComponent in fix_crossComponents:
+    fix_cross_circleComponents = [polygon_4, Circle, key_resp_circle]
+    for thisComponent in fix_cross_circleComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
         thisComponent.tStartRefresh = None
@@ -555,136 +653,79 @@ for thisRecall_Name in Recall_Name:
     # reset timers
     t = 0
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    fix_crossClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    fix_cross_circleClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
     
-    # -------Run Routine "fix_cross"-------
+    # -------Run Routine "fix_cross_circle"-------
     while continueRoutine:
         # get current time
-        t = fix_crossClock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=fix_crossClock)
+        t = fix_cross_circleClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=fix_cross_circleClock)
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *polygon* updates
-        if polygon.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *polygon_4* updates
+        if polygon_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            polygon.frameNStart = frameN  # exact frame index
-            polygon.tStart = t  # local t and not account for scr refresh
-            polygon.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(polygon, 'tStartRefresh')  # time at next scr refresh
-            polygon.setAutoDraw(True)
-        if polygon.status == STARTED:
+            polygon_4.frameNStart = frameN  # exact frame index
+            polygon_4.tStart = t  # local t and not account for scr refresh
+            polygon_4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(polygon_4, 'tStartRefresh')  # time at next scr refresh
+            polygon_4.setAutoDraw(True)
+        if polygon_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygon.tStartRefresh + jitter[0]-frameTolerance:
+            if tThisFlipGlobal > polygon_4.tStartRefresh + jitter[0]-frameTolerance:
                 # keep track of stop time/frame for later
-                polygon.tStop = t  # not accounting for scr refresh
-                polygon.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(polygon, 'tStopRefresh')  # time at next scr refresh
-                polygon.setAutoDraw(False)
+                polygon_4.tStop = t  # not accounting for scr refresh
+                polygon_4.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(polygon_4, 'tStopRefresh')  # time at next scr refresh
+                polygon_4.setAutoDraw(False)
         
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in fix_crossComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "fix_cross"-------
-    for thisComponent in fix_crossComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # the Routine "fix_cross" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
-    
-    # ------Prepare to start Routine "Circle"-------
-    continueRoutine = True
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    key_resp_3.keys = []
-    key_resp_3.rt = []
-    _key_resp_3_allKeys = []
-    # keep track of which components have finished
-    CircleComponents = [polygon_3, key_resp_3]
-    for thisComponent in CircleComponents:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    CircleClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    
-    # -------Run Routine "Circle"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = CircleClock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=CircleClock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *polygon_3* updates
-        if polygon_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *Circle* updates
+        if Circle.status == NOT_STARTED and tThisFlip >= circlestart-frameTolerance:
             # keep track of start time/frame for later
-            polygon_3.frameNStart = frameN  # exact frame index
-            polygon_3.tStart = t  # local t and not account for scr refresh
-            polygon_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(polygon_3, 'tStartRefresh')  # time at next scr refresh
-            polygon_3.setAutoDraw(True)
-        if polygon_3.status == STARTED:
+            Circle.frameNStart = frameN  # exact frame index
+            Circle.tStart = t  # local t and not account for scr refresh
+            Circle.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(Circle, 'tStartRefresh')  # time at next scr refresh
+            Circle.setAutoDraw(True)
+        if Circle.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygon_3.tStartRefresh + 0.5-frameTolerance:
+            if tThisFlipGlobal > Circle.tStartRefresh + 1.0-frameTolerance:
                 # keep track of stop time/frame for later
-                polygon_3.tStop = t  # not accounting for scr refresh
-                polygon_3.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(polygon_3, 'tStopRefresh')  # time at next scr refresh
-                polygon_3.setAutoDraw(False)
+                Circle.tStop = t  # not accounting for scr refresh
+                Circle.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(Circle, 'tStopRefresh')  # time at next scr refresh
+                Circle.setAutoDraw(False)
         
-        # *key_resp_3* updates
+        # *key_resp_circle* updates
         waitOnFlip = False
-        if key_resp_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        if key_resp_circle.status == NOT_STARTED and tThisFlip >= circlestart-frameTolerance:
             # keep track of start time/frame for later
-            key_resp_3.frameNStart = frameN  # exact frame index
-            key_resp_3.tStart = t  # local t and not account for scr refresh
-            key_resp_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(key_resp_3, 'tStartRefresh')  # time at next scr refresh
-            key_resp_3.status = STARTED
+            key_resp_circle.frameNStart = frameN  # exact frame index
+            key_resp_circle.tStart = t  # local t and not account for scr refresh
+            key_resp_circle.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(key_resp_circle, 'tStartRefresh')  # time at next scr refresh
+            key_resp_circle.status = STARTED
             # keyboard checking is just starting
             waitOnFlip = True
-            win.callOnFlip(key_resp_3.clock.reset)  # t=0 on next screen flip
-            win.callOnFlip(key_resp_3.clearEvents, eventType='keyboard')  # clear events on next screen flip
-        if key_resp_3.status == STARTED:
+            win.callOnFlip(key_resp_circle.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(key_resp_circle.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if key_resp_circle.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > key_resp_3.tStartRefresh + 0.5-frameTolerance:
+            if tThisFlipGlobal > key_resp_circle.tStartRefresh + 1-frameTolerance:
                 # keep track of stop time/frame for later
-                key_resp_3.tStop = t  # not accounting for scr refresh
-                key_resp_3.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(key_resp_3, 'tStopRefresh')  # time at next scr refresh
-                key_resp_3.status = FINISHED
-        if key_resp_3.status == STARTED and not waitOnFlip:
-            theseKeys = key_resp_3.getKeys(keyList=['1', '2', '3'], waitRelease=False)
-            _key_resp_3_allKeys.extend(theseKeys)
-            if len(_key_resp_3_allKeys):
-                key_resp_3.keys = _key_resp_3_allKeys[-1].name  # just the last key pressed
-                key_resp_3.rt = _key_resp_3_allKeys[-1].rt
-                # a response ends the routine
-                continueRoutine = False
+                key_resp_circle.tStop = t  # not accounting for scr refresh
+                key_resp_circle.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(key_resp_circle, 'tStopRefresh')  # time at next scr refresh
+                key_resp_circle.status = FINISHED
+        if key_resp_circle.status == STARTED and not waitOnFlip:
+            theseKeys = key_resp_circle.getKeys(keyList=['1', '2', '3'], waitRelease=False)
+            _key_resp_circle_allKeys.extend(theseKeys)
+            if len(_key_resp_circle_allKeys):
+                key_resp_circle.keys = _key_resp_circle_allKeys[-1].name  # just the last key pressed
+                key_resp_circle.rt = _key_resp_circle_allKeys[-1].rt
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -694,7 +735,7 @@ for thisRecall_Name in Recall_Name:
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in CircleComponents:
+        for thisComponent in fix_cross_circleComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -703,20 +744,22 @@ for thisRecall_Name in Recall_Name:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    # -------Ending Routine "Circle"-------
-    for thisComponent in CircleComponents:
+    # -------Ending Routine "fix_cross_circle"-------
+    for thisComponent in fix_cross_circleComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    Recall_Name.addData('polygon_3.started', polygon_3.tStartRefresh)
-    Recall_Name.addData('polygon_3.stopped', polygon_3.tStopRefresh)
+    Recall_Name.addData('Circle.started', Circle.tStartRefresh)
+    Recall_Name.addData('Circle.stopped', Circle.tStopRefresh)
     # check responses
-    if key_resp_3.keys in ['', [], None]:  # No response was made
-        key_resp_3.keys = None
-    Recall_Name.addData('key_resp_3.keys',key_resp_3.keys)
-    if key_resp_3.keys != None:  # we had a response
-        Recall_Name.addData('key_resp_3.rt', key_resp_3.rt)
-    Recall_Name.addData('key_resp_3.started', key_resp_3.tStartRefresh)
-    Recall_Name.addData('key_resp_3.stopped', key_resp_3.tStopRefresh)
+    if key_resp_circle.keys in ['', [], None]:  # No response was made
+        key_resp_circle.keys = None
+    Recall_Name.addData('key_resp_circle.keys',key_resp_circle.keys)
+    if key_resp_circle.keys != None:  # we had a response
+        Recall_Name.addData('key_resp_circle.rt', key_resp_circle.rt)
+    Recall_Name.addData('key_resp_circle.started', key_resp_circle.tStartRefresh)
+    Recall_Name.addData('key_resp_circle.stopped', key_resp_circle.tStopRefresh)
+    # the Routine "fix_cross_circle" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     thisExp.nextEntry()
     
 # completed 1.0 repeats of 'Recall_Name'
@@ -793,7 +836,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Recall_Proffession = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Gallery_block_recallNC.xlsx', selection='30:60'),
+    trialList=data.importConditions('Recall.xlsx', selection='30:60'),
     seed=None, name='Recall_Proffession')
 thisExp.addLoop(Recall_Proffession)  # add the loop to the experiment
 thisRecall_Proffession = Recall_Proffession.trialList[0]  # so we can initialise stimuli with some values
@@ -821,6 +864,7 @@ for thisRecall_Proffession in Recall_Proffession:
     jitter = np.arange(2.5, 10, .25)
     shuffle(jitter)
     thisExp.addData('Jitter', jitter[0])
+    circlestart = (jitter[0]/2)-0.5
     # keep track of which components have finished
     trialComponents = [key_resp_1, image, text_4]
     for thisComponent in trialComponents:
@@ -1008,116 +1052,6 @@ for thisRecall_Proffession in Recall_Proffession:
             thisComponent.setAutoDraw(False)
     # the Routine "fix_cross" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
-    
-    # ------Prepare to start Routine "Circle"-------
-    continueRoutine = True
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    key_resp_3.keys = []
-    key_resp_3.rt = []
-    _key_resp_3_allKeys = []
-    # keep track of which components have finished
-    CircleComponents = [polygon_3, key_resp_3]
-    for thisComponent in CircleComponents:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    CircleClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    
-    # -------Run Routine "Circle"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = CircleClock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=CircleClock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *polygon_3* updates
-        if polygon_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            polygon_3.frameNStart = frameN  # exact frame index
-            polygon_3.tStart = t  # local t and not account for scr refresh
-            polygon_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(polygon_3, 'tStartRefresh')  # time at next scr refresh
-            polygon_3.setAutoDraw(True)
-        if polygon_3.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygon_3.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                polygon_3.tStop = t  # not accounting for scr refresh
-                polygon_3.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(polygon_3, 'tStopRefresh')  # time at next scr refresh
-                polygon_3.setAutoDraw(False)
-        
-        # *key_resp_3* updates
-        waitOnFlip = False
-        if key_resp_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            key_resp_3.frameNStart = frameN  # exact frame index
-            key_resp_3.tStart = t  # local t and not account for scr refresh
-            key_resp_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(key_resp_3, 'tStartRefresh')  # time at next scr refresh
-            key_resp_3.status = STARTED
-            # keyboard checking is just starting
-            waitOnFlip = True
-            win.callOnFlip(key_resp_3.clock.reset)  # t=0 on next screen flip
-            win.callOnFlip(key_resp_3.clearEvents, eventType='keyboard')  # clear events on next screen flip
-        if key_resp_3.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > key_resp_3.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                key_resp_3.tStop = t  # not accounting for scr refresh
-                key_resp_3.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(key_resp_3, 'tStopRefresh')  # time at next scr refresh
-                key_resp_3.status = FINISHED
-        if key_resp_3.status == STARTED and not waitOnFlip:
-            theseKeys = key_resp_3.getKeys(keyList=['1', '2', '3'], waitRelease=False)
-            _key_resp_3_allKeys.extend(theseKeys)
-            if len(_key_resp_3_allKeys):
-                key_resp_3.keys = _key_resp_3_allKeys[-1].name  # just the last key pressed
-                key_resp_3.rt = _key_resp_3_allKeys[-1].rt
-                # a response ends the routine
-                continueRoutine = False
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in CircleComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "Circle"-------
-    for thisComponent in CircleComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    Recall_Proffession.addData('polygon_3.started', polygon_3.tStartRefresh)
-    Recall_Proffession.addData('polygon_3.stopped', polygon_3.tStopRefresh)
-    # check responses
-    if key_resp_3.keys in ['', [], None]:  # No response was made
-        key_resp_3.keys = None
-    Recall_Proffession.addData('key_resp_3.keys',key_resp_3.keys)
-    if key_resp_3.keys != None:  # we had a response
-        Recall_Proffession.addData('key_resp_3.rt', key_resp_3.rt)
-    Recall_Proffession.addData('key_resp_3.started', key_resp_3.tStartRefresh)
-    Recall_Proffession.addData('key_resp_3.stopped', key_resp_3.tStopRefresh)
     thisExp.nextEntry()
     
 # completed 1.0 repeats of 'Recall_Proffession'
