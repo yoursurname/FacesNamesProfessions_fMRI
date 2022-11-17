@@ -1,0 +1,209 @@
+2.1521 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5217 	ERROR 	'0.0000, 0.0000, 0.0000' is not a valid rgb color
+6.7226 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002336F84C860>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002336F7B4C88>, multiSample=False, name='window1', numSamples=2, pos=[760.0, 180.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='glfw')
+6.7226 	EXP 	window1: mouseVisible = True
+6.7226 	EXP 	window1: recordFrameIntervals = False
+6.8889 	EXP 	window1: recordFrameIntervals = True
+7.0727 	EXP 	window1: recordFrameIntervals = False
+7.4537 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4585 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([ 0.   , -0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.4616 	EXP 	Created Arrow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow', opacity=1, ori=0.0, pos=array([0.   , 0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.4643 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.4719 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.5221 	EXP 	Created direction_options = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='Gallery_arrowoptions.png', interpolate=True, mask=None, maskParams=None, name='direction_options', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([1.  , 0.25]), texRes=128.0, units='height', win=Window(...))
+7.5241 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.5500 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.6486 	EXP 	text: autoDraw = True
+8.1722 	DATA 	Keypress: 2
+8.1944 	EXP 	Imported OneShotLearning.xlsx as conditions, 48 conditions, 8 params
+8.1952 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+8.1957 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'plane.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.1973 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'scooter.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.1988 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'skateboard.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2003 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'dromedary.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2018 	EXP 	New trial (rep=0, index=4): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'armadillo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': 'left', 'Congruency': 'Congruent', 'Direction': 'ArrowLeft.png'}
+8.2033 	EXP 	New trial (rep=0, index=5): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'chair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2048 	EXP 	New trial (rep=0, index=6): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'cow.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2062 	EXP 	New trial (rep=0, index=7): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'ship.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2077 	EXP 	New trial (rep=0, index=8): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'stool.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2093 	EXP 	New trial (rep=0, index=9): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'snake.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2112 	EXP 	New trial (rep=0, index=10): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'lynx.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2127 	EXP 	New trial (rep=0, index=11): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'bedside_table.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2142 	EXP 	New trial (rep=0, index=12): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'zebra.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2157 	EXP 	New trial (rep=0, index=13): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lamp.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2172 	EXP 	New trial (rep=0, index=14): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'kangaroo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2187 	EXP 	New trial (rep=0, index=15): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': 'left', 'Congruency': 'Incongruent - opposite', 'Direction': 'ArrowRight.png'}
+8.2207 	EXP 	New trial (rep=0, index=16): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'tapir.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2227 	EXP 	New trial (rep=0, index=17): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'van.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2247 	EXP 	New trial (rep=0, index=18): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'tractor.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2266 	EXP 	New trial (rep=0, index=19): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lioness.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2280 	EXP 	New trial (rep=0, index=20): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'bed.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2295 	EXP 	New trial (rep=0, index=21): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'horse.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2310 	EXP 	New trial (rep=0, index=22): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'boat.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2325 	EXP 	New trial (rep=0, index=23): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'Chest_of_drawers.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2340 	EXP 	New trial (rep=0, index=24): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'hippopotamus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2355 	EXP 	New trial (rep=0, index=25): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'sofa.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2370 	EXP 	New trial (rep=0, index=26): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'cat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': 'ArrowUp.png'}
+8.2385 	EXP 	New trial (rep=0, index=27): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'tiger.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2400 	EXP 	New trial (rep=0, index=28): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'turtle.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2415 	EXP 	New trial (rep=0, index=29): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'motorbike.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2429 	EXP 	New trial (rep=0, index=30): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'crocodile.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': 'right', 'Congruency': 'Incongruent - perpendicular', 'Direction': None}
+8.2444 	EXP 	New trial (rep=0, index=31): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'lectern.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2459 	EXP 	New trial (rep=0, index=32): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'car.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2474 	EXP 	New trial (rep=0, index=33): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bus.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2489 	EXP 	New trial (rep=0, index=34): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'train', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2504 	EXP 	New trial (rep=0, index=35): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'paragliding.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2518 	EXP 	New trial (rep=0, index=36): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'rhino.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2533 	EXP 	New trial (rep=0, index=37): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'giraffe.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2548 	EXP 	New trial (rep=0, index=38): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bookcase.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': 'neutral', 'Congruency': 'neutral', 'Direction': None}
+8.2563 	EXP 	New trial (rep=0, index=39): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'elephant.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2578 	EXP 	New trial (rep=0, index=40): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'filling_cabinet.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2593 	EXP 	New trial (rep=0, index=41): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cheetah.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2608 	EXP 	New trial (rep=0, index=42): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cart.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2623 	EXP 	New trial (rep=0, index=43): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'armchair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2638 	EXP 	New trial (rep=0, index=44): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'platypus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2653 	EXP 	New trial (rep=0, index=45): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'table.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2668 	EXP 	New trial (rep=0, index=46): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'rocking_chair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2682 	EXP 	New trial (rep=0, index=47): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'couch.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.2752 	EXP 	Imported OneShotLearning_conditions.xlsx as conditions, 12 conditions, 1 params
+8.2756 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+8.2758 	EXP 	New trial (rep=0, index=0): {'Condition_rows': '8:12'}
+8.2889 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 8 params
+8.2893 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+8.2896 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'giraffe.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+8.3397 	EXP 	text: autoDraw = False
+8.3397 	EXP 	image: image = 'plane.jpg'
+8.3397 	EXP 	Arrow: image = 'ArrowUp.png'
+8.3397 	EXP 	image: autoDraw = True
+8.3397 	EXP 	Arrow: autoDraw = True
+8.3545 	DATA 	Keypress: 2
+9.1045 	DATA 	Keypress: 2
+9.2882 	DATA 	Keypress: 2
+11.2920 	EXP 	image: autoDraw = False
+11.2920 	EXP 	Arrow: autoDraw = False
+11.2920 	EXP 	polygon: autoDraw = True
+12.2762 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'hippopotamus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+12.3082 	EXP 	polygon: autoDraw = False
+12.3082 	EXP 	image: image = 'scooter.jpg'
+12.3082 	EXP 	Arrow: image = 'ArrowLeft.png'
+12.3082 	EXP 	image: autoDraw = True
+12.3082 	EXP 	Arrow: autoDraw = True
+15.2937 	EXP 	image: autoDraw = False
+15.2937 	EXP 	Arrow: autoDraw = False
+15.2937 	EXP 	polygon: autoDraw = True
+16.2779 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'horse.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+16.2955 	EXP 	polygon: autoDraw = False
+16.2955 	EXP 	image: image = 'skateboard.jpg'
+16.2955 	EXP 	Arrow: image = 'ArrowRight.png'
+16.2955 	EXP 	image: autoDraw = True
+16.2955 	EXP 	Arrow: autoDraw = True
+16.9913 	DATA 	Keypress: 3
+17.2080 	DATA 	Keypress: 3
+18.3752 	DATA 	Keypress: 3
+18.5753 	DATA 	Keypress: 3
+19.2956 	EXP 	image: autoDraw = False
+19.2956 	EXP 	Arrow: autoDraw = False
+19.2956 	EXP 	polygon: autoDraw = True
+20.2797 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'kangaroo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+20.3116 	EXP 	polygon: autoDraw = False
+20.3116 	EXP 	image: image = 'dromedary.jpg'
+20.3116 	EXP 	Arrow: image = 'ArrowUp.png'
+20.3116 	EXP 	image: autoDraw = True
+20.3116 	EXP 	Arrow: autoDraw = True
+20.9102 	DATA 	Keypress: 2
+21.1100 	DATA 	Keypress: 2
+23.2976 	EXP 	image: autoDraw = False
+23.2976 	EXP 	Arrow: autoDraw = False
+23.2976 	EXP 	polygon: autoDraw = True
+24.2940 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 8 params
+24.2944 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+24.2947 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'giraffe.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+24.3317 	EXP 	polygon: autoDraw = False
+24.3317 	EXP 	image_2: image = 'giraffe.jpg'
+24.3317 	EXP 	image_2: autoDraw = True
+24.3317 	EXP 	direction_options: autoDraw = True
+25.8961 	DATA 	Keypress: 3
+26.1123 	DATA 	Keypress: 3
+27.2992 	EXP 	image_2: autoDraw = False
+27.2992 	EXP 	direction_options: autoDraw = False
+27.2992 	EXP 	polygon: autoDraw = True
+28.2836 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'kangaroo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+28.3020 	EXP 	polygon: autoDraw = False
+28.3020 	EXP 	image_2: image = 'kangaroo.jpg'
+28.3020 	EXP 	image_2: autoDraw = True
+28.3020 	EXP 	direction_options: autoDraw = True
+29.0139 	DATA 	Keypress: 2
+29.2475 	DATA 	Keypress: 2
+31.3011 	EXP 	image_2: autoDraw = False
+31.3011 	EXP 	direction_options: autoDraw = False
+31.3011 	EXP 	polygon: autoDraw = True
+32.2854 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'horse.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+32.3040 	EXP 	polygon: autoDraw = False
+32.3040 	EXP 	image_2: image = 'horse.jpg'
+32.3040 	EXP 	image_2: autoDraw = True
+32.3040 	EXP 	direction_options: autoDraw = True
+32.9492 	DATA 	Keypress: 3
+33.1824 	DATA 	Keypress: 3
+35.2872 	EXP 	image_2: autoDraw = False
+35.2872 	EXP 	direction_options: autoDraw = False
+35.2872 	EXP 	polygon: autoDraw = True
+36.2705 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'hippopotamus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+36.2893 	EXP 	polygon: autoDraw = False
+36.2893 	EXP 	image_2: image = 'hippopotamus.jpg'
+36.2893 	EXP 	image_2: autoDraw = True
+36.2893 	EXP 	direction_options: autoDraw = True
+36.9342 	DATA 	Keypress: 3
+37.1512 	DATA 	Keypress: 3
+39.2881 	EXP 	image_2: autoDraw = False
+39.2881 	EXP 	direction_options: autoDraw = False
+39.2881 	EXP 	polygon: autoDraw = True
+40.2725 	EXP 	New trial (rep=0, index=1): {'Condition_rows': '32:36'}
+40.2853 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 8 params
+40.2857 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+40.2860 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'armchair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+40.3042 	EXP 	polygon: autoDraw = False
+40.3042 	EXP 	image: image = 'armadillo.jpg'
+40.3042 	EXP 	Arrow: image = 'ArrowRight.png'
+40.3042 	EXP 	image: autoDraw = True
+40.3042 	EXP 	Arrow: autoDraw = True
+41.1364 	DATA 	Keypress: 3
+41.1527 	DATA 	Keypress: 2
+41.3528 	DATA 	Keypress: 2
+41.3697 	DATA 	Keypress: 3
+43.2901 	EXP 	image: autoDraw = False
+43.2901 	EXP 	Arrow: autoDraw = False
+43.2901 	EXP 	polygon: autoDraw = True
+44.2745 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'train', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+44.2914 	EXP 	polygon: autoDraw = False
+44.2914 	EXP 	image: image = 'chair.jpg'
+44.2914 	EXP 	Arrow: image = 'ArrowUp.png'
+44.2914 	EXP 	image: autoDraw = True
+44.2914 	EXP 	Arrow: autoDraw = True
+44.9544 	DATA 	Keypress: 2
+45.1721 	DATA 	Keypress: 2
+47.2919 	EXP 	image: autoDraw = False
+47.2919 	EXP 	Arrow: autoDraw = False
+47.2919 	EXP 	polygon: autoDraw = True
+48.2762 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'bed.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+48.2948 	EXP 	polygon: autoDraw = False
+48.2948 	EXP 	image: image = 'cow.jpg'
+48.2948 	EXP 	Arrow: image = 'ArrowUp.png'
+48.2948 	EXP 	image: autoDraw = True
+48.2948 	EXP 	Arrow: autoDraw = True
+48.7566 	DATA 	Keypress: 1
+48.9729 	DATA 	Keypress: 1
+51.2939 	EXP 	image: autoDraw = False
+51.2939 	EXP 	Arrow: autoDraw = False
+51.2939 	EXP 	polygon: autoDraw = True
+52.2779 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'van.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'ImgOrientation': None, 'Congruency': None, 'Direction': None}
+52.3098 	EXP 	polygon: autoDraw = False
+52.3098 	EXP 	image: image = 'ship.jpg'
+52.3098 	EXP 	Arrow: image = 'ArrowLeft.png'
+52.3098 	EXP 	image: autoDraw = True
+52.3098 	EXP 	Arrow: autoDraw = True
+55.2957 	EXP 	image: autoDraw = False
+55.2957 	EXP 	Arrow: autoDraw = False
+55.2957 	EXP 	polygon: autoDraw = True
+55.3929 	DATA 	Keypress: esc
+55.5766 	DATA 	Keypress: esc
+55.5829 	EXP 	window1: mouseVisible = True

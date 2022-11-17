@@ -1,0 +1,4 @@
+﻿corrAns,StimFile,ImgType,ArrowImg,ImgOrientation,Direction,Scrambled,old,ScrambledTrials_1.thisRepN,ScrambledTrials_1.thisTrialN,ScrambledTrials_1.thisN,ScrambledTrials_1.thisIndex,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,polygon_2.started,polygon_2.stopped,Scrambled_img.started,Scrambled_img.stopped,Arrow1.started,Arrow1.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,s,1.3357184999622405,11.48641100001987,None,,,,,,,,001,2022_Mar_25_0944,Gallery_fMRI_OneShotLearning,2021.2.3,138.52526013967955,
+2,Images/tapir.jpg,Animal,ArrowUp.png,None,neutral,Images/tapir_scrambled.jpg,None,0,0,0,15,,,,,11.48641100001987,None,12.924883100087754,None,12.924883100087754,None,,001,2022_Mar_25_0944,Gallery_fMRI_OneShotLearning,2021.2.3,138.52526013967955,
+,,,,,,,,,,,,,,,,,,16.869254100020044,None,16.869254100020044,None,,,,,,,

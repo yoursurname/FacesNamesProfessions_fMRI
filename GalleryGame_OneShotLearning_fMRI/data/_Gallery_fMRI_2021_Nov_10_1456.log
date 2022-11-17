@@ -1,0 +1,1213 @@
+3.0279 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.4315 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.4317 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000212051EBB00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021205152F28>, multiSample=False, name='window1', numSamples=2, pos=[760.0, 180.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='glfw')
+10.4318 	EXP 	window1: mouseVisible = True
+10.4318 	EXP 	window1: recordFrameIntervals = False
+10.7905 	EXP 	window1: recordFrameIntervals = True
+10.9287 	WARNING 	t of last frame was 80.64ms (=1/12)
+11.0656 	WARNING 	t of last frame was 83.77ms (=1/11)
+11.2036 	WARNING 	t of last frame was 88.73ms (=1/11)
+11.3422 	WARNING 	t of last frame was 77.45ms (=1/12)
+11.4804 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.6831 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.0452 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions:', units='height', win=Window(...), wrapWidth=1)
+14.0476 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.0530 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([0.75, 0.75]), texRes=128.0, units='height', win=Window(...))
+14.0560 	EXP 	Created Arrow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+14.0579 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.0657 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([0.75, 0.75]), texRes=128.0, units='height', win=Window(...))
+14.0677 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.0934 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.2336 	EXP 	text: autoDraw = True
+14.9645 	EXP 	Imported OneShotLearning_conditions.xlsx as conditions, 12 conditions, 1 params
+14.9651 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+14.9653 	EXP 	New trial (rep=0, index=0): {'Condition_rows': '40:44'}
+14.9805 	DATA 	Keypress: 1
+14.9818 	EXP 	text: autoDraw = False
+14.9818 	EXP 	polygon: autoDraw = True
+15.1313 	DATA 	Keypress: 1
+15.9795 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+15.9798 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+15.9801 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'filling_cabinet.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+16.0661 	EXP 	polygon: autoDraw = False
+16.0661 	EXP 	image: image = 'filling_cabinet.jpg'
+16.0661 	EXP 	Arrow: image = 'ArrowUp.png'
+16.0661 	EXP 	image: autoDraw = True
+16.0661 	EXP 	Arrow: autoDraw = True
+16.7523 	DATA 	Keypress: 2
+16.7830 	EXP 	image: autoDraw = False
+16.7830 	EXP 	Arrow: autoDraw = False
+16.7830 	EXP 	polygon: autoDraw = True
+16.9156 	DATA 	Keypress: 2
+17.7702 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'couch.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+17.8603 	EXP 	polygon: autoDraw = False
+17.8603 	EXP 	polygon: autoDraw = False
+17.8603 	EXP 	image: image = 'couch.jpg'
+17.8603 	EXP 	Arrow: image = 'ArrowRight.png'
+17.8603 	EXP 	image: autoDraw = True
+17.8603 	EXP 	Arrow: autoDraw = True
+18.5501 	DATA 	Keypress: 2
+18.5692 	EXP 	image: autoDraw = False
+18.5692 	EXP 	Arrow: autoDraw = False
+18.5692 	EXP 	polygon: autoDraw = True
+18.7500 	DATA 	Keypress: 2
+19.5538 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'lectern.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+19.5709 	EXP 	polygon: autoDraw = False
+19.5709 	EXP 	polygon: autoDraw = False
+19.5709 	EXP 	image: image = 'lectern.jpg'
+19.5709 	EXP 	Arrow: image = 'ArrowRight.png'
+19.5709 	EXP 	image: autoDraw = True
+19.5709 	EXP 	Arrow: autoDraw = True
+20.1334 	DATA 	Keypress: 2
+20.2104 	EXP 	image: autoDraw = False
+20.2104 	EXP 	Arrow: autoDraw = False
+20.2104 	EXP 	polygon: autoDraw = True
+20.3834 	DATA 	Keypress: 2
+21.2047 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lamp.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+21.2354 	EXP 	polygon: autoDraw = False
+21.2354 	EXP 	polygon: autoDraw = False
+21.2354 	EXP 	image: image = 'lamp.jpg'
+21.2354 	EXP 	Arrow: image = 'ArrowLeft.png'
+21.2354 	EXP 	image: autoDraw = True
+21.2354 	EXP 	Arrow: autoDraw = True
+21.7300 	DATA 	Keypress: 2
+21.7536 	EXP 	image: autoDraw = False
+21.7536 	EXP 	Arrow: autoDraw = False
+21.7536 	EXP 	polygon: autoDraw = True
+21.8843 	DATA 	Keypress: 2
+22.7515 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+22.7519 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+22.7521 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'filling_cabinet.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+22.8532 	EXP 	polygon: autoDraw = False
+22.8532 	EXP 	polygon: autoDraw = False
+22.8532 	EXP 	image_2: image = 'filling_cabinet.jpg'
+22.8532 	EXP 	image_2: autoDraw = True
+23.2516 	DATA 	Keypress: 2
+23.2704 	EXP 	image_2: autoDraw = False
+23.2704 	EXP 	polygon: autoDraw = True
+23.4517 	DATA 	Keypress: 2
+24.2563 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lamp.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+24.2727 	EXP 	polygon: autoDraw = False
+24.2727 	EXP 	polygon: autoDraw = False
+24.2727 	EXP 	image_2: image = 'lamp.jpg'
+24.2727 	EXP 	image_2: autoDraw = True
+24.6520 	DATA 	Keypress: 2
+24.6714 	EXP 	image_2: autoDraw = False
+24.6714 	EXP 	polygon: autoDraw = True
+24.9121 	DATA 	Keypress: 2
+25.6570 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'couch.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+25.7454 	EXP 	polygon: autoDraw = False
+25.7454 	EXP 	polygon: autoDraw = False
+25.7454 	EXP 	image_2: image = 'couch.jpg'
+25.7454 	EXP 	image_2: autoDraw = True
+26.1576 	DATA 	Keypress: 2
+26.1718 	EXP 	image_2: autoDraw = False
+26.1718 	EXP 	polygon: autoDraw = True
+26.3363 	DATA 	Keypress: 2
+27.1579 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'lectern.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+27.1750 	EXP 	polygon: autoDraw = False
+27.1750 	EXP 	polygon: autoDraw = False
+27.1750 	EXP 	image_2: image = 'lectern.jpg'
+27.1750 	EXP 	image_2: autoDraw = True
+27.5407 	DATA 	Keypress: 2
+27.5559 	EXP 	image_2: autoDraw = False
+27.5559 	EXP 	polygon: autoDraw = True
+27.7209 	DATA 	Keypress: 2
+28.5430 	EXP 	New trial (rep=0, index=1): {'Condition_rows': '4:8'}
+28.5575 	EXP 	polygon: autoDraw = False
+28.5575 	EXP 	polygon: autoDraw = False
+28.5575 	EXP 	polygon: autoDraw = True
+29.6156 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+29.6159 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+29.6161 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'crocodile.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+29.6388 	EXP 	polygon: autoDraw = False
+29.6388 	EXP 	polygon: autoDraw = False
+29.6388 	EXP 	image: image = 'crocodile.jpg'
+29.6388 	EXP 	Arrow: image = 'ArrowUp.png'
+29.6388 	EXP 	image: autoDraw = True
+29.6388 	EXP 	Arrow: autoDraw = True
+30.1381 	DATA 	Keypress: 2
+30.1570 	EXP 	image: autoDraw = False
+30.1570 	EXP 	Arrow: autoDraw = False
+30.1570 	EXP 	polygon: autoDraw = True
+30.2883 	DATA 	Keypress: 2
+31.1425 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'dromedary.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+31.2188 	EXP 	polygon: autoDraw = False
+31.2188 	EXP 	polygon: autoDraw = False
+31.2188 	EXP 	image: image = 'dromedary.jpg'
+31.2188 	EXP 	Arrow: image = 'ArrowLeft.png'
+31.2188 	EXP 	image: autoDraw = True
+31.2188 	EXP 	Arrow: autoDraw = True
+31.5051 	DATA 	Keypress: 2
+31.5076 	EXP 	image: autoDraw = False
+31.5076 	EXP 	Arrow: autoDraw = False
+31.5076 	EXP 	polygon: autoDraw = True
+31.7683 	DATA 	Keypress: 2
+32.4932 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'elephant.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+32.5253 	EXP 	polygon: autoDraw = False
+32.5253 	EXP 	polygon: autoDraw = False
+32.5253 	EXP 	image: image = 'elephant.jpg'
+32.5253 	EXP 	Arrow: image = 'ArrowRight.png'
+32.5253 	EXP 	image: autoDraw = True
+32.5253 	EXP 	Arrow: autoDraw = True
+32.7351 	DATA 	Keypress: 2
+32.7586 	EXP 	image: autoDraw = False
+32.7586 	EXP 	Arrow: autoDraw = False
+32.7586 	EXP 	polygon: autoDraw = True
+33.0130 	DATA 	Keypress: 2
+33.7439 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'cow.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+33.7614 	EXP 	polygon: autoDraw = False
+33.7614 	EXP 	polygon: autoDraw = False
+33.7614 	EXP 	image: image = 'cow.jpg'
+33.7614 	EXP 	Arrow: image = 'ArrowRight.png'
+33.7614 	EXP 	image: autoDraw = True
+33.7614 	EXP 	Arrow: autoDraw = True
+33.8562 	DATA 	Keypress: 2
+33.8757 	EXP 	image: autoDraw = False
+33.8757 	EXP 	Arrow: autoDraw = False
+33.8757 	EXP 	polygon: autoDraw = True
+34.0400 	DATA 	Keypress: 2
+34.8731 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+34.8734 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+34.8736 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'cow.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+34.9528 	EXP 	polygon: autoDraw = False
+34.9528 	EXP 	polygon: autoDraw = False
+34.9528 	EXP 	image_2: image = 'cow.jpg'
+34.9528 	EXP 	image_2: autoDraw = True
+35.2262 	DATA 	Keypress: 2
+35.2426 	EXP 	image_2: autoDraw = False
+35.2426 	EXP 	polygon: autoDraw = True
+35.5040 	DATA 	Keypress: 2
+36.2284 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'dromedary.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+36.2452 	EXP 	polygon: autoDraw = False
+36.2452 	EXP 	polygon: autoDraw = False
+36.2452 	EXP 	image_2: image = 'dromedary.jpg'
+36.2452 	EXP 	image_2: autoDraw = True
+36.4710 	DATA 	Keypress: 2
+36.4942 	EXP 	image_2: autoDraw = False
+36.4942 	EXP 	polygon: autoDraw = True
+36.6911 	DATA 	Keypress: 2
+37.5051 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'crocodile.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+37.5271 	EXP 	polygon: autoDraw = False
+37.5271 	EXP 	polygon: autoDraw = False
+37.5271 	EXP 	image_2: image = 'crocodile.jpg'
+37.5271 	EXP 	image_2: autoDraw = True
+37.6402 	DATA 	Keypress: 2
+37.6613 	EXP 	image_2: autoDraw = False
+37.6613 	EXP 	polygon: autoDraw = True
+37.7790 	DATA 	Keypress: 2
+38.6467 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'elephant.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+38.6631 	EXP 	polygon: autoDraw = False
+38.6631 	EXP 	polygon: autoDraw = False
+38.6631 	EXP 	image_2: image = 'elephant.jpg'
+38.6631 	EXP 	image_2: autoDraw = True
+38.8849 	DATA 	Keypress: 2
+38.9091 	EXP 	image_2: autoDraw = False
+38.9091 	EXP 	polygon: autoDraw = True
+39.1624 	DATA 	Keypress: 2
+39.8968 	EXP 	New trial (rep=0, index=2): {'Condition_rows': '20:24'}
+39.9116 	EXP 	polygon: autoDraw = False
+39.9116 	EXP 	polygon: autoDraw = False
+39.9116 	EXP 	polygon: autoDraw = True
+40.9605 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+40.9608 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+40.9610 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bus.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+40.9954 	EXP 	polygon: autoDraw = False
+40.9954 	EXP 	polygon: autoDraw = False
+40.9954 	EXP 	image: image = 'bus.jpg'
+40.9954 	EXP 	Arrow: image = 'ArrowRight.png'
+40.9954 	EXP 	image: autoDraw = True
+40.9954 	EXP 	Arrow: autoDraw = True
+41.2933 	DATA 	Keypress: 2
+41.2960 	EXP 	image: autoDraw = False
+41.2960 	EXP 	Arrow: autoDraw = False
+41.2960 	EXP 	polygon: autoDraw = True
+41.5437 	DATA 	Keypress: 2
+42.2819 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'car.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+42.3771 	EXP 	polygon: autoDraw = False
+42.3771 	EXP 	polygon: autoDraw = False
+42.3771 	EXP 	image: image = 'car.jpg'
+42.3771 	EXP 	Arrow: image = 'ArrowUp.png'
+42.3771 	EXP 	image: autoDraw = True
+42.3771 	EXP 	Arrow: autoDraw = True
+42.6101 	DATA 	Keypress: 2
+42.6132 	EXP 	image: autoDraw = False
+42.6132 	EXP 	Arrow: autoDraw = False
+42.6132 	EXP 	polygon: autoDraw = True
+42.8518 	DATA 	Keypress: 2
+43.5990 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'zebra.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+43.6850 	EXP 	polygon: autoDraw = False
+43.6850 	EXP 	polygon: autoDraw = False
+43.6850 	EXP 	image: image = 'zebra.jpg'
+43.6850 	EXP 	Arrow: image = 'ArrowUp.png'
+43.6850 	EXP 	image: autoDraw = True
+43.6850 	EXP 	Arrow: autoDraw = True
+43.9575 	DATA 	Keypress: 2
+43.9800 	EXP 	image: autoDraw = False
+43.9800 	EXP 	Arrow: autoDraw = False
+43.9800 	EXP 	polygon: autoDraw = True
+44.1114 	DATA 	Keypress: 2
+44.9659 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'boat.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+45.0653 	EXP 	polygon: autoDraw = False
+45.0653 	EXP 	polygon: autoDraw = False
+45.0653 	EXP 	image: image = 'boat.jpg'
+45.0653 	EXP 	Arrow: image = 'ArrowLeft.png'
+45.0653 	EXP 	image: autoDraw = True
+45.0653 	EXP 	Arrow: autoDraw = True
+45.3391 	DATA 	Keypress: 2
+45.3621 	EXP 	image: autoDraw = False
+45.3621 	EXP 	Arrow: autoDraw = False
+45.3621 	EXP 	polygon: autoDraw = True
+45.4768 	DATA 	Keypress: 2
+46.4302 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+46.4305 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+46.4307 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'car.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+46.4642 	EXP 	polygon: autoDraw = False
+46.4642 	EXP 	polygon: autoDraw = False
+46.4642 	EXP 	image_2: image = 'car.jpg'
+46.4642 	EXP 	image_2: autoDraw = True
+46.7119 	DATA 	Keypress: 2
+46.7147 	EXP 	image_2: autoDraw = False
+46.7147 	EXP 	polygon: autoDraw = True
+46.9533 	DATA 	Keypress: 2
+47.7003 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'boat.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+47.7177 	EXP 	polygon: autoDraw = False
+47.7177 	EXP 	polygon: autoDraw = False
+47.7177 	EXP 	image_2: image = 'boat.jpg'
+47.7177 	EXP 	image_2: autoDraw = True
+47.9684 	DATA 	Keypress: 2
+47.9974 	EXP 	image_2: autoDraw = False
+47.9974 	EXP 	polygon: autoDraw = True
+48.1073 	DATA 	Keypress: 2
+49.0011 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'zebra.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+49.0333 	EXP 	polygon: autoDraw = False
+49.0333 	EXP 	polygon: autoDraw = False
+49.0333 	EXP 	image_2: image = 'zebra.jpg'
+49.0333 	EXP 	image_2: autoDraw = True
+49.2747 	DATA 	Keypress: 2
+49.2993 	EXP 	image_2: autoDraw = False
+49.2993 	EXP 	polygon: autoDraw = True
+49.4472 	DATA 	Keypress: 2
+50.2850 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bus.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+50.3846 	EXP 	polygon: autoDraw = False
+50.3846 	EXP 	polygon: autoDraw = False
+50.3846 	EXP 	image_2: image = 'bus.jpg'
+50.3846 	EXP 	image_2: autoDraw = True
+50.6440 	DATA 	Keypress: 2
+50.6669 	EXP 	image_2: autoDraw = False
+50.6669 	EXP 	polygon: autoDraw = True
+50.7823 	DATA 	Keypress: 2
+51.6525 	EXP 	New trial (rep=0, index=3): {'Condition_rows': '16:20'}
+51.7376 	EXP 	polygon: autoDraw = False
+51.7376 	EXP 	polygon: autoDraw = False
+51.7376 	EXP 	polygon: autoDraw = True
+52.7796 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+52.7799 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+52.7802 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'snake.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+52.8173 	EXP 	polygon: autoDraw = False
+52.8173 	EXP 	polygon: autoDraw = False
+52.8173 	EXP 	image: image = 'snake.jpg'
+52.8173 	EXP 	Arrow: image = 'ArrowRight.png'
+52.8173 	EXP 	image: autoDraw = True
+52.8173 	EXP 	Arrow: autoDraw = True
+53.1802 	DATA 	Keypress: 2
+53.2011 	EXP 	image: autoDraw = False
+53.2011 	EXP 	Arrow: autoDraw = False
+53.2011 	EXP 	polygon: autoDraw = True
+53.3326 	DATA 	Keypress: 2
+54.1868 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'tiger.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+54.2760 	EXP 	polygon: autoDraw = False
+54.2760 	EXP 	polygon: autoDraw = False
+54.2760 	EXP 	image: image = 'tiger.jpg'
+54.2760 	EXP 	Arrow: image = 'ArrowLeft.png'
+54.2760 	EXP 	image: autoDraw = True
+54.2760 	EXP 	Arrow: autoDraw = True
+54.5478 	DATA 	Keypress: 2
+54.5686 	EXP 	image: autoDraw = False
+54.5686 	EXP 	Arrow: autoDraw = False
+54.5686 	EXP 	polygon: autoDraw = True
+54.6872 	DATA 	Keypress: 2
+55.5812 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'tapir.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+55.6011 	EXP 	polygon: autoDraw = False
+55.6011 	EXP 	polygon: autoDraw = False
+55.6011 	EXP 	image: image = 'tapir.jpg'
+55.6011 	EXP 	Arrow: image = 'ArrowUp.png'
+55.6011 	EXP 	image: autoDraw = True
+55.6011 	EXP 	Arrow: autoDraw = True
+55.8544 	DATA 	Keypress: 2
+55.8690 	EXP 	image: autoDraw = False
+55.8690 	EXP 	Arrow: autoDraw = False
+55.8690 	EXP 	polygon: autoDraw = True
+56.0334 	DATA 	Keypress: 2
+56.8544 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'turtle.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+56.8850 	EXP 	polygon: autoDraw = False
+56.8850 	EXP 	polygon: autoDraw = False
+56.8850 	EXP 	image: image = 'turtle.jpg'
+56.8850 	EXP 	Arrow: image = 'ArrowRight.png'
+56.8850 	EXP 	image: autoDraw = True
+56.8850 	EXP 	Arrow: autoDraw = True
+57.1002 	DATA 	Keypress: 2
+57.1197 	EXP 	image: autoDraw = False
+57.1197 	EXP 	Arrow: autoDraw = False
+57.1197 	EXP 	polygon: autoDraw = True
+57.3012 	DATA 	Keypress: 2
+58.1183 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+58.1187 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+58.1190 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'turtle.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+58.2198 	EXP 	polygon: autoDraw = False
+58.2198 	EXP 	polygon: autoDraw = False
+58.2198 	EXP 	image_2: image = 'turtle.jpg'
+58.2198 	EXP 	image_2: autoDraw = True
+58.4830 	DATA 	Keypress: 2
+58.5042 	EXP 	image_2: autoDraw = False
+58.5042 	EXP 	polygon: autoDraw = True
+58.6351 	DATA 	Keypress: 2
+59.4898 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'tiger.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+59.5066 	EXP 	polygon: autoDraw = False
+59.5066 	EXP 	polygon: autoDraw = False
+59.5066 	EXP 	image_2: image = 'tiger.jpg'
+59.5066 	EXP 	image_2: autoDraw = True
+59.7275 	DATA 	Keypress: 2
+59.7522 	EXP 	image_2: autoDraw = False
+59.7522 	EXP 	polygon: autoDraw = True
+59.9183 	DATA 	Keypress: 2
+60.7403 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'snake.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+60.7564 	EXP 	polygon: autoDraw = False
+60.7564 	EXP 	polygon: autoDraw = False
+60.7564 	EXP 	image_2: image = 'snake.jpg'
+60.7564 	EXP 	image_2: autoDraw = True
+61.0025 	DATA 	Keypress: 2
+61.0052 	EXP 	image_2: autoDraw = False
+61.0052 	EXP 	polygon: autoDraw = True
+61.2486 	DATA 	Keypress: 2
+61.9905 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'tapir.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+62.0069 	EXP 	polygon: autoDraw = False
+62.0069 	EXP 	polygon: autoDraw = False
+62.0069 	EXP 	image_2: image = 'tapir.jpg'
+62.0069 	EXP 	image_2: autoDraw = True
+62.2527 	DATA 	Keypress: 2
+62.2724 	EXP 	image_2: autoDraw = False
+62.2724 	EXP 	polygon: autoDraw = True
+62.4924 	DATA 	Keypress: 2
+63.3268 	EXP 	New trial (rep=0, index=4): {'Condition_rows': '36:40'}
+63.3390 	EXP 	polygon: autoDraw = False
+63.3390 	EXP 	polygon: autoDraw = False
+63.3390 	EXP 	polygon: autoDraw = True
+64.3370 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+64.3373 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+64.3376 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'Chest_of_drawers.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+64.3553 	EXP 	polygon: autoDraw = False
+64.3553 	EXP 	polygon: autoDraw = False
+64.3553 	EXP 	image: image = 'Chest_of_drawers.jpg'
+64.3553 	EXP 	Arrow: image = 'ArrowLeft.png'
+64.3553 	EXP 	image: autoDraw = True
+64.3553 	EXP 	Arrow: autoDraw = True
+64.5872 	DATA 	Keypress: 2
+64.6067 	EXP 	image: autoDraw = False
+64.6067 	EXP 	Arrow: autoDraw = False
+64.6067 	EXP 	polygon: autoDraw = True
+64.8455 	DATA 	Keypress: 2
+65.5919 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'chair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+65.6803 	EXP 	polygon: autoDraw = False
+65.6803 	EXP 	polygon: autoDraw = False
+65.6803 	EXP 	image: image = 'chair.jpg'
+65.6803 	EXP 	Arrow: image = 'ArrowUp.png'
+65.6803 	EXP 	image: autoDraw = True
+65.6803 	EXP 	Arrow: autoDraw = True
+65.9517 	DATA 	Keypress: 2
+65.9742 	EXP 	image: autoDraw = False
+65.9742 	EXP 	Arrow: autoDraw = False
+65.9742 	EXP 	polygon: autoDraw = True
+66.0910 	DATA 	Keypress: 2
+66.9593 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'bedside_table.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+67.0610 	EXP 	polygon: autoDraw = False
+67.0610 	EXP 	polygon: autoDraw = False
+67.0610 	EXP 	image: image = 'bedside_table.jpg'
+67.0610 	EXP 	Arrow: image = 'ArrowLeft.png'
+67.0610 	EXP 	image: autoDraw = True
+67.0610 	EXP 	Arrow: autoDraw = True
+67.3359 	DATA 	Keypress: 2
+67.3583 	EXP 	image: autoDraw = False
+67.3583 	EXP 	Arrow: autoDraw = False
+67.3583 	EXP 	polygon: autoDraw = True
+67.5062 	DATA 	Keypress: 2
+68.3695 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bookcase.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+68.3905 	EXP 	polygon: autoDraw = False
+68.3905 	EXP 	polygon: autoDraw = False
+68.3905 	EXP 	image: image = 'bookcase.jpg'
+68.3905 	EXP 	Arrow: image = 'ArrowRight.png'
+68.3905 	EXP 	image: autoDraw = True
+68.3905 	EXP 	Arrow: autoDraw = True
+68.6426 	DATA 	Keypress: 2
+68.6582 	EXP 	image: autoDraw = False
+68.6582 	EXP 	Arrow: autoDraw = False
+68.6582 	EXP 	polygon: autoDraw = True
+68.8231 	DATA 	Keypress: 2
+69.6563 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+69.6568 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+69.6571 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'Chest_of_drawers.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+69.6756 	EXP 	polygon: autoDraw = False
+69.6756 	EXP 	polygon: autoDraw = False
+69.6756 	EXP 	image_2: image = 'Chest_of_drawers.jpg'
+69.6756 	EXP 	image_2: autoDraw = True
+69.9396 	DATA 	Keypress: 2
+69.9423 	EXP 	image_2: autoDraw = False
+69.9423 	EXP 	polygon: autoDraw = True
+70.1652 	DATA 	Keypress: 2
+70.9969 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bookcase.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+71.0110 	EXP 	polygon: autoDraw = False
+71.0110 	EXP 	polygon: autoDraw = False
+71.0110 	EXP 	image_2: image = 'bookcase.jpg'
+71.0110 	EXP 	image_2: autoDraw = True
+71.2704 	DATA 	Keypress: 2
+71.2933 	EXP 	image_2: autoDraw = False
+71.2933 	EXP 	polygon: autoDraw = True
+71.4416 	DATA 	Keypress: 2
+72.2789 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'bedside_table.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+72.2948 	EXP 	polygon: autoDraw = False
+72.2948 	EXP 	polygon: autoDraw = False
+72.2948 	EXP 	image_2: image = 'bedside_table.jpg'
+72.2948 	EXP 	image_2: autoDraw = True
+72.5572 	DATA 	Keypress: 2
+72.5773 	EXP 	image_2: autoDraw = False
+72.5773 	EXP 	polygon: autoDraw = True
+72.7908 	DATA 	Keypress: 2
+73.6245 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'chair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+73.6460 	EXP 	polygon: autoDraw = False
+73.6460 	EXP 	polygon: autoDraw = False
+73.6460 	EXP 	image_2: image = 'chair.jpg'
+73.6460 	EXP 	image_2: autoDraw = True
+73.9081 	DATA 	Keypress: 2
+73.9274 	EXP 	image_2: autoDraw = False
+73.9274 	EXP 	polygon: autoDraw = True
+74.0763 	DATA 	Keypress: 2
+74.9132 	EXP 	New trial (rep=0, index=5): {'Condition_rows': '28:32'}
+74.9280 	EXP 	polygon: autoDraw = False
+74.9280 	EXP 	polygon: autoDraw = False
+74.9280 	EXP 	polygon: autoDraw = True
+75.9931 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+75.9934 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+75.9937 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'skateboard.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+76.1127 	EXP 	polygon: autoDraw = False
+76.1127 	EXP 	polygon: autoDraw = False
+76.1127 	EXP 	image: image = 'skateboard.jpg'
+76.1127 	EXP 	Arrow: image = 'ArrowLeft.png'
+76.1127 	EXP 	image: autoDraw = True
+76.1127 	EXP 	Arrow: autoDraw = True
+76.3738 	DATA 	Keypress: 2
+76.3957 	EXP 	image: autoDraw = False
+76.3957 	EXP 	Arrow: autoDraw = False
+76.3957 	EXP 	polygon: autoDraw = True
+76.5781 	DATA 	Keypress: 2
+77.4061 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'tractor.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+77.4281 	EXP 	polygon: autoDraw = False
+77.4281 	EXP 	polygon: autoDraw = False
+77.4281 	EXP 	image: image = 'tractor.jpg'
+77.4281 	EXP 	Arrow: image = 'ArrowRight.png'
+77.4281 	EXP 	image: autoDraw = True
+77.4281 	EXP 	Arrow: autoDraw = True
+77.5935 	DATA 	Keypress: 2
+77.6806 	EXP 	image: autoDraw = False
+77.6806 	EXP 	Arrow: autoDraw = False
+77.6806 	EXP 	polygon: autoDraw = True
+77.8187 	DATA 	Keypress: 2
+78.5271 	DATA 	Keypress: 2
+78.6815 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'scooter.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+78.6936 	DATA 	Keypress: 2
+78.6969 	EXP 	polygon: autoDraw = False
+78.6969 	EXP 	polygon: autoDraw = False
+78.6969 	EXP 	image: image = 'scooter.jpg'
+78.6969 	EXP 	Arrow: image = 'ArrowRight.png'
+78.6969 	EXP 	image: autoDraw = True
+78.6969 	EXP 	Arrow: autoDraw = True
+78.9257 	DATA 	Keypress: 2
+78.9469 	EXP 	image: autoDraw = False
+78.9469 	EXP 	Arrow: autoDraw = False
+78.9469 	EXP 	polygon: autoDraw = True
+79.0776 	DATA 	Keypress: 2
+79.2017 	DATA 	Keypress: 2
+79.3613 	DATA 	Keypress: 2
+79.4951 	DATA 	Keypress: 2
+79.6791 	DATA 	Keypress: 2
+79.9319 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'ship.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+80.0201 	EXP 	polygon: autoDraw = False
+80.0201 	EXP 	polygon: autoDraw = False
+80.0201 	EXP 	image: image = 'ship.jpg'
+80.0201 	EXP 	Arrow: image = 'ArrowUp.png'
+80.0201 	EXP 	image: autoDraw = True
+80.0201 	EXP 	Arrow: autoDraw = True
+80.1551 	DATA 	Keypress: 2
+80.1785 	EXP 	image: autoDraw = False
+80.1785 	EXP 	Arrow: autoDraw = False
+80.1785 	EXP 	polygon: autoDraw = True
+80.3121 	DATA 	Keypress: 2
+80.4444 	DATA 	Keypress: 2
+80.6130 	DATA 	Keypress: 2
+80.8467 	DATA 	Keypress: 2
+80.9860 	DATA 	Keypress: 2
+81.1619 	DATA 	Keypress: 2
+81.1787 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+81.1791 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+81.1793 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'skateboard.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+81.2807 	EXP 	polygon: autoDraw = False
+81.2807 	EXP 	polygon: autoDraw = False
+81.2807 	EXP 	image_2: image = 'skateboard.jpg'
+81.2807 	EXP 	image_2: autoDraw = True
+81.4003 	DATA 	Keypress: 2
+81.4284 	DATA 	Keypress: 2
+81.4309 	EXP 	image_2: autoDraw = False
+81.4309 	EXP 	polygon: autoDraw = True
+81.5955 	DATA 	Keypress: 2
+81.6761 	DATA 	Keypress: 2
+81.9530 	DATA 	Keypress: 2
+81.9617 	DATA 	Keypress: 2
+82.1455 	DATA 	Keypress: 2
+82.3682 	DATA 	Keypress: 2
+82.4164 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'scooter.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+82.4329 	EXP 	polygon: autoDraw = False
+82.4329 	EXP 	polygon: autoDraw = False
+82.4329 	EXP 	image_2: image = 'scooter.jpg'
+82.4329 	EXP 	image_2: autoDraw = True
+82.5064 	DATA 	Keypress: 2
+82.6457 	DATA 	Keypress: 2
+82.6647 	EXP 	image_2: autoDraw = False
+82.6647 	EXP 	polygon: autoDraw = True
+82.8130 	DATA 	Keypress: 2
+82.9217 	DATA 	Keypress: 2
+83.1984 	DATA 	Keypress: 2
+83.2629 	DATA 	Keypress: 2
+83.4753 	DATA 	Keypress: 2
+83.4754 	DATA 	Keypress: 2
+83.6465 	DATA 	Keypress: 2
+83.6506 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'ship.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+83.6675 	EXP 	polygon: autoDraw = False
+83.6675 	EXP 	polygon: autoDraw = False
+83.6675 	EXP 	image_2: image = 'ship.jpg'
+83.6675 	EXP 	image_2: autoDraw = True
+83.8126 	DATA 	Keypress: 2
+83.8152 	EXP 	image_2: autoDraw = False
+83.8152 	EXP 	polygon: autoDraw = True
+84.0281 	DATA 	Keypress: 2
+84.0797 	DATA 	Keypress: 2
+84.3055 	DATA 	Keypress: 2
+84.4635 	DATA 	Keypress: 2
+84.7209 	DATA 	Keypress: 2
+84.7801 	DATA 	Keypress: 2
+84.8618 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'tractor.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+84.8827 	EXP 	polygon: autoDraw = False
+84.8827 	EXP 	polygon: autoDraw = False
+84.8827 	EXP 	image_2: image = 'tractor.jpg'
+84.8827 	EXP 	image_2: autoDraw = True
+84.9967 	DATA 	Keypress: 2
+85.1345 	DATA 	Keypress: 2
+85.1491 	EXP 	image_2: autoDraw = False
+85.1491 	EXP 	polygon: autoDraw = True
+85.3137 	DATA 	Keypress: 2
+85.4302 	DATA 	Keypress: 2
+85.6878 	DATA 	Keypress: 2
+85.8261 	DATA 	Keypress: 2
+85.9976 	DATA 	Keypress: 2
+86.1306 	DATA 	Keypress: 2
+86.1346 	EXP 	New trial (rep=0, index=6): {'Condition_rows': '12:16'}
+86.1497 	EXP 	polygon: autoDraw = False
+86.1497 	EXP 	polygon: autoDraw = False
+86.1497 	EXP 	polygon: autoDraw = True
+86.3793 	DATA 	Keypress: 2
+86.3972 	DATA 	Keypress: 2
+86.6554 	DATA 	Keypress: 2
+87.0698 	DATA 	Keypress: 2
+87.1478 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+87.1481 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+87.1484 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'lynx.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+87.2094 	DATA 	Keypress: 2
+87.2120 	EXP 	polygon: autoDraw = False
+87.2120 	EXP 	polygon: autoDraw = False
+87.2120 	EXP 	image: image = 'lynx.jpg'
+87.2120 	EXP 	Arrow: image = 'ArrowRight.png'
+87.2120 	EXP 	image: autoDraw = True
+87.2120 	EXP 	Arrow: autoDraw = True
+87.4846 	DATA 	Keypress: 2
+87.5003 	EXP 	image: autoDraw = False
+87.5003 	EXP 	Arrow: autoDraw = False
+87.5003 	EXP 	polygon: autoDraw = True
+87.6237 	DATA 	Keypress: 2
+87.7819 	DATA 	Keypress: 2
+88.0380 	DATA 	Keypress: 2
+88.1971 	DATA 	Keypress: 2
+88.4536 	DATA 	Keypress: 2
+88.4859 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'rhino.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+88.5168 	EXP 	polygon: autoDraw = False
+88.5168 	EXP 	polygon: autoDraw = False
+88.5168 	EXP 	image: image = 'rhino.jpg'
+88.5168 	EXP 	Arrow: image = 'ArrowLeft.png'
+88.5168 	EXP 	image: autoDraw = True
+88.5168 	EXP 	Arrow: autoDraw = True
+88.6139 	DATA 	Keypress: 2
+88.6346 	EXP 	image: autoDraw = False
+88.6346 	EXP 	Arrow: autoDraw = False
+88.6346 	EXP 	polygon: autoDraw = True
+88.7819 	DATA 	Keypress: 2
+89.0317 	DATA 	Keypress: 2
+89.2829 	DATA 	Keypress: 2
+89.6197 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lioness.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+89.6977 	DATA 	Keypress: 2
+89.7015 	EXP 	polygon: autoDraw = False
+89.7015 	EXP 	polygon: autoDraw = False
+89.7015 	EXP 	image: image = 'lioness.jpg'
+89.7015 	EXP 	Arrow: image = 'ArrowLeft.png'
+89.7015 	EXP 	image: autoDraw = True
+89.7015 	EXP 	Arrow: autoDraw = True
+89.8830 	DATA 	Keypress: 2
+90.2510 	DATA 	Keypress: 2
+90.2681 	EXP 	image: autoDraw = False
+90.2681 	EXP 	Arrow: autoDraw = False
+90.2681 	EXP 	polygon: autoDraw = True
+90.3898 	DATA 	Keypress: 2
+91.2553 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'platypus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+91.2844 	EXP 	polygon: autoDraw = False
+91.2844 	EXP 	polygon: autoDraw = False
+91.2844 	EXP 	image: image = 'platypus.jpg'
+91.2844 	EXP 	Arrow: image = 'ArrowUp.png'
+91.2844 	EXP 	image: autoDraw = True
+91.2844 	EXP 	Arrow: autoDraw = True
+91.3819 	DATA 	Keypress: 2
+91.3837 	EXP 	image: autoDraw = False
+91.3837 	EXP 	Arrow: autoDraw = False
+91.3837 	EXP 	polygon: autoDraw = True
+91.5335 	DATA 	Keypress: 2
+92.3840 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+92.3843 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+92.3846 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'lynx.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+92.4552 	EXP 	polygon: autoDraw = False
+92.4552 	EXP 	polygon: autoDraw = False
+92.4552 	EXP 	image_2: image = 'lynx.jpg'
+92.4552 	EXP 	image_2: autoDraw = True
+92.7258 	DATA 	Keypress: 2
+92.7275 	EXP 	image_2: autoDraw = False
+92.7275 	EXP 	polygon: autoDraw = True
+92.9005 	DATA 	Keypress: 2
+93.7195 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lioness.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+93.7382 	EXP 	polygon: autoDraw = False
+93.7382 	EXP 	polygon: autoDraw = False
+93.7382 	EXP 	image_2: image = 'lioness.jpg'
+93.7382 	EXP 	image_2: autoDraw = True
+93.9710 	DATA 	Keypress: 2
+93.9866 	EXP 	image_2: autoDraw = False
+93.9866 	EXP 	polygon: autoDraw = True
+94.1354 	DATA 	Keypress: 2
+94.2859 	DATA 	Keypress: 2
+94.4533 	DATA 	Keypress: 2
+94.9724 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'platypus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+94.9889 	EXP 	polygon: autoDraw = False
+94.9889 	EXP 	polygon: autoDraw = False
+94.9889 	EXP 	image_2: image = 'platypus.jpg'
+94.9889 	EXP 	image_2: autoDraw = True
+95.0626 	DATA 	Keypress: 2
+95.0853 	EXP 	image_2: autoDraw = False
+95.0853 	EXP 	polygon: autoDraw = True
+95.2345 	DATA 	Keypress: 2
+96.0728 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'rhino.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+96.0898 	EXP 	polygon: autoDraw = False
+96.0898 	EXP 	polygon: autoDraw = False
+96.0898 	EXP 	image_2: image = 'rhino.jpg'
+96.0898 	EXP 	image_2: autoDraw = True
+96.3522 	DATA 	Keypress: 2
+96.3716 	EXP 	image_2: autoDraw = False
+96.3716 	EXP 	polygon: autoDraw = True
+96.5856 	DATA 	Keypress: 2
+97.4217 	EXP 	New trial (rep=0, index=7): {'Condition_rows': '32:36'}
+97.4384 	EXP 	polygon: autoDraw = False
+97.4384 	EXP 	polygon: autoDraw = False
+97.4384 	EXP 	polygon: autoDraw = True
+97.5586 	DATA 	Keypress: 2
+97.9593 	DATA 	Keypress: 2
+98.4358 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+98.4361 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+98.4363 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'train', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+98.4365 	WARNING 	Requested image 'train' not found but similar filename 'train.jpg' exists. This will be used instead but changing the filename is advised.
+98.5227 	EXP 	polygon: autoDraw = False
+98.5227 	EXP 	polygon: autoDraw = False
+98.5227 	EXP 	image: image = 'train'
+98.5227 	EXP 	Arrow: image = 'ArrowUp.png'
+98.5227 	EXP 	image: autoDraw = True
+98.5227 	EXP 	Arrow: autoDraw = True
+98.9284 	DATA 	Keypress: 2
+98.9544 	EXP 	image: autoDraw = False
+98.9544 	EXP 	Arrow: autoDraw = False
+98.9544 	EXP 	polygon: autoDraw = True
+99.0871 	DATA 	Keypress: 2
+99.9411 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'armchair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+100.0227 	EXP 	polygon: autoDraw = False
+100.0227 	EXP 	polygon: autoDraw = False
+100.0227 	EXP 	image: image = 'armchair.jpg'
+100.0227 	EXP 	Arrow: image = 'ArrowRight.png'
+100.0227 	EXP 	image: autoDraw = True
+100.0227 	EXP 	Arrow: autoDraw = True
+100.5732 	DATA 	Keypress: 2
+100.5780 	EXP 	image: autoDraw = False
+100.5780 	EXP 	Arrow: autoDraw = False
+100.5780 	EXP 	polygon: autoDraw = True
+100.7123 	DATA 	Keypress: 2
+101.5757 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'bed.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+101.6057 	EXP 	polygon: autoDraw = False
+101.6057 	EXP 	polygon: autoDraw = False
+101.6057 	EXP 	image: image = 'bed.jpg'
+101.6057 	EXP 	Arrow: image = 'ArrowUp.png'
+101.6057 	EXP 	image: autoDraw = True
+101.6057 	EXP 	Arrow: autoDraw = True
+101.9590 	DATA 	Keypress: 2
+101.9737 	EXP 	image: autoDraw = False
+101.9737 	EXP 	Arrow: autoDraw = False
+101.9737 	EXP 	polygon: autoDraw = True
+102.1219 	DATA 	Keypress: 2
+102.9611 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'van.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+103.0582 	EXP 	polygon: autoDraw = False
+103.0582 	EXP 	polygon: autoDraw = False
+103.0582 	EXP 	image: image = 'van.jpg'
+103.0582 	EXP 	Arrow: image = 'ArrowLeft.png'
+103.0582 	EXP 	image: autoDraw = True
+103.0582 	EXP 	Arrow: autoDraw = True
+103.2547 	DATA 	Keypress: 2
+103.3333 	EXP 	image: autoDraw = False
+103.3333 	EXP 	Arrow: autoDraw = False
+103.3333 	EXP 	polygon: autoDraw = True
+103.4710 	DATA 	Keypress: 2
+103.6095 	DATA 	Keypress: 2
+103.8058 	DATA 	Keypress: 2
+104.3360 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+104.3363 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+104.3365 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'armchair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+104.3580 	EXP 	polygon: autoDraw = False
+104.3580 	EXP 	polygon: autoDraw = False
+104.3580 	EXP 	image_2: image = 'armchair.jpg'
+104.3580 	EXP 	image_2: autoDraw = True
+104.7182 	DATA 	Keypress: 2
+104.7417 	EXP 	image_2: autoDraw = False
+104.7417 	EXP 	polygon: autoDraw = True
+104.8561 	DATA 	Keypress: 2
+105.7272 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'van.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+105.8253 	DATA 	Keypress: 2
+105.8289 	EXP 	polygon: autoDraw = False
+105.8289 	EXP 	polygon: autoDraw = False
+105.8289 	EXP 	image_2: image = 'van.jpg'
+105.8289 	EXP 	image_2: autoDraw = True
+105.9637 	DATA 	Keypress: 2
+106.1021 	DATA 	Keypress: 2
+106.1256 	EXP 	image_2: autoDraw = False
+106.1256 	EXP 	polygon: autoDraw = True
+106.2420 	DATA 	Keypress: 2
+107.1111 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'bed.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+107.2113 	EXP 	polygon: autoDraw = False
+107.2113 	EXP 	polygon: autoDraw = False
+107.2113 	EXP 	image_2: image = 'bed.jpg'
+107.2113 	EXP 	image_2: autoDraw = True
+107.3463 	DATA 	Keypress: 2
+107.3595 	EXP 	image_2: autoDraw = False
+107.3595 	EXP 	polygon: autoDraw = True
+107.5241 	DATA 	Keypress: 2
+108.3448 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'train', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+108.3451 	WARNING 	Requested image 'train' not found but similar filename 'train.jpg' exists. This will be used instead but changing the filename is advised.
+108.4443 	EXP 	polygon: autoDraw = False
+108.4443 	EXP 	polygon: autoDraw = False
+108.4443 	EXP 	image_2: image = 'train'
+108.4443 	EXP 	image_2: autoDraw = True
+108.7184 	DATA 	Keypress: 2
+108.7203 	EXP 	image_2: autoDraw = False
+108.7203 	EXP 	polygon: autoDraw = True
+108.8579 	DATA 	Keypress: 2
+109.7126 	EXP 	New trial (rep=0, index=8): {'Condition_rows': '8:12'}
+109.7273 	EXP 	polygon: autoDraw = False
+109.7273 	EXP 	polygon: autoDraw = False
+109.7273 	EXP 	polygon: autoDraw = True
+110.0886 	DATA 	Keypress: 2
+110.2279 	DATA 	Keypress: 2
+110.3671 	DATA 	Keypress: 2
+110.5051 	DATA 	Keypress: 2
+110.5587 	DATA 	Keypress: 2
+110.7827 	DATA 	Keypress: 2
+110.7985 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+110.7989 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+110.7991 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'kangaroo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+110.8451 	EXP 	polygon: autoDraw = False
+110.8451 	EXP 	polygon: autoDraw = False
+110.8451 	EXP 	image: image = 'kangaroo.jpg'
+110.8451 	EXP 	Arrow: image = 'ArrowUp.png'
+110.8451 	EXP 	image: autoDraw = True
+110.8451 	EXP 	Arrow: autoDraw = True
+110.9759 	DATA 	Keypress: 2
+110.9784 	EXP 	image: autoDraw = False
+110.9784 	EXP 	Arrow: autoDraw = False
+110.9784 	EXP 	polygon: autoDraw = True
+111.1976 	DATA 	Keypress: 2
+111.3348 	DATA 	Keypress: 2
+111.4740 	DATA 	Keypress: 2
+112.0313 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'hippopotamus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+112.0607 	EXP 	polygon: autoDraw = False
+112.0607 	EXP 	polygon: autoDraw = False
+112.0607 	EXP 	image: image = 'hippopotamus.jpg'
+112.0607 	EXP 	Arrow: image = 'ArrowLeft.png'
+112.0607 	EXP 	image: autoDraw = True
+112.0607 	EXP 	Arrow: autoDraw = True
+112.4429 	DATA 	Keypress: 2
+112.4619 	EXP 	image: autoDraw = False
+112.4619 	EXP 	Arrow: autoDraw = False
+112.4619 	EXP 	polygon: autoDraw = True
+112.5817 	DATA 	Keypress: 2
+113.4481 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'giraffe.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+113.5385 	EXP 	polygon: autoDraw = False
+113.5385 	EXP 	polygon: autoDraw = False
+113.5385 	EXP 	image: image = 'giraffe.jpg'
+113.5385 	EXP 	Arrow: image = 'ArrowUp.png'
+113.5385 	EXP 	image: autoDraw = True
+113.5385 	EXP 	Arrow: autoDraw = True
+113.8161 	DATA 	Keypress: 1
+113.8293 	EXP 	image: autoDraw = False
+113.8293 	EXP 	Arrow: autoDraw = False
+113.8293 	EXP 	polygon: autoDraw = True
+113.9765 	DATA 	Keypress: 1
+114.8144 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'horse.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+114.8453 	EXP 	polygon: autoDraw = False
+114.8453 	EXP 	polygon: autoDraw = False
+114.8453 	EXP 	image: image = 'horse.jpg'
+114.8453 	EXP 	Arrow: image = 'ArrowRight.png'
+114.8453 	EXP 	image: autoDraw = True
+114.8453 	EXP 	Arrow: autoDraw = True
+115.2007 	DATA 	Keypress: 3
+115.2279 	EXP 	image: autoDraw = False
+115.2279 	EXP 	Arrow: autoDraw = False
+115.2279 	EXP 	polygon: autoDraw = True
+115.3396 	DATA 	Keypress: 3
+116.2277 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+116.2280 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+116.2283 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'horse.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+116.3310 	EXP 	polygon: autoDraw = False
+116.3310 	EXP 	polygon: autoDraw = False
+116.3310 	EXP 	image_2: image = 'horse.jpg'
+116.3310 	EXP 	image_2: autoDraw = True
+116.6287 	DATA 	Keypress: 3
+116.6471 	EXP 	image_2: autoDraw = False
+116.6471 	EXP 	polygon: autoDraw = True
+116.8656 	DATA 	Keypress: 3
+117.7010 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'giraffe.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+117.7160 	EXP 	polygon: autoDraw = False
+117.7160 	EXP 	polygon: autoDraw = False
+117.7160 	EXP 	image_2: image = 'giraffe.jpg'
+117.7160 	EXP 	image_2: autoDraw = True
+118.1737 	DATA 	Keypress: 3
+118.1959 	EXP 	image_2: autoDraw = False
+118.1959 	EXP 	polygon: autoDraw = True
+118.3625 	DATA 	Keypress: 3
+119.1948 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'kangaroo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+119.2148 	EXP 	polygon: autoDraw = False
+119.2148 	EXP 	polygon: autoDraw = False
+119.2148 	EXP 	image_2: image = 'kangaroo.jpg'
+119.2148 	EXP 	image_2: autoDraw = True
+119.7291 	DATA 	Keypress: 2
+119.7486 	EXP 	image_2: autoDraw = False
+119.7486 	EXP 	polygon: autoDraw = True
+120.0073 	DATA 	Keypress: 2
+120.7341 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'hippopotamus.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+120.7510 	EXP 	polygon: autoDraw = False
+120.7510 	EXP 	polygon: autoDraw = False
+120.7510 	EXP 	image_2: image = 'hippopotamus.jpg'
+120.7510 	EXP 	image_2: autoDraw = True
+121.6678 	DATA 	Keypress: 2
+121.6827 	EXP 	image_2: autoDraw = False
+121.6827 	EXP 	polygon: autoDraw = True
+121.8645 	DATA 	Keypress: 2
+122.7032 	EXP 	New trial (rep=0, index=9): {'Condition_rows': '0:4'}
+122.7170 	EXP 	polygon: autoDraw = False
+122.7170 	EXP 	polygon: autoDraw = False
+122.7170 	EXP 	polygon: autoDraw = True
+123.7455 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+123.7458 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+123.7460 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'cat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+123.7664 	EXP 	polygon: autoDraw = False
+123.7664 	EXP 	polygon: autoDraw = False
+123.7664 	EXP 	image: image = 'cat.jpg'
+123.7664 	EXP 	Arrow: image = 'ArrowUp.png'
+123.7664 	EXP 	image: autoDraw = True
+123.7664 	EXP 	Arrow: autoDraw = True
+124.1829 	DATA 	Keypress: 1
+124.2008 	EXP 	image: autoDraw = False
+124.2008 	EXP 	Arrow: autoDraw = False
+124.2008 	EXP 	polygon: autoDraw = True
+124.4242 	DATA 	Keypress: 1
+125.2610 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'armadillo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': 10}
+125.2832 	EXP 	polygon: autoDraw = False
+125.2832 	EXP 	polygon: autoDraw = False
+125.2832 	EXP 	image: image = 'armadillo.jpg'
+125.2832 	EXP 	Arrow: image = 'ArrowLeft.png'
+125.2832 	EXP 	image: autoDraw = True
+125.2832 	EXP 	Arrow: autoDraw = True
+125.5819 	DATA 	Keypress: 1
+125.5846 	EXP 	image: autoDraw = False
+125.5846 	EXP 	Arrow: autoDraw = False
+125.5846 	EXP 	polygon: autoDraw = True
+125.7954 	DATA 	Keypress: 1
+126.6297 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+126.6508 	EXP 	polygon: autoDraw = False
+126.6508 	EXP 	polygon: autoDraw = False
+126.6508 	EXP 	image: image = 'bat.jpg'
+126.6508 	EXP 	Arrow: image = 'ArrowRight.png'
+126.6508 	EXP 	image: autoDraw = True
+126.6508 	EXP 	Arrow: autoDraw = True
+127.0414 	DATA 	Keypress: 1
+127.0667 	EXP 	image: autoDraw = False
+127.0667 	EXP 	Arrow: autoDraw = False
+127.0667 	EXP 	polygon: autoDraw = True
+127.2001 	DATA 	Keypress: 1
+128.0750 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cheetah.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+128.1015 	EXP 	polygon: autoDraw = False
+128.1015 	EXP 	polygon: autoDraw = False
+128.1015 	EXP 	image: image = 'cheetah.jpg'
+128.1015 	EXP 	Arrow: image = 'ArrowLeft.png'
+128.1015 	EXP 	image: autoDraw = True
+128.1015 	EXP 	Arrow: autoDraw = True
+128.3834 	DATA 	Keypress: 1
+128.4027 	EXP 	image: autoDraw = False
+128.4027 	EXP 	Arrow: autoDraw = False
+128.4027 	EXP 	polygon: autoDraw = True
+128.6248 	DATA 	Keypress: 1
+129.4703 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+129.4706 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+129.4708 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'armadillo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': 10}
+129.4861 	EXP 	polygon: autoDraw = False
+129.4861 	EXP 	polygon: autoDraw = False
+129.4861 	EXP 	image_2: image = 'armadillo.jpg'
+129.4861 	EXP 	image_2: autoDraw = True
+129.7675 	DATA 	Keypress: 1
+129.7865 	EXP 	image_2: autoDraw = False
+129.7865 	EXP 	polygon: autoDraw = True
+129.9345 	DATA 	Keypress: 1
+130.8428 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'bat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+130.8704 	EXP 	polygon: autoDraw = False
+130.8704 	EXP 	polygon: autoDraw = False
+130.8704 	EXP 	image_2: image = 'bat.jpg'
+130.8704 	EXP 	image_2: autoDraw = True
+131.2554 	DATA 	Keypress: 1
+131.2705 	EXP 	image_2: autoDraw = False
+131.2705 	EXP 	polygon: autoDraw = True
+131.4354 	DATA 	Keypress: 1
+132.2878 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'cat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+132.3062 	EXP 	polygon: autoDraw = False
+132.3062 	EXP 	polygon: autoDraw = False
+132.3062 	EXP 	image_2: image = 'cat.jpg'
+132.3062 	EXP 	image_2: autoDraw = True
+132.5625 	DATA 	Keypress: 1
+132.5879 	EXP 	image_2: autoDraw = False
+132.5879 	EXP 	polygon: autoDraw = True
+132.8416 	DATA 	Keypress: 1
+133.5736 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cheetah.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+133.5901 	EXP 	polygon: autoDraw = False
+133.5901 	EXP 	polygon: autoDraw = False
+133.5901 	EXP 	image_2: image = 'cheetah.jpg'
+133.5901 	EXP 	image_2: autoDraw = True
+133.9518 	DATA 	Keypress: 1
+133.9718 	EXP 	image_2: autoDraw = False
+133.9718 	EXP 	polygon: autoDraw = True
+134.1531 	DATA 	Keypress: 1
+134.9572 	EXP 	New trial (rep=0, index=10): {'Condition_rows': '24:28'}
+134.9724 	EXP 	polygon: autoDraw = False
+134.9724 	EXP 	polygon: autoDraw = False
+134.9724 	EXP 	polygon: autoDraw = True
+135.9695 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+135.9698 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+135.9700 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'plane.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+136.0343 	EXP 	polygon: autoDraw = False
+136.0343 	EXP 	polygon: autoDraw = False
+136.0343 	EXP 	image: image = 'plane.jpg'
+136.0343 	EXP 	Arrow: image = 'ArrowLeft.png'
+136.0343 	EXP 	image: autoDraw = True
+136.0343 	EXP 	Arrow: autoDraw = True
+136.5847 	DATA 	Keypress: 2
+136.5898 	EXP 	image: autoDraw = False
+136.5898 	EXP 	Arrow: autoDraw = False
+136.5898 	EXP 	polygon: autoDraw = True
+136.7220 	DATA 	Keypress: 2
+137.5751 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'motorbike.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+137.5919 	EXP 	polygon: autoDraw = False
+137.5919 	EXP 	polygon: autoDraw = False
+137.5919 	EXP 	image: image = 'motorbike.jpg'
+137.5919 	EXP 	Arrow: image = 'ArrowRight.png'
+137.5919 	EXP 	image: autoDraw = True
+137.5919 	EXP 	Arrow: autoDraw = True
+137.9880 	DATA 	Keypress: 2
+138.0070 	EXP 	image: autoDraw = False
+138.0070 	EXP 	Arrow: autoDraw = False
+138.0070 	EXP 	polygon: autoDraw = True
+138.2184 	DATA 	Keypress: 2
+138.9925 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'paragliding.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+139.0087 	EXP 	polygon: autoDraw = False
+139.0087 	EXP 	polygon: autoDraw = False
+139.0087 	EXP 	image: image = 'paragliding.jpg'
+139.0087 	EXP 	Arrow: image = 'ArrowUp.png'
+139.0087 	EXP 	image: autoDraw = True
+139.0087 	EXP 	Arrow: autoDraw = True
+139.5110 	DATA 	Keypress: 3
+139.5243 	EXP 	image: autoDraw = False
+139.5243 	EXP 	Arrow: autoDraw = False
+139.5243 	EXP 	polygon: autoDraw = True
+139.6888 	DATA 	Keypress: 3
+140.5097 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cart.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+140.6059 	EXP 	polygon: autoDraw = False
+140.6059 	EXP 	polygon: autoDraw = False
+140.6059 	EXP 	image: image = 'cart.jpg'
+140.6059 	EXP 	Arrow: image = 'ArrowLeft.png'
+140.6059 	EXP 	image: autoDraw = True
+140.6059 	EXP 	Arrow: autoDraw = True
+140.8792 	DATA 	Keypress: 1
+140.9065 	EXP 	image: autoDraw = False
+140.9065 	EXP 	Arrow: autoDraw = False
+140.9065 	EXP 	polygon: autoDraw = True
+141.0732 	DATA 	Keypress: 1
+141.9118 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+141.9122 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+141.9124 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'paragliding.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+142.0091 	EXP 	polygon: autoDraw = False
+142.0091 	EXP 	polygon: autoDraw = False
+142.0091 	EXP 	image_2: image = 'paragliding.jpg'
+142.0091 	EXP 	image_2: autoDraw = True
+142.2654 	DATA 	Keypress: 3
+142.2903 	EXP 	image_2: autoDraw = False
+142.2903 	EXP 	polygon: autoDraw = True
+142.5409 	DATA 	Keypress: 3
+143.2777 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'plane.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+143.2945 	EXP 	polygon: autoDraw = False
+143.2945 	EXP 	polygon: autoDraw = False
+143.2945 	EXP 	image_2: image = 'plane.jpg'
+143.2945 	EXP 	image_2: autoDraw = True
+143.5406 	DATA 	Keypress: 2
+143.5596 	EXP 	image_2: autoDraw = False
+143.5596 	EXP 	polygon: autoDraw = True
+143.7756 	DATA 	Keypress: 2
+144.6100 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'motorbike.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+144.6297 	EXP 	polygon: autoDraw = False
+144.6297 	EXP 	polygon: autoDraw = False
+144.6297 	EXP 	image_2: image = 'motorbike.jpg'
+144.6297 	EXP 	image_2: autoDraw = True
+144.8838 	DATA 	Keypress: 1
+144.9083 	EXP 	image_2: autoDraw = False
+144.9083 	EXP 	polygon: autoDraw = True
+145.0583 	DATA 	Keypress: 1
+145.8957 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cart.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+145.9127 	EXP 	polygon: autoDraw = False
+145.9127 	EXP 	polygon: autoDraw = False
+145.9127 	EXP 	image_2: image = 'cart.jpg'
+145.9127 	EXP 	image_2: autoDraw = True
+146.1750 	DATA 	Keypress: 1
+146.1942 	EXP 	image_2: autoDraw = False
+146.1942 	EXP 	polygon: autoDraw = True
+146.4056 	DATA 	Keypress: 1
+147.2419 	EXP 	New trial (rep=0, index=11): {'Condition_rows': '44:48'}
+147.2592 	EXP 	polygon: autoDraw = False
+147.2592 	EXP 	polygon: autoDraw = False
+147.2592 	EXP 	polygon: autoDraw = True
+148.2587 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+148.2590 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+148.2592 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'stool.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+148.3609 	EXP 	polygon: autoDraw = False
+148.3609 	EXP 	polygon: autoDraw = False
+148.3609 	EXP 	image: image = 'stool.jpg'
+148.3609 	EXP 	Arrow: image = 'ArrowRight.png'
+148.3609 	EXP 	image: autoDraw = True
+148.3609 	EXP 	Arrow: autoDraw = True
+148.9005 	DATA 	Keypress: 3
+148.9282 	EXP 	image: autoDraw = False
+148.9282 	EXP 	Arrow: autoDraw = False
+148.9282 	EXP 	polygon: autoDraw = True
+149.0934 	DATA 	Keypress: 3
+149.9140 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'table.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+150.0099 	EXP 	polygon: autoDraw = False
+150.0099 	EXP 	polygon: autoDraw = False
+150.0099 	EXP 	image: image = 'table.jpg'
+150.0099 	EXP 	Arrow: image = 'ArrowUp.png'
+150.0099 	EXP 	image: autoDraw = True
+150.0099 	EXP 	Arrow: autoDraw = True
+150.2932 	DATA 	Keypress: 3
+150.2960 	EXP 	image: autoDraw = False
+150.2960 	EXP 	Arrow: autoDraw = False
+150.2960 	EXP 	polygon: autoDraw = True
+150.5608 	DATA 	Keypress: 3
+151.2815 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'sofa.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+151.3123 	EXP 	polygon: autoDraw = False
+151.3123 	EXP 	polygon: autoDraw = False
+151.3123 	EXP 	image: image = 'sofa.jpg'
+151.3123 	EXP 	Arrow: image = 'ArrowLeft.png'
+151.3123 	EXP 	image: autoDraw = True
+151.3123 	EXP 	Arrow: autoDraw = True
+151.5296 	DATA 	Keypress: 3
+151.5466 	EXP 	image: autoDraw = False
+151.5466 	EXP 	Arrow: autoDraw = False
+151.5466 	EXP 	polygon: autoDraw = True
+151.8065 	DATA 	Keypress: 3
+152.5343 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'rocking_chair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+152.5634 	EXP 	polygon: autoDraw = False
+152.5634 	EXP 	polygon: autoDraw = False
+152.5634 	EXP 	image: image = 'rocking_chair.jpg'
+152.5634 	EXP 	Arrow: image = 'ArrowUp.png'
+152.5634 	EXP 	image: autoDraw = True
+152.5634 	EXP 	Arrow: autoDraw = True
+152.7751 	DATA 	Keypress: 3
+152.7977 	EXP 	image: autoDraw = False
+152.7977 	EXP 	Arrow: autoDraw = False
+152.7977 	EXP 	polygon: autoDraw = True
+153.0532 	DATA 	Keypress: 3
+153.8096 	DATA 	Keypress: 3
+153.8250 	EXP 	Imported OneShotLearning.xlsx as conditions, 4 conditions, 7 params
+153.8252 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+153.8255 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 3, 'StimFile': 'stool.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowRight.png', 'False_StimFile': None, 'DurationTrial': None}
+153.8641 	EXP 	polygon: autoDraw = False
+153.8641 	EXP 	polygon: autoDraw = False
+153.8641 	EXP 	image_2: image = 'stool.jpg'
+153.8641 	EXP 	image_2: autoDraw = True
+154.0880 	DATA 	Keypress: 3
+154.1453 	DATA 	Keypress: 3
+154.2285 	EXP 	image_2: autoDraw = False
+154.2285 	EXP 	polygon: autoDraw = True
+154.3958 	DATA 	Keypress: 3
+155.2129 	DATA 	Keypress: 3
+155.2174 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'sofa.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+155.2334 	EXP 	polygon: autoDraw = False
+155.2334 	EXP 	polygon: autoDraw = False
+155.2334 	EXP 	image_2: image = 'sofa.jpg'
+155.2334 	EXP 	image_2: autoDraw = True
+155.3798 	DATA 	Keypress: 3
+155.5964 	DATA 	Keypress: 3
+155.6153 	EXP 	image_2: autoDraw = False
+155.6153 	EXP 	polygon: autoDraw = True
+155.7463 	DATA 	Keypress: 3
+156.5676 	DATA 	Keypress: 3
+156.6012 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'rocking_chair.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+156.6174 	EXP 	polygon: autoDraw = False
+156.6174 	EXP 	polygon: autoDraw = False
+156.6174 	EXP 	image_2: image = 'rocking_chair.jpg'
+156.6174 	EXP 	image_2: autoDraw = True
+156.8451 	DATA 	Keypress: 3
+156.8962 	DATA 	Keypress: 3
+156.9839 	EXP 	image_2: autoDraw = False
+156.9839 	EXP 	polygon: autoDraw = True
+157.1202 	DATA 	Keypress: 3
+157.9849 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'table.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+158.0014 	EXP 	polygon: autoDraw = False
+158.0014 	EXP 	polygon: autoDraw = False
+158.0014 	EXP 	image_2: image = 'table.jpg'
+158.0014 	EXP 	image_2: autoDraw = True
+158.2279 	DATA 	Keypress: 3
+158.2505 	EXP 	image_2: autoDraw = False
+158.2505 	EXP 	polygon: autoDraw = True
+158.3977 	DATA 	Keypress: 3
+159.2505 	EXP 	polygon: autoDraw = False
+159.2505 	EXP 	polygon: autoDraw = False
+159.2505 	EXP 	text_2: autoDraw = True
+159.5145 	DATA 	Keypress: 3
+159.7363 	DATA 	Keypress: 3
+165.2528 	EXP 	text_2: autoDraw = False
+165.2528 	EXP 	text_2: autoDraw = False
+165.3737 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,85 @@
+3.4563 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.1627 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001922F04A208>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001922EFE92E8>, multiSample=False, name='window1', numSamples=2, pos=None, screen=0, size=array([1024,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='glfw')
+8.1642 	EXP 	window1: mouseVisible = True
+8.1643 	EXP 	window1: recordFrameIntervals = False
+8.3177 	EXP 	window1: recordFrameIntervals = True
+8.5009 	EXP 	window1: recordFrameIntervals = False
+8.9292 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions:', units='height', win=Window(...), wrapWidth=1)
+8.9347 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+8.9384 	EXP 	Created Arrow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+8.9410 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.0513 	EXP 	text: autoDraw = True
+11.3395 	DATA 	Keypress: 1
+11.3670 	EXP 	Imported OneShotLearning.xlsx as conditions, 49 conditions, 7 params
+11.3675 	EXP 	Created sequence: random, trialTypes=49, nReps=1, seed=None
+11.3678 	EXP 	New trial (rep=0, index=0): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'cat.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+11.4009 	EXP 	text: autoDraw = False
+11.4009 	EXP 	image: image = 'cat.jpg'
+11.4009 	EXP 	Arrow: image = 'ArrowUp.png'
+11.4009 	EXP 	image: autoDraw = True
+11.4009 	EXP 	Arrow: autoDraw = True
+11.5571 	DATA 	Keypress: 1
+14.4010 	EXP 	image: autoDraw = False
+14.4010 	EXP 	Arrow: autoDraw = False
+20.7039 	DATA 	Keypress: 2
+20.7339 	EXP 	image: autoDraw = False
+20.7339 	EXP 	Arrow: autoDraw = False
+20.7339 	EXP 	polygon: autoDraw = True
+20.9529 	DATA 	Keypress: 2
+21.7189 	EXP 	New trial (rep=0, index=1): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'plane.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+21.7505 	EXP 	polygon: autoDraw = False
+21.7505 	EXP 	polygon: autoDraw = False
+21.7505 	EXP 	image: image = 'plane.jpg'
+21.7505 	EXP 	Arrow: image = 'ArrowLeft.png'
+21.7505 	EXP 	image: autoDraw = True
+21.7505 	EXP 	Arrow: autoDraw = True
+22.7728 	DATA 	Keypress: 2
+22.7838 	EXP 	image: autoDraw = False
+22.7838 	EXP 	Arrow: autoDraw = False
+22.7838 	EXP 	polygon: autoDraw = True
+22.9861 	DATA 	Keypress: 2
+23.7687 	EXP 	New trial (rep=0, index=2): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'cart.jpg', 'ImgType': 'Vehicles', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+23.7837 	EXP 	polygon: autoDraw = False
+23.7837 	EXP 	polygon: autoDraw = False
+23.7837 	EXP 	image: image = 'cart.jpg'
+23.7837 	EXP 	Arrow: image = 'ArrowLeft.png'
+23.7837 	EXP 	image: autoDraw = True
+23.7837 	EXP 	Arrow: autoDraw = True
+24.7897 	DATA 	Keypress: 3
+24.8003 	EXP 	image: autoDraw = False
+24.8003 	EXP 	Arrow: autoDraw = False
+24.8003 	EXP 	polygon: autoDraw = True
+25.0362 	DATA 	Keypress: 3
+25.7854 	EXP 	New trial (rep=0, index=3): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'lamp.jpg', 'ImgType': 'Furniture', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': None}
+25.8169 	EXP 	polygon: autoDraw = False
+25.8169 	EXP 	polygon: autoDraw = False
+25.8169 	EXP 	image: image = 'lamp.jpg'
+25.8169 	EXP 	Arrow: image = 'ArrowLeft.png'
+25.8169 	EXP 	image: autoDraw = True
+25.8169 	EXP 	Arrow: autoDraw = True
+26.8062 	DATA 	Keypress: 1
+26.8169 	EXP 	image: autoDraw = False
+26.8169 	EXP 	Arrow: autoDraw = False
+26.8169 	EXP 	polygon: autoDraw = True
+27.0366 	DATA 	Keypress: 1
+27.8020 	EXP 	New trial (rep=0, index=4): {'NumberLetter': None, 'corrAns': 2, 'StimFile': 'zebra.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowUp.png', 'False_StimFile': None, 'DurationTrial': None}
+27.8168 	EXP 	polygon: autoDraw = False
+27.8168 	EXP 	polygon: autoDraw = False
+27.8168 	EXP 	image: image = 'zebra.jpg'
+27.8168 	EXP 	Arrow: image = 'ArrowUp.png'
+27.8168 	EXP 	image: autoDraw = True
+27.8168 	EXP 	Arrow: autoDraw = True
+28.6708 	DATA 	Keypress: 2
+28.7001 	EXP 	image: autoDraw = False
+28.7001 	EXP 	Arrow: autoDraw = False
+28.7001 	EXP 	polygon: autoDraw = True
+28.9026 	DATA 	Keypress: 2
+29.6850 	EXP 	New trial (rep=0, index=5): {'NumberLetter': None, 'corrAns': 1, 'StimFile': 'armadillo.jpg', 'ImgType': 'Animal', 'ArrowImg': 'ArrowLeft.png', 'False_StimFile': None, 'DurationTrial': 10}
+29.7001 	EXP 	polygon: autoDraw = False
+29.7001 	EXP 	polygon: autoDraw = False
+29.7001 	EXP 	image: image = 'armadillo.jpg'
+29.7001 	EXP 	Arrow: image = 'ArrowLeft.png'
+29.7001 	EXP 	image: autoDraw = True
+29.7001 	EXP 	Arrow: autoDraw = True
+30.9367 	DATA 	Keypress: esc
+31.6114 	EXP 	window1: mouseVisible = True

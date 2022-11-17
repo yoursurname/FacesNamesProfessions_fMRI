@@ -1,0 +1,6 @@
+﻿corrAns,StimFile,ImgType,ArrowImg,ImgOrientation,Direction,Scrambled,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp_0.keys,key_resp_0.rt,key_resp_0.started,key_resp_0.stopped,Scrambled_img.started,Scrambled_img.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,13.953893100027926,None,2,0.5921869000303559,13.953893100027926,None,,,,001,2022_Jan_04_1340,Gallery_fMRI_OneShotLearning,2021.2.3,None,
+1,Images/plane.jpg,Vehicles,ArrowLeft.png,None,ArrowRight.png,Images/plane_scrambled.jpg,0,0,0,27,,,,,,,14.6321450000396,None,,001,2022_Jan_04_1340,Gallery_fMRI_OneShotLearning,2021.2.3,None,
+3,Images/scooter.jpg,Vehicles,ArrowRight.png,None,ArrowRight.png,Images/scooter_scrambled.jpg,0,1,1,28,,,,,,,17.66674390004482,None,,001,2022_Jan_04_1340,Gallery_fMRI_OneShotLearning,2021.2.3,None,
+1,Images/cart.jpg,Vehicles,ArrowLeft.png,None,ArrowRight.png,Images/cart_scrambled.jpg,0,2,2,24,,,,,,,20.63463830004912,None,,001,2022_Jan_04_1340,Gallery_fMRI_OneShotLearning,2021.2.3,None,
+1,Images/Chest_of_drawers.jpg,Furniture,ArrowLeft.png,None,ArrowUp.png,Images/Chest_of_drawers_scrambled.jpg,0,3,3,39,,,,,,,23.618188200052828,None,,001,2022_Jan_04_1340,Gallery_fMRI_OneShotLearning,2021.2.3,None,

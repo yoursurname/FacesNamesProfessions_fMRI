@@ -1,0 +1,3 @@
+﻿corrAns,StimFile,ImgType,ArrowImg,ImgOrientation,Direction,Scrambled,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp_0.keys,key_resp_0.rt,key_resp_0.started,key_resp_0.stopped,Scrambled_img.started,Scrambled_img.stopped,Arrow1.started,Arrow1.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,13.348035799979698,None,2,1.325616899994202,13.348035799979698,None,,,,,,001,2022_Jan_04_1342,Gallery_fMRI_OneShotLearning,2021.2.3,None,
+3,Images/motorbike.jpg,Vehicles,ArrowRight.png,None,ArrowRight.png,Images/motorbike_scrambled.jpg,0,0,0,25,,,,,,,14.77612890000455,None,14.77612890000455,None,,001,2022_Jan_04_1342,Gallery_fMRI_OneShotLearning,2021.2.3,None,

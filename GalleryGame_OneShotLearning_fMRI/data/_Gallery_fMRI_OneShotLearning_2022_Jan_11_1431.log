@@ -1,0 +1,61 @@
+2.4015 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.4191 	ERROR 	'0.0000, 0.0000, 0.0000' is not a valid rgb color
+6.3573 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000018B3C07EEF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000018B3BFE5320>, multiSample=False, name='window1', numSamples=2, pos=[760.0, 180.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='glfw')
+6.3574 	EXP 	window1: mouseVisible = True
+6.3574 	EXP 	window1: recordFrameIntervals = False
+6.5250 	EXP 	window1: recordFrameIntervals = True
+6.7087 	EXP 	window1: recordFrameIntervals = False
+7.1012 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1095 	EXP 	Created Scrambled_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Scrambled_img', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.1137 	EXP 	Created Arrow1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow1', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.1169 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1255 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.1344 	EXP 	Created Arrow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.1365 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1417 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.1982 	EXP 	Created direction_options = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='Gallery_arrowoptions.png', interpolate=True, mask=None, maskParams=None, name='direction_options', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([1.  , 0.25]), texRes=128.0, units='height', win=Window(...))
+7.2006 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.2115 	EXP 	Created Scrambled_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Scrambled_img', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.2169 	EXP 	Created Arrow1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow1', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.2190 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.2494 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.3820 	EXP 	text: autoDraw = True
+15.0427 	DATA 	Keypress: 3
+15.2591 	DATA 	Keypress: 3
+16.1431 	DATA 	Keypress: 2
+16.1558 	EXP 	Imported OneShotLearning.csv as conditions, 48 conditions, 7 params
+16.1572 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+16.1574 	EXP 	New trial (rep=0, index=0): OrderedDict([('corrAns', 3), ('StimFile', 'Images/tractor.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/tractor_scrambled.jpg')])
+16.1959 	EXP 	text: autoDraw = False
+16.1959 	EXP 	Scrambled_img: image = 'Images/tractor_scrambled.jpg'
+16.1959 	EXP 	Arrow1: image = 'ArrowRight.png'
+16.1959 	EXP 	Scrambled_img: autoDraw = True
+16.1959 	EXP 	Arrow1: autoDraw = True
+16.3272 	DATA 	Keypress: 2
+17.7029 	DATA 	Keypress: 3
+17.7032 	DATA 	Keypress: 3
+19.1640 	EXP 	Scrambled_img: autoDraw = False
+19.1640 	EXP 	Arrow1: autoDraw = False
+19.1640 	EXP 	polygon: autoDraw = True
+20.1495 	EXP 	New trial (rep=0, index=1): OrderedDict([('corrAns', 1), ('StimFile', 'Images/dromedary.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/dromedary_scrambled.jpg')])
+20.1811 	EXP 	polygon: autoDraw = False
+20.1811 	EXP 	polygon: autoDraw = False
+20.1811 	EXP 	Scrambled_img: image = 'Images/dromedary_scrambled.jpg'
+20.1811 	EXP 	Arrow1: image = 'ArrowLeft.png'
+20.1811 	EXP 	Scrambled_img: autoDraw = True
+20.1811 	EXP 	Arrow1: autoDraw = True
+20.9285 	DATA 	Keypress: 2
+21.1625 	DATA 	Keypress: 2
+23.1658 	EXP 	Scrambled_img: autoDraw = False
+23.1658 	EXP 	Arrow1: autoDraw = False
+23.1658 	EXP 	polygon: autoDraw = True
+24.1501 	EXP 	New trial (rep=0, index=2): OrderedDict([('corrAns', 3), ('StimFile', 'Images/bookcase.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', 'neutral'), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/bookcase_scrambled.jpg')])
+24.1687 	EXP 	polygon: autoDraw = False
+24.1687 	EXP 	Scrambled_img: image = 'Images/bookcase_scrambled.jpg'
+24.1687 	EXP 	Arrow1: image = 'ArrowRight.png'
+24.1687 	EXP 	Scrambled_img: autoDraw = True
+24.1687 	EXP 	Arrow1: autoDraw = True
+25.8476 	DATA 	Keypress: 3
+26.0318 	DATA 	Keypress: 3
+26.9650 	DATA 	Keypress: esc
+27.1001 	EXP 	window1: mouseVisible = True

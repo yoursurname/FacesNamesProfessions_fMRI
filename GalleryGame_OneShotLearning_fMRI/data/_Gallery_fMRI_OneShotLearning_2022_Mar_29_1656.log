@@ -1,0 +1,294 @@
+2.8939 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.8457 	ERROR 	'0.0000, 0.0000, 0.0000' is not a valid rgb color
+5.9595 	WARNING 	The specified video mode is not supported by this display, using native mode ...
+5.9596 	WARNING 	Overriding user video settings: size (1536, 864) -> (1920, 1080), bpc (8, 8, 8) -> (8, 8, 8), refreshHz 60 -> 144
+6.8961 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CF443C2390>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001CF44451780>, multiSample=False, name='window1', numSamples=2, pos=None, screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='glfw')
+6.8970 	EXP 	window1: mouseVisible = True
+6.8970 	EXP 	window1: recordFrameIntervals = False
+6.9653 	EXP 	window1: recordFrameIntervals = True
+7.0418 	EXP 	window1: recordFrameIntervals = False
+7.4123 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4247 	EXP 	Created Scrambled_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Scrambled_img', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.4276 	EXP 	Created Arrow1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow1', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.4299 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.4328 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.4358 	EXP 	Created Arrow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.4376 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.4405 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.4655 	EXP 	Created direction_options = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='Gallery_arrowoptions.png', interpolate=True, mask=None, maskParams=None, name='direction_options', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([1.  , 0.25]), texRes=128.0, units='height', win=Window(...))
+7.4674 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.4704 	EXP 	Created Scrambled_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Scrambled_img', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+7.4732 	EXP 	Created Arrow1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow1', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.4751 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.4978 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.5255 	EXP 	text: autoDraw = True
+8.7542 	EXP 	Imported OneShotLearning.csv as conditions, 4 conditions, 8 params
+8.7545 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+8.7548 	EXP 	New trial (rep=0, index=0): OrderedDict([('corrAns', 3), ('StimFile', 'Images/cow.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/cow_scrambled.jpg'), ('old', None)])
+8.7884 	DATA 	Keypress: 2
+8.7901 	EXP 	text: autoDraw = False
+8.7901 	EXP 	Scrambled_img: image = 'Images/cow_scrambled.jpg'
+8.7901 	EXP 	Arrow1: image = 'ArrowRight.png'
+8.7901 	EXP 	Scrambled_img: autoDraw = True
+8.7901 	EXP 	Arrow1: autoDraw = True
+8.7901 	EXP 	Arrow1: autoDraw = False
+8.8990 	DATA 	Keypress: 2
+11.7572 	EXP 	Scrambled_img: autoDraw = False
+11.7572 	EXP 	Arrow1: autoDraw = False
+11.7572 	EXP 	polygon: autoDraw = True
+12.7506 	EXP 	New trial (rep=0, index=1): OrderedDict([('corrAns', 1), ('StimFile', 'Images/cheetah.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/cheetah_scrambled.jpg'), ('old', None)])
+12.7602 	EXP 	polygon: autoDraw = False
+12.7602 	EXP 	Scrambled_img: image = 'Images/cheetah_scrambled.jpg'
+12.7602 	EXP 	Arrow1: image = 'ArrowLeft.png'
+12.7602 	EXP 	Scrambled_img: autoDraw = True
+12.7602 	EXP 	Arrow1: autoDraw = True
+12.7602 	EXP 	Arrow1: autoDraw = False
+15.7573 	EXP 	Scrambled_img: autoDraw = False
+15.7573 	EXP 	Arrow1: autoDraw = False
+15.7573 	EXP 	polygon: autoDraw = True
+16.7505 	EXP 	New trial (rep=0, index=2): OrderedDict([('corrAns', 2), ('StimFile', 'Images/crocodile.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', 'right'), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/crocodile_scrambled.jpg'), ('old', None)])
+16.7600 	EXP 	polygon: autoDraw = False
+16.7600 	EXP 	Scrambled_img: image = 'Images/crocodile_scrambled.jpg'
+16.7600 	EXP 	Arrow1: image = 'ArrowUp.png'
+16.7600 	EXP 	Scrambled_img: autoDraw = True
+16.7600 	EXP 	Arrow1: autoDraw = True
+16.7600 	EXP 	Arrow1: autoDraw = False
+19.7571 	EXP 	Scrambled_img: autoDraw = False
+19.7571 	EXP 	Arrow1: autoDraw = False
+19.7571 	EXP 	polygon: autoDraw = True
+20.7504 	EXP 	New trial (rep=0, index=3): OrderedDict([('corrAns', 2), ('StimFile', 'Images/cat.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/cat_scrambled.jpg'), ('old', None)])
+20.7610 	EXP 	polygon: autoDraw = False
+20.7610 	EXP 	Scrambled_img: image = 'Images/cat_scrambled.jpg'
+20.7610 	EXP 	Arrow1: image = 'ArrowUp.png'
+20.7610 	EXP 	Scrambled_img: autoDraw = True
+20.7610 	EXP 	Arrow1: autoDraw = True
+20.7610 	EXP 	Arrow1: autoDraw = False
+23.7570 	EXP 	Scrambled_img: autoDraw = False
+23.7570 	EXP 	Arrow1: autoDraw = False
+23.7570 	EXP 	polygon: autoDraw = True
+24.7552 	EXP 	Imported OneShotLearning_conditions.xlsx as conditions, 2 conditions, 2 params
+24.7555 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+24.7557 	EXP 	New trial (rep=0, index=0): {'Condition_rows': '8:12', 'Condition_rows_practice': '8:12'}
+24.7592 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+24.7595 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+24.7596 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/hippopotamus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+24.7796 	EXP 	polygon: autoDraw = False
+24.7796 	EXP 	image: image = 'Images/hippopotamus.jpg'
+24.7796 	EXP 	Arrow: image = 'ArrowUp.png'
+24.7796 	EXP 	image: autoDraw = True
+24.7796 	EXP 	Arrow: autoDraw = True
+25.6154 	DATA 	Keypress: 2
+25.7682 	DATA 	Keypress: 2
+29.7569 	EXP 	image: autoDraw = False
+29.7569 	EXP 	Arrow: autoDraw = False
+29.7569 	EXP 	polygon: autoDraw = True
+30.7502 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/kangaroo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+30.7680 	EXP 	polygon: autoDraw = False
+30.7680 	EXP 	image: image = 'Images/kangaroo.jpg'
+30.7680 	EXP 	Arrow: image = 'ArrowRight.png'
+30.7680 	EXP 	image: autoDraw = True
+30.7680 	EXP 	Arrow: autoDraw = True
+31.5388 	DATA 	Keypress: 3
+31.7056 	DATA 	Keypress: 3
+35.7567 	EXP 	image: autoDraw = False
+35.7567 	EXP 	Arrow: autoDraw = False
+35.7567 	EXP 	polygon: autoDraw = True
+36.7501 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/giraffe.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+36.7682 	EXP 	polygon: autoDraw = False
+36.7682 	EXP 	image: image = 'Images/giraffe.jpg'
+36.7682 	EXP 	Arrow: image = 'ArrowLeft.png'
+36.7682 	EXP 	image: autoDraw = True
+36.7682 	EXP 	Arrow: autoDraw = True
+37.3098 	DATA 	Keypress: 1
+37.4828 	DATA 	Keypress: 1
+41.7566 	EXP 	image: autoDraw = False
+41.7566 	EXP 	Arrow: autoDraw = False
+41.7566 	EXP 	polygon: autoDraw = True
+42.7499 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/horse.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+42.7644 	EXP 	polygon: autoDraw = False
+42.7644 	EXP 	image: image = 'Images/horse.jpg'
+42.7644 	EXP 	Arrow: image = 'ArrowUp.png'
+42.7644 	EXP 	image: autoDraw = True
+42.7644 	EXP 	Arrow: autoDraw = True
+43.4070 	DATA 	Keypress: 2
+43.5735 	DATA 	Keypress: 2
+47.7565 	EXP 	image: autoDraw = False
+47.7565 	EXP 	Arrow: autoDraw = False
+47.7565 	EXP 	polygon: autoDraw = True
+48.7533 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+48.7536 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+48.7538 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/giraffe.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+48.7640 	EXP 	polygon: autoDraw = False
+48.7640 	EXP 	image_2: image = 'Images/giraffe.jpg'
+48.7640 	EXP 	image_2: autoDraw = True
+48.7640 	EXP 	direction_options: autoDraw = True
+49.6984 	DATA 	Keypress: 2
+49.8652 	DATA 	Keypress: 2
+53.7563 	EXP 	image_2: autoDraw = False
+53.7563 	EXP 	direction_options: autoDraw = False
+53.7563 	EXP 	polygon: autoDraw = True
+54.7496 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/horse.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+54.7582 	EXP 	polygon: autoDraw = False
+54.7582 	EXP 	image_2: image = 'Images/horse.jpg'
+54.7582 	EXP 	image_2: autoDraw = True
+54.7582 	EXP 	direction_options: autoDraw = True
+55.8645 	DATA 	Keypress: 3
+56.1289 	DATA 	Keypress: 3
+59.7562 	EXP 	image_2: autoDraw = False
+59.7562 	EXP 	direction_options: autoDraw = False
+59.7562 	EXP 	polygon: autoDraw = True
+60.7494 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/hippopotamus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+60.7589 	EXP 	polygon: autoDraw = False
+60.7589 	EXP 	image_2: image = 'Images/hippopotamus.jpg'
+60.7589 	EXP 	image_2: autoDraw = True
+60.7589 	EXP 	direction_options: autoDraw = True
+61.3509 	DATA 	Keypress: 2
+61.5738 	DATA 	Keypress: 2
+65.7558 	EXP 	image_2: autoDraw = False
+65.7558 	EXP 	direction_options: autoDraw = False
+65.7558 	EXP 	polygon: autoDraw = True
+66.7493 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/kangaroo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+66.7597 	EXP 	polygon: autoDraw = False
+66.7597 	EXP 	image_2: image = 'Images/kangaroo.jpg'
+66.7597 	EXP 	image_2: autoDraw = True
+66.7597 	EXP 	direction_options: autoDraw = True
+67.3996 	DATA 	Keypress: 2
+67.5794 	DATA 	Keypress: 2
+71.7559 	EXP 	image_2: autoDraw = False
+71.7559 	EXP 	direction_options: autoDraw = False
+71.7559 	EXP 	polygon: autoDraw = True
+72.7492 	EXP 	New trial (rep=0, index=1): {'Condition_rows': '12:16', 'Condition_rows_practice': None}
+72.7529 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+72.7532 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+72.7533 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/lioness.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+72.7628 	EXP 	polygon: autoDraw = False
+72.7628 	EXP 	image: image = 'Images/lioness.jpg'
+72.7628 	EXP 	Arrow: image = 'ArrowLeft.png'
+72.7628 	EXP 	image: autoDraw = True
+72.7628 	EXP 	Arrow: autoDraw = True
+73.5865 	DATA 	Keypress: 1
+73.7879 	DATA 	Keypress: 1
+77.7556 	EXP 	image: autoDraw = False
+77.7556 	EXP 	Arrow: autoDraw = False
+77.7556 	EXP 	polygon: autoDraw = True
+78.7490 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/platypus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+78.7641 	EXP 	polygon: autoDraw = False
+78.7641 	EXP 	image: image = 'Images/platypus.jpg'
+78.7641 	EXP 	Arrow: image = 'ArrowLeft.png'
+78.7641 	EXP 	image: autoDraw = True
+78.7641 	EXP 	Arrow: autoDraw = True
+79.3573 	DATA 	Keypress: 1
+79.5522 	DATA 	Keypress: 1
+83.7556 	EXP 	image: autoDraw = False
+83.7556 	EXP 	Arrow: autoDraw = False
+83.7556 	EXP 	polygon: autoDraw = True
+84.7486 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/lynx.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'neutral')])
+84.7581 	EXP 	polygon: autoDraw = False
+84.7581 	EXP 	image: image = 'Images/lynx.jpg'
+84.7581 	EXP 	Arrow: image = 'ArrowUp.png'
+84.7581 	EXP 	image: autoDraw = True
+84.7581 	EXP 	Arrow: autoDraw = True
+85.2114 	DATA 	Keypress: 2
+85.4475 	DATA 	Keypress: 2
+89.7554 	EXP 	image: autoDraw = False
+89.7554 	EXP 	Arrow: autoDraw = False
+89.7554 	EXP 	polygon: autoDraw = True
+90.7488 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/rhino.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+90.7583 	EXP 	polygon: autoDraw = False
+90.7583 	EXP 	image: image = 'Images/rhino.jpg'
+90.7583 	EXP 	Arrow: image = 'ArrowLeft.png'
+90.7583 	EXP 	image: autoDraw = True
+90.7583 	EXP 	Arrow: autoDraw = True
+91.4126 	DATA 	Keypress: 1
+91.6281 	DATA 	Keypress: 1
+95.7553 	EXP 	image: autoDraw = False
+95.7553 	EXP 	Arrow: autoDraw = False
+95.7553 	EXP 	polygon: autoDraw = True
+96.7523 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+96.7525 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+96.7527 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/platypus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+96.7618 	EXP 	polygon: autoDraw = False
+96.7618 	EXP 	image_2: image = 'Images/platypus.jpg'
+96.7618 	EXP 	image_2: autoDraw = True
+96.7618 	EXP 	direction_options: autoDraw = True
+97.6693 	DATA 	Keypress: 3
+97.8571 	DATA 	Keypress: 3
+101.7552 	EXP 	image_2: autoDraw = False
+101.7552 	EXP 	direction_options: autoDraw = False
+101.7552 	EXP 	polygon: autoDraw = True
+102.7481 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/rhino.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+102.7565 	EXP 	polygon: autoDraw = False
+102.7565 	EXP 	image_2: image = 'Images/rhino.jpg'
+102.7565 	EXP 	image_2: autoDraw = True
+102.7565 	EXP 	direction_options: autoDraw = True
+103.5658 	DATA 	Keypress: 2
+103.7322 	DATA 	Keypress: 2
+107.7550 	EXP 	image_2: autoDraw = False
+107.7550 	EXP 	direction_options: autoDraw = False
+107.7550 	EXP 	polygon: autoDraw = True
+108.7480 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/lynx.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'neutral')])
+108.7593 	EXP 	polygon: autoDraw = False
+108.7593 	EXP 	image_2: image = 'Images/lynx.jpg'
+108.7593 	EXP 	image_2: autoDraw = True
+108.7593 	EXP 	direction_options: autoDraw = True
+109.3983 	DATA 	Keypress: 3
+109.6075 	DATA 	Keypress: 3
+113.7549 	EXP 	image_2: autoDraw = False
+113.7549 	EXP 	direction_options: autoDraw = False
+113.7549 	EXP 	polygon: autoDraw = True
+114.7482 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/lioness.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+114.7565 	EXP 	polygon: autoDraw = False
+114.7565 	EXP 	image_2: image = 'Images/lioness.jpg'
+114.7565 	EXP 	image_2: autoDraw = True
+114.7565 	EXP 	direction_options: autoDraw = True
+115.4744 	DATA 	Keypress: 3
+115.6900 	DATA 	Keypress: 3
+119.7543 	EXP 	image_2: autoDraw = False
+119.7543 	EXP 	direction_options: autoDraw = False
+119.7543 	EXP 	polygon: autoDraw = True
+120.7536 	EXP 	Imported OneShotLearning.csv as conditions, 4 conditions, 8 params
+120.7538 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+120.7541 	EXP 	New trial (rep=0, index=0): OrderedDict([('corrAns', 3), ('StimFile', 'Images/elephant.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/elephant_scrambled.jpg'), ('old', None)])
+120.7721 	EXP 	polygon: autoDraw = False
+120.7721 	EXP 	Scrambled_img: image = 'Images/elephant_scrambled.jpg'
+120.7721 	EXP 	Arrow1: image = 'ArrowRight.png'
+120.7721 	EXP 	Scrambled_img: autoDraw = True
+120.7721 	EXP 	Arrow1: autoDraw = True
+120.7721 	EXP 	Arrow1: autoDraw = False
+123.7546 	EXP 	Scrambled_img: autoDraw = False
+123.7546 	EXP 	Arrow1: autoDraw = False
+123.7546 	EXP 	polygon: autoDraw = True
+124.7480 	EXP 	New trial (rep=0, index=1): OrderedDict([('corrAns', 1), ('StimFile', 'Images/dromedary.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/dromedary_scrambled.jpg'), ('old', None)])
+124.7641 	EXP 	polygon: autoDraw = False
+124.7641 	EXP 	Scrambled_img: image = 'Images/dromedary_scrambled.jpg'
+124.7641 	EXP 	Arrow1: image = 'ArrowLeft.png'
+124.7641 	EXP 	Scrambled_img: autoDraw = True
+124.7641 	EXP 	Arrow1: autoDraw = True
+124.7641 	EXP 	Arrow1: autoDraw = False
+127.7545 	EXP 	Scrambled_img: autoDraw = False
+127.7545 	EXP 	Arrow1: autoDraw = False
+127.7545 	EXP 	polygon: autoDraw = True
+128.7479 	EXP 	New trial (rep=0, index=2): OrderedDict([('corrAns', 2), ('StimFile', 'Images/giraffe.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/giraffe_scrambled.jpg'), ('old', None)])
+128.7630 	EXP 	polygon: autoDraw = False
+128.7630 	EXP 	Scrambled_img: image = 'Images/giraffe_scrambled.jpg'
+128.7630 	EXP 	Arrow1: image = 'ArrowUp.png'
+128.7630 	EXP 	Scrambled_img: autoDraw = True
+128.7630 	EXP 	Arrow1: autoDraw = True
+128.7630 	EXP 	Arrow1: autoDraw = False
+131.7544 	EXP 	Scrambled_img: autoDraw = False
+131.7544 	EXP 	Arrow1: autoDraw = False
+131.7544 	EXP 	polygon: autoDraw = True
+132.7478 	EXP 	New trial (rep=0, index=3): OrderedDict([('corrAns', 1), ('StimFile', 'Images/hippopotamus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/hippopotamus_scrambled.jpg'), ('old', None)])
+132.7637 	EXP 	polygon: autoDraw = False
+132.7637 	EXP 	Scrambled_img: image = 'Images/hippopotamus_scrambled.jpg'
+132.7637 	EXP 	Arrow1: image = 'ArrowLeft.png'
+132.7637 	EXP 	Scrambled_img: autoDraw = True
+132.7637 	EXP 	Arrow1: autoDraw = True
+132.7637 	EXP 	Arrow1: autoDraw = False
+135.7544 	EXP 	Scrambled_img: autoDraw = False
+135.7544 	EXP 	Arrow1: autoDraw = False
+135.7544 	EXP 	polygon: autoDraw = True
+136.7543 	EXP 	polygon: autoDraw = False
+136.7543 	EXP 	text_2: autoDraw = True
+142.7538 	EXP 	text_2: autoDraw = False
+142.8389 	EXP 	window1: mouseVisible = True

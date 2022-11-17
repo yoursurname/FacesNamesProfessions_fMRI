@@ -1,0 +1,1773 @@
+0.8166 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+16.0520 	ERROR 	'0.0000, 0.0000, 0.0000' is not a valid rgb color
+17.3321 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000001D2C6EB8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000001D2E6550>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.3323 	EXP 	window1: mouseVisible = True
+17.3324 	EXP 	window1: recordFrameIntervals = False
+17.4977 	EXP 	window1: recordFrameIntervals = True
+17.6813 	EXP 	window1: recordFrameIntervals = False
+18.1640 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.2140 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.2419 	EXP 	Created Scrambled_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Scrambled_img', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+18.2496 	EXP 	Created Arrow1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow1', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+18.2531 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.2811 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.2869 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+18.2996 	EXP 	Created Arrow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+18.3036 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.3120 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+18.4201 	EXP 	Created direction_options = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='Gallery_arrowoptions.png', interpolate=True, mask=None, maskParams=None, name='direction_options', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([1.  , 0.25]), texRes=128.0, units='height', win=Window(...))
+18.4218 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.4355 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.4411 	EXP 	Created Scrambled_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Scrambled_img', opacity=1, ori=0.0, pos=array([0.   , 0.125]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+18.4530 	EXP 	Created Arrow1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Arrow1', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+18.4547 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.4825 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.5124 	EXP 	text: autoDraw = True
+107.3323 	DATA 	Keypress: 1
+107.3635 	EXP 	text: autoDraw = False
+107.3635 	EXP 	polygon_2: autoDraw = True
+140.1486 	DATA 	Keypress: 1
+183.0623 	EXP 	Imported OneShotLearning.csv as conditions, 23 conditions, 8 params
+183.1032 	EXP 	Created sequence: random, trialTypes=23, nReps=1, seed=None
+183.1041 	EXP 	New trial (rep=0, index=0): OrderedDict([('corrAns', 1), ('StimFile', 'Images/cheetah.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/cheetah_scrambled.jpg'), ('old', None)])
+183.2009 	DATA 	Keypress: s
+183.2103 	EXP 	polygon_2: autoDraw = False
+183.2103 	EXP 	Scrambled_img: image = 'Images/cheetah_scrambled.jpg'
+183.2103 	EXP 	Arrow1: image = 'ArrowLeft.png'
+183.2103 	EXP 	Scrambled_img: autoDraw = True
+183.2103 	EXP 	Arrow1: autoDraw = True
+185.0138 	DATA 	Keypress: 1
+185.1137 	DATA 	Keypress: s
+185.6416 	EXP 	Scrambled_img: autoDraw = False
+185.6416 	EXP 	Arrow1: autoDraw = False
+185.6416 	EXP 	polygon: autoDraw = True
+186.6259 	EXP 	New trial (rep=0, index=1): OrderedDict([('corrAns', 3), ('StimFile', 'Images/snake.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/snake_scrambled.jpg'), ('old', None)])
+186.6787 	EXP 	polygon: autoDraw = False
+186.6787 	EXP 	Scrambled_img: image = 'Images/snake_scrambled.jpg'
+186.6787 	EXP 	Arrow1: image = 'ArrowRight.png'
+186.6787 	EXP 	Scrambled_img: autoDraw = True
+186.6787 	EXP 	Arrow1: autoDraw = True
+187.6140 	DATA 	Keypress: s
+187.9470 	DATA 	Keypress: 3
+189.6259 	EXP 	Scrambled_img: autoDraw = False
+189.6259 	EXP 	Arrow1: autoDraw = False
+189.6259 	EXP 	polygon: autoDraw = True
+190.1136 	DATA 	Keypress: s
+190.6097 	EXP 	New trial (rep=0, index=2): OrderedDict([('corrAns', 3), ('StimFile', 'Images/turtle.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/turtle_scrambled.jpg'), ('old', None)])
+190.6614 	EXP 	polygon: autoDraw = False
+190.6614 	EXP 	polygon: autoDraw = False
+190.6614 	EXP 	Scrambled_img: image = 'Images/turtle_scrambled.jpg'
+190.6614 	EXP 	Arrow1: image = 'ArrowRight.png'
+190.6614 	EXP 	Scrambled_img: autoDraw = True
+190.6614 	EXP 	Arrow1: autoDraw = True
+191.3644 	DATA 	Keypress: 3
+192.6136 	DATA 	Keypress: s
+193.6423 	EXP 	Scrambled_img: autoDraw = False
+193.6423 	EXP 	Arrow1: autoDraw = False
+193.6423 	EXP 	polygon: autoDraw = True
+194.6264 	EXP 	New trial (rep=0, index=3): OrderedDict([('corrAns', 3), ('StimFile', 'Images/horse.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/horse_scrambled.jpg'), ('old', None)])
+194.6785 	EXP 	polygon: autoDraw = False
+194.6785 	EXP 	Scrambled_img: image = 'Images/horse_scrambled.jpg'
+194.6785 	EXP 	Arrow1: image = 'ArrowRight.png'
+194.6785 	EXP 	Scrambled_img: autoDraw = True
+194.6785 	EXP 	Arrow1: autoDraw = True
+195.1131 	DATA 	Keypress: s
+195.3802 	DATA 	Keypress: 3
+197.6169 	DATA 	Keypress: s
+197.6257 	EXP 	Scrambled_img: autoDraw = False
+197.6257 	EXP 	Arrow1: autoDraw = False
+197.6257 	EXP 	polygon: autoDraw = True
+198.6122 	EXP 	New trial (rep=0, index=4): OrderedDict([('corrAns', 2), ('StimFile', 'Images/crocodile.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', 'right'), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/crocodile_scrambled.jpg'), ('old', None)])
+198.6618 	EXP 	polygon: autoDraw = False
+198.6618 	EXP 	polygon: autoDraw = False
+198.6618 	EXP 	Scrambled_img: image = 'Images/crocodile_scrambled.jpg'
+198.6618 	EXP 	Arrow1: image = 'ArrowUp.png'
+198.6618 	EXP 	Scrambled_img: autoDraw = True
+198.6618 	EXP 	Arrow1: autoDraw = True
+199.3804 	DATA 	Keypress: 2
+200.1137 	DATA 	Keypress: s
+201.6253 	EXP 	Scrambled_img: autoDraw = False
+201.6253 	EXP 	Arrow1: autoDraw = False
+201.6253 	EXP 	polygon: autoDraw = True
+202.6105 	EXP 	New trial (rep=0, index=5): OrderedDict([('corrAns', 3), ('StimFile', 'Images/bus.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/bus_scrambled.jpg'), ('old', None)])
+202.6827 	DATA 	Keypress: s
+202.6945 	EXP 	polygon: autoDraw = False
+202.6945 	EXP 	polygon: autoDraw = False
+202.6945 	EXP 	Scrambled_img: image = 'Images/bus_scrambled.jpg'
+202.6945 	EXP 	Arrow1: image = 'ArrowRight.png'
+202.6945 	EXP 	Scrambled_img: autoDraw = True
+202.6945 	EXP 	Arrow1: autoDraw = True
+203.8966 	DATA 	Keypress: 3
+205.1136 	DATA 	Keypress: s
+205.6419 	EXP 	Scrambled_img: autoDraw = False
+205.6419 	EXP 	Arrow1: autoDraw = False
+205.6419 	EXP 	polygon: autoDraw = True
+206.6260 	EXP 	New trial (rep=0, index=6): OrderedDict([('corrAns', 2), ('StimFile', 'Images/giraffe.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/giraffe_scrambled.jpg'), ('old', None)])
+206.7106 	EXP 	polygon: autoDraw = False
+206.7106 	EXP 	Scrambled_img: image = 'Images/giraffe_scrambled.jpg'
+206.7106 	EXP 	Arrow1: image = 'ArrowUp.png'
+206.7106 	EXP 	Scrambled_img: autoDraw = True
+206.7106 	EXP 	Arrow1: autoDraw = True
+207.3297 	DATA 	Keypress: 2
+207.6140 	DATA 	Keypress: s
+209.6417 	EXP 	Scrambled_img: autoDraw = False
+209.6417 	EXP 	Arrow1: autoDraw = False
+209.6417 	EXP 	polygon: autoDraw = True
+210.1121 	DATA 	Keypress: s
+210.6258 	EXP 	New trial (rep=0, index=7): OrderedDict([('corrAns', 1), ('StimFile', 'Images/boat.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/boat_scrambled.jpg'), ('old', None)])
+210.7105 	EXP 	polygon: autoDraw = False
+210.7105 	EXP 	Scrambled_img: image = 'Images/boat_scrambled.jpg'
+210.7105 	EXP 	Arrow1: image = 'ArrowLeft.png'
+210.7105 	EXP 	Scrambled_img: autoDraw = True
+210.7105 	EXP 	Arrow1: autoDraw = True
+211.3639 	DATA 	Keypress: 1
+212.6139 	DATA 	Keypress: s
+213.6418 	EXP 	Scrambled_img: autoDraw = False
+213.6418 	EXP 	Arrow1: autoDraw = False
+213.6418 	EXP 	polygon: autoDraw = True
+214.6256 	EXP 	New trial (rep=0, index=8): OrderedDict([('corrAns', 3), ('StimFile', 'Images/cow.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/cow_scrambled.jpg'), ('old', None)])
+214.6941 	EXP 	polygon: autoDraw = False
+214.6941 	EXP 	Scrambled_img: image = 'Images/cow_scrambled.jpg'
+214.6941 	EXP 	Arrow1: image = 'ArrowRight.png'
+214.6941 	EXP 	Scrambled_img: autoDraw = True
+214.6941 	EXP 	Arrow1: autoDraw = True
+215.1130 	DATA 	Keypress: s
+215.2960 	DATA 	Keypress: 3
+217.6101 	DATA 	Keypress: s
+217.6414 	EXP 	Scrambled_img: autoDraw = False
+217.6414 	EXP 	Arrow1: autoDraw = False
+217.6414 	EXP 	polygon: autoDraw = True
+218.6254 	EXP 	New trial (rep=0, index=9): OrderedDict([('corrAns', 2), ('StimFile', 'Images/tapir.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/tapir_scrambled.jpg'), ('old', None)])
+218.6730 	EXP 	polygon: autoDraw = False
+218.6730 	EXP 	Scrambled_img: image = 'Images/tapir_scrambled.jpg'
+218.6730 	EXP 	Arrow1: image = 'ArrowUp.png'
+218.6730 	EXP 	Scrambled_img: autoDraw = True
+218.6730 	EXP 	Arrow1: autoDraw = True
+219.2772 	DATA 	Keypress: 2
+220.1101 	DATA 	Keypress: s
+221.6412 	EXP 	Scrambled_img: autoDraw = False
+221.6412 	EXP 	Arrow1: autoDraw = False
+221.6412 	EXP 	polygon: autoDraw = True
+222.6117 	DATA 	Keypress: s
+222.6251 	EXP 	New trial (rep=0, index=10): OrderedDict([('corrAns', 3), ('StimFile', 'Images/elephant.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/elephant_scrambled.jpg'), ('old', None)])
+222.6900 	EXP 	polygon: autoDraw = False
+222.6900 	EXP 	Scrambled_img: image = 'Images/elephant_scrambled.jpg'
+222.6900 	EXP 	Arrow1: image = 'ArrowRight.png'
+222.6900 	EXP 	Scrambled_img: autoDraw = True
+222.6900 	EXP 	Arrow1: autoDraw = True
+223.3604 	DATA 	Keypress: 3
+225.1104 	DATA 	Keypress: s
+225.6411 	EXP 	Scrambled_img: autoDraw = False
+225.6411 	EXP 	Arrow1: autoDraw = False
+225.6411 	EXP 	polygon: autoDraw = True
+226.6251 	EXP 	New trial (rep=0, index=11): OrderedDict([('corrAns', 1), ('StimFile', 'Images/dromedary.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/dromedary_scrambled.jpg'), ('old', None)])
+226.6730 	EXP 	polygon: autoDraw = False
+226.6730 	EXP 	Scrambled_img: image = 'Images/dromedary_scrambled.jpg'
+226.6730 	EXP 	Arrow1: image = 'ArrowLeft.png'
+226.6730 	EXP 	Scrambled_img: autoDraw = True
+226.6730 	EXP 	Arrow1: autoDraw = True
+227.2765 	DATA 	Keypress: 1
+227.6105 	DATA 	Keypress: s
+229.6410 	EXP 	Scrambled_img: autoDraw = False
+229.6410 	EXP 	Arrow1: autoDraw = False
+229.6410 	EXP 	polygon: autoDraw = True
+230.1119 	DATA 	Keypress: s
+230.6251 	EXP 	New trial (rep=0, index=12): OrderedDict([('corrAns', 3), ('StimFile', 'Images/lynx.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/lynx_scrambled.jpg'), ('old', None)])
+230.6744 	EXP 	polygon: autoDraw = False
+230.6744 	EXP 	Scrambled_img: image = 'Images/lynx_scrambled.jpg'
+230.6744 	EXP 	Arrow1: image = 'ArrowRight.png'
+230.6744 	EXP 	Scrambled_img: autoDraw = True
+230.6744 	EXP 	Arrow1: autoDraw = True
+231.2107 	DATA 	Keypress: 3
+232.6106 	DATA 	Keypress: s
+233.6411 	EXP 	Scrambled_img: autoDraw = False
+233.6411 	EXP 	Arrow1: autoDraw = False
+233.6411 	EXP 	polygon: autoDraw = True
+234.6251 	EXP 	New trial (rep=0, index=13): OrderedDict([('corrAns', 1), ('StimFile', 'Images/cart.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/cart_scrambled.jpg'), ('old', None)])
+234.7089 	EXP 	polygon: autoDraw = False
+234.7089 	EXP 	Scrambled_img: image = 'Images/cart_scrambled.jpg'
+234.7089 	EXP 	Arrow1: image = 'ArrowLeft.png'
+234.7089 	EXP 	Scrambled_img: autoDraw = True
+234.7089 	EXP 	Arrow1: autoDraw = True
+235.1129 	DATA 	Keypress: s
+235.3458 	DATA 	Keypress: 1
+237.6124 	DATA 	Keypress: s
+237.6409 	EXP 	Scrambled_img: autoDraw = False
+237.6409 	EXP 	Arrow1: autoDraw = False
+237.6409 	EXP 	polygon: autoDraw = True
+238.6249 	EXP 	New trial (rep=0, index=14): OrderedDict([('corrAns', 2), ('StimFile', 'Images/cat.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/cat_scrambled.jpg'), ('old', None)])
+238.6921 	EXP 	polygon: autoDraw = False
+238.6921 	EXP 	Scrambled_img: image = 'Images/cat_scrambled.jpg'
+238.6921 	EXP 	Arrow1: image = 'ArrowUp.png'
+238.6921 	EXP 	Scrambled_img: autoDraw = True
+238.6921 	EXP 	Arrow1: autoDraw = True
+239.4126 	DATA 	Keypress: 2
+240.1120 	DATA 	Keypress: s
+241.6406 	EXP 	Scrambled_img: autoDraw = False
+241.6406 	EXP 	Arrow1: autoDraw = False
+241.6406 	EXP 	polygon: autoDraw = True
+242.6090 	DATA 	Keypress: s
+242.6237 	EXP 	New trial (rep=0, index=15): OrderedDict([('corrAns', 1), ('StimFile', 'Images/tiger.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/tiger_scrambled.jpg'), ('old', None)])
+242.6767 	EXP 	polygon: autoDraw = False
+242.6767 	EXP 	Scrambled_img: image = 'Images/tiger_scrambled.jpg'
+242.6767 	EXP 	Arrow1: image = 'ArrowLeft.png'
+242.6767 	EXP 	Scrambled_img: autoDraw = True
+242.6767 	EXP 	Arrow1: autoDraw = True
+243.2462 	DATA 	Keypress: 1
+245.1122 	DATA 	Keypress: s
+245.6409 	EXP 	Scrambled_img: autoDraw = False
+245.6409 	EXP 	Arrow1: autoDraw = False
+245.6409 	EXP 	polygon: autoDraw = True
+246.6246 	EXP 	New trial (rep=0, index=16): OrderedDict([('corrAns', 2), ('StimFile', 'Images/zebra.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/zebra_scrambled.jpg'), ('old', None)])
+246.6763 	EXP 	polygon: autoDraw = False
+246.6763 	EXP 	Scrambled_img: image = 'Images/zebra_scrambled.jpg'
+246.6763 	EXP 	Arrow1: image = 'ArrowUp.png'
+246.6763 	EXP 	Scrambled_img: autoDraw = True
+246.6763 	EXP 	Arrow1: autoDraw = True
+247.2619 	DATA 	Keypress: 2
+247.6123 	DATA 	Keypress: s
+249.6407 	EXP 	Scrambled_img: autoDraw = False
+249.6407 	EXP 	Arrow1: autoDraw = False
+249.6407 	EXP 	polygon: autoDraw = True
+250.1104 	DATA 	Keypress: s
+250.6246 	EXP 	New trial (rep=0, index=17): OrderedDict([('corrAns', 1), ('StimFile', 'Images/rhino.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/rhino_scrambled.jpg'), ('old', None)])
+250.6763 	EXP 	polygon: autoDraw = False
+250.6763 	EXP 	Scrambled_img: image = 'Images/rhino_scrambled.jpg'
+250.6763 	EXP 	Arrow1: image = 'ArrowLeft.png'
+250.6763 	EXP 	Scrambled_img: autoDraw = True
+250.6763 	EXP 	Arrow1: autoDraw = True
+251.3125 	DATA 	Keypress: 1
+252.6108 	DATA 	Keypress: s
+253.6405 	EXP 	Scrambled_img: autoDraw = False
+253.6405 	EXP 	Arrow1: autoDraw = False
+253.6405 	EXP 	polygon: autoDraw = True
+254.6245 	EXP 	New trial (rep=0, index=18): OrderedDict([('corrAns', 1), ('StimFile', 'Images/lioness.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/lioness_scrambled.jpg'), ('old', None)])
+254.6766 	EXP 	polygon: autoDraw = False
+254.6766 	EXP 	Scrambled_img: image = 'Images/lioness_scrambled.jpg'
+254.6766 	EXP 	Arrow1: image = 'ArrowLeft.png'
+254.6766 	EXP 	Scrambled_img: autoDraw = True
+254.6766 	EXP 	Arrow1: autoDraw = True
+255.1115 	DATA 	Keypress: s
+255.3785 	DATA 	Keypress: 1
+257.6117 	DATA 	Keypress: s
+257.6405 	EXP 	Scrambled_img: autoDraw = False
+257.6405 	EXP 	Arrow1: autoDraw = False
+257.6405 	EXP 	polygon: autoDraw = True
+258.6243 	EXP 	New trial (rep=0, index=19): OrderedDict([('corrAns', 2), ('StimFile', 'Images/kangaroo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/kangaroo_scrambled.jpg'), ('old', None)])
+258.6918 	EXP 	polygon: autoDraw = False
+258.6918 	EXP 	Scrambled_img: image = 'Images/kangaroo_scrambled.jpg'
+258.6918 	EXP 	Arrow1: image = 'ArrowUp.png'
+258.6918 	EXP 	Scrambled_img: autoDraw = True
+258.6918 	EXP 	Arrow1: autoDraw = True
+259.2788 	DATA 	Keypress: 2
+260.1113 	DATA 	Keypress: s
+261.6402 	EXP 	Scrambled_img: autoDraw = False
+261.6402 	EXP 	Arrow1: autoDraw = False
+261.6402 	EXP 	polygon: autoDraw = True
+262.6112 	DATA 	Keypress: s
+262.6242 	EXP 	New trial (rep=0, index=20): OrderedDict([('corrAns', 2), ('StimFile', 'Images/platypus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/platypus_scrambled.jpg'), ('old', None)])
+262.6763 	EXP 	polygon: autoDraw = False
+262.6763 	EXP 	Scrambled_img: image = 'Images/platypus_scrambled.jpg'
+262.6763 	EXP 	Arrow1: image = 'ArrowUp.png'
+262.6763 	EXP 	Scrambled_img: autoDraw = True
+262.6763 	EXP 	Arrow1: autoDraw = True
+263.2950 	DATA 	Keypress: 2
+265.1120 	DATA 	Keypress: s
+265.6399 	EXP 	Scrambled_img: autoDraw = False
+265.6399 	EXP 	Arrow1: autoDraw = False
+265.6399 	EXP 	polygon: autoDraw = True
+266.6239 	EXP 	New trial (rep=0, index=21): OrderedDict([('corrAns', 1), ('StimFile', 'Images/hippopotamus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowLeft.png'), ('Scrambled', 'Images/hippopotamus_scrambled.jpg'), ('old', None)])
+266.6748 	EXP 	polygon: autoDraw = False
+266.6748 	EXP 	Scrambled_img: image = 'Images/hippopotamus_scrambled.jpg'
+266.6748 	EXP 	Arrow1: image = 'ArrowLeft.png'
+266.6748 	EXP 	Scrambled_img: autoDraw = True
+266.6748 	EXP 	Arrow1: autoDraw = True
+267.2750 	DATA 	Keypress: 1
+267.6090 	DATA 	Keypress: s
+269.6398 	EXP 	Scrambled_img: autoDraw = False
+269.6398 	EXP 	Arrow1: autoDraw = False
+269.6398 	EXP 	polygon: autoDraw = True
+270.1105 	DATA 	Keypress: s
+270.6237 	EXP 	New trial (rep=0, index=22): OrderedDict([('corrAns', 2), ('StimFile', 'Images/car.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'neutral'), ('Scrambled', 'Images/car_scrambled.jpg'), ('old', None)])
+270.7049 	EXP 	polygon: autoDraw = False
+270.7049 	EXP 	Scrambled_img: image = 'Images/car_scrambled.jpg'
+270.7049 	EXP 	Arrow1: image = 'ArrowUp.png'
+270.7049 	EXP 	Scrambled_img: autoDraw = True
+270.7049 	EXP 	Arrow1: autoDraw = True
+271.2092 	DATA 	Keypress: 2
+272.6092 	DATA 	Keypress: s
+273.6395 	EXP 	Scrambled_img: autoDraw = False
+273.6395 	EXP 	Arrow1: autoDraw = False
+273.6395 	EXP 	polygon: autoDraw = True
+274.6396 	EXP 	polygon: autoDraw = False
+274.6396 	EXP 	text_3: autoDraw = True
+275.1081 	DATA 	Keypress: s
+277.6082 	DATA 	Keypress: s
+280.1083 	DATA 	Keypress: s
+282.6094 	DATA 	Keypress: s
+284.7010 	EXP 	Imported OneShotLearning_conditions.xlsx as conditions, 12 conditions, 2 params
+284.7018 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+284.7024 	EXP 	New trial (rep=0, index=0): {'Condition_rows': '8:12', 'Condition_rows_practice': '8:12'}
+284.7139 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+284.7143 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+284.7147 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/hippopotamus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+284.7899 	EXP 	text_3: autoDraw = False
+284.7899 	EXP 	image: image = 'Images/hippopotamus.jpg'
+284.7899 	EXP 	Arrow: image = 'ArrowLeft.png'
+284.7899 	EXP 	image: autoDraw = True
+284.7899 	EXP 	Arrow: autoDraw = True
+285.1115 	DATA 	Keypress: s
+286.1277 	DATA 	Keypress: 1
+287.6117 	DATA 	Keypress: s
+289.6394 	EXP 	image: autoDraw = False
+289.6394 	EXP 	Arrow: autoDraw = False
+289.6394 	EXP 	polygon: autoDraw = True
+290.1103 	DATA 	Keypress: s
+290.6234 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/kangaroo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+290.6748 	EXP 	polygon: autoDraw = False
+290.6748 	EXP 	image: image = 'Images/kangaroo.jpg'
+290.6748 	EXP 	Arrow: image = 'ArrowRight.png'
+290.6748 	EXP 	image: autoDraw = True
+290.6748 	EXP 	Arrow: autoDraw = True
+292.1609 	DATA 	Keypress: 3
+292.6109 	DATA 	Keypress: s
+295.1110 	DATA 	Keypress: s
+295.6391 	EXP 	image: autoDraw = False
+295.6391 	EXP 	Arrow: autoDraw = False
+295.6391 	EXP 	polygon: autoDraw = True
+296.6231 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/horse.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+296.6747 	EXP 	polygon: autoDraw = False
+296.6747 	EXP 	image: image = 'Images/horse.jpg'
+296.6747 	EXP 	Arrow: image = 'ArrowRight.png'
+296.6747 	EXP 	image: autoDraw = True
+296.6747 	EXP 	Arrow: autoDraw = True
+297.6111 	DATA 	Keypress: s
+297.9771 	DATA 	Keypress: 3
+300.1112 	DATA 	Keypress: s
+301.6388 	EXP 	image: autoDraw = False
+301.6388 	EXP 	Arrow: autoDraw = False
+301.6388 	EXP 	polygon: autoDraw = True
+302.6098 	DATA 	Keypress: s
+302.6231 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/giraffe.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+302.6733 	EXP 	polygon: autoDraw = False
+302.6733 	EXP 	image: image = 'Images/giraffe.jpg'
+302.6733 	EXP 	Arrow: image = 'ArrowUp.png'
+302.6733 	EXP 	image: autoDraw = True
+302.6733 	EXP 	Arrow: autoDraw = True
+303.8774 	DATA 	Keypress: 2
+305.1105 	DATA 	Keypress: s
+307.6105 	DATA 	Keypress: s
+307.6388 	EXP 	image: autoDraw = False
+307.6388 	EXP 	Arrow: autoDraw = False
+307.6388 	EXP 	polygon: autoDraw = True
+308.6353 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+308.6359 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+308.6366 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/kangaroo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+308.6917 	EXP 	polygon: autoDraw = False
+308.6917 	EXP 	image_2: image = 'Images/kangaroo.jpg'
+308.6917 	EXP 	image_2: autoDraw = True
+308.6917 	EXP 	direction_options: autoDraw = True
+310.1106 	DATA 	Keypress: s
+311.0447 	DATA 	Keypress: 3
+312.6103 	DATA 	Keypress: s
+313.6386 	EXP 	image_2: autoDraw = False
+313.6386 	EXP 	direction_options: autoDraw = False
+313.6386 	EXP 	polygon: autoDraw = True
+314.6225 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/hippopotamus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+314.6573 	EXP 	polygon: autoDraw = False
+314.6573 	EXP 	image_2: image = 'Images/hippopotamus.jpg'
+314.6573 	EXP 	image_2: autoDraw = True
+314.6573 	EXP 	direction_options: autoDraw = True
+315.1101 	DATA 	Keypress: s
+315.5278 	DATA 	Keypress: 1
+317.6079 	DATA 	Keypress: s
+319.6382 	EXP 	image_2: autoDraw = False
+319.6382 	EXP 	direction_options: autoDraw = False
+319.6382 	EXP 	polygon: autoDraw = True
+320.1087 	DATA 	Keypress: s
+320.6223 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/horse.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+320.6537 	EXP 	polygon: autoDraw = False
+320.6537 	EXP 	image_2: image = 'Images/horse.jpg'
+320.6537 	EXP 	image_2: autoDraw = True
+320.6537 	EXP 	direction_options: autoDraw = True
+321.8911 	DATA 	Keypress: 3
+322.6081 	DATA 	Keypress: s
+325.1082 	DATA 	Keypress: s
+325.6379 	EXP 	image_2: autoDraw = False
+325.6379 	EXP 	direction_options: autoDraw = False
+325.6379 	EXP 	polygon: autoDraw = True
+326.6218 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/giraffe.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+326.6536 	EXP 	polygon: autoDraw = False
+326.6536 	EXP 	image_2: image = 'Images/giraffe.jpg'
+326.6536 	EXP 	image_2: autoDraw = True
+326.6536 	EXP 	direction_options: autoDraw = True
+327.6082 	DATA 	Keypress: s
+328.4746 	DATA 	Keypress: 1
+330.1074 	DATA 	Keypress: s
+331.6377 	EXP 	image_2: autoDraw = False
+331.6377 	EXP 	direction_options: autoDraw = False
+331.6377 	EXP 	polygon: autoDraw = True
+332.6108 	DATA 	Keypress: s
+332.6198 	EXP 	New trial (rep=0, index=1): {'Condition_rows': '0:4', 'Condition_rows_practice': '0:4'}
+332.6262 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+332.6264 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+332.6267 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/cat.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+332.6550 	EXP 	polygon: autoDraw = False
+332.6550 	EXP 	image: image = 'Images/cat.jpg'
+332.6550 	EXP 	Arrow: image = 'ArrowUp.png'
+332.6550 	EXP 	image: autoDraw = True
+332.6550 	EXP 	Arrow: autoDraw = True
+334.2096 	DATA 	Keypress: 2
+335.1097 	DATA 	Keypress: s
+337.6097 	DATA 	Keypress: s
+337.6378 	EXP 	image: autoDraw = False
+337.6378 	EXP 	Arrow: autoDraw = False
+337.6378 	EXP 	polygon: autoDraw = True
+338.6218 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/bat.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+338.6731 	EXP 	polygon: autoDraw = False
+338.6731 	EXP 	image: image = 'Images/bat.jpg'
+338.6731 	EXP 	Arrow: image = 'ArrowUp.png'
+338.6731 	EXP 	image: autoDraw = True
+338.6731 	EXP 	Arrow: autoDraw = True
+340.1098 	DATA 	Keypress: s
+340.3427 	DATA 	Keypress: 2
+342.6088 	DATA 	Keypress: s
+343.6372 	EXP 	image: autoDraw = False
+343.6372 	EXP 	Arrow: autoDraw = False
+343.6372 	EXP 	polygon: autoDraw = True
+344.6206 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/cheetah.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+344.6719 	EXP 	polygon: autoDraw = False
+344.6719 	EXP 	image: image = 'Images/cheetah.jpg'
+344.6719 	EXP 	Arrow: image = 'ArrowRight.png'
+344.6719 	EXP 	image: autoDraw = True
+344.6719 	EXP 	Arrow: autoDraw = True
+345.1090 	DATA 	Keypress: s
+345.8759 	DATA 	Keypress: 3
+347.6090 	DATA 	Keypress: s
+349.6375 	EXP 	image: autoDraw = False
+349.6375 	EXP 	Arrow: autoDraw = False
+349.6375 	EXP 	polygon: autoDraw = True
+350.1070 	DATA 	Keypress: s
+350.6215 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/armadillo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+350.6726 	EXP 	polygon: autoDraw = False
+350.6726 	EXP 	image: image = 'Images/armadillo.jpg'
+350.6726 	EXP 	Arrow: image = 'ArrowRight.png'
+350.6726 	EXP 	image: autoDraw = True
+350.6726 	EXP 	Arrow: autoDraw = True
+352.2252 	DATA 	Keypress: 3
+352.6093 	DATA 	Keypress: s
+355.1088 	DATA 	Keypress: s
+355.6371 	EXP 	image: autoDraw = False
+355.6371 	EXP 	Arrow: autoDraw = False
+355.6371 	EXP 	polygon: autoDraw = True
+356.6308 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+356.6313 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+356.6318 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/cat.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+356.6558 	EXP 	polygon: autoDraw = False
+356.6558 	EXP 	image_2: image = 'Images/cat.jpg'
+356.6558 	EXP 	image_2: autoDraw = True
+356.6558 	EXP 	direction_options: autoDraw = True
+357.6094 	DATA 	Keypress: s
+357.9924 	DATA 	Keypress: 2
+360.1096 	DATA 	Keypress: s
+361.6362 	EXP 	image_2: autoDraw = False
+361.6362 	EXP 	direction_options: autoDraw = False
+361.6362 	EXP 	polygon: autoDraw = True
+362.6057 	DATA 	Keypress: s
+362.6202 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/armadillo.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+362.6558 	EXP 	polygon: autoDraw = False
+362.6558 	EXP 	image_2: image = 'Images/armadillo.jpg'
+362.6558 	EXP 	image_2: autoDraw = True
+362.6558 	EXP 	direction_options: autoDraw = True
+363.8097 	DATA 	Keypress: 3
+365.1088 	DATA 	Keypress: s
+367.6070 	DATA 	Keypress: s
+367.6361 	EXP 	image_2: autoDraw = False
+367.6361 	EXP 	direction_options: autoDraw = False
+367.6361 	EXP 	polygon: autoDraw = True
+368.6230 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/bat.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+368.6687 	EXP 	polygon: autoDraw = False
+368.6687 	EXP 	image_2: image = 'Images/bat.jpg'
+368.6687 	EXP 	image_2: autoDraw = True
+368.6687 	EXP 	direction_options: autoDraw = True
+370.1069 	DATA 	Keypress: s
+370.8227 	DATA 	Keypress: 2
+372.6140 	DATA 	Keypress: s
+373.6364 	EXP 	image_2: autoDraw = False
+373.6364 	EXP 	direction_options: autoDraw = False
+373.6364 	EXP 	polygon: autoDraw = True
+374.6204 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/cheetah.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+374.6520 	EXP 	polygon: autoDraw = False
+374.6520 	EXP 	image_2: image = 'Images/cheetah.jpg'
+374.6520 	EXP 	image_2: autoDraw = True
+374.6520 	EXP 	direction_options: autoDraw = True
+375.1061 	DATA 	Keypress: s
+375.5231 	DATA 	Keypress: 3
+377.6252 	DATA 	Keypress: s
+379.6362 	EXP 	image_2: autoDraw = False
+379.6362 	EXP 	direction_options: autoDraw = False
+379.6362 	EXP 	polygon: autoDraw = True
+380.1067 	DATA 	Keypress: s
+380.6204 	EXP 	New trial (rep=0, index=2): {'Condition_rows': '12:16', 'Condition_rows_practice': None}
+380.6343 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+380.6350 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+380.6356 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/platypus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+380.6861 	EXP 	polygon: autoDraw = False
+380.6861 	EXP 	image: image = 'Images/platypus.jpg'
+380.6861 	EXP 	Arrow: image = 'ArrowLeft.png'
+380.6861 	EXP 	image: autoDraw = True
+380.6861 	EXP 	Arrow: autoDraw = True
+382.4574 	DATA 	Keypress: 1
+382.6073 	DATA 	Keypress: s
+385.1085 	DATA 	Keypress: s
+385.6358 	EXP 	image: autoDraw = False
+385.6358 	EXP 	Arrow: autoDraw = False
+385.6358 	EXP 	polygon: autoDraw = True
+386.6191 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/lioness.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+386.6538 	EXP 	polygon: autoDraw = False
+386.6538 	EXP 	image: image = 'Images/lioness.jpg'
+386.6538 	EXP 	Arrow: image = 'ArrowRight.png'
+386.6538 	EXP 	image: autoDraw = True
+386.6538 	EXP 	Arrow: autoDraw = True
+387.6076 	DATA 	Keypress: s
+388.4899 	DATA 	Keypress: 3
+390.1075 	DATA 	Keypress: s
+391.6361 	EXP 	image: autoDraw = False
+391.6361 	EXP 	Arrow: autoDraw = False
+391.6361 	EXP 	polygon: autoDraw = True
+392.6058 	DATA 	Keypress: s
+392.6200 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/rhino.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+392.6715 	EXP 	polygon: autoDraw = False
+392.6715 	EXP 	image: image = 'Images/rhino.jpg'
+392.6715 	EXP 	Arrow: image = 'ArrowRight.png'
+392.6715 	EXP 	image: autoDraw = True
+392.6715 	EXP 	Arrow: autoDraw = True
+394.1561 	DATA 	Keypress: 3
+395.1077 	DATA 	Keypress: s
+397.6080 	DATA 	Keypress: s
+397.6360 	EXP 	image: autoDraw = False
+397.6360 	EXP 	Arrow: autoDraw = False
+397.6360 	EXP 	polygon: autoDraw = True
+398.6199 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/lynx.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+398.6705 	EXP 	polygon: autoDraw = False
+398.6705 	EXP 	image: image = 'Images/lynx.jpg'
+398.6705 	EXP 	Arrow: image = 'ArrowLeft.png'
+398.6705 	EXP 	image: autoDraw = True
+398.6705 	EXP 	Arrow: autoDraw = True
+400.1081 	DATA 	Keypress: s
+400.4080 	DATA 	Keypress: 1
+402.6071 	DATA 	Keypress: s
+403.6357 	EXP 	image: autoDraw = False
+403.6357 	EXP 	Arrow: autoDraw = False
+403.6357 	EXP 	polygon: autoDraw = True
+404.6330 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+404.6336 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+404.6343 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/lynx.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+404.6713 	EXP 	polygon: autoDraw = False
+404.6713 	EXP 	image_2: image = 'Images/lynx.jpg'
+404.6713 	EXP 	image_2: autoDraw = True
+404.6713 	EXP 	direction_options: autoDraw = True
+405.1078 	DATA 	Keypress: s
+406.6913 	DATA 	Keypress: 1
+407.6084 	DATA 	Keypress: s
+409.6350 	EXP 	image_2: autoDraw = False
+409.6350 	EXP 	direction_options: autoDraw = False
+409.6350 	EXP 	polygon: autoDraw = True
+410.1035 	DATA 	Keypress: s
+410.6185 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/rhino.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+410.6382 	EXP 	polygon: autoDraw = False
+410.6382 	EXP 	image_2: image = 'Images/rhino.jpg'
+410.6382 	EXP 	image_2: autoDraw = True
+410.6382 	EXP 	direction_options: autoDraw = True
+411.3905 	DATA 	Keypress: 3
+412.6075 	DATA 	Keypress: s
+415.1075 	DATA 	Keypress: s
+415.6350 	EXP 	image_2: autoDraw = False
+415.6350 	EXP 	direction_options: autoDraw = False
+415.6350 	EXP 	polygon: autoDraw = True
+416.6193 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/platypus.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+416.6541 	EXP 	polygon: autoDraw = False
+416.6541 	EXP 	image_2: image = 'Images/platypus.jpg'
+416.6541 	EXP 	image_2: autoDraw = True
+416.6541 	EXP 	direction_options: autoDraw = True
+417.6047 	DATA 	Keypress: s
+418.0217 	DATA 	Keypress: 1
+420.1219 	DATA 	Keypress: s
+421.6350 	EXP 	image_2: autoDraw = False
+421.6350 	EXP 	direction_options: autoDraw = False
+421.6350 	EXP 	polygon: autoDraw = True
+422.6054 	DATA 	Keypress: s
+422.6189 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/lioness.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+422.6504 	EXP 	polygon: autoDraw = False
+422.6504 	EXP 	image_2: image = 'Images/lioness.jpg'
+422.6504 	EXP 	image_2: autoDraw = True
+422.6504 	EXP 	direction_options: autoDraw = True
+423.5050 	DATA 	Keypress: 3
+425.1050 	DATA 	Keypress: s
+427.6051 	DATA 	Keypress: s
+427.6347 	EXP 	image_2: autoDraw = False
+427.6347 	EXP 	direction_options: autoDraw = False
+427.6347 	EXP 	polygon: autoDraw = True
+428.6187 	EXP 	New trial (rep=0, index=3): {'Condition_rows': '44:48', 'Condition_rows_practice': None}
+428.6328 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+428.6335 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+428.6342 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/sofa.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+428.6829 	EXP 	polygon: autoDraw = False
+428.6829 	EXP 	image: image = 'Images/sofa.jpg'
+428.6829 	EXP 	Arrow: image = 'ArrowUp.png'
+428.6829 	EXP 	image: autoDraw = True
+428.6829 	EXP 	Arrow: autoDraw = True
+430.0042 	DATA 	Keypress: 2
+430.1213 	DATA 	Keypress: s
+432.6053 	DATA 	Keypress: s
+433.6346 	EXP 	image: autoDraw = False
+433.6346 	EXP 	Arrow: autoDraw = False
+433.6346 	EXP 	polygon: autoDraw = True
+434.6188 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/table.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+434.6702 	EXP 	polygon: autoDraw = False
+434.6702 	EXP 	image: image = 'Images/table.jpg'
+434.6702 	EXP 	Arrow: image = 'ArrowUp.png'
+434.6702 	EXP 	image: autoDraw = True
+434.6702 	EXP 	Arrow: autoDraw = True
+435.1066 	DATA 	Keypress: s
+436.0234 	DATA 	Keypress: 2
+437.6066 	DATA 	Keypress: s
+439.6346 	EXP 	image: autoDraw = False
+439.6346 	EXP 	Arrow: autoDraw = False
+439.6346 	EXP 	polygon: autoDraw = True
+440.1220 	DATA 	Keypress: s
+440.6186 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/stool.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowUp.png')])
+440.6690 	EXP 	polygon: autoDraw = False
+440.6690 	EXP 	image: image = 'Images/stool.jpg'
+440.6690 	EXP 	Arrow: image = 'ArrowRight.png'
+440.6690 	EXP 	image: autoDraw = True
+440.6690 	EXP 	Arrow: autoDraw = True
+441.9726 	DATA 	Keypress: 3
+442.6068 	DATA 	Keypress: s
+445.1057 	DATA 	Keypress: s
+445.6343 	EXP 	image: autoDraw = False
+445.6343 	EXP 	Arrow: autoDraw = False
+445.6343 	EXP 	polygon: autoDraw = True
+446.6185 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/rocking_chair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+446.6699 	EXP 	polygon: autoDraw = False
+446.6699 	EXP 	image: image = 'Images/rocking_chair.jpg'
+446.6699 	EXP 	Arrow: image = 'ArrowUp.png'
+446.6699 	EXP 	image: autoDraw = True
+446.6699 	EXP 	Arrow: autoDraw = True
+447.6057 	DATA 	Keypress: s
+448.4059 	DATA 	Keypress: 2
+450.1061 	DATA 	Keypress: s
+451.6344 	EXP 	image: autoDraw = False
+451.6344 	EXP 	Arrow: autoDraw = False
+451.6344 	EXP 	polygon: autoDraw = True
+452.6045 	DATA 	Keypress: s
+452.6318 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+452.6325 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+452.6332 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/sofa.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+452.6698 	EXP 	polygon: autoDraw = False
+452.6698 	EXP 	image_2: image = 'Images/sofa.jpg'
+452.6698 	EXP 	image_2: autoDraw = True
+452.6698 	EXP 	direction_options: autoDraw = True
+454.1562 	DATA 	Keypress: 2
+455.1064 	DATA 	Keypress: s
+457.6063 	DATA 	Keypress: s
+457.6341 	EXP 	image_2: autoDraw = False
+457.6341 	EXP 	direction_options: autoDraw = False
+457.6341 	EXP 	polygon: autoDraw = True
+458.6169 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/table.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+458.6368 	EXP 	polygon: autoDraw = False
+458.6368 	EXP 	image_2: image = 'Images/table.jpg'
+458.6368 	EXP 	image_2: autoDraw = True
+458.6368 	EXP 	direction_options: autoDraw = True
+459.6894 	DATA 	Keypress: 2
+460.1063 	DATA 	Keypress: s
+462.6048 	DATA 	Keypress: s
+463.6330 	EXP 	image_2: autoDraw = False
+463.6330 	EXP 	direction_options: autoDraw = False
+463.6330 	EXP 	polygon: autoDraw = True
+464.6169 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/stool.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowUp.png')])
+464.6366 	EXP 	polygon: autoDraw = False
+464.6366 	EXP 	image_2: image = 'Images/stool.jpg'
+464.6366 	EXP 	image_2: autoDraw = True
+464.6366 	EXP 	direction_options: autoDraw = True
+465.1056 	DATA 	Keypress: s
+465.7226 	DATA 	Keypress: 3
+467.6037 	DATA 	Keypress: s
+469.6333 	EXP 	image_2: autoDraw = False
+469.6333 	EXP 	direction_options: autoDraw = False
+469.6333 	EXP 	polygon: autoDraw = True
+470.1201 	DATA 	Keypress: s
+470.6174 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/rocking_chair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+470.6491 	EXP 	polygon: autoDraw = False
+470.6491 	EXP 	image_2: image = 'Images/rocking_chair.jpg'
+470.6491 	EXP 	image_2: autoDraw = True
+470.6491 	EXP 	direction_options: autoDraw = True
+471.3538 	DATA 	Keypress: 2
+472.6029 	DATA 	Keypress: s
+475.1030 	DATA 	Keypress: s
+475.6332 	EXP 	image_2: autoDraw = False
+475.6332 	EXP 	direction_options: autoDraw = False
+475.6332 	EXP 	polygon: autoDraw = True
+476.6173 	EXP 	New trial (rep=0, index=4): {'Condition_rows': '20:24', 'Condition_rows_practice': None}
+476.6313 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+476.6320 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+476.6327 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/bus.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+476.6983 	EXP 	polygon: autoDraw = False
+476.6983 	EXP 	image: image = 'Images/bus.jpg'
+476.6983 	EXP 	Arrow: image = 'ArrowRight.png'
+476.6983 	EXP 	image: autoDraw = True
+476.6983 	EXP 	Arrow: autoDraw = True
+477.6031 	DATA 	Keypress: s
+479.4863 	DATA 	Keypress: 3
+480.1202 	DATA 	Keypress: s
+481.6331 	EXP 	image: autoDraw = False
+481.6331 	EXP 	Arrow: autoDraw = False
+481.6331 	EXP 	polygon: autoDraw = True
+482.6037 	DATA 	Keypress: s
+482.6171 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/boat.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+482.6649 	EXP 	polygon: autoDraw = False
+482.6649 	EXP 	image: image = 'Images/boat.jpg'
+482.6649 	EXP 	Arrow: image = 'ArrowLeft.png'
+482.6649 	EXP 	image: autoDraw = True
+482.6649 	EXP 	Arrow: autoDraw = True
+484.2212 	DATA 	Keypress: 3
+485.1053 	DATA 	Keypress: s
+486.2544 	DATA 	Keypress: 1
+487.6044 	DATA 	Keypress: s
+487.6331 	EXP 	image: autoDraw = False
+487.6331 	EXP 	Arrow: autoDraw = False
+487.6331 	EXP 	polygon: autoDraw = True
+488.6172 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/zebra.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+488.7018 	EXP 	polygon: autoDraw = False
+488.7018 	EXP 	image: image = 'Images/zebra.jpg'
+488.7018 	EXP 	Arrow: image = 'ArrowLeft.png'
+488.7018 	EXP 	image: autoDraw = True
+488.7018 	EXP 	Arrow: autoDraw = True
+490.1047 	DATA 	Keypress: s
+490.3371 	DATA 	Keypress: 1
+492.6046 	DATA 	Keypress: s
+493.6330 	EXP 	image: autoDraw = False
+493.6330 	EXP 	Arrow: autoDraw = False
+493.6330 	EXP 	polygon: autoDraw = True
+494.6169 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/car.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+494.6838 	EXP 	polygon: autoDraw = False
+494.6838 	EXP 	image: image = 'Images/car.jpg'
+494.6838 	EXP 	Arrow: image = 'ArrowRight.png'
+494.6838 	EXP 	image: autoDraw = True
+494.6838 	EXP 	Arrow: autoDraw = True
+495.1048 	DATA 	Keypress: s
+496.2034 	DATA 	Keypress: 3
+497.6048 	DATA 	Keypress: s
+499.6327 	EXP 	image: autoDraw = False
+499.6327 	EXP 	Arrow: autoDraw = False
+499.6327 	EXP 	polygon: autoDraw = True
+500.1181 	DATA 	Keypress: s
+500.6304 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+500.6311 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+500.6318 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/boat.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+500.6847 	EXP 	polygon: autoDraw = False
+500.6847 	EXP 	image_2: image = 'Images/boat.jpg'
+500.6847 	EXP 	image_2: autoDraw = True
+500.6847 	EXP 	direction_options: autoDraw = True
+502.3882 	DATA 	Keypress: 1
+502.6050 	DATA 	Keypress: s
+505.1051 	DATA 	Keypress: s
+505.6320 	EXP 	image_2: autoDraw = False
+505.6320 	EXP 	direction_options: autoDraw = False
+505.6320 	EXP 	polygon: autoDraw = True
+506.6166 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/zebra.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+506.6679 	EXP 	polygon: autoDraw = False
+506.6679 	EXP 	image_2: image = 'Images/zebra.jpg'
+506.6679 	EXP 	image_2: autoDraw = True
+506.6679 	EXP 	direction_options: autoDraw = True
+507.6052 	DATA 	Keypress: s
+508.9883 	DATA 	Keypress: 1
+510.1043 	DATA 	Keypress: s
+511.6324 	EXP 	image_2: autoDraw = False
+511.6324 	EXP 	direction_options: autoDraw = False
+511.6324 	EXP 	polygon: autoDraw = True
+512.6028 	DATA 	Keypress: s
+512.6164 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/bus.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+512.6847 	EXP 	polygon: autoDraw = False
+512.6847 	EXP 	image_2: image = 'Images/bus.jpg'
+512.6847 	EXP 	image_2: autoDraw = True
+512.6847 	EXP 	direction_options: autoDraw = True
+513.5205 	DATA 	Keypress: 3
+515.1045 	DATA 	Keypress: s
+517.6016 	DATA 	Keypress: s
+517.6320 	EXP 	image_2: autoDraw = False
+517.6320 	EXP 	direction_options: autoDraw = False
+517.6320 	EXP 	polygon: autoDraw = True
+518.6160 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/car.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+518.6476 	EXP 	polygon: autoDraw = False
+518.6476 	EXP 	image_2: image = 'Images/car.jpg'
+518.6476 	EXP 	image_2: autoDraw = True
+518.6476 	EXP 	direction_options: autoDraw = True
+519.4016 	DATA 	Keypress: 3
+520.1187 	DATA 	Keypress: s
+522.6018 	DATA 	Keypress: s
+523.6317 	EXP 	image_2: autoDraw = False
+523.6317 	EXP 	direction_options: autoDraw = False
+523.6317 	EXP 	polygon: autoDraw = True
+524.6158 	EXP 	New trial (rep=0, index=5): {'Condition_rows': '28:32', 'Condition_rows_practice': None}
+524.6299 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+524.6305 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+524.6312 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/tractor.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowRight.png')])
+524.6805 	EXP 	polygon: autoDraw = False
+524.6805 	EXP 	image: image = 'Images/tractor.jpg'
+524.6805 	EXP 	Arrow: image = 'ArrowRight.png'
+524.6805 	EXP 	image: autoDraw = True
+524.6805 	EXP 	Arrow: autoDraw = True
+525.1019 	DATA 	Keypress: s
+526.2679 	DATA 	Keypress: 3
+527.6020 	DATA 	Keypress: s
+529.6315 	EXP 	image: autoDraw = False
+529.6315 	EXP 	Arrow: autoDraw = False
+529.6315 	EXP 	polygon: autoDraw = True
+530.1188 	DATA 	Keypress: s
+530.6155 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/ship.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+530.6647 	EXP 	polygon: autoDraw = False
+530.6647 	EXP 	image: image = 'Images/ship.jpg'
+530.6647 	EXP 	Arrow: image = 'ArrowUp.png'
+530.6647 	EXP 	image: autoDraw = True
+530.6647 	EXP 	Arrow: autoDraw = True
+531.9691 	DATA 	Keypress: 2
+532.6022 	DATA 	Keypress: s
+535.1203 	DATA 	Keypress: s
+535.6318 	EXP 	image: autoDraw = False
+535.6318 	EXP 	Arrow: autoDraw = False
+535.6318 	EXP 	polygon: autoDraw = True
+536.6147 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/scooter.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+536.6499 	EXP 	polygon: autoDraw = False
+536.6499 	EXP 	image: image = 'Images/scooter.jpg'
+536.6499 	EXP 	Arrow: image = 'ArrowUp.png'
+536.6499 	EXP 	image: autoDraw = True
+536.6499 	EXP 	Arrow: autoDraw = True
+537.6034 	DATA 	Keypress: s
+537.9534 	DATA 	Keypress: 2
+540.1189 	DATA 	Keypress: s
+541.6315 	EXP 	image: autoDraw = False
+541.6315 	EXP 	Arrow: autoDraw = False
+541.6315 	EXP 	polygon: autoDraw = True
+542.6019 	DATA 	Keypress: s
+542.6154 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/skateboard.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowRight.png')])
+542.6657 	EXP 	polygon: autoDraw = False
+542.6657 	EXP 	image: image = 'Images/skateboard.jpg'
+542.6657 	EXP 	Arrow: image = 'ArrowRight.png'
+542.6657 	EXP 	image: autoDraw = True
+542.6657 	EXP 	Arrow: autoDraw = True
+544.1196 	DATA 	Keypress: 3
+545.1196 	DATA 	Keypress: s
+547.6027 	DATA 	Keypress: s
+547.6312 	EXP 	image: autoDraw = False
+547.6312 	EXP 	Arrow: autoDraw = False
+547.6312 	EXP 	polygon: autoDraw = True
+548.6286 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+548.6292 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+548.6299 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/scooter.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+548.6668 	EXP 	polygon: autoDraw = False
+548.6668 	EXP 	image_2: image = 'Images/scooter.jpg'
+548.6668 	EXP 	image_2: autoDraw = True
+548.6668 	EXP 	direction_options: autoDraw = True
+550.1039 	DATA 	Keypress: s
+551.2369 	DATA 	Keypress: 2
+552.6030 	DATA 	Keypress: s
+553.6308 	EXP 	image_2: autoDraw = False
+553.6308 	EXP 	direction_options: autoDraw = False
+553.6308 	EXP 	polygon: autoDraw = True
+554.6142 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/skateboard.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowRight.png')])
+554.6498 	EXP 	polygon: autoDraw = False
+554.6498 	EXP 	image_2: image = 'Images/skateboard.jpg'
+554.6498 	EXP 	image_2: autoDraw = True
+554.6498 	EXP 	direction_options: autoDraw = True
+555.1200 	DATA 	Keypress: s
+555.6861 	DATA 	Keypress: 3
+557.6031 	DATA 	Keypress: s
+559.6309 	EXP 	image_2: autoDraw = False
+559.6309 	EXP 	direction_options: autoDraw = False
+559.6309 	EXP 	polygon: autoDraw = True
+560.1177 	DATA 	Keypress: s
+560.6149 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/tractor.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowRight.png')])
+560.6499 	EXP 	polygon: autoDraw = False
+560.6499 	EXP 	image_2: image = 'Images/tractor.jpg'
+560.6499 	EXP 	image_2: autoDraw = True
+560.6499 	EXP 	direction_options: autoDraw = True
+561.8703 	DATA 	Keypress: 3
+562.6033 	DATA 	Keypress: s
+565.1035 	DATA 	Keypress: s
+565.6303 	EXP 	image_2: autoDraw = False
+565.6303 	EXP 	direction_options: autoDraw = False
+565.6303 	EXP 	polygon: autoDraw = True
+566.6149 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/ship.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+566.6496 	EXP 	polygon: autoDraw = False
+566.6496 	EXP 	image_2: image = 'Images/ship.jpg'
+566.6496 	EXP 	image_2: autoDraw = True
+566.6496 	EXP 	direction_options: autoDraw = True
+567.3835 	DATA 	Keypress: 2
+567.6004 	DATA 	Keypress: s
+570.1166 	DATA 	Keypress: s
+571.6302 	EXP 	image_2: autoDraw = False
+571.6302 	EXP 	direction_options: autoDraw = False
+571.6302 	EXP 	polygon: autoDraw = True
+572.6012 	DATA 	Keypress: s
+572.6143 	EXP 	New trial (rep=0, index=6): {'Condition_rows': '4:8', 'Condition_rows_practice': '4:8'}
+572.6286 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+572.6293 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+572.6299 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/crocodile.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+572.6954 	EXP 	polygon: autoDraw = False
+572.6954 	EXP 	image: image = 'Images/crocodile.jpg'
+572.6954 	EXP 	Arrow: image = 'ArrowUp.png'
+572.6954 	EXP 	image: autoDraw = True
+572.6954 	EXP 	Arrow: autoDraw = True
+574.1166 	DATA 	Keypress: 2
+575.1168 	DATA 	Keypress: s
+577.6178 	DATA 	Keypress: s
+577.6295 	EXP 	image: autoDraw = False
+577.6295 	EXP 	Arrow: autoDraw = False
+577.6295 	EXP 	polygon: autoDraw = True
+578.6140 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/elephant.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+578.6623 	EXP 	polygon: autoDraw = False
+578.6623 	EXP 	image: image = 'Images/elephant.jpg'
+578.6623 	EXP 	Arrow: image = 'ArrowRight.png'
+578.6623 	EXP 	image: autoDraw = True
+578.6623 	EXP 	Arrow: autoDraw = True
+579.9170 	DATA 	Keypress: 3
+580.1170 	DATA 	Keypress: s
+582.5998 	DATA 	Keypress: s
+583.6302 	EXP 	image: autoDraw = False
+583.6302 	EXP 	Arrow: autoDraw = False
+583.6302 	EXP 	polygon: autoDraw = True
+584.6141 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/cow.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+584.6653 	EXP 	polygon: autoDraw = False
+584.6653 	EXP 	image: image = 'Images/cow.jpg'
+584.6653 	EXP 	Arrow: image = 'ArrowLeft.png'
+584.6653 	EXP 	image: autoDraw = True
+584.6653 	EXP 	Arrow: autoDraw = True
+585.1176 	DATA 	Keypress: s
+586.7523 	DATA 	Keypress: 1
+587.6023 	DATA 	Keypress: s
+589.6298 	EXP 	image: autoDraw = False
+589.6298 	EXP 	Arrow: autoDraw = False
+589.6298 	EXP 	polygon: autoDraw = True
+590.1008 	DATA 	Keypress: s
+590.6139 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/dromedary.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+590.6655 	EXP 	polygon: autoDraw = False
+590.6655 	EXP 	image: image = 'Images/dromedary.jpg'
+590.6655 	EXP 	Arrow: image = 'ArrowLeft.png'
+590.6655 	EXP 	image: autoDraw = True
+590.6655 	EXP 	Arrow: autoDraw = True
+592.0015 	DATA 	Keypress: 1
+592.6015 	DATA 	Keypress: s
+595.1186 	DATA 	Keypress: s
+595.6297 	EXP 	image: autoDraw = False
+595.6297 	EXP 	Arrow: autoDraw = False
+595.6297 	EXP 	polygon: autoDraw = True
+596.6273 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+596.6279 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+596.6286 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/cow.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+596.6817 	EXP 	polygon: autoDraw = False
+596.6817 	EXP 	image_2: image = 'Images/cow.jpg'
+596.6817 	EXP 	image_2: autoDraw = True
+596.6817 	EXP 	direction_options: autoDraw = True
+597.6017 	DATA 	Keypress: s
+598.3187 	DATA 	Keypress: 1
+600.1188 	DATA 	Keypress: s
+601.6295 	EXP 	image_2: autoDraw = False
+601.6295 	EXP 	direction_options: autoDraw = False
+601.6295 	EXP 	polygon: autoDraw = True
+602.6003 	DATA 	Keypress: s
+602.6135 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/crocodile.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowLeft.png')])
+602.6484 	EXP 	polygon: autoDraw = False
+602.6484 	EXP 	image_2: image = 'Images/crocodile.jpg'
+602.6484 	EXP 	image_2: autoDraw = True
+602.6484 	EXP 	direction_options: autoDraw = True
+604.0019 	DATA 	Keypress: 2
+605.1178 	DATA 	Keypress: s
+607.6006 	DATA 	Keypress: s
+607.6292 	EXP 	image_2: autoDraw = False
+607.6292 	EXP 	direction_options: autoDraw = False
+607.6292 	EXP 	polygon: autoDraw = True
+608.6133 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/dromedary.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowLeft.png')])
+608.6483 	EXP 	polygon: autoDraw = False
+608.6483 	EXP 	image_2: image = 'Images/dromedary.jpg'
+608.6483 	EXP 	image_2: autoDraw = True
+608.6483 	EXP 	direction_options: autoDraw = True
+609.5175 	DATA 	Keypress: 1
+610.1181 	DATA 	Keypress: s
+612.6004 	DATA 	Keypress: s
+613.6288 	EXP 	image_2: autoDraw = False
+613.6288 	EXP 	direction_options: autoDraw = False
+613.6288 	EXP 	polygon: autoDraw = True
+614.6132 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/elephant.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowLeft.png')])
+614.6482 	EXP 	polygon: autoDraw = False
+614.6482 	EXP 	image_2: image = 'Images/elephant.jpg'
+614.6482 	EXP 	image_2: autoDraw = True
+614.6482 	EXP 	direction_options: autoDraw = True
+615.1167 	DATA 	Keypress: s
+615.4167 	DATA 	Keypress: 3
+617.5985 	DATA 	Keypress: s
+619.6288 	EXP 	image_2: autoDraw = False
+619.6288 	EXP 	direction_options: autoDraw = False
+619.6288 	EXP 	polygon: autoDraw = True
+620.1161 	DATA 	Keypress: s
+620.6128 	EXP 	New trial (rep=0, index=7): {'Condition_rows': '24:28', 'Condition_rows_practice': None}
+620.6274 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+620.6280 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+620.6287 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/cart.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowRight.png')])
+620.6939 	EXP 	polygon: autoDraw = False
+620.6939 	EXP 	image: image = 'Images/cart.jpg'
+620.6939 	EXP 	Arrow: image = 'ArrowLeft.png'
+620.6939 	EXP 	image: autoDraw = True
+620.6939 	EXP 	Arrow: autoDraw = True
+622.5986 	DATA 	Keypress: s
+622.6316 	DATA 	Keypress: 1
+625.1148 	DATA 	Keypress: s
+625.6285 	EXP 	image: autoDraw = False
+625.6285 	EXP 	Arrow: autoDraw = False
+625.6285 	EXP 	polygon: autoDraw = True
+626.6121 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/plane.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+626.6611 	EXP 	polygon: autoDraw = False
+626.6611 	EXP 	image: image = 'Images/plane.jpg'
+626.6611 	EXP 	Arrow: image = 'ArrowUp.png'
+626.6611 	EXP 	image: autoDraw = True
+626.6611 	EXP 	Arrow: autoDraw = True
+627.6146 	DATA 	Keypress: s
+629.5149 	DATA 	Keypress: 2
+630.1149 	DATA 	Keypress: s
+631.6284 	EXP 	image: autoDraw = False
+631.6284 	EXP 	Arrow: autoDraw = False
+631.6284 	EXP 	polygon: autoDraw = True
+632.5983 	DATA 	Keypress: s
+632.6123 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/motorbike.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+632.6626 	EXP 	polygon: autoDraw = False
+632.6626 	EXP 	image: image = 'Images/motorbike.jpg'
+632.6626 	EXP 	Arrow: image = 'ArrowUp.png'
+632.6626 	EXP 	image: autoDraw = True
+632.6626 	EXP 	Arrow: autoDraw = True
+634.8171 	DATA 	Keypress: 2
+635.1171 	DATA 	Keypress: s
+637.6003 	DATA 	Keypress: s
+637.6285 	EXP 	image: autoDraw = False
+637.6285 	EXP 	Arrow: autoDraw = False
+637.6285 	EXP 	polygon: autoDraw = True
+638.6124 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/paragliding.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+638.6640 	EXP 	polygon: autoDraw = False
+638.6640 	EXP 	image: image = 'Images/paragliding.jpg'
+638.6640 	EXP 	Arrow: image = 'ArrowUp.png'
+638.6640 	EXP 	image: autoDraw = True
+638.6640 	EXP 	Arrow: autoDraw = True
+640.1163 	DATA 	Keypress: s
+640.5834 	DATA 	Keypress: 2
+642.6004 	DATA 	Keypress: s
+643.6281 	EXP 	image: autoDraw = False
+643.6281 	EXP 	Arrow: autoDraw = False
+643.6281 	EXP 	polygon: autoDraw = True
+644.6257 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+644.6263 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+644.6271 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/paragliding.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+644.6801 	EXP 	polygon: autoDraw = False
+644.6801 	EXP 	image_2: image = 'Images/paragliding.jpg'
+644.6801 	EXP 	image_2: autoDraw = True
+644.6801 	EXP 	direction_options: autoDraw = True
+645.1175 	DATA 	Keypress: s
+645.8335 	DATA 	Keypress: 2
+647.6006 	DATA 	Keypress: s
+649.6281 	EXP 	image_2: autoDraw = False
+649.6281 	EXP 	direction_options: autoDraw = False
+649.6281 	EXP 	polygon: autoDraw = True
+650.1151 	DATA 	Keypress: s
+650.6121 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/cart.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowRight.png')])
+650.6470 	EXP 	polygon: autoDraw = False
+650.6470 	EXP 	image_2: image = 'Images/cart.jpg'
+650.6470 	EXP 	image_2: autoDraw = True
+650.6470 	EXP 	direction_options: autoDraw = True
+651.7668 	DATA 	Keypress: 1
+652.5994 	DATA 	Keypress: s
+655.0999 	DATA 	Keypress: s
+655.6279 	EXP 	image_2: autoDraw = False
+655.6279 	EXP 	direction_options: autoDraw = False
+655.6279 	EXP 	polygon: autoDraw = True
+656.6118 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/plane.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+656.6466 	EXP 	polygon: autoDraw = False
+656.6466 	EXP 	polygon: autoDraw = False
+656.6466 	EXP 	image_2: image = 'Images/plane.jpg'
+656.6466 	EXP 	image_2: autoDraw = True
+656.6466 	EXP 	direction_options: autoDraw = True
+657.6000 	DATA 	Keypress: s
+659.1671 	DATA 	Keypress: 2
+660.1157 	DATA 	Keypress: s
+661.6276 	EXP 	image_2: autoDraw = False
+661.6276 	EXP 	direction_options: autoDraw = False
+661.6276 	EXP 	polygon: autoDraw = True
+662.5975 	DATA 	Keypress: s
+662.6122 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/motorbike.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowRight.png')])
+662.6466 	EXP 	polygon: autoDraw = False
+662.6466 	EXP 	polygon: autoDraw = False
+662.6466 	EXP 	image_2: image = 'Images/motorbike.jpg'
+662.6466 	EXP 	image_2: autoDraw = True
+662.6466 	EXP 	direction_options: autoDraw = True
+663.4662 	DATA 	Keypress: 2
+665.1163 	DATA 	Keypress: s
+667.5973 	DATA 	Keypress: s
+667.6439 	EXP 	image_2: autoDraw = False
+667.6439 	EXP 	direction_options: autoDraw = False
+667.6439 	EXP 	polygon: autoDraw = True
+668.6278 	EXP 	New trial (rep=0, index=8): {'Condition_rows': '16:20', 'Condition_rows_practice': None}
+668.6419 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+668.6425 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+668.6432 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/tiger.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+668.6920 	EXP 	polygon: autoDraw = False
+668.6920 	EXP 	image: image = 'Images/tiger.jpg'
+668.6920 	EXP 	Arrow: image = 'ArrowRight.png'
+668.6920 	EXP 	image: autoDraw = True
+668.6920 	EXP 	Arrow: autoDraw = True
+670.1135 	DATA 	Keypress: s
+670.3304 	DATA 	Keypress: 3
+672.6136 	DATA 	Keypress: s
+673.6437 	EXP 	image: autoDraw = False
+673.6437 	EXP 	Arrow: autoDraw = False
+673.6437 	EXP 	polygon: autoDraw = True
+674.6277 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/turtle.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+674.6758 	EXP 	polygon: autoDraw = False
+674.6758 	EXP 	image: image = 'Images/turtle.jpg'
+674.6758 	EXP 	Arrow: image = 'ArrowLeft.png'
+674.6758 	EXP 	image: autoDraw = True
+674.6758 	EXP 	Arrow: autoDraw = True
+675.1137 	DATA 	Keypress: s
+676.4637 	DATA 	Keypress: 1
+677.6138 	DATA 	Keypress: s
+679.6435 	EXP 	image: autoDraw = False
+679.6435 	EXP 	Arrow: autoDraw = False
+679.6435 	EXP 	polygon: autoDraw = True
+680.1143 	DATA 	Keypress: s
+680.6265 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/snake.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'neutral')])
+680.6764 	EXP 	polygon: autoDraw = False
+680.6764 	EXP 	image: image = 'Images/snake.jpg'
+680.6764 	EXP 	Arrow: image = 'ArrowUp.png'
+680.6764 	EXP 	image: autoDraw = True
+680.6764 	EXP 	Arrow: autoDraw = True
+682.2978 	DATA 	Keypress: 2
+682.5979 	DATA 	Keypress: s
+685.1151 	DATA 	Keypress: s
+685.6267 	EXP 	image: autoDraw = False
+685.6267 	EXP 	Arrow: autoDraw = False
+685.6267 	EXP 	polygon: autoDraw = True
+686.6109 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/tapir.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+686.6451 	EXP 	polygon: autoDraw = False
+686.6451 	EXP 	polygon: autoDraw = False
+686.6451 	EXP 	image: image = 'Images/tapir.jpg'
+686.6451 	EXP 	Arrow: image = 'ArrowRight.png'
+686.6451 	EXP 	image: autoDraw = True
+686.6451 	EXP 	Arrow: autoDraw = True
+687.5975 	DATA 	Keypress: s
+688.3147 	DATA 	Keypress: 3
+690.1152 	DATA 	Keypress: s
+691.6267 	EXP 	image: autoDraw = False
+691.6267 	EXP 	Arrow: autoDraw = False
+691.6267 	EXP 	polygon: autoDraw = True
+692.6232 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+692.6238 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+692.6244 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/snake.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'neutral')])
+692.6585 	DATA 	Keypress: s
+692.6787 	EXP 	polygon: autoDraw = False
+692.6787 	EXP 	polygon: autoDraw = False
+692.6787 	EXP 	image_2: image = 'Images/snake.jpg'
+692.6787 	EXP 	image_2: autoDraw = True
+692.6787 	EXP 	direction_options: autoDraw = True
+693.9482 	DATA 	Keypress: 2
+695.1152 	DATA 	Keypress: s
+697.5979 	DATA 	Keypress: s
+697.6264 	EXP 	image_2: autoDraw = False
+697.6264 	EXP 	direction_options: autoDraw = False
+697.6264 	EXP 	polygon: autoDraw = True
+698.6115 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/turtle.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'neutral')])
+698.6454 	EXP 	polygon: autoDraw = False
+698.6454 	EXP 	polygon: autoDraw = False
+698.6454 	EXP 	image_2: image = 'Images/turtle.jpg'
+698.6454 	EXP 	image_2: autoDraw = True
+698.6454 	EXP 	direction_options: autoDraw = True
+699.7656 	DATA 	Keypress: 1
+700.1156 	DATA 	Keypress: s
+702.5979 	DATA 	Keypress: s
+703.6260 	EXP 	image_2: autoDraw = False
+703.6260 	EXP 	direction_options: autoDraw = False
+703.6260 	EXP 	polygon: autoDraw = True
+704.6106 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/tapir.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+704.6453 	EXP 	polygon: autoDraw = False
+704.6453 	EXP 	polygon: autoDraw = False
+704.6453 	EXP 	image_2: image = 'Images/tapir.jpg'
+704.6453 	EXP 	image_2: autoDraw = True
+704.6453 	EXP 	direction_options: autoDraw = True
+705.1144 	DATA 	Keypress: s
+705.5973 	DATA 	Keypress: 3
+707.5990 	DATA 	Keypress: s
+709.6262 	EXP 	image_2: autoDraw = False
+709.6262 	EXP 	direction_options: autoDraw = False
+709.6262 	EXP 	polygon: autoDraw = True
+710.1135 	DATA 	Keypress: s
+710.6110 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/tiger.jpg'), ('ImgType', 'Animal'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'neutral')])
+710.6451 	EXP 	polygon: autoDraw = False
+710.6451 	EXP 	polygon: autoDraw = False
+710.6451 	EXP 	image_2: image = 'Images/tiger.jpg'
+710.6451 	EXP 	image_2: autoDraw = True
+710.6451 	EXP 	direction_options: autoDraw = True
+711.2981 	DATA 	Keypress: 3
+712.5980 	DATA 	Keypress: s
+715.1152 	DATA 	Keypress: s
+715.6261 	EXP 	image_2: autoDraw = False
+715.6261 	EXP 	direction_options: autoDraw = False
+715.6261 	EXP 	polygon: autoDraw = True
+716.6102 	EXP 	New trial (rep=0, index=9): {'Condition_rows': '32:36', 'Condition_rows_practice': None}
+716.6245 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+716.6251 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+716.6258 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/train.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowRight.png')])
+716.6947 	EXP 	polygon: autoDraw = False
+716.6947 	EXP 	polygon: autoDraw = False
+716.6947 	EXP 	image: image = 'Images/train.jpg'
+716.6947 	EXP 	Arrow: image = 'ArrowLeft.png'
+716.6947 	EXP 	image: autoDraw = True
+716.6947 	EXP 	Arrow: autoDraw = True
+717.6123 	DATA 	Keypress: s
+717.9793 	DATA 	Keypress: 1
+720.1124 	DATA 	Keypress: s
+721.6421 	EXP 	image: autoDraw = False
+721.6421 	EXP 	Arrow: autoDraw = False
+721.6421 	EXP 	polygon: autoDraw = True
+722.6115 	DATA 	Keypress: s
+722.6258 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/bed.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+722.6912 	EXP 	polygon: autoDraw = False
+722.6912 	EXP 	image: image = 'Images/bed.jpg'
+722.6912 	EXP 	Arrow: image = 'ArrowLeft.png'
+722.6912 	EXP 	image: autoDraw = True
+722.6912 	EXP 	Arrow: autoDraw = True
+724.6785 	DATA 	Keypress: 1
+725.1126 	DATA 	Keypress: s
+727.6117 	DATA 	Keypress: s
+727.6420 	EXP 	image: autoDraw = False
+727.6420 	EXP 	Arrow: autoDraw = False
+727.6420 	EXP 	polygon: autoDraw = True
+728.6260 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/armchair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+728.6743 	EXP 	polygon: autoDraw = False
+728.6743 	EXP 	image: image = 'Images/armchair.jpg'
+728.6743 	EXP 	Arrow: image = 'ArrowLeft.png'
+728.6743 	EXP 	image: autoDraw = True
+728.6743 	EXP 	Arrow: autoDraw = True
+730.1118 	DATA 	Keypress: s
+731.6459 	DATA 	Keypress: 1
+732.6129 	DATA 	Keypress: s
+733.6421 	EXP 	image: autoDraw = False
+733.6421 	EXP 	Arrow: autoDraw = False
+733.6421 	EXP 	polygon: autoDraw = True
+734.6260 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/van.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowRight.png')])
+734.7097 	EXP 	polygon: autoDraw = False
+734.7097 	EXP 	image: image = 'Images/van.jpg'
+734.7097 	EXP 	Arrow: image = 'ArrowRight.png'
+734.7097 	EXP 	image: autoDraw = True
+734.7097 	EXP 	Arrow: autoDraw = True
+735.0970 	DATA 	Keypress: s
+737.2471 	DATA 	Keypress: 3
+737.5971 	DATA 	Keypress: s
+739.6420 	EXP 	image: autoDraw = False
+739.6420 	EXP 	Arrow: autoDraw = False
+739.6420 	EXP 	polygon: autoDraw = True
+740.1126 	DATA 	Keypress: s
+740.6396 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+740.6403 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+740.6410 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/train.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowRight.png')])
+740.6938 	EXP 	polygon: autoDraw = False
+740.6938 	EXP 	image_2: image = 'Images/train.jpg'
+740.6938 	EXP 	image_2: autoDraw = True
+740.6938 	EXP 	direction_options: autoDraw = True
+742.1142 	DATA 	Keypress: 1
+742.5972 	DATA 	Keypress: s
+745.1143 	DATA 	Keypress: s
+745.6417 	EXP 	image_2: autoDraw = False
+745.6417 	EXP 	direction_options: autoDraw = False
+745.6417 	EXP 	polygon: autoDraw = True
+746.6255 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/van.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowRight.png')])
+746.6607 	EXP 	polygon: autoDraw = False
+746.6607 	EXP 	image_2: image = 'Images/van.jpg'
+746.6607 	EXP 	image_2: autoDraw = True
+746.6607 	EXP 	direction_options: autoDraw = True
+747.5975 	DATA 	Keypress: s
+748.9646 	DATA 	Keypress: 1
+750.1136 	DATA 	Keypress: s
+751.6416 	EXP 	image_2: autoDraw = False
+751.6416 	EXP 	direction_options: autoDraw = False
+751.6416 	EXP 	polygon: autoDraw = True
+752.6116 	DATA 	Keypress: s
+752.6252 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/bed.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+752.6768 	EXP 	polygon: autoDraw = False
+752.6768 	EXP 	image_2: image = 'Images/bed.jpg'
+752.6768 	EXP 	image_2: autoDraw = True
+752.6768 	EXP 	direction_options: autoDraw = True
+753.7790 	DATA 	Keypress: 1
+755.1137 	DATA 	Keypress: s
+757.5968 	DATA 	Keypress: s
+757.6414 	EXP 	image_2: autoDraw = False
+757.6414 	EXP 	direction_options: autoDraw = False
+757.6414 	EXP 	polygon: autoDraw = True
+758.6253 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/armchair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+758.6600 	EXP 	polygon: autoDraw = False
+758.6600 	EXP 	image_2: image = 'Images/armchair.jpg'
+758.6600 	EXP 	image_2: autoDraw = True
+758.6600 	EXP 	direction_options: autoDraw = True
+759.8969 	DATA 	Keypress: 3
+760.1129 	DATA 	Keypress: s
+762.5970 	DATA 	Keypress: s
+763.6411 	EXP 	image_2: autoDraw = False
+763.6411 	EXP 	direction_options: autoDraw = False
+763.6411 	EXP 	polygon: autoDraw = True
+764.6252 	EXP 	New trial (rep=0, index=10): {'Condition_rows': '36:40', 'Condition_rows_practice': None}
+764.6399 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+764.6406 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+764.6413 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/Chest_of_drawers.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+764.7087 	EXP 	polygon: autoDraw = False
+764.7087 	EXP 	image: image = 'Images/Chest_of_drawers.jpg'
+764.7087 	EXP 	Arrow: image = 'ArrowUp.png'
+764.7087 	EXP 	image: autoDraw = True
+764.7087 	EXP 	Arrow: autoDraw = True
+765.1126 	DATA 	Keypress: s
+766.5132 	DATA 	Keypress: 2
+767.6112 	DATA 	Keypress: s
+769.6407 	EXP 	image: autoDraw = False
+769.6407 	EXP 	Arrow: autoDraw = False
+769.6407 	EXP 	polygon: autoDraw = True
+770.1107 	DATA 	Keypress: s
+770.6246 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/chair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+770.6729 	EXP 	polygon: autoDraw = False
+770.6729 	EXP 	image: image = 'Images/chair.jpg'
+770.6729 	EXP 	Arrow: image = 'ArrowLeft.png'
+770.6729 	EXP 	image: autoDraw = True
+770.6729 	EXP 	Arrow: autoDraw = True
+772.5774 	DATA 	Keypress: 1
+772.6104 	DATA 	Keypress: s
+775.1105 	DATA 	Keypress: s
+775.6405 	EXP 	image: autoDraw = False
+775.6405 	EXP 	Arrow: autoDraw = False
+775.6405 	EXP 	polygon: autoDraw = True
+776.6245 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/bookcase.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowUp.png')])
+776.6728 	EXP 	polygon: autoDraw = False
+776.6728 	EXP 	image: image = 'Images/bookcase.jpg'
+776.6728 	EXP 	Arrow: image = 'ArrowRight.png'
+776.6728 	EXP 	image: autoDraw = True
+776.6728 	EXP 	Arrow: autoDraw = True
+777.6106 	DATA 	Keypress: s
+778.5607 	DATA 	Keypress: 3
+780.1107 	DATA 	Keypress: s
+781.6403 	EXP 	image: autoDraw = False
+781.6403 	EXP 	Arrow: autoDraw = False
+781.6403 	EXP 	polygon: autoDraw = True
+782.6096 	DATA 	Keypress: s
+782.6235 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/bedside_table.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+782.6737 	EXP 	polygon: autoDraw = False
+782.6737 	EXP 	image: image = 'Images/bedside_table.jpg'
+782.6737 	EXP 	Arrow: image = 'ArrowLeft.png'
+782.6737 	EXP 	image: autoDraw = True
+782.6737 	EXP 	Arrow: autoDraw = True
+784.1958 	DATA 	Keypress: 1
+785.1119 	DATA 	Keypress: s
+787.6120 	DATA 	Keypress: s
+787.6404 	EXP 	image: autoDraw = False
+787.6404 	EXP 	Arrow: autoDraw = False
+787.6404 	EXP 	polygon: autoDraw = True
+788.6379 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+788.6386 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+788.6393 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/bookcase.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('Direction', 'ArrowUp.png')])
+788.6764 	EXP 	polygon: autoDraw = False
+788.6764 	EXP 	image_2: image = 'Images/bookcase.jpg'
+788.6764 	EXP 	image_2: autoDraw = True
+788.6764 	EXP 	direction_options: autoDraw = True
+790.1120 	DATA 	Keypress: s
+791.6620 	DATA 	Keypress: 2
+792.5961 	DATA 	Keypress: s
+793.6404 	EXP 	image_2: autoDraw = False
+793.6404 	EXP 	direction_options: autoDraw = False
+793.6404 	EXP 	polygon: autoDraw = True
+794.6242 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/chair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+794.6590 	EXP 	polygon: autoDraw = False
+794.6590 	EXP 	image_2: image = 'Images/chair.jpg'
+794.6590 	EXP 	image_2: autoDraw = True
+794.6590 	EXP 	direction_options: autoDraw = True
+795.1123 	DATA 	Keypress: s
+795.7293 	DATA 	Keypress: 1
+797.5954 	DATA 	Keypress: s
+799.6400 	EXP 	image_2: autoDraw = False
+799.6400 	EXP 	direction_options: autoDraw = False
+799.6400 	EXP 	polygon: autoDraw = True
+800.1109 	DATA 	Keypress: s
+800.6240 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/Chest_of_drawers.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+800.6589 	EXP 	polygon: autoDraw = False
+800.6589 	EXP 	image_2: image = 'Images/Chest_of_drawers.jpg'
+800.6589 	EXP 	image_2: autoDraw = True
+800.6589 	EXP 	direction_options: autoDraw = True
+802.5955 	DATA 	Keypress: 2
+802.5959 	DATA 	Keypress: s
+805.1127 	DATA 	Keypress: s
+805.6399 	EXP 	image_2: autoDraw = False
+805.6399 	EXP 	direction_options: autoDraw = False
+805.6399 	EXP 	polygon: autoDraw = True
+806.6238 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/bedside_table.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+806.6587 	EXP 	polygon: autoDraw = False
+806.6587 	EXP 	image_2: image = 'Images/bedside_table.jpg'
+806.6587 	EXP 	image_2: autoDraw = True
+806.6587 	EXP 	direction_options: autoDraw = True
+807.5287 	DATA 	Keypress: 1
+807.5958 	DATA 	Keypress: s
+810.1118 	DATA 	Keypress: s
+811.6397 	EXP 	image_2: autoDraw = False
+811.6397 	EXP 	direction_options: autoDraw = False
+811.6397 	EXP 	polygon: autoDraw = True
+812.6093 	DATA 	Keypress: s
+812.6237 	EXP 	New trial (rep=0, index=11): {'Condition_rows': '40:44', 'Condition_rows_practice': None}
+812.6380 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+812.6386 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+812.6393 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/couch.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+812.6906 	EXP 	polygon: autoDraw = False
+812.6906 	EXP 	image: image = 'Images/couch.jpg'
+812.6906 	EXP 	Arrow: image = 'ArrowUp.png'
+812.6906 	EXP 	image: autoDraw = True
+812.6906 	EXP 	Arrow: autoDraw = True
+814.6950 	DATA 	Keypress: 2
+815.1110 	DATA 	Keypress: s
+817.6092 	DATA 	Keypress: s
+817.6392 	EXP 	image: autoDraw = False
+817.6392 	EXP 	Arrow: autoDraw = False
+817.6392 	EXP 	polygon: autoDraw = True
+818.6232 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/filling_cabinet.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+818.6714 	EXP 	polygon: autoDraw = False
+818.6714 	EXP 	image: image = 'Images/filling_cabinet.jpg'
+818.6714 	EXP 	Arrow: image = 'ArrowLeft.png'
+818.6714 	EXP 	image: autoDraw = True
+818.6714 	EXP 	Arrow: autoDraw = True
+820.1092 	DATA 	Keypress: s
+820.3252 	DATA 	Keypress: 1
+822.6094 	DATA 	Keypress: s
+823.6390 	EXP 	image: autoDraw = False
+823.6390 	EXP 	Arrow: autoDraw = False
+823.6390 	EXP 	polygon: autoDraw = True
+824.6230 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/lectern.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+824.6713 	EXP 	polygon: autoDraw = False
+824.6713 	EXP 	image: image = 'Images/lectern.jpg'
+824.6713 	EXP 	Arrow: image = 'ArrowUp.png'
+824.6713 	EXP 	image: autoDraw = True
+824.6713 	EXP 	Arrow: autoDraw = True
+825.1084 	DATA 	Keypress: s
+827.6085 	DATA 	Keypress: s
+827.6088 	DATA 	Keypress: 2
+829.6388 	EXP 	image: autoDraw = False
+829.6388 	EXP 	Arrow: autoDraw = False
+829.6388 	EXP 	polygon: autoDraw = True
+830.1091 	DATA 	Keypress: s
+830.6229 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/lamp.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+830.6730 	EXP 	polygon: autoDraw = False
+830.6730 	EXP 	image: image = 'Images/lamp.jpg'
+830.6730 	EXP 	Arrow: image = 'ArrowLeft.png'
+830.6730 	EXP 	image: autoDraw = True
+830.6730 	EXP 	Arrow: autoDraw = True
+832.1095 	DATA 	Keypress: 1
+832.6098 	DATA 	Keypress: s
+835.1095 	DATA 	Keypress: s
+835.6388 	EXP 	image: autoDraw = False
+835.6388 	EXP 	Arrow: autoDraw = False
+835.6388 	EXP 	polygon: autoDraw = True
+836.6365 	EXP 	Imported OneShotLearning_Shuffled.csv as conditions, 4 conditions, 4 params
+836.6371 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+836.6378 	EXP 	New trial (rep=0, index=0): OrderedDict([('StimFile', 'Images/couch.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+836.6747 	EXP 	polygon: autoDraw = False
+836.6747 	EXP 	image_2: image = 'Images/couch.jpg'
+836.6747 	EXP 	image_2: autoDraw = True
+836.6747 	EXP 	direction_options: autoDraw = True
+837.6111 	DATA 	Keypress: s
+838.1277 	DATA 	Keypress: 2
+840.1110 	DATA 	Keypress: s
+841.6387 	EXP 	image_2: autoDraw = False
+841.6387 	EXP 	direction_options: autoDraw = False
+841.6387 	EXP 	polygon: autoDraw = True
+842.6096 	DATA 	Keypress: s
+842.6229 	EXP 	New trial (rep=0, index=1): OrderedDict([('StimFile', 'Images/lamp.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+842.6574 	EXP 	polygon: autoDraw = False
+842.6574 	EXP 	image_2: image = 'Images/lamp.jpg'
+842.6574 	EXP 	image_2: autoDraw = True
+842.6574 	EXP 	direction_options: autoDraw = True
+843.6426 	DATA 	Keypress: 1
+845.1112 	DATA 	Keypress: s
+847.5941 	DATA 	Keypress: s
+847.6384 	EXP 	image_2: autoDraw = False
+847.6384 	EXP 	direction_options: autoDraw = False
+847.6384 	EXP 	polygon: autoDraw = True
+848.6223 	EXP 	New trial (rep=0, index=2): OrderedDict([('StimFile', 'Images/filling_cabinet.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('Direction', 'ArrowUp.png')])
+848.6574 	EXP 	polygon: autoDraw = False
+848.6574 	EXP 	image_2: image = 'Images/filling_cabinet.jpg'
+848.6574 	EXP 	image_2: autoDraw = True
+848.6574 	EXP 	direction_options: autoDraw = True
+849.6104 	DATA 	Keypress: 1
+850.1104 	DATA 	Keypress: s
+852.5945 	DATA 	Keypress: s
+853.6383 	EXP 	image_2: autoDraw = False
+853.6383 	EXP 	direction_options: autoDraw = False
+853.6383 	EXP 	polygon: autoDraw = True
+854.6223 	EXP 	New trial (rep=0, index=3): OrderedDict([('StimFile', 'Images/lectern.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('Direction', 'ArrowUp.png')])
+854.6571 	EXP 	polygon: autoDraw = False
+854.6571 	EXP 	image_2: image = 'Images/lectern.jpg'
+854.6571 	EXP 	image_2: autoDraw = True
+854.6571 	EXP 	direction_options: autoDraw = True
+855.1106 	DATA 	Keypress: s
+855.4261 	DATA 	Keypress: 2
+857.6091 	DATA 	Keypress: s
+859.6381 	EXP 	image_2: autoDraw = False
+859.6381 	EXP 	direction_options: autoDraw = False
+859.6381 	EXP 	polygon: autoDraw = True
+860.1081 	DATA 	Keypress: s
+860.6381 	EXP 	polygon: autoDraw = False
+860.6381 	EXP 	text_4: autoDraw = True
+862.6078 	DATA 	Keypress: s
+865.1078 	DATA 	Keypress: s
+867.6056 	DATA 	Keypress: s
+870.1070 	DATA 	Keypress: s
+870.6415 	EXP 	Imported OneShotLearning.csv as conditions, 23 conditions, 8 params
+870.6423 	EXP 	Created sequence: random, trialTypes=23, nReps=1, seed=None
+870.6432 	EXP 	New trial (rep=0, index=0): OrderedDict([('corrAns', 3), ('StimFile', 'Images/tractor.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/tractor_scrambled.jpg'), ('old', None)])
+870.7030 	EXP 	text_4: autoDraw = False
+870.7030 	EXP 	Scrambled_img: image = 'Images/tractor_scrambled.jpg'
+870.7030 	EXP 	Arrow1: image = 'ArrowRight.png'
+870.7030 	EXP 	Scrambled_img: autoDraw = True
+870.7030 	EXP 	Arrow1: autoDraw = True
+872.0734 	DATA 	Keypress: 3
+872.6063 	DATA 	Keypress: s
+873.6371 	EXP 	Scrambled_img: autoDraw = False
+873.6371 	EXP 	Arrow1: autoDraw = False
+873.6371 	EXP 	polygon: autoDraw = True
+874.6210 	EXP 	New trial (rep=0, index=1): OrderedDict([('corrAns', 2), ('StimFile', 'Images/rocking_chair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/rocking_chair_scrambled.jpg'), ('old', None)])
+874.7030 	EXP 	polygon: autoDraw = False
+874.7030 	EXP 	Scrambled_img: image = 'Images/rocking_chair_scrambled.jpg'
+874.7030 	EXP 	Arrow1: image = 'ArrowUp.png'
+874.7030 	EXP 	Scrambled_img: autoDraw = True
+874.7030 	EXP 	Arrow1: autoDraw = True
+875.1063 	DATA 	Keypress: s
+875.3735 	DATA 	Keypress: 2
+877.6065 	DATA 	Keypress: s
+877.6372 	EXP 	Scrambled_img: autoDraw = False
+877.6372 	EXP 	Arrow1: autoDraw = False
+877.6372 	EXP 	polygon: autoDraw = True
+878.6213 	EXP 	New trial (rep=0, index=2): OrderedDict([('corrAns', 1), ('StimFile', 'Images/bedside_table.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/bedside_table_scrambled.jpg'), ('old', None)])
+878.6696 	EXP 	polygon: autoDraw = False
+878.6696 	EXP 	Scrambled_img: image = 'Images/bedside_table_scrambled.jpg'
+878.6696 	EXP 	Arrow1: image = 'ArrowLeft.png'
+878.6696 	EXP 	Scrambled_img: autoDraw = True
+878.6696 	EXP 	Arrow1: autoDraw = True
+879.3897 	DATA 	Keypress: 1
+880.1066 	DATA 	Keypress: s
+881.6372 	EXP 	Scrambled_img: autoDraw = False
+881.6372 	EXP 	Arrow1: autoDraw = False
+881.6372 	EXP 	polygon: autoDraw = True
+882.6081 	DATA 	Keypress: s
+882.6212 	EXP 	New trial (rep=0, index=3): OrderedDict([('corrAns', 1), ('StimFile', 'Images/plane.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/plane_scrambled.jpg'), ('old', None)])
+882.7048 	EXP 	polygon: autoDraw = False
+882.7048 	EXP 	Scrambled_img: image = 'Images/plane_scrambled.jpg'
+882.7048 	EXP 	Arrow1: image = 'ArrowLeft.png'
+882.7048 	EXP 	Scrambled_img: autoDraw = True
+882.7048 	EXP 	Arrow1: autoDraw = True
+883.3588 	DATA 	Keypress: 1
+885.1088 	DATA 	Keypress: s
+885.6374 	EXP 	Scrambled_img: autoDraw = False
+885.6374 	EXP 	Arrow1: autoDraw = False
+885.6374 	EXP 	polygon: autoDraw = True
+886.6211 	EXP 	New trial (rep=0, index=4): OrderedDict([('corrAns', 3), ('StimFile', 'Images/couch.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/couch_scrambled.jpg'), ('old', None)])
+886.6888 	EXP 	polygon: autoDraw = False
+886.6888 	EXP 	Scrambled_img: image = 'Images/couch_scrambled.jpg'
+886.6888 	EXP 	Arrow1: image = 'ArrowRight.png'
+886.6888 	EXP 	Scrambled_img: autoDraw = True
+886.6888 	EXP 	Arrow1: autoDraw = True
+887.6070 	DATA 	Keypress: s
+887.6421 	DATA 	Keypress: 3
+889.6372 	EXP 	Scrambled_img: autoDraw = False
+889.6372 	EXP 	Arrow1: autoDraw = False
+889.6372 	EXP 	polygon: autoDraw = True
+890.1059 	DATA 	Keypress: s
+890.6201 	EXP 	New trial (rep=0, index=5): OrderedDict([('corrAns', 1), ('StimFile', 'Images/sofa.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/sofa_scrambled.jpg'), ('old', None)])
+890.6722 	EXP 	polygon: autoDraw = False
+890.6722 	EXP 	Scrambled_img: image = 'Images/sofa_scrambled.jpg'
+890.6722 	EXP 	Arrow1: image = 'ArrowLeft.png'
+890.6722 	EXP 	Scrambled_img: autoDraw = True
+890.6722 	EXP 	Arrow1: autoDraw = True
+891.2247 	DATA 	Keypress: 1
+892.6075 	DATA 	Keypress: s
+893.6366 	EXP 	Scrambled_img: autoDraw = False
+893.6366 	EXP 	Arrow1: autoDraw = False
+893.6366 	EXP 	polygon: autoDraw = True
+894.6208 	EXP 	New trial (rep=0, index=6): OrderedDict([('corrAns', 3), ('StimFile', 'Images/stool.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/stool_scrambled.jpg'), ('old', None)])
+894.6550 	EXP 	polygon: autoDraw = False
+894.6550 	EXP 	Scrambled_img: image = 'Images/stool_scrambled.jpg'
+894.6550 	EXP 	Arrow1: image = 'ArrowRight.png'
+894.6550 	EXP 	Scrambled_img: autoDraw = True
+894.6550 	EXP 	Arrow1: autoDraw = True
+895.2075 	DATA 	Keypress: 3
+897.6365 	EXP 	Scrambled_img: autoDraw = False
+897.6365 	EXP 	Arrow1: autoDraw = False
+897.6365 	EXP 	polygon: autoDraw = True
+898.6204 	EXP 	New trial (rep=0, index=7): OrderedDict([('corrAns', 3), ('StimFile', 'Images/armchair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/armchair_scrambled.jpg'), ('old', None)])
+898.6558 	EXP 	polygon: autoDraw = False
+898.6558 	EXP 	Scrambled_img: image = 'Images/armchair_scrambled.jpg'
+898.6558 	EXP 	Arrow1: image = 'ArrowRight.png'
+898.6558 	EXP 	Scrambled_img: autoDraw = True
+898.6558 	EXP 	Arrow1: autoDraw = True
+899.7754 	DATA 	Keypress: 3
+901.6370 	EXP 	Scrambled_img: autoDraw = False
+901.6370 	EXP 	Arrow1: autoDraw = False
+901.6370 	EXP 	polygon: autoDraw = True
+902.6209 	EXP 	New trial (rep=0, index=8): OrderedDict([('corrAns', 1), ('StimFile', 'Images/van.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/van_scrambled.jpg'), ('old', None)])
+902.7049 	EXP 	polygon: autoDraw = False
+902.7049 	EXP 	Scrambled_img: image = 'Images/van_scrambled.jpg'
+902.7049 	EXP 	Arrow1: image = 'ArrowLeft.png'
+902.7049 	EXP 	Scrambled_img: autoDraw = True
+902.7049 	EXP 	Arrow1: autoDraw = True
+903.7416 	DATA 	Keypress: 1
+905.6369 	EXP 	Scrambled_img: autoDraw = False
+905.6369 	EXP 	Arrow1: autoDraw = False
+905.6369 	EXP 	polygon: autoDraw = True
+906.6207 	EXP 	New trial (rep=0, index=9): OrderedDict([('corrAns', 1), ('StimFile', 'Images/Chest_of_drawers.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/Chest_of_drawers_scrambled.jpg'), ('old', None)])
+906.6889 	EXP 	polygon: autoDraw = False
+906.6889 	EXP 	Scrambled_img: image = 'Images/Chest_of_drawers_scrambled.jpg'
+906.6889 	EXP 	Arrow1: image = 'ArrowLeft.png'
+906.6889 	EXP 	Scrambled_img: autoDraw = True
+906.6889 	EXP 	Arrow1: autoDraw = True
+907.5247 	DATA 	Keypress: 1
+909.6367 	EXP 	Scrambled_img: autoDraw = False
+909.6367 	EXP 	Arrow1: autoDraw = False
+909.6367 	EXP 	polygon: autoDraw = True
+910.6200 	EXP 	New trial (rep=0, index=10): OrderedDict([('corrAns', 3), ('StimFile', 'Images/bookcase.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', 'neutral'), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/bookcase_scrambled.jpg'), ('old', None)])
+910.6714 	EXP 	polygon: autoDraw = False
+910.6714 	EXP 	Scrambled_img: image = 'Images/bookcase_scrambled.jpg'
+910.6714 	EXP 	Arrow1: image = 'ArrowRight.png'
+910.6714 	EXP 	Scrambled_img: autoDraw = True
+910.6714 	EXP 	Arrow1: autoDraw = True
+911.5749 	DATA 	Keypress: 3
+913.6366 	EXP 	Scrambled_img: autoDraw = False
+913.6366 	EXP 	Arrow1: autoDraw = False
+913.6366 	EXP 	polygon: autoDraw = True
+914.6204 	EXP 	New trial (rep=0, index=11): OrderedDict([('corrAns', 3), ('StimFile', 'Images/lectern.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/lectern_scrambled.jpg'), ('old', None)])
+914.6726 	EXP 	polygon: autoDraw = False
+914.6726 	EXP 	Scrambled_img: image = 'Images/lectern_scrambled.jpg'
+914.6726 	EXP 	Arrow1: image = 'ArrowRight.png'
+914.6726 	EXP 	Scrambled_img: autoDraw = True
+914.6726 	EXP 	Arrow1: autoDraw = True
+915.6081 	DATA 	Keypress: 3
+917.6361 	EXP 	Scrambled_img: autoDraw = False
+917.6361 	EXP 	Arrow1: autoDraw = False
+917.6361 	EXP 	polygon: autoDraw = True
+918.6200 	EXP 	New trial (rep=0, index=12): OrderedDict([('corrAns', 2), ('StimFile', 'Images/paragliding.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/paragliding_scrambled.jpg'), ('old', None)])
+918.7010 	EXP 	polygon: autoDraw = False
+918.7010 	EXP 	Scrambled_img: image = 'Images/paragliding_scrambled.jpg'
+918.7010 	EXP 	Arrow1: image = 'ArrowUp.png'
+918.7010 	EXP 	Scrambled_img: autoDraw = True
+918.7010 	EXP 	Arrow1: autoDraw = True
+920.2552 	DATA 	Keypress: 2
+921.6355 	EXP 	Scrambled_img: autoDraw = False
+921.6355 	EXP 	Arrow1: autoDraw = False
+921.6355 	EXP 	polygon: autoDraw = True
+922.6198 	EXP 	New trial (rep=0, index=13): OrderedDict([('corrAns', 1), ('StimFile', 'Images/skateboard.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/skateboard_scrambled.jpg'), ('old', None)])
+922.6682 	EXP 	polygon: autoDraw = False
+922.6682 	EXP 	Scrambled_img: image = 'Images/skateboard_scrambled.jpg'
+922.6682 	EXP 	Arrow1: image = 'ArrowLeft.png'
+922.6682 	EXP 	Scrambled_img: autoDraw = True
+922.6682 	EXP 	Arrow1: autoDraw = True
+923.4884 	DATA 	Keypress: 1
+925.6358 	EXP 	Scrambled_img: autoDraw = False
+925.6358 	EXP 	Arrow1: autoDraw = False
+925.6358 	EXP 	polygon: autoDraw = True
+926.6197 	EXP 	New trial (rep=0, index=14): OrderedDict([('corrAns', 2), ('StimFile', 'Images/train.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/train_scrambled.jpg'), ('old', None)])
+926.6680 	EXP 	polygon: autoDraw = False
+926.6680 	EXP 	Scrambled_img: image = 'Images/train_scrambled.jpg'
+926.6680 	EXP 	Arrow1: image = 'ArrowUp.png'
+926.6680 	EXP 	Scrambled_img: autoDraw = True
+926.6680 	EXP 	Arrow1: autoDraw = True
+927.5544 	DATA 	Keypress: 2
+929.6357 	EXP 	Scrambled_img: autoDraw = False
+929.6357 	EXP 	Arrow1: autoDraw = False
+929.6357 	EXP 	polygon: autoDraw = True
+930.6198 	EXP 	New trial (rep=0, index=15): OrderedDict([('corrAns', 3), ('StimFile', 'Images/motorbike.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/motorbike_scrambled.jpg'), ('old', None)])
+930.6700 	EXP 	polygon: autoDraw = False
+930.6700 	EXP 	Scrambled_img: image = 'Images/motorbike_scrambled.jpg'
+930.6700 	EXP 	Arrow1: image = 'ArrowRight.png'
+930.6700 	EXP 	Scrambled_img: autoDraw = True
+930.6700 	EXP 	Arrow1: autoDraw = True
+931.7727 	DATA 	Keypress: 3
+933.6359 	EXP 	Scrambled_img: autoDraw = False
+933.6359 	EXP 	Arrow1: autoDraw = False
+933.6359 	EXP 	polygon: autoDraw = True
+934.6195 	EXP 	New trial (rep=0, index=16): OrderedDict([('corrAns', 1), ('StimFile', 'Images/lamp.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowLeft.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/lamp_scrambled.jpg'), ('old', None)])
+934.7046 	EXP 	polygon: autoDraw = False
+934.7046 	EXP 	Scrambled_img: image = 'Images/lamp_scrambled.jpg'
+934.7046 	EXP 	Arrow1: image = 'ArrowLeft.png'
+934.7046 	EXP 	Scrambled_img: autoDraw = True
+934.7046 	EXP 	Arrow1: autoDraw = True
+935.6408 	DATA 	Keypress: 1
+937.6358 	EXP 	Scrambled_img: autoDraw = False
+937.6358 	EXP 	Arrow1: autoDraw = False
+937.6358 	EXP 	polygon: autoDraw = True
+938.6197 	EXP 	New trial (rep=0, index=17): OrderedDict([('corrAns', 2), ('StimFile', 'Images/table.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/table_scrambled.jpg'), ('old', None)])
+938.6705 	EXP 	polygon: autoDraw = False
+938.6705 	EXP 	Scrambled_img: image = 'Images/table_scrambled.jpg'
+938.6705 	EXP 	Arrow1: image = 'ArrowUp.png'
+938.6705 	EXP 	Scrambled_img: autoDraw = True
+938.6705 	EXP 	Arrow1: autoDraw = True
+939.5740 	DATA 	Keypress: 2
+941.6357 	EXP 	Scrambled_img: autoDraw = False
+941.6357 	EXP 	Arrow1: autoDraw = False
+941.6357 	EXP 	polygon: autoDraw = True
+942.6195 	EXP 	New trial (rep=0, index=18): OrderedDict([('corrAns', 2), ('StimFile', 'Images/bed.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/bed_scrambled.jpg'), ('old', None)])
+942.6716 	EXP 	polygon: autoDraw = False
+942.6716 	EXP 	Scrambled_img: image = 'Images/bed_scrambled.jpg'
+942.6716 	EXP 	Arrow1: image = 'ArrowUp.png'
+942.6716 	EXP 	Scrambled_img: autoDraw = True
+942.6716 	EXP 	Arrow1: autoDraw = True
+943.4740 	DATA 	Keypress: 2
+945.6350 	EXP 	Scrambled_img: autoDraw = False
+945.6350 	EXP 	Arrow1: autoDraw = False
+945.6350 	EXP 	polygon: autoDraw = True
+946.6195 	EXP 	New trial (rep=0, index=19): OrderedDict([('corrAns', 2), ('StimFile', 'Images/chair.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/chair_scrambled.jpg'), ('old', None)])
+946.6713 	EXP 	polygon: autoDraw = False
+946.6713 	EXP 	Scrambled_img: image = 'Images/chair_scrambled.jpg'
+946.6713 	EXP 	Arrow1: image = 'ArrowUp.png'
+946.6713 	EXP 	Scrambled_img: autoDraw = True
+946.6713 	EXP 	Arrow1: autoDraw = True
+947.4403 	DATA 	Keypress: 2
+949.6354 	EXP 	Scrambled_img: autoDraw = False
+949.6354 	EXP 	Arrow1: autoDraw = False
+949.6354 	EXP 	polygon: autoDraw = True
+950.6193 	EXP 	New trial (rep=0, index=20): OrderedDict([('corrAns', 2), ('StimFile', 'Images/filling_cabinet.jpg'), ('ImgType', 'Furniture'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowUp.png'), ('Scrambled', 'Images/filling_cabinet_scrambled.jpg'), ('old', None)])
+950.6715 	EXP 	polygon: autoDraw = False
+950.6715 	EXP 	Scrambled_img: image = 'Images/filling_cabinet_scrambled.jpg'
+950.6715 	EXP 	Arrow1: image = 'ArrowUp.png'
+950.6715 	EXP 	Scrambled_img: autoDraw = True
+950.6715 	EXP 	Arrow1: autoDraw = True
+951.8564 	DATA 	Keypress: 2
+953.6353 	EXP 	Scrambled_img: autoDraw = False
+953.6353 	EXP 	Arrow1: autoDraw = False
+953.6353 	EXP 	polygon: autoDraw = True
+954.6191 	EXP 	New trial (rep=0, index=21): OrderedDict([('corrAns', 3), ('StimFile', 'Images/scooter.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowRight.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/scooter_scrambled.jpg'), ('old', None)])
+954.7030 	EXP 	polygon: autoDraw = False
+954.7030 	EXP 	Scrambled_img: image = 'Images/scooter_scrambled.jpg'
+954.7030 	EXP 	Arrow1: image = 'ArrowRight.png'
+954.7030 	EXP 	Scrambled_img: autoDraw = True
+954.7030 	EXP 	Arrow1: autoDraw = True
+955.5888 	DATA 	Keypress: 3
+957.6351 	EXP 	Scrambled_img: autoDraw = False
+957.6351 	EXP 	Arrow1: autoDraw = False
+957.6351 	EXP 	polygon: autoDraw = True
+958.6189 	EXP 	New trial (rep=0, index=22): OrderedDict([('corrAns', 2), ('StimFile', 'Images/ship.jpg'), ('ImgType', 'Vehicles'), ('ArrowImg', 'ArrowUp.png'), ('ImgOrientation', None), ('Direction', 'ArrowRight.png'), ('Scrambled', 'Images/ship_scrambled.jpg'), ('old', None)])
+958.6710 	EXP 	polygon: autoDraw = False
+958.6710 	EXP 	Scrambled_img: image = 'Images/ship_scrambled.jpg'
+958.6710 	EXP 	Arrow1: image = 'ArrowUp.png'
+958.6710 	EXP 	Scrambled_img: autoDraw = True
+958.6710 	EXP 	Arrow1: autoDraw = True
+959.2068 	DATA 	Keypress: 2
+961.5728 	DATA 	Keypress: 2
+961.6349 	EXP 	Scrambled_img: autoDraw = False
+961.6349 	EXP 	Arrow1: autoDraw = False
+961.6349 	EXP 	polygon: autoDraw = True
+962.6352 	EXP 	polygon: autoDraw = False
+962.6352 	EXP 	text_2: autoDraw = True
+968.6343 	EXP 	text_2: autoDraw = False
+968.7212 	EXP 	window1: mouseVisible = True

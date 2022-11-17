@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on October 24, 2022, at 19:40
+    on November 17, 2022, at 11:47
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -86,7 +86,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "Instructions"
 InstructionsClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text='Instruktioner:\n\nDu kommer att se bilder på ansikten presenterade en i taget.\nUnder varje bild så står ett NAMN eller ett YRKE .\nDin uppgift är att memorera varje persons namn eller yrke.\n\nDärefter kommer du se de ansikten som du nyss såg men istället för att det står ett namn eller ett yrke under varje bild så ser du istället tre bokstäver.\nDin uppgift då är att välja den korrekta första bokstaven i Namnet eller Yrket till personen som visas.\n\nNär du ser ett kors på skärmen så ska du bara titta på det.\nEfter varje bildvisning när du väljer första bokstaven så kommer korset i mitten av skärmen att övergå till en cirkel under en kort stund.\nTryck så snabbt du kan på en av knapparna när du ser Cirkeln.\n \n\nSvara på varje bild med hjälp av följande knappar:\n1 (pekfinger) = VÄNSTER       \n2 (långfinger) = MITTEN\n3 (ringfinger) = HÖGER\n\nVi vet att det är en svår uppgift så gör så gott du kan och lycka till!\n\nTryck med pekfingret och meddela när du är redo att börja.\n',
+    text='Instruktioner:\n\nDu kommer att se bilder på ansikten presenterade en i taget.\nUnder varje bild så står ett NAMN eller ett YRKE .\nDin uppgift är att memorera varje persons namn eller yrke.\n\nDärefter kommer du se de ansikten som du nyss såg men istället för att det står ett namn eller ett yrke under varje bild så ser du istället tre bokstäver.\nDin uppgift då är att välja den korrekta första bokstaven i Namnet eller Yrket till personen som visas.\n\nNär du ser ett kors på skärmen så ska du bara titta på det.\nEfter varje bildvisning där du väljer första bokstaven så kommer korset i mitten av skärmen att övergå till en cirkel under en kort stund.\nTryck så snabbt du kan på en av knapparna när du ser Cirkeln.\n \n\nSvara på varje bild med hjälp av följande knappar:\n1 (pekfinger) = VÄNSTER       \n2 (långfinger) = MITTEN\n3 (ringfinger) = HÖGER\n\nVi vet att det är en svår uppgift så gör så gott du kan och lycka till!\n\nTryck med pekfingret och meddela när du är redo att börja.\n',
     font='Open Sans',
     pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
     color='black', colorSpace='rgb', opacity=None, 
@@ -107,7 +107,7 @@ key_resp = keyboard.Keyboard()
 # Initialize components for Routine "Namn_Info"
 Namn_InfoClock = core.Clock()
 text_8 = visual.TextStim(win=win, name='text_8',
-    text='NAMN.',
+    text='NAMN',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='black', colorSpace='rgb', opacity=None, 
@@ -182,7 +182,7 @@ polygon = visual.ShapeStim(
 Circle = visual.ImageStim(
     win=win,
     name='Circle', 
-    image='Circle.png', mask=None,
+    image='sin', mask=None,
     ori=0.0, pos=(0, 0), size=(0.1, 0.1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -267,7 +267,7 @@ polygon = visual.ShapeStim(
 Circle = visual.ImageStim(
     win=win,
     name='Circle', 
-    image='Circle.png', mask=None,
+    image='sin', mask=None,
     ori=0.0, pos=(0, 0), size=(0.1, 0.1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -961,6 +961,7 @@ for thisName_trial in Name_trials:
         # ------Prepare to start Routine "fix_cross_circle"-------
         continueRoutine = True
         # update component parameters for each repeat
+        Circle.setImage('Circle.png')
         key_resp_Circle.keys = []
         key_resp_Circle.rt = []
         _key_resp_Circle_allKeys = []
@@ -1585,6 +1586,7 @@ for thisProffession_trial in Proffession_trials:
         # ------Prepare to start Routine "fix_cross_circle"-------
         continueRoutine = True
         # update component parameters for each repeat
+        Circle.setImage('Circle.png')
         key_resp_Circle.keys = []
         key_resp_Circle.rt = []
         _key_resp_Circle_allKeys = []
