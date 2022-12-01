@@ -1,3 +1,0 @@
-﻿Task,corrAns,StimFile,Name,Proffession,Letter1,Letter2,Letter3,NotSeen,Recall_Name.thisRepN,Recall_Name.thisTrialN,Recall_Name.thisN,Recall_Name.thisIndex,text_6.started,text_6.stopped,polygon_5.started,polygon_5.stopped,Jitter,key_resp_1.keys,key_resp_1.rt,key_resp_1.started,key_resp_1.stopped,image.started,image.stopped,text_4.started,text_4.stopped,participant,session,date,expName,psychopyVersion,frameRate,
-recall_names,1,Images_Faces/O34.jpg,Mats,0,M.,B.,R.,NY,0,0,0,3,11.912081899994519,16.925036900036503,16.89266100001987,None,3.75,2,0.8312364000012167,18.956730300036725,None,18.956730300036725,None,18.956730300036725,None,,001,2022_Nov_21_0957,FacesNamesProffessions_Encoding,2021.2.3,59.93267163334266,
-,,,,,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,
