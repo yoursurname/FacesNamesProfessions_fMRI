@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on November 17, 2022, at 12:10
+    on December 20, 2022, at 18:22
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\emilo\\OneDrive - Lund University\\Jobb\\Experiments\\FacesNamesProffessions\\Encoding_Recall\\Encoding_Recall_lastrun.py',
+    originPath='C:\\Users\\emilo\\OneDrive - Lund University\\Jobb\\Experiments\\FacesNamesProfessions_fMRI\\Encoding_Recall\\Encoding_Recall_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -193,6 +193,15 @@ shuffle(jitter)
 fix_crossClock = core.Clock()
 polygon = visual.ShapeStim(
     win=win, name='polygon', vertices='cross',
+    size=(0.1, 0.1),
+    ori=0.0, pos=(0, 0),
+    lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
+    opacity=None, depth=0.0, interpolate=True)
+
+# Initialize components for Routine "Halftime_Break"
+Halftime_BreakClock = core.Clock()
+polygon_9 = visual.ShapeStim(
+    win=win, name='polygon_9', vertices='cross',
     size=(0.1, 0.1),
     ori=0.0, pos=(0, 0),
     lineWidth=0.1,     colorSpace='rgb',  lineColor=None, fillColor='black',
@@ -577,7 +586,7 @@ thisExp.addData('polygon_7.stopped', polygon_7.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Encoding_Name = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Encoding.xlsx', selection='0:15'),
+    trialList=data.importConditions('Encoding_Recall.xlsx', selection='0:30'),
     seed=None, name='Encoding_Name')
 thisExp.addLoop(Encoding_Name)  # add the loop to the experiment
 thisEncoding_Name = Encoding_Name.trialList[0]  # so we can initialise stimuli with some values
@@ -892,9 +901,9 @@ thisExp.addData('polygon_8.started', polygon_8.tStartRefresh)
 thisExp.addData('polygon_8.stopped', polygon_8.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-Encoding_Profession = data.TrialHandler(nReps=1.0, method='random', 
+Encoding_Profession = data.TrialHandler(nReps=0.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Encoding.xlsx', selection='30:45'),
+    trialList=data.importConditions('Encoding_Recall.xlsx', selection='30:60'),
     seed=None, name='Encoding_Profession')
 thisExp.addLoop(Encoding_Profession)  # add the loop to the experiment
 thisEncoding_Profession = Encoding_Profession.trialList[0]  # so we can initialise stimuli with some values
@@ -1117,8 +1126,77 @@ for thisEncoding_Profession in Encoding_Profession:
     routineTimer.reset()
     thisExp.nextEntry()
     
-# completed 1.0 repeats of 'Encoding_Profession'
+# completed 0.0 repeats of 'Encoding_Profession'
 
+
+# ------Prepare to start Routine "Halftime_Break"-------
+continueRoutine = True
+routineTimer.add(10.000000)
+# update component parameters for each repeat
+# keep track of which components have finished
+Halftime_BreakComponents = [polygon_9]
+for thisComponent in Halftime_BreakComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+Halftime_BreakClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+
+# -------Run Routine "Halftime_Break"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = Halftime_BreakClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=Halftime_BreakClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *polygon_9* updates
+    if polygon_9.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        polygon_9.frameNStart = frameN  # exact frame index
+        polygon_9.tStart = t  # local t and not account for scr refresh
+        polygon_9.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(polygon_9, 'tStartRefresh')  # time at next scr refresh
+        polygon_9.setAutoDraw(True)
+    if polygon_9.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > polygon_9.tStartRefresh + 10-frameTolerance:
+            # keep track of stop time/frame for later
+            polygon_9.tStop = t  # not accounting for scr refresh
+            polygon_9.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(polygon_9, 'tStopRefresh')  # time at next scr refresh
+            polygon_9.setAutoDraw(False)
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in Halftime_BreakComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "Halftime_Break"-------
+for thisComponent in Halftime_BreakComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('polygon_9.started', polygon_9.tStartRefresh)
+thisExp.addData('polygon_9.stopped', polygon_9.tStopRefresh)
 
 # ------Prepare to start Routine "RecallName_info"-------
 continueRoutine = True
@@ -1211,7 +1289,7 @@ thisExp.addData('polygon_5.stopped', polygon_5.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Recall_Name = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Recall.xlsx', selection='0:15'),
+    trialList=data.importConditions('Encoding_Recall.xlsx', selection='60:90'),
     seed=None, name='Recall_Name')
 thisExp.addLoop(Recall_Name)  # add the loop to the experiment
 thisRecall_Name = Recall_Name.trialList[0]  # so we can initialise stimuli with some values
@@ -1525,7 +1603,7 @@ thisExp.addData('polygon_6.stopped', polygon_6.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Recall_Proffession = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Recall.xlsx', selection='30:45'),
+    trialList=data.importConditions('Encoding_Recall.xlsx', selection='90:120'),
     seed=None, name='Recall_Proffession')
 thisExp.addLoop(Recall_Proffession)  # add the loop to the experiment
 thisRecall_Proffession = Recall_Proffession.trialList[0]  # so we can initialise stimuli with some values

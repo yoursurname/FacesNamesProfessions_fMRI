@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on November 21, 2022, at 10:01
+    on December 20, 2022, at 19:22
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\emilo\\OneDrive - Lund University\\Jobb\\Experiments\\FacesNamesProfessions\\Encoding_Recall\\Practice_Encoding_Recall_lastrun.py',
+    originPath='C:\\Users\\emilo\\OneDrive - Lund University\\Jobb\\Experiments\\FacesNamesProfessions_fMRI\\Encoding_Recall\\Practice_Encoding_Recall_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -472,7 +472,7 @@ thisExp.addData('polygon_7.stopped', polygon_7.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Encoding_Name = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Encoding.xlsx', selection='15:18'),
+    trialList=data.importConditions('Practice_Encoding_Recall.xlsx', selection='0:3'),
     seed=None, name='Encoding_Name')
 thisExp.addLoop(Encoding_Name)  # add the loop to the experiment
 thisEncoding_Name = Encoding_Name.trialList[0]  # so we can initialise stimuli with some values
@@ -789,7 +789,7 @@ thisExp.addData('polygon_8.stopped', polygon_8.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Encoding_Profession = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Encoding.xlsx', selection='45:48'),
+    trialList=data.importConditions('Practice_Encoding_Recall.xlsx', selection='3:6'),
     seed=None, name='Encoding_Profession')
 thisExp.addLoop(Encoding_Profession)  # add the loop to the experiment
 thisEncoding_Profession = Encoding_Profession.trialList[0]  # so we can initialise stimuli with some values
@@ -1106,7 +1106,7 @@ thisExp.addData('polygon_5.stopped', polygon_5.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Recall_Name = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Recall.xlsx', selection='15:18'),
+    trialList=data.importConditions('Practice_Encoding_Recall.xlsx', selection='6:9'),
     seed=None, name='Recall_Name')
 thisExp.addLoop(Recall_Name)  # add the loop to the experiment
 thisRecall_Name = Recall_Name.trialList[0]  # so we can initialise stimuli with some values
@@ -1420,7 +1420,7 @@ thisExp.addData('polygon_6.stopped', polygon_6.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 Recall_Proffession = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Recall.xlsx', selection='45:48'),
+    trialList=data.importConditions('Practice_Encoding_Recall.xlsx', selection='9:12'),
     seed=None, name='Recall_Proffession')
 thisExp.addLoop(Recall_Proffession)  # add the loop to the experiment
 thisRecall_Proffession = Recall_Proffession.trialList[0]  # so we can initialise stimuli with some values
