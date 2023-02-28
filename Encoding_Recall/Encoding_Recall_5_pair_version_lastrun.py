@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on februari 27, 2023, at 15:15
+    on februari 28, 2023, at 10:31
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -99,7 +99,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 text = visual.TextStim(win=win, name='text',
     text='Instruktioner:\n\nDu kommer att se bilder på ansikten presenterade ett i taget.\nUnder varje bild så står ett NAMN eller ett YRKE .\nDin uppgift är att memorera varje persons namn eller yrke.\n\nEfter det kommer ansikten visas med 3 bokstäver och "NY" under bilden. Din uppgift då är att välja den korrekta första bokstaven i Namnet eller Yrket till ansiktet som visas. Om du aldrig sett ansiktet tidigare så väljer du "NY".\n\nSvara på varje bild med hjälp av följande knappar:\n1 (pekfinger) = VÄNSTER       \n2 (långfinger) = MITTEN\n3 (ringfinger) = HÖGER\n4 (lillfinger) = NY\n\nNär du ser ett kors på skärmen så ska du bara titta på det.\n\nVi vet att det är en svår uppgift så gör så gott du kan och lycka till!\n\nTryck med pekfingret och meddela när du är redo att börja.\n',
     font='Open Sans',
-    pos=(0, 0), height=0.04, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
     color='black', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
@@ -111,24 +111,24 @@ occupationContainer = []
 # --- Initialize components for Routine "init_parameters" ---
 # Run 'Begin Experiment' code from param_init
 block = 0
-n_images = 3
+n_images = 5
 jitter = np.arange(2.5, 10, .25)
-cross_duration = 4
+cross_duration_mean = 4
 image_size = (0.748, 0.755)
 image_position = (0, 0.05)
-n_blocks = 2
+n_blocks = 6
 
 
 
-# --- Initialize components for Routine "Wait_fMRI" ---
-key_resp = keyboard.Keyboard()
+# --- Initialize components for Routine "trigger" ---
+trigger_key = keyboard.Keyboard()
 text_3 = visual.TextStim(win=win, name='text_3',
-    text='Snart börjar experimentet!',
+    text='Snart börjar experimentet',
     font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.04, wrapWidth=None, ori=0.0, 
     color='black', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
-    depth=-2.0);
+    depth=-1.0);
 
 # --- Initialize components for Routine "Encode_info" ---
 text_9 = visual.TextStim(win=win, name='text_9',
@@ -197,7 +197,7 @@ image = visual.ImageStim(
     ori=0.0, pos=image_position, size=image_size,
     color='white', colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=False, depth=-2.0)
 letters_text = visual.TextStim(win=win, name='letters_text',
     text='',
     font='Open Sans',
@@ -282,7 +282,7 @@ image = visual.ImageStim(
     ori=0.0, pos=image_position, size=image_size,
     color='white', colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=False, depth=-2.0)
 letters_text = visual.TextStim(win=win, name='letters_text',
     text='',
     font='Open Sans',
@@ -442,16 +442,16 @@ for thisComponent in init_parametersComponents:
 # the Routine "init_parameters" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
-# --- Prepare to start Routine "Wait_fMRI" ---
+# --- Prepare to start Routine "trigger" ---
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
-key_resp.keys = []
-key_resp.rt = []
-_key_resp_allKeys = []
+trigger_key.keys = []
+trigger_key.rt = []
+_trigger_key_allKeys = []
 # keep track of which components have finished
-Wait_fMRIComponents = [key_resp, text_3]
-for thisComponent in Wait_fMRIComponents:
+triggerComponents = [trigger_key, text_3]
+for thisComponent in triggerComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
     thisComponent.tStartRefresh = None
@@ -463,7 +463,7 @@ t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
 
-# --- Run Routine "Wait_fMRI" ---
+# --- Run Routine "trigger" ---
 while continueRoutine:
     # get current time
     t = routineTimer.getTime()
@@ -472,31 +472,29 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *key_resp* updates
+    # *trigger_key* updates
     waitOnFlip = False
-    if key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    if trigger_key.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        key_resp.frameNStart = frameN  # exact frame index
-        key_resp.tStart = t  # local t and not account for scr refresh
-        key_resp.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
+        trigger_key.frameNStart = frameN  # exact frame index
+        trigger_key.tStart = t  # local t and not account for scr refresh
+        trigger_key.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(trigger_key, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'key_resp.started')
-        key_resp.status = STARTED
+        thisExp.timestampOnFlip(win, 'trigger_key.started')
+        trigger_key.status = STARTED
         # keyboard checking is just starting
         waitOnFlip = True
-        win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
-        win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
-    if key_resp.status == STARTED and not waitOnFlip:
-        theseKeys = key_resp.getKeys(keyList=['s'], waitRelease=False)
-        _key_resp_allKeys.extend(theseKeys)
-        if len(_key_resp_allKeys):
-            key_resp.keys = _key_resp_allKeys[-1].name  # just the last key pressed
-            key_resp.rt = _key_resp_allKeys[-1].rt
-    # Run 'Each Frame' code from code_4
-    if (key_resp.keys) == 's':
-        core.wait(8)
-        continueRoutine = False
+        win.callOnFlip(trigger_key.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(trigger_key.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if trigger_key.status == STARTED and not waitOnFlip:
+        theseKeys = trigger_key.getKeys(keyList=['s'], waitRelease=False)
+        _trigger_key_allKeys.extend(theseKeys)
+        if len(_trigger_key_allKeys):
+            trigger_key.keys = _trigger_key_allKeys[-1].name  # just the last key pressed
+            trigger_key.rt = _trigger_key_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # *text_3* updates
     if text_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -508,15 +506,10 @@ while continueRoutine:
         # add timestamp to datafile
         thisExp.timestampOnFlip(win, 'text_3.started')
         text_3.setAutoDraw(True)
-    if text_3.status == STARTED:
-        # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_3.tStartRefresh + 1.0-frameTolerance:
-            # keep track of stop time/frame for later
-            text_3.tStop = t  # not accounting for scr refresh
-            text_3.frameNStop = frameN  # exact frame index
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'text_3.stopped')
-            text_3.setAutoDraw(False)
+    # Run 'Each Frame' code from code_4
+    if trigger_key.keys == 's':
+        core.wait(6)
+        continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -527,7 +520,7 @@ while continueRoutine:
         routineForceEnded = True
         break
     continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in Wait_fMRIComponents:
+    for thisComponent in triggerComponents:
         if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
             continueRoutine = True
             break  # at least one component has not yet finished
@@ -536,18 +529,18 @@ while continueRoutine:
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
 
-# --- Ending Routine "Wait_fMRI" ---
-for thisComponent in Wait_fMRIComponents:
+# --- Ending Routine "trigger" ---
+for thisComponent in triggerComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
 # check responses
-if key_resp.keys in ['', [], None]:  # No response was made
-    key_resp.keys = None
-thisExp.addData('key_resp.keys',key_resp.keys)
-if key_resp.keys != None:  # we had a response
-    thisExp.addData('key_resp.rt', key_resp.rt)
+if trigger_key.keys in ['', [], None]:  # No response was made
+    trigger_key.keys = None
+thisExp.addData('trigger_key.keys',trigger_key.keys)
+if trigger_key.keys != None:  # we had a response
+    thisExp.addData('trigger_key.rt', trigger_key.rt)
 thisExp.nextEntry()
-# the Routine "Wait_fMRI" was not non-slip safe, so reset the non-slip timer
+# the Routine "trigger" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
@@ -695,6 +688,15 @@ for thisName_block in name_blocks:
         continueRoutine = True
         routineForceEnded = False
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from cross_jitter
+        cross_duration = normal(cross_duration_mean,2.2)
+        
+        if cross_duration > 8:
+            cross_duration = 8
+        if cross_duration < 2:
+            cross_duration = 2
+          
+        print(f"cross duration: {cross_duration}")
         # keep track of which components have finished
         fix_crossComponents = [polygon]
         for thisComponent in fix_crossComponents:
@@ -1005,6 +1007,15 @@ for thisName_block in name_blocks:
         continueRoutine = True
         routineForceEnded = False
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from cross_jitter
+        cross_duration = normal(cross_duration_mean,2.2)
+        
+        if cross_duration > 8:
+            cross_duration = 8
+        if cross_duration < 2:
+            cross_duration = 2
+          
+        print(f"cross duration: {cross_duration}")
         # keep track of which components have finished
         fix_crossComponents = [polygon]
         for thisComponent in fix_crossComponents:
@@ -1236,8 +1247,6 @@ for thisName_block in name_blocks:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
         # Run 'End Routine' code from code_2
-        print(letters)
-        print(correct_answer)
         
         Recall.addData("correct", correct_answer)
         # check responses
@@ -1497,6 +1506,15 @@ for thisProfession_block in profession_blocks:
         continueRoutine = True
         routineForceEnded = False
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from cross_jitter
+        cross_duration = normal(cross_duration_mean,2.2)
+        
+        if cross_duration > 8:
+            cross_duration = 8
+        if cross_duration < 2:
+            cross_duration = 2
+          
+        print(f"cross duration: {cross_duration}")
         # keep track of which components have finished
         fix_crossComponents = [polygon]
         for thisComponent in fix_crossComponents:
@@ -1807,6 +1825,15 @@ for thisProfession_block in profession_blocks:
         continueRoutine = True
         routineForceEnded = False
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from cross_jitter
+        cross_duration = normal(cross_duration_mean,2.2)
+        
+        if cross_duration > 8:
+            cross_duration = 8
+        if cross_duration < 2:
+            cross_duration = 2
+          
+        print(f"cross duration: {cross_duration}")
         # keep track of which components have finished
         fix_crossComponents = [polygon]
         for thisComponent in fix_crossComponents:
@@ -2038,8 +2065,6 @@ for thisProfession_block in profession_blocks:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
         # Run 'End Routine' code from code_2
-        print(letters)
-        print(correct_answer)
         
         Recall.addData("correct", correct_answer)
         # check responses

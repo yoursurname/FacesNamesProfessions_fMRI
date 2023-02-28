@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on februari 27, 2023, at 17:40
+    on februari 28, 2023, at 11:30
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -111,7 +111,7 @@ occupationContainer = []
 # --- Initialize components for Routine "init_parameters" ---
 # Run 'Begin Experiment' code from param_init
 block = 0
-n_images = 5
+n_images = 3
 jitter = np.arange(2.5, 10, .25)
 cross_duration_mean = 4
 image_size = (0.748, 0.755)
@@ -187,7 +187,7 @@ image = visual.ImageStim(
     ori=0.0, pos=image_position, size=image_size,
     color='white', colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=False, depth=-2.0)
 letters_text = visual.TextStim(win=win, name='letters_text',
     text='',
     font='Open Sans',
@@ -272,7 +272,7 @@ image = visual.ImageStim(
     ori=0.0, pos=image_position, size=image_size,
     color='white', colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=False, depth=-2.0)
 letters_text = visual.TextStim(win=win, name='letters_text',
     text='',
     font='Open Sans',
@@ -559,8 +559,14 @@ for thisEncoding in Encoding:
     routineForceEnded = False
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code_4
-    random_variation = normal(0, 2)
-    cross_duration = cross_duration_mean + random_variation
+    
+    cross_duration = normal(cross_duration_mean, 2.2)
+    
+    
+    if cross_duration > 8:
+        cross_duration = 8
+    if cross_duration < 2:
+        cross_duration = 2 
     
     print(f"Cross duration: {cross_duration}")
     # keep track of which components have finished
@@ -874,8 +880,14 @@ for thisRecall in Recall:
     routineForceEnded = False
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code_4
-    random_variation = normal(0, 2)
-    cross_duration = cross_duration_mean + random_variation
+    
+    cross_duration = normal(cross_duration_mean, 2.2)
+    
+    
+    if cross_duration > 8:
+        cross_duration = 8
+    if cross_duration < 2:
+        cross_duration = 2 
     
     print(f"Cross duration: {cross_duration}")
     # keep track of which components have finished
@@ -1350,8 +1362,14 @@ for thisEncoding_prof in Encoding_prof:
     routineForceEnded = False
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code_4
-    random_variation = normal(0, 2)
-    cross_duration = cross_duration_mean + random_variation
+    
+    cross_duration = normal(cross_duration_mean, 2.2)
+    
+    
+    if cross_duration > 8:
+        cross_duration = 8
+    if cross_duration < 2:
+        cross_duration = 2 
     
     print(f"Cross duration: {cross_duration}")
     # keep track of which components have finished
@@ -1665,8 +1683,14 @@ for thisRecall_prof in Recall_prof:
     routineForceEnded = False
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code_4
-    random_variation = normal(0, 2)
-    cross_duration = cross_duration_mean + random_variation
+    
+    cross_duration = normal(cross_duration_mean, 2.2)
+    
+    
+    if cross_duration > 8:
+        cross_duration = 8
+    if cross_duration < 2:
+        cross_duration = 2 
     
     print(f"Cross duration: {cross_duration}")
     # keep track of which components have finished

@@ -161,8 +161,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="random_variation = normal(0, 2);&amp;#10;cross_duration = (cross_duration_mean + random_variation);&amp;#10;console.log(`Cross duration: ${cross_duration}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="random_variation = normal(0, 2)&amp;#10;cross_duration = cross_duration_mean + random_variation&amp;#10;&amp;#10;print(f&quot;Cross duration: {cross_duration}&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="cross_duration = normal(cross_duration_mean, 2.2);&amp;#10;if ((cross_duration &gt; 8)) {&amp;#10;    cross_duration = 8;&amp;#10;}&amp;#10;if ((cross_duration &lt; 2)) {&amp;#10;    cross_duration = 2;&amp;#10;}&amp;#10;console.log(`Cross duration: ${cross_duration}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;cross_duration = normal(cross_duration_mean, 2.2)&amp;#10;&amp;#10;&amp;#10;if cross_duration &gt; 8:&amp;#10;    cross_duration = 8&amp;#10;if cross_duration &lt; 2:&amp;#10;    cross_duration = 2 &amp;#10;&amp;#10;print(f&quot;Cross duration: {cross_duration}&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -319,7 +319,7 @@
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
         <Param val="$StimFile" valType="file" updates="set every repeat" name="image"/>
-        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="image" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
@@ -411,8 +411,8 @@
       <CodeComponent name="param_init">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="block = 0&amp;#10;n_images = 5&amp;#10;jitter = np.arange(2.5, 10, .25)&amp;#10;cross_duration_mean = 4&amp;#10;image_size = (0.748, 0.755)&amp;#10;image_position = (0, 0.05)&amp;#10;n_blocks = 1&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="block = 0;&amp;#10;n_images = 5;&amp;#10;jitter = np.arange(2.5, 10, 0.25);&amp;#10;cross_duration_mean = 4;&amp;#10;image_size = [0.748, 0.755];&amp;#10;image_position = [0, 0.05];&amp;#10;n_blocks = 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block = 0&amp;#10;n_images = 3&amp;#10;jitter = np.arange(2.5, 10, .25)&amp;#10;cross_duration_mean = 4&amp;#10;image_size = (0.748, 0.755)&amp;#10;image_position = (0, 0.05)&amp;#10;n_blocks = 1&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="block = 0;&amp;#10;n_images = 3;&amp;#10;jitter = np.arange(2.5, 10, 0.25);&amp;#10;cross_duration_mean = 4;&amp;#10;image_size = [0.748, 0.755];&amp;#10;image_position = [0, 0.05];&amp;#10;n_blocks = 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
