@@ -1,0 +1,1861 @@
+2.9805 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+21.2277 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000001D37E630>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000001D3C9B70>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.2280 	EXP 	window1: mouseVisible = True
+21.2280 	EXP 	window1: recordFrameIntervals = False
+21.3075 	EXP 	window1: recordFrameIntervals = True
+21.3993 	EXP 	window1: recordFrameIntervals = False
+21.9741 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9871 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Snart börjar experimentet', units='height', win=Window(...), wrapWidth=1)
+21.9887 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9921 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+21.9979 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=False, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+21.9992 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+22.0004 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+22.0020 	EXP 	Created fingers = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='fingers', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=600.0)
+22.0042 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.0095 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=False, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+22.0102 	EXP 	Created letters_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letters_text', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1000.0)
+22.0427 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Nu är det dags för yrken', units='height', win=Window(...), wrapWidth=1)
+22.0446 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+22.0476 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.0534 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=False, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+22.0549 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+22.0564 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+22.0580 	EXP 	Created fingers = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='fingers', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=600.0)
+22.0607 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.0662 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=False, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+22.0670 	EXP 	Created letters_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letters_text', opacity=1, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1000.0)
+22.0992 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.1247 	EXP 	text: autoDraw = True
+55.2317 	DATA 	Keypress: 1
+55.2454 	EXP 	text: autoDraw = False
+55.2454 	EXP 	text_3: autoDraw = True
+98.0068 	DATA 	Keypress: s
+98.0072 	DATA 	Keypress: s
+98.0075 	DATA 	Keypress: s
+98.2079 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+98.2082 	EXP 	New trial (rep=0, index=0): None
+98.2169 	EXP 	text_3: autoDraw = False
+98.2169 	EXP 	text_9: text = 'Memorera namn'
+98.2169 	EXP 	text_9: autoDraw = True
+99.1073 	DATA 	Keypress: s
+99.7076 	DATA 	Keypress: s
+102.2074 	DATA 	Keypress: s
+102.2799 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+102.3088 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+102.3092 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'order_randomiser': 31}
+102.3144 	EXP 	text_9: autoDraw = False
+102.3144 	EXP 	polygon: autoDraw = True
+104.7071 	DATA 	Keypress: s
+107.2082 	DATA 	Keypress: s
+109.4305 	EXP 	polygon: autoDraw = False
+109.4305 	EXP 	polygon: autoDraw = False
+109.4305 	EXP 	image_3: image = 'Images_Faces/O35.jpg'
+109.4305 	EXP 	text_8: text = ''
+109.4305 	EXP 	text_8: text = 'Henrik'
+109.4305 	EXP 	image_3: autoDraw = True
+109.4305 	EXP 	text_8: autoDraw = True
+109.7038 	DATA 	Keypress: s
+112.2057 	DATA 	Keypress: s
+113.2969 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'order_randomiser': 98}
+113.3041 	EXP 	image_3: autoDraw = False
+113.3041 	EXP 	text_8: autoDraw = False
+113.3041 	EXP 	polygon: autoDraw = True
+114.7066 	DATA 	Keypress: s
+117.2069 	DATA 	Keypress: s
+118.3445 	EXP 	polygon: autoDraw = False
+118.3445 	EXP 	polygon: autoDraw = False
+118.3445 	EXP 	image_3: image = 'Images_Faces/O49.jpg'
+118.3445 	EXP 	text_8: text = ''
+118.3445 	EXP 	text_8: text = 'Arne'
+118.3445 	EXP 	image_3: autoDraw = True
+118.3445 	EXP 	text_8: autoDraw = True
+119.7143 	DATA 	Keypress: s
+122.2064 	DATA 	Keypress: s
+122.3045 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'order_randomiser': 97}
+122.3121 	EXP 	image_3: autoDraw = False
+122.3121 	EXP 	text_8: autoDraw = False
+122.3121 	EXP 	polygon: autoDraw = True
+124.7055 	DATA 	Keypress: s
+126.3183 	EXP 	polygon: autoDraw = False
+126.3183 	EXP 	polygon: autoDraw = False
+126.3183 	EXP 	image_3: image = 'Images_Faces/O55.jpg'
+126.3183 	EXP 	text_8: text = ''
+126.3183 	EXP 	text_8: text = 'Kjell'
+126.3183 	EXP 	image_3: autoDraw = True
+126.3183 	EXP 	text_8: autoDraw = True
+127.2072 	DATA 	Keypress: s
+129.7071 	DATA 	Keypress: s
+130.2706 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'order_randomiser': 77}
+130.2991 	EXP 	image_3: autoDraw = False
+130.2991 	EXP 	text_8: autoDraw = False
+130.2991 	EXP 	polygon: autoDraw = True
+132.2052 	DATA 	Keypress: s
+133.3408 	EXP 	polygon: autoDraw = False
+133.3408 	EXP 	polygon: autoDraw = False
+133.3408 	EXP 	image_3: image = 'Images_Faces/O53.jpg'
+133.3408 	EXP 	text_8: text = ''
+133.3408 	EXP 	text_8: text = 'Christoffer'
+133.3408 	EXP 	image_3: autoDraw = True
+133.3408 	EXP 	text_8: autoDraw = True
+134.7127 	DATA 	Keypress: s
+137.2050 	DATA 	Keypress: s
+137.3036 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'order_randomiser': 63}
+137.3118 	EXP 	image_3: autoDraw = False
+137.3118 	EXP 	text_8: autoDraw = False
+137.3118 	EXP 	polygon: autoDraw = True
+139.3473 	EXP 	polygon: autoDraw = False
+139.3473 	EXP 	polygon: autoDraw = False
+139.3473 	EXP 	image_3: image = 'Images_Faces/O56.jpg'
+139.3473 	EXP 	text_8: text = ''
+139.3473 	EXP 	text_8: text = 'William'
+139.3473 	EXP 	image_3: autoDraw = True
+139.3473 	EXP 	text_8: autoDraw = True
+139.6984 	DATA 	Keypress: s
+142.2036 	DATA 	Keypress: s
+143.3753 	EXP 	image_3: autoDraw = False
+143.3753 	EXP 	text_8: autoDraw = False
+143.3753 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+143.3753 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+143.3753 	EXP 	text_6: autoDraw = True
+143.3753 	EXP 	fingers: autoDraw = True
+144.7161 	DATA 	Keypress: s
+147.2060 	DATA 	Keypress: s
+149.3290 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+149.3294 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+149.3297 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'order_randomiser': 31}
+149.3337 	EXP 	text_6: autoDraw = False
+149.3337 	EXP 	fingers: autoDraw = False
+149.3337 	EXP 	polygon: autoDraw = True
+149.7048 	DATA 	Keypress: s
+151.8857 	EXP 	polygon: autoDraw = False
+151.8857 	EXP 	polygon: autoDraw = False
+151.8857 	EXP 	image: image = 'Images_Faces/O35.jpg'
+151.8857 	EXP 	letters_text: text = 'J.\t\t\t\tH.\t\t\t\tS.\t\t\t\tNY'
+151.8857 	EXP 	image: autoDraw = True
+151.8857 	EXP 	letters_text: autoDraw = True
+152.2051 	DATA 	Keypress: s
+154.2624 	DATA 	Keypress: 2
+154.6986 	DATA 	Keypress: s
+155.8503 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'order_randomiser': 63}
+155.8529 	EXP 	image: autoDraw = False
+155.8529 	EXP 	letters_text: autoDraw = False
+155.8529 	EXP 	polygon: autoDraw = True
+157.2081 	DATA 	Keypress: s
+159.7070 	DATA 	Keypress: s
+162.2056 	DATA 	Keypress: s
+162.5217 	EXP 	polygon: autoDraw = False
+162.5217 	EXP 	polygon: autoDraw = False
+162.5217 	EXP 	image: image = 'Images_Faces/O56.jpg'
+162.5217 	EXP 	letters_text: text = 'R.\t\t\t\tW.\t\t\t\tT.\t\t\t\tNY'
+162.5217 	EXP 	image: autoDraw = True
+162.5217 	EXP 	letters_text: autoDraw = True
+164.7017 	DATA 	Keypress: s
+166.4917 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'order_randomiser': 77}
+166.4944 	EXP 	image: autoDraw = False
+166.4944 	EXP 	letters_text: autoDraw = False
+166.4944 	EXP 	polygon: autoDraw = True
+167.0052 	DATA 	Keypress: 2
+167.2068 	DATA 	Keypress: s
+168.5151 	EXP 	polygon: autoDraw = False
+168.5151 	EXP 	polygon: autoDraw = False
+168.5151 	EXP 	image: image = 'Images_Faces/O53.jpg'
+168.5151 	EXP 	letters_text: text = 'A.\t\t\t\tC.\t\t\t\tL.\t\t\t\tNY'
+168.5151 	EXP 	image: autoDraw = True
+168.5151 	EXP 	letters_text: autoDraw = True
+169.7021 	DATA 	Keypress: s
+172.2057 	DATA 	Keypress: s
+172.4937 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'order_randomiser': 97}
+172.4993 	EXP 	image: autoDraw = False
+172.4993 	EXP 	letters_text: autoDraw = False
+172.4993 	EXP 	polygon: autoDraw = True
+174.7138 	DATA 	Keypress: s
+177.2054 	DATA 	Keypress: s
+177.9541 	EXP 	polygon: autoDraw = False
+177.9541 	EXP 	polygon: autoDraw = False
+177.9541 	EXP 	image: image = 'Images_Faces/O55.jpg'
+177.9541 	EXP 	letters_text: text = 'F.\t\t\t\tK.\t\t\t\tH.\t\t\t\tNY'
+177.9541 	EXP 	image: autoDraw = True
+177.9541 	EXP 	letters_text: autoDraw = True
+179.7040 	DATA 	Keypress: s
+180.3236 	DATA 	Keypress: 2
+181.9283 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'order_randomiser': 98}
+181.9356 	EXP 	image: autoDraw = False
+181.9356 	EXP 	letters_text: autoDraw = False
+181.9356 	EXP 	polygon: autoDraw = True
+182.2044 	DATA 	Keypress: s
+183.9627 	EXP 	polygon: autoDraw = False
+183.9627 	EXP 	polygon: autoDraw = False
+183.9627 	EXP 	image: image = 'Images_Faces/O49.jpg'
+183.9627 	EXP 	letters_text: text = 'A.\t\t\t\tU.\t\t\t\tI.\t\t\t\tNY'
+183.9627 	EXP 	image: autoDraw = True
+183.9627 	EXP 	letters_text: autoDraw = True
+184.7009 	DATA 	Keypress: s
+186.6679 	DATA 	Keypress: 1
+187.2069 	DATA 	Keypress: s
+187.9686 	EXP 	New trial (rep=1, index=0): None
+187.9752 	EXP 	image: autoDraw = False
+187.9752 	EXP 	letters_text: autoDraw = False
+187.9752 	EXP 	text_9: text = 'Memorera namn'
+187.9752 	EXP 	text_9: autoDraw = True
+189.7137 	DATA 	Keypress: s
+191.9511 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+191.9515 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+191.9520 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'order_randomiser': 34}
+191.9565 	EXP 	text_9: autoDraw = False
+191.9565 	EXP 	polygon: autoDraw = True
+192.2035 	DATA 	Keypress: s
+194.7067 	DATA 	Keypress: s
+197.1225 	EXP 	polygon: autoDraw = False
+197.1225 	EXP 	polygon: autoDraw = False
+197.1225 	EXP 	image_3: image = 'Images_Faces/O39.jpg'
+197.1225 	EXP 	text_8: text = ''
+197.1225 	EXP 	text_8: text = 'Björn'
+197.1225 	EXP 	image_3: autoDraw = True
+197.1225 	EXP 	text_8: autoDraw = True
+197.2032 	DATA 	Keypress: s
+199.7127 	DATA 	Keypress: s
+201.0612 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Filip', 'Proffession': 0, 'order_randomiser': 76}
+201.0684 	EXP 	image_3: autoDraw = False
+201.0684 	EXP 	text_8: autoDraw = False
+201.0684 	EXP 	polygon: autoDraw = True
+202.2047 	DATA 	Keypress: s
+204.7053 	DATA 	Keypress: s
+206.8891 	EXP 	polygon: autoDraw = False
+206.8891 	EXP 	polygon: autoDraw = False
+206.8891 	EXP 	image_3: image = 'Images_Faces/O31.jpg'
+206.8891 	EXP 	text_8: text = ''
+206.8891 	EXP 	text_8: text = 'Filip'
+206.8891 	EXP 	image_3: autoDraw = True
+206.8891 	EXP 	text_8: autoDraw = True
+207.2043 	DATA 	Keypress: s
+209.7017 	DATA 	Keypress: s
+210.8285 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'order_randomiser': 7}
+210.8368 	EXP 	image_3: autoDraw = False
+210.8368 	EXP 	text_8: autoDraw = False
+210.8368 	EXP 	polygon: autoDraw = True
+212.2038 	DATA 	Keypress: s
+214.7120 	DATA 	Keypress: s
+217.2043 	DATA 	Keypress: s
+217.5803 	EXP 	polygon: autoDraw = False
+217.5803 	EXP 	polygon: autoDraw = False
+217.5803 	EXP 	image_3: image = 'Images_Faces/O44.jpg'
+217.5803 	EXP 	text_8: text = ''
+217.5803 	EXP 	text_8: text = 'Viktor'
+217.5803 	EXP 	image_3: autoDraw = True
+217.5803 	EXP 	text_8: autoDraw = True
+219.7039 	DATA 	Keypress: s
+221.5433 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Adam', 'Proffession': 0, 'order_randomiser': 37}
+221.5510 	EXP 	image_3: autoDraw = False
+221.5510 	EXP 	text_8: autoDraw = False
+221.5510 	EXP 	polygon: autoDraw = True
+222.2033 	DATA 	Keypress: s
+224.7040 	DATA 	Keypress: s
+227.2041 	DATA 	Keypress: s
+228.1249 	EXP 	polygon: autoDraw = False
+228.1249 	EXP 	polygon: autoDraw = False
+228.1249 	EXP 	image_3: image = 'Images_Faces/O48.jpg'
+228.1249 	EXP 	text_8: text = ''
+228.1249 	EXP 	text_8: text = 'Adam'
+228.1249 	EXP 	image_3: autoDraw = True
+228.1249 	EXP 	text_8: autoDraw = True
+229.7127 	DATA 	Keypress: s
+232.1018 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'order_randomiser': 96}
+232.1092 	EXP 	image_3: autoDraw = False
+232.1092 	EXP 	text_8: autoDraw = False
+232.1092 	EXP 	polygon: autoDraw = True
+232.2044 	DATA 	Keypress: s
+234.7024 	DATA 	Keypress: s
+235.1547 	EXP 	polygon: autoDraw = False
+235.1547 	EXP 	polygon: autoDraw = False
+235.1547 	EXP 	image_3: image = 'Images_Faces/O37.jpg'
+235.1547 	EXP 	text_8: text = ''
+235.1547 	EXP 	text_8: text = 'Ulf'
+235.1547 	EXP 	image_3: autoDraw = True
+235.1547 	EXP 	text_8: autoDraw = True
+237.2058 	DATA 	Keypress: s
+239.2393 	EXP 	image_3: autoDraw = False
+239.2393 	EXP 	text_8: autoDraw = False
+239.2393 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+239.2393 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+239.2393 	EXP 	text_6: autoDraw = True
+239.2393 	EXP 	fingers: autoDraw = True
+239.7026 	DATA 	Keypress: s
+242.2029 	DATA 	Keypress: s
+244.7113 	DATA 	Keypress: s
+245.1399 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+245.1403 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+245.1407 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Filip', 'Proffession': 0, 'order_randomiser': 76}
+245.1448 	EXP 	text_6: autoDraw = False
+245.1448 	EXP 	fingers: autoDraw = False
+245.1448 	EXP 	polygon: autoDraw = True
+247.2050 	DATA 	Keypress: s
+249.7037 	DATA 	Keypress: s
+250.7318 	EXP 	polygon: autoDraw = False
+250.7318 	EXP 	polygon: autoDraw = False
+250.7318 	EXP 	image: image = 'Images_Faces/O31.jpg'
+250.7318 	EXP 	letters_text: text = 'F.\t\t\t\tD.\t\t\t\tC.\t\t\t\tNY'
+250.7318 	EXP 	image: autoDraw = True
+250.7318 	EXP 	letters_text: autoDraw = True
+252.2087 	DATA 	Keypress: s
+253.4841 	DATA 	Keypress: 3
+254.6986 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'order_randomiser': 96}
+254.7052 	EXP 	image: autoDraw = False
+254.7052 	EXP 	letters_text: autoDraw = False
+254.7052 	EXP 	polygon: autoDraw = True
+254.7072 	DATA 	Keypress: s
+257.2049 	DATA 	Keypress: s
+259.7115 	DATA 	Keypress: s
+261.7970 	EXP 	polygon: autoDraw = False
+261.7970 	EXP 	polygon: autoDraw = False
+261.7970 	EXP 	image: image = 'Images_Faces/O37.jpg'
+261.7970 	EXP 	letters_text: text = 'C.\t\t\t\tU.\t\t\t\tG.\t\t\t\tNY'
+261.7970 	EXP 	image: autoDraw = True
+261.7970 	EXP 	letters_text: autoDraw = True
+262.2026 	DATA 	Keypress: s
+264.6993 	DATA 	Keypress: s
+265.2837 	DATA 	Keypress: 1
+265.7724 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Adam', 'Proffession': 0, 'order_randomiser': 37}
+265.7795 	EXP 	image: autoDraw = False
+265.7795 	EXP 	letters_text: autoDraw = False
+265.7795 	EXP 	polygon: autoDraw = True
+267.2021 	DATA 	Keypress: s
+269.7050 	DATA 	Keypress: s
+272.2028 	DATA 	Keypress: s
+272.9706 	EXP 	polygon: autoDraw = False
+272.9706 	EXP 	polygon: autoDraw = False
+272.9706 	EXP 	image: image = 'Images_Faces/O48.jpg'
+272.9706 	EXP 	letters_text: text = 'H.\t\t\t\tA.\t\t\t\tC.\t\t\t\tNY'
+272.9706 	EXP 	image: autoDraw = True
+272.9706 	EXP 	letters_text: autoDraw = True
+274.7020 	DATA 	Keypress: s
+275.1326 	DATA 	Keypress: 2
+276.9470 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'order_randomiser': 7}
+276.9543 	EXP 	image: autoDraw = False
+276.9543 	EXP 	letters_text: autoDraw = False
+276.9543 	EXP 	polygon: autoDraw = True
+277.2030 	DATA 	Keypress: s
+279.7021 	DATA 	Keypress: s
+281.1563 	EXP 	polygon: autoDraw = False
+281.1563 	EXP 	polygon: autoDraw = False
+281.1563 	EXP 	image: image = 'Images_Faces/O44.jpg'
+281.1563 	EXP 	letters_text: text = 'O.\t\t\t\tD.\t\t\t\tV.\t\t\t\tNY'
+281.1563 	EXP 	image: autoDraw = True
+281.1563 	EXP 	letters_text: autoDraw = True
+282.2072 	DATA 	Keypress: s
+284.7047 	DATA 	Keypress: s
+285.1310 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'order_randomiser': 34}
+285.1379 	EXP 	image: autoDraw = False
+285.1379 	EXP 	letters_text: autoDraw = False
+285.1379 	EXP 	polygon: autoDraw = True
+287.1675 	EXP 	polygon: autoDraw = False
+287.1675 	EXP 	polygon: autoDraw = False
+287.1675 	EXP 	image: image = 'Images_Faces/O39.jpg'
+287.1675 	EXP 	letters_text: text = 'A.\t\t\t\tK.\t\t\t\tB.\t\t\t\tNY'
+287.1675 	EXP 	image: autoDraw = True
+287.1675 	EXP 	letters_text: autoDraw = True
+287.2023 	DATA 	Keypress: s
+288.9237 	DATA 	Keypress: 3
+289.7022 	DATA 	Keypress: s
+291.1759 	EXP 	New trial (rep=2, index=0): None
+291.1798 	EXP 	image: autoDraw = False
+291.1798 	EXP 	letters_text: autoDraw = False
+291.1798 	EXP 	text_9: text = 'Memorera namn'
+291.1798 	EXP 	text_9: autoDraw = True
+292.2048 	DATA 	Keypress: s
+294.7020 	DATA 	Keypress: s
+295.1551 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+295.1554 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+295.1557 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'order_randomiser': 64}
+295.1592 	EXP 	text_9: autoDraw = False
+295.1592 	EXP 	polygon: autoDraw = True
+297.1985 	EXP 	polygon: autoDraw = False
+297.1985 	EXP 	polygon: autoDraw = False
+297.1985 	EXP 	image_3: image = 'Images_Faces/O36.jpg'
+297.1985 	EXP 	text_8: text = ''
+297.1985 	EXP 	text_8: text = 'Jonas'
+297.1985 	EXP 	image_3: autoDraw = True
+297.1985 	EXP 	text_8: autoDraw = True
+297.2011 	DATA 	Keypress: s
+299.7110 	DATA 	Keypress: s
+301.1667 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'order_randomiser': 92}
+301.1740 	EXP 	image_3: autoDraw = False
+301.1740 	EXP 	text_8: autoDraw = False
+301.1740 	EXP 	polygon: autoDraw = True
+302.2019 	DATA 	Keypress: s
+304.7032 	DATA 	Keypress: s
+305.7649 	EXP 	polygon: autoDraw = False
+305.7649 	EXP 	polygon: autoDraw = False
+305.7649 	EXP 	image_3: image = 'Images_Faces/O33.jpg'
+305.7649 	EXP 	text_8: text = ''
+305.7649 	EXP 	text_8: text = 'Mattias'
+305.7649 	EXP 	image_3: autoDraw = True
+305.7649 	EXP 	text_8: autoDraw = True
+307.2021 	DATA 	Keypress: s
+309.6974 	DATA 	Keypress: s
+309.7138 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'order_randomiser': 64}
+309.7203 	EXP 	image_3: autoDraw = False
+309.7203 	EXP 	text_8: autoDraw = False
+309.7203 	EXP 	polygon: autoDraw = True
+312.2014 	DATA 	Keypress: s
+314.7099 	DATA 	Keypress: s
+317.2017 	DATA 	Keypress: s
+317.7459 	EXP 	polygon: autoDraw = False
+317.7459 	EXP 	polygon: autoDraw = False
+317.7459 	EXP 	image_3: image = 'Images_Faces/O32.jpg'
+317.7459 	EXP 	text_8: text = ''
+317.7459 	EXP 	text_8: text = 'John'
+317.7459 	EXP 	image_3: autoDraw = True
+317.7459 	EXP 	text_8: autoDraw = True
+319.7010 	DATA 	Keypress: s
+321.7241 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'order_randomiser': 26}
+321.7316 	EXP 	image_3: autoDraw = False
+321.7316 	EXP 	text_8: autoDraw = False
+321.7316 	EXP 	polygon: autoDraw = True
+322.2004 	DATA 	Keypress: s
+323.7676 	EXP 	polygon: autoDraw = False
+323.7676 	EXP 	polygon: autoDraw = False
+323.7676 	EXP 	image_3: image = 'Images_Faces/O57.jpg'
+323.7676 	EXP 	text_8: text = ''
+323.7676 	EXP 	text_8: text = 'Joakim'
+323.7676 	EXP 	image_3: autoDraw = True
+323.7676 	EXP 	text_8: autoDraw = True
+324.7101 	DATA 	Keypress: s
+327.2004 	DATA 	Keypress: s
+327.7319 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'order_randomiser': 10}
+327.7368 	EXP 	image_3: autoDraw = False
+327.7368 	EXP 	text_8: autoDraw = False
+327.7368 	EXP 	polygon: autoDraw = True
+329.7096 	DATA 	Keypress: s
+332.0483 	EXP 	polygon: autoDraw = False
+332.0483 	EXP 	polygon: autoDraw = False
+332.0483 	EXP 	image_3: image = 'Images_Faces/O54.jpg'
+332.0483 	EXP 	text_8: text = ''
+332.0483 	EXP 	text_8: text = 'Rickard'
+332.0483 	EXP 	image_3: autoDraw = True
+332.0483 	EXP 	text_8: autoDraw = True
+332.2105 	DATA 	Keypress: s
+334.7007 	DATA 	Keypress: s
+336.0527 	EXP 	image_3: autoDraw = False
+336.0527 	EXP 	text_8: autoDraw = False
+336.0527 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+336.0527 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+336.0527 	EXP 	text_6: autoDraw = True
+336.0527 	EXP 	fingers: autoDraw = True
+337.2042 	DATA 	Keypress: s
+339.7096 	DATA 	Keypress: s
+342.0181 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+342.0184 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+342.0187 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'order_randomiser': 26}
+342.0222 	EXP 	text_6: autoDraw = False
+342.0222 	EXP 	fingers: autoDraw = False
+342.0222 	EXP 	polygon: autoDraw = True
+342.2002 	DATA 	Keypress: s
+344.7008 	DATA 	Keypress: s
+347.2087 	DATA 	Keypress: s
+348.0176 	EXP 	polygon: autoDraw = False
+348.0176 	EXP 	polygon: autoDraw = False
+348.0176 	EXP 	image: image = 'Images_Faces/O57.jpg'
+348.0176 	EXP 	letters_text: text = 'J.\t\t\t\tU.\t\t\t\tH.\t\t\t\tNY'
+348.0176 	EXP 	image: autoDraw = True
+348.0176 	EXP 	letters_text: autoDraw = True
+349.6973 	DATA 	Keypress: s
+351.0803 	DATA 	Keypress: 4
+351.9788 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'order_randomiser': 64}
+351.9855 	EXP 	image: autoDraw = False
+351.9855 	EXP 	letters_text: autoDraw = False
+351.9855 	EXP 	polygon: autoDraw = True
+352.2001 	DATA 	Keypress: s
+354.7083 	DATA 	Keypress: s
+357.2005 	DATA 	Keypress: s
+358.2515 	EXP 	polygon: autoDraw = False
+358.2515 	EXP 	polygon: autoDraw = False
+358.2515 	EXP 	image: image = 'Images_Faces/O36.jpg'
+358.2515 	EXP 	letters_text: text = 'O.\t\t\t\tJ.\t\t\t\tT.\t\t\t\tNY'
+358.2515 	EXP 	image: autoDraw = True
+358.2515 	EXP 	letters_text: autoDraw = True
+359.7026 	DATA 	Keypress: s
+360.0445 	DATA 	Keypress: 2
+362.2055 	DATA 	Keypress: s
+362.2315 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'order_randomiser': 92}
+362.2363 	EXP 	image: autoDraw = False
+362.2363 	EXP 	letters_text: autoDraw = False
+362.2363 	EXP 	polygon: autoDraw = True
+364.6994 	DATA 	Keypress: s
+366.6688 	EXP 	polygon: autoDraw = False
+366.6688 	EXP 	polygon: autoDraw = False
+366.6688 	EXP 	image: image = 'Images_Faces/O33.jpg'
+366.6688 	EXP 	letters_text: text = 'M.\t\t\t\tU.\t\t\t\tC.\t\t\t\tNY'
+366.6688 	EXP 	image: autoDraw = True
+366.6688 	EXP 	letters_text: autoDraw = True
+367.2057 	DATA 	Keypress: s
+368.7890 	DATA 	Keypress: 3
+369.7069 	DATA 	Keypress: s
+370.6364 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'order_randomiser': 10}
+370.6436 	EXP 	image: autoDraw = False
+370.6436 	EXP 	letters_text: autoDraw = False
+370.6436 	EXP 	polygon: autoDraw = True
+372.2005 	DATA 	Keypress: s
+373.9116 	EXP 	polygon: autoDraw = False
+373.9116 	EXP 	polygon: autoDraw = False
+373.9116 	EXP 	image: image = 'Images_Faces/O54.jpg'
+373.9116 	EXP 	letters_text: text = 'R.\t\t\t\tH.\t\t\t\tN.\t\t\t\tNY'
+373.9116 	EXP 	image: autoDraw = True
+373.9116 	EXP 	letters_text: autoDraw = True
+374.7028 	DATA 	Keypress: s
+376.1163 	DATA 	Keypress: 2
+377.2053 	DATA 	Keypress: s
+377.8859 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'order_randomiser': 64}
+377.8932 	EXP 	image: autoDraw = False
+377.8932 	EXP 	letters_text: autoDraw = False
+377.8932 	EXP 	polygon: autoDraw = True
+379.7086 	DATA 	Keypress: s
+381.8279 	EXP 	polygon: autoDraw = False
+381.8279 	EXP 	polygon: autoDraw = False
+381.8279 	EXP 	image: image = 'Images_Faces/O32.jpg'
+381.8279 	EXP 	letters_text: text = 'J.\t\t\t\tD.\t\t\t\tT.\t\t\t\tNY'
+381.8279 	EXP 	image: autoDraw = True
+381.8279 	EXP 	letters_text: autoDraw = True
+382.2012 	DATA 	Keypress: s
+384.7097 	DATA 	Keypress: s
+385.2586 	DATA 	Keypress: 1
+385.8591 	EXP 	New trial (rep=3, index=0): None
+385.8629 	EXP 	image: autoDraw = False
+385.8629 	EXP 	letters_text: autoDraw = False
+385.8629 	EXP 	text_9: text = 'Memorera namn'
+385.8629 	EXP 	text_9: autoDraw = True
+387.2005 	DATA 	Keypress: s
+389.7008 	DATA 	Keypress: s
+389.8320 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+389.8323 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+389.8327 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'order_randomiser': 99}
+389.8354 	EXP 	text_9: autoDraw = False
+389.8354 	EXP 	polygon: autoDraw = True
+392.2014 	DATA 	Keypress: s
+394.7082 	DATA 	Keypress: s
+396.8583 	EXP 	polygon: autoDraw = False
+396.8583 	EXP 	polygon: autoDraw = False
+396.8583 	EXP 	image_3: image = 'Images_Faces/O52.jpg'
+396.8583 	EXP 	text_8: text = ''
+396.8583 	EXP 	text_8: text = 'Håkan'
+396.8583 	EXP 	image_3: autoDraw = True
+396.8583 	EXP 	text_8: autoDraw = True
+397.2000 	DATA 	Keypress: s
+399.7004 	DATA 	Keypress: s
+400.8060 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'order_randomiser': 4}
+400.8131 	EXP 	image_3: autoDraw = False
+400.8131 	EXP 	text_8: autoDraw = False
+400.8131 	EXP 	polygon: autoDraw = True
+402.1991 	DATA 	Keypress: s
+404.5403 	EXP 	polygon: autoDraw = False
+404.5403 	EXP 	polygon: autoDraw = False
+404.5403 	EXP 	image_3: image = 'Images_Faces/O58.jpg'
+404.5403 	EXP 	text_8: text = ''
+404.5403 	EXP 	text_8: text = 'Stig'
+404.5403 	EXP 	image_3: autoDraw = True
+404.5403 	EXP 	text_8: autoDraw = True
+404.6964 	DATA 	Keypress: s
+407.1990 	DATA 	Keypress: s
+408.5218 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'order_randomiser': 75}
+408.5295 	EXP 	image_3: autoDraw = False
+408.5295 	EXP 	text_8: autoDraw = False
+408.5295 	EXP 	polygon: autoDraw = True
+409.7079 	DATA 	Keypress: s
+410.5600 	EXP 	polygon: autoDraw = False
+410.5600 	EXP 	polygon: autoDraw = False
+410.5600 	EXP 	image_3: image = 'Images_Faces/O50.jpg'
+410.5600 	EXP 	text_8: text = ''
+410.5600 	EXP 	text_8: text = 'Patrik'
+410.5600 	EXP 	image_3: autoDraw = True
+410.5600 	EXP 	text_8: autoDraw = True
+412.2001 	DATA 	Keypress: s
+414.5302 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'order_randomiser': 56}
+414.5377 	EXP 	image_3: autoDraw = False
+414.5377 	EXP 	text_8: autoDraw = False
+414.5377 	EXP 	polygon: autoDraw = True
+414.7004 	DATA 	Keypress: s
+416.9651 	EXP 	polygon: autoDraw = False
+416.9651 	EXP 	polygon: autoDraw = False
+416.9651 	EXP 	image_3: image = 'Images_Faces/O41.jpg'
+416.9651 	EXP 	text_8: text = ''
+416.9651 	EXP 	text_8: text = 'Christian'
+416.9651 	EXP 	image_3: autoDraw = True
+416.9651 	EXP 	text_8: autoDraw = True
+417.2052 	DATA 	Keypress: s
+419.7012 	DATA 	Keypress: s
+420.9054 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'order_randomiser': 44}
+420.9126 	EXP 	image_3: autoDraw = False
+420.9126 	EXP 	text_8: autoDraw = False
+420.9126 	EXP 	polygon: autoDraw = True
+422.2071 	DATA 	Keypress: s
+424.7062 	DATA 	Keypress: s
+425.1233 	EXP 	polygon: autoDraw = False
+425.1233 	EXP 	polygon: autoDraw = False
+425.1233 	EXP 	image_3: image = 'Images_Faces/O46.jpg'
+425.1233 	EXP 	text_8: text = ''
+425.1233 	EXP 	text_8: text = 'Emil'
+425.1233 	EXP 	image_3: autoDraw = True
+425.1233 	EXP 	text_8: autoDraw = True
+427.1992 	DATA 	Keypress: s
+429.1355 	EXP 	image_3: autoDraw = False
+429.1355 	EXP 	text_8: autoDraw = False
+429.1355 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+429.1355 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+429.1355 	EXP 	text_6: autoDraw = True
+429.1355 	EXP 	fingers: autoDraw = True
+429.6990 	DATA 	Keypress: s
+432.1991 	DATA 	Keypress: s
+434.7083 	DATA 	Keypress: s
+435.0925 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+435.0929 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+435.0933 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'order_randomiser': 4}
+435.0968 	EXP 	text_6: autoDraw = False
+435.0968 	EXP 	fingers: autoDraw = False
+435.0968 	EXP 	polygon: autoDraw = True
+437.1989 	DATA 	Keypress: s
+439.1512 	EXP 	polygon: autoDraw = False
+439.1512 	EXP 	polygon: autoDraw = False
+439.1512 	EXP 	image: image = 'Images_Faces/O58.jpg'
+439.1512 	EXP 	letters_text: text = 'U.\t\t\t\tD.\t\t\t\tS.\t\t\t\tNY'
+439.1512 	EXP 	image: autoDraw = True
+439.1512 	EXP 	letters_text: autoDraw = True
+439.7079 	DATA 	Keypress: s
+441.0176 	DATA 	Keypress: 3
+442.2042 	DATA 	Keypress: s
+443.1243 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'order_randomiser': 75}
+443.1290 	EXP 	image: autoDraw = False
+443.1290 	EXP 	letters_text: autoDraw = False
+443.1290 	EXP 	polygon: autoDraw = True
+444.6994 	DATA 	Keypress: s
+445.1584 	EXP 	polygon: autoDraw = False
+445.1584 	EXP 	polygon: autoDraw = False
+445.1584 	EXP 	image: image = 'Images_Faces/O50.jpg'
+445.1584 	EXP 	letters_text: text = 'P.\t\t\t\tN.\t\t\t\tE.\t\t\t\tNY'
+445.1584 	EXP 	image: autoDraw = True
+445.1584 	EXP 	letters_text: autoDraw = True
+447.2036 	DATA 	Keypress: s
+449.1257 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'order_randomiser': 56}
+449.1340 	EXP 	image: autoDraw = False
+449.1340 	EXP 	letters_text: autoDraw = False
+449.1340 	EXP 	polygon: autoDraw = True
+449.5827 	DATA 	Keypress: 1
+449.7064 	DATA 	Keypress: s
+451.1659 	EXP 	polygon: autoDraw = False
+451.1659 	EXP 	polygon: autoDraw = False
+451.1659 	EXP 	image: image = 'Images_Faces/O41.jpg'
+451.1659 	EXP 	letters_text: text = 'O.\t\t\t\tI.\t\t\t\tC.\t\t\t\tNY'
+451.1659 	EXP 	image: autoDraw = True
+451.1659 	EXP 	letters_text: autoDraw = True
+452.2041 	DATA 	Keypress: s
+453.1287 	DATA 	Keypress: 3
+454.7036 	DATA 	Keypress: s
+455.1433 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'order_randomiser': 99}
+455.1501 	EXP 	image: autoDraw = False
+455.1501 	EXP 	letters_text: autoDraw = False
+455.1501 	EXP 	polygon: autoDraw = True
+457.1992 	DATA 	Keypress: s
+457.2737 	EXP 	polygon: autoDraw = False
+457.2737 	EXP 	polygon: autoDraw = False
+457.2737 	EXP 	image: image = 'Images_Faces/O52.jpg'
+457.2737 	EXP 	letters_text: text = 'H.\t\t\t\tU.\t\t\t\tE.\t\t\t\tNY'
+457.2737 	EXP 	image: autoDraw = True
+457.2737 	EXP 	letters_text: autoDraw = True
+459.5611 	DATA 	Keypress: 1
+459.6970 	DATA 	Keypress: s
+461.2339 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'order_randomiser': 44}
+461.2448 	EXP 	image: autoDraw = False
+461.2448 	EXP 	letters_text: autoDraw = False
+461.2448 	EXP 	polygon: autoDraw = True
+462.2057 	DATA 	Keypress: s
+464.7062 	DATA 	Keypress: s
+467.2065 	DATA 	Keypress: s
+468.0029 	EXP 	polygon: autoDraw = False
+468.0029 	EXP 	polygon: autoDraw = False
+468.0029 	EXP 	image: image = 'Images_Faces/O46.jpg'
+468.0029 	EXP 	letters_text: text = 'U.\t\t\t\tF.\t\t\t\tE.\t\t\t\tNY'
+468.0029 	EXP 	image: autoDraw = True
+468.0029 	EXP 	letters_text: autoDraw = True
+469.6983 	DATA 	Keypress: s
+469.7776 	DATA 	Keypress: 3
+472.0285 	EXP 	New trial (rep=4, index=0): None
+472.0325 	EXP 	image: autoDraw = False
+472.0325 	EXP 	letters_text: autoDraw = False
+472.0325 	EXP 	text_9: text = 'Memorera namn'
+472.0325 	EXP 	text_9: autoDraw = True
+472.1993 	DATA 	Keypress: s
+474.6993 	DATA 	Keypress: s
+475.9937 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+475.9940 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+475.9944 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'order_randomiser': 90}
+475.9972 	EXP 	text_9: autoDraw = False
+475.9972 	EXP 	polygon: autoDraw = True
+477.2056 	DATA 	Keypress: s
+479.5026 	EXP 	polygon: autoDraw = False
+479.5026 	EXP 	polygon: autoDraw = False
+479.5026 	EXP 	image_3: image = 'Images_Faces/O47.jpg'
+479.5026 	EXP 	text_8: text = ''
+479.5026 	EXP 	text_8: text = 'Niklas'
+479.5026 	EXP 	image_3: autoDraw = True
+479.5026 	EXP 	text_8: autoDraw = True
+479.7049 	DATA 	Keypress: s
+482.2070 	DATA 	Keypress: s
+483.4705 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'order_randomiser': 22}
+483.4776 	EXP 	image_3: autoDraw = False
+483.4776 	EXP 	text_8: autoDraw = False
+483.4776 	EXP 	polygon: autoDraw = True
+484.6974 	DATA 	Keypress: s
+486.4395 	EXP 	polygon: autoDraw = False
+486.4395 	EXP 	polygon: autoDraw = False
+486.4395 	EXP 	image_3: image = 'Images_Faces/O40.jpg'
+486.4395 	EXP 	text_8: text = ''
+486.4395 	EXP 	text_8: text = 'Axel'
+486.4395 	EXP 	image_3: autoDraw = True
+486.4395 	EXP 	text_8: autoDraw = True
+487.2058 	DATA 	Keypress: s
+489.6969 	DATA 	Keypress: s
+490.4014 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'order_randomiser': 50}
+490.4070 	EXP 	image_3: autoDraw = False
+490.4070 	EXP 	text_8: autoDraw = False
+490.4070 	EXP 	polygon: autoDraw = True
+492.2052 	DATA 	Keypress: s
+492.6475 	EXP 	polygon: autoDraw = False
+492.6475 	EXP 	polygon: autoDraw = False
+492.6475 	EXP 	image_3: image = 'Images_Faces/O43.jpg'
+492.6475 	EXP 	text_8: text = ''
+492.6475 	EXP 	text_8: text = 'David'
+492.6475 	EXP 	image_3: autoDraw = True
+492.6475 	EXP 	text_8: autoDraw = True
+494.7021 	DATA 	Keypress: s
+496.6195 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'order_randomiser': 47}
+496.6273 	EXP 	image_3: autoDraw = False
+496.6273 	EXP 	text_8: autoDraw = False
+496.6273 	EXP 	polygon: autoDraw = True
+497.2043 	DATA 	Keypress: s
+499.6965 	DATA 	Keypress: s
+502.1982 	DATA 	Keypress: s
+502.5239 	EXP 	polygon: autoDraw = False
+502.5239 	EXP 	polygon: autoDraw = False
+502.5239 	EXP 	image_3: image = 'Images_Faces/O51.jpg'
+502.5239 	EXP 	text_8: text = ''
+502.5239 	EXP 	text_8: text = 'Ingemar'
+502.5239 	EXP 	image_3: autoDraw = True
+502.5239 	EXP 	text_8: autoDraw = True
+504.7131 	DATA 	Keypress: s
+506.4942 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'order_randomiser': 86}
+506.5019 	EXP 	image_3: autoDraw = False
+506.5019 	EXP 	text_8: autoDraw = False
+506.5019 	EXP 	polygon: autoDraw = True
+507.1984 	DATA 	Keypress: s
+509.7038 	DATA 	Keypress: s
+512.2041 	DATA 	Keypress: s
+514.5409 	EXP 	polygon: autoDraw = False
+514.5409 	EXP 	polygon: autoDraw = False
+514.5409 	EXP 	image_3: image = 'Images_Faces/O34.jpg'
+514.5409 	EXP 	text_8: text = ''
+514.5409 	EXP 	text_8: text = 'Mats'
+514.5409 	EXP 	image_3: autoDraw = True
+514.5409 	EXP 	text_8: autoDraw = True
+514.6956 	DATA 	Keypress: s
+517.2007 	DATA 	Keypress: s
+518.5841 	EXP 	image_3: autoDraw = False
+518.5841 	EXP 	text_8: autoDraw = False
+518.5841 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+518.5841 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+518.5841 	EXP 	text_6: autoDraw = True
+518.5841 	EXP 	fingers: autoDraw = True
+519.7046 	DATA 	Keypress: s
+522.2050 	DATA 	Keypress: s
+524.5142 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+524.5146 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+524.5150 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'order_randomiser': 22}
+524.5187 	EXP 	text_6: autoDraw = False
+524.5187 	EXP 	fingers: autoDraw = False
+524.5187 	EXP 	polygon: autoDraw = True
+524.7053 	DATA 	Keypress: s
+526.5431 	EXP 	polygon: autoDraw = False
+526.5431 	EXP 	polygon: autoDraw = False
+526.5431 	EXP 	image: image = 'Images_Faces/O40.jpg'
+526.5431 	EXP 	letters_text: text = 'G.\t\t\t\tA.\t\t\t\tR.\t\t\t\tNY'
+526.5431 	EXP 	image: autoDraw = True
+526.5431 	EXP 	letters_text: autoDraw = True
+527.2015 	DATA 	Keypress: s
+529.7011 	DATA 	Keypress: s
+529.8423 	DATA 	Keypress: 2
+530.5156 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'order_randomiser': 90}
+530.5223 	EXP 	image: autoDraw = False
+530.5223 	EXP 	letters_text: autoDraw = False
+530.5223 	EXP 	polygon: autoDraw = True
+532.2038 	DATA 	Keypress: s
+532.5452 	EXP 	polygon: autoDraw = False
+532.5452 	EXP 	polygon: autoDraw = False
+532.5452 	EXP 	image: image = 'Images_Faces/O47.jpg'
+532.5452 	EXP 	letters_text: text = 'R.\t\t\t\tJ.\t\t\t\tN.\t\t\t\tNY'
+532.5452 	EXP 	image: autoDraw = True
+532.5452 	EXP 	letters_text: autoDraw = True
+534.7094 	DATA 	Keypress: s
+535.8462 	DATA 	Keypress: 4
+536.5239 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'order_randomiser': 86}
+536.5308 	EXP 	image: autoDraw = False
+536.5308 	EXP 	letters_text: autoDraw = False
+536.5308 	EXP 	polygon: autoDraw = True
+537.2030 	DATA 	Keypress: s
+538.5618 	EXP 	polygon: autoDraw = False
+538.5618 	EXP 	polygon: autoDraw = False
+538.5618 	EXP 	image: image = 'Images_Faces/O34.jpg'
+538.5618 	EXP 	letters_text: text = 'A.\t\t\t\tM.\t\t\t\tC.\t\t\t\tNY'
+538.5618 	EXP 	image: autoDraw = True
+538.5618 	EXP 	letters_text: autoDraw = True
+539.7008 	DATA 	Keypress: s
+542.2012 	DATA 	Keypress: s
+542.5315 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'order_randomiser': 50}
+542.5389 	EXP 	image: autoDraw = False
+542.5389 	EXP 	letters_text: autoDraw = False
+542.5389 	EXP 	polygon: autoDraw = True
+544.6953 	DATA 	Keypress: s
+545.2637 	EXP 	polygon: autoDraw = False
+545.2637 	EXP 	polygon: autoDraw = False
+545.2637 	EXP 	image: image = 'Images_Faces/O43.jpg'
+545.2637 	EXP 	letters_text: text = 'P.\t\t\t\tA.\t\t\t\tD.\t\t\t\tNY'
+545.2637 	EXP 	image: autoDraw = True
+545.2637 	EXP 	letters_text: autoDraw = True
+546.4509 	DATA 	Keypress: 3
+547.2011 	DATA 	Keypress: s
+549.2319 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'order_randomiser': 47}
+549.2387 	EXP 	image: autoDraw = False
+549.2387 	EXP 	letters_text: autoDraw = False
+549.2387 	EXP 	polygon: autoDraw = True
+549.7040 	DATA 	Keypress: s
+552.2028 	DATA 	Keypress: s
+552.9348 	EXP 	polygon: autoDraw = False
+552.9348 	EXP 	polygon: autoDraw = False
+552.9348 	EXP 	image: image = 'Images_Faces/O51.jpg'
+552.9348 	EXP 	letters_text: text = 'A.\t\t\t\tF.\t\t\t\tI.\t\t\t\tNY'
+552.9348 	EXP 	image: autoDraw = True
+552.9348 	EXP 	letters_text: autoDraw = True
+554.6972 	DATA 	Keypress: s
+555.3521 	DATA 	Keypress: 3
+556.9759 	EXP 	New trial (rep=5, index=0): None
+556.9823 	EXP 	image: autoDraw = False
+556.9823 	EXP 	letters_text: autoDraw = False
+556.9823 	EXP 	text_9: text = 'Memorera namn'
+556.9823 	EXP 	text_9: autoDraw = True
+557.2040 	DATA 	Keypress: s
+559.7041 	DATA 	Keypress: s
+560.9243 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+560.9248 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+560.9252 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'order_randomiser': 64}
+560.9288 	EXP 	text_9: autoDraw = False
+560.9288 	EXP 	polygon: autoDraw = True
+562.2036 	DATA 	Keypress: s
+564.7035 	DATA 	Keypress: s
+567.0029 	EXP 	polygon: autoDraw = False
+567.0029 	EXP 	polygon: autoDraw = False
+567.0029 	EXP 	image_3: image = 'Images_Faces/O38.jpg'
+567.0029 	EXP 	text_8: text = ''
+567.0029 	EXP 	text_8: text = 'Leif'
+567.0029 	EXP 	image_3: autoDraw = True
+567.0029 	EXP 	text_8: autoDraw = True
+567.2029 	DATA 	Keypress: s
+569.6976 	DATA 	Keypress: s
+570.9600 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'order_randomiser': 31}
+570.9672 	EXP 	image_3: autoDraw = False
+570.9672 	EXP 	text_8: autoDraw = False
+570.9672 	EXP 	polygon: autoDraw = True
+572.2033 	DATA 	Keypress: s
+574.7028 	DATA 	Keypress: s
+576.6757 	EXP 	polygon: autoDraw = False
+576.6757 	EXP 	polygon: autoDraw = False
+576.6757 	EXP 	image_3: image = 'Images_Faces/O60.jpg'
+576.6757 	EXP 	text_8: text = ''
+576.6757 	EXP 	text_8: text = 'Wilhelm'
+576.6757 	EXP 	image_3: autoDraw = True
+576.6757 	EXP 	text_8: autoDraw = True
+577.1975 	DATA 	Keypress: s
+579.7141 	DATA 	Keypress: s
+580.6176 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'order_randomiser': 11}
+580.6252 	EXP 	image_3: autoDraw = False
+580.6252 	EXP 	text_8: autoDraw = False
+580.6252 	EXP 	polygon: autoDraw = True
+582.2038 	DATA 	Keypress: s
+583.7809 	EXP 	polygon: autoDraw = False
+583.7809 	EXP 	polygon: autoDraw = False
+583.7809 	EXP 	image_3: image = 'Images_Faces/O42.jpg'
+583.7809 	EXP 	text_8: text = ''
+583.7809 	EXP 	text_8: text = 'Robert'
+583.7809 	EXP 	image_3: autoDraw = True
+583.7809 	EXP 	text_8: autoDraw = True
+584.6953 	DATA 	Keypress: s
+587.2035 	DATA 	Keypress: s
+587.7419 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'order_randomiser': 95}
+587.7500 	EXP 	image_3: autoDraw = False
+587.7500 	EXP 	text_8: autoDraw = False
+587.7500 	EXP 	polygon: autoDraw = True
+589.7028 	DATA 	Keypress: s
+591.0930 	EXP 	polygon: autoDraw = False
+591.0930 	EXP 	polygon: autoDraw = False
+591.0930 	EXP 	image_3: image = 'Images_Faces/O45.jpg'
+591.0930 	EXP 	text_8: text = ''
+591.0930 	EXP 	text_8: text = 'Marcus'
+591.0930 	EXP 	image_3: autoDraw = True
+591.0930 	EXP 	text_8: autoDraw = True
+592.1982 	DATA 	Keypress: s
+594.6940 	DATA 	Keypress: s
+595.0545 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'order_randomiser': 75}
+595.0577 	EXP 	image_3: autoDraw = False
+595.0577 	EXP 	text_8: autoDraw = False
+595.0577 	EXP 	polygon: autoDraw = True
+597.2017 	DATA 	Keypress: s
+598.2978 	EXP 	polygon: autoDraw = False
+598.2978 	EXP 	polygon: autoDraw = False
+598.2978 	EXP 	image_3: image = 'Images_Faces/O59.jpg'
+598.2978 	EXP 	text_8: text = ''
+598.2978 	EXP 	text_8: text = 'Rolf'
+598.2978 	EXP 	image_3: autoDraw = True
+598.2978 	EXP 	text_8: autoDraw = True
+599.7005 	DATA 	Keypress: s
+602.1988 	DATA 	Keypress: s
+602.3504 	EXP 	image_3: autoDraw = False
+602.3504 	EXP 	text_8: autoDraw = False
+602.3504 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+602.3504 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+602.3504 	EXP 	text_6: autoDraw = True
+602.3504 	EXP 	fingers: autoDraw = True
+604.7020 	DATA 	Keypress: s
+607.2027 	DATA 	Keypress: s
+608.2778 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+608.2782 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+608.2786 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'order_randomiser': 75}
+608.2832 	EXP 	text_6: autoDraw = False
+608.2832 	EXP 	fingers: autoDraw = False
+608.2832 	EXP 	polygon: autoDraw = True
+609.6931 	DATA 	Keypress: s
+610.3032 	EXP 	polygon: autoDraw = False
+610.3032 	EXP 	polygon: autoDraw = False
+610.3032 	EXP 	image: image = 'Images_Faces/O59.jpg'
+610.3032 	EXP 	letters_text: text = 'A.\t\t\t\tR.\t\t\t\tE.\t\t\t\tNY'
+610.3032 	EXP 	image: autoDraw = True
+610.3032 	EXP 	letters_text: autoDraw = True
+612.1970 	DATA 	Keypress: s
+614.2784 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'order_randomiser': 64}
+614.2822 	EXP 	image: autoDraw = False
+614.2822 	EXP 	letters_text: autoDraw = False
+614.2822 	EXP 	polygon: autoDraw = True
+614.5693 	DATA 	Keypress: 2
+614.6936 	DATA 	Keypress: s
+617.2018 	DATA 	Keypress: s
+619.7024 	DATA 	Keypress: s
+620.1415 	EXP 	polygon: autoDraw = False
+620.1415 	EXP 	polygon: autoDraw = False
+620.1415 	EXP 	image: image = 'Images_Faces/O38.jpg'
+620.1415 	EXP 	letters_text: text = 'R.\t\t\t\tC.\t\t\t\tL.\t\t\t\tNY'
+620.1415 	EXP 	image: autoDraw = True
+620.1415 	EXP 	letters_text: autoDraw = True
+622.1993 	DATA 	Keypress: s
+622.4993 	DATA 	Keypress: 3
+624.1144 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'order_randomiser': 31}
+624.1209 	EXP 	image: autoDraw = False
+624.1209 	EXP 	letters_text: autoDraw = False
+624.1209 	EXP 	polygon: autoDraw = True
+624.6946 	DATA 	Keypress: s
+626.1494 	EXP 	polygon: autoDraw = False
+626.1494 	EXP 	polygon: autoDraw = False
+626.1494 	EXP 	image: image = 'Images_Faces/O60.jpg'
+626.1494 	EXP 	letters_text: text = 'W.\t\t\t\tF.\t\t\t\tE.\t\t\t\tNY'
+626.1494 	EXP 	image: autoDraw = True
+626.1494 	EXP 	letters_text: autoDraw = True
+627.2025 	DATA 	Keypress: s
+629.7017 	DATA 	Keypress: s
+630.1211 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'order_randomiser': 95}
+630.1284 	EXP 	image: autoDraw = False
+630.1284 	EXP 	letters_text: autoDraw = False
+630.1284 	EXP 	polygon: autoDraw = True
+632.1558 	EXP 	polygon: autoDraw = False
+632.1558 	EXP 	polygon: autoDraw = False
+632.1558 	EXP 	image: image = 'Images_Faces/O45.jpg'
+632.1558 	EXP 	letters_text: text = 'M.\t\t\t\tP.\t\t\t\tK.\t\t\t\tNY'
+632.1558 	EXP 	image: autoDraw = True
+632.1558 	EXP 	letters_text: autoDraw = True
+632.2013 	DATA 	Keypress: s
+634.7018 	DATA 	Keypress: s
+636.1244 	DATA 	Keypress: 1
+636.1313 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'order_randomiser': 11}
+636.1376 	EXP 	image: autoDraw = False
+636.1376 	EXP 	letters_text: autoDraw = False
+636.1376 	EXP 	polygon: autoDraw = True
+637.2005 	DATA 	Keypress: s
+639.6954 	DATA 	Keypress: s
+640.2668 	EXP 	polygon: autoDraw = False
+640.2668 	EXP 	polygon: autoDraw = False
+640.2668 	EXP 	image: image = 'Images_Faces/O42.jpg'
+640.2668 	EXP 	letters_text: text = 'N.\t\t\t\tP.\t\t\t\tR.\t\t\t\tNY'
+640.2668 	EXP 	image: autoDraw = True
+640.2668 	EXP 	letters_text: autoDraw = True
+642.1312 	DATA 	Keypress: 1
+642.1987 	DATA 	Keypress: s
+644.3112 	EXP 	image: autoDraw = False
+644.3112 	EXP 	letters_text: autoDraw = False
+644.3112 	EXP 	instructions: autoDraw = True
+644.7094 	DATA 	Keypress: s
+647.2010 	DATA 	Keypress: s
+649.2410 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+649.2415 	EXP 	New trial (rep=0, index=0): None
+649.2585 	EXP 	instructions: autoDraw = False
+649.2585 	EXP 	text_9: text = 'Memorera yrkestitel'
+649.2585 	EXP 	text_9: autoDraw = True
+649.7008 	DATA 	Keypress: s
+652.2009 	DATA 	Keypress: s
+653.2568 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+653.2572 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+653.2577 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'order_randomiser': 0.32172730747814826}
+653.2612 	EXP 	text_9: autoDraw = False
+653.2612 	EXP 	polygon: autoDraw = True
+654.6923 	DATA 	Keypress: s
+657.2006 	DATA 	Keypress: s
+659.7012 	DATA 	Keypress: s
+660.3320 	EXP 	polygon: autoDraw = False
+660.3320 	EXP 	polygon: autoDraw = False
+660.3320 	EXP 	image_3: image = 'Images_Faces/SH43.png'
+660.3320 	EXP 	text_8: text = ''
+660.3320 	EXP 	text_8: text = 'Arbetsledare'
+660.3320 	EXP 	image_3: autoDraw = True
+660.3320 	EXP 	text_8: autoDraw = True
+662.2001 	DATA 	Keypress: s
+664.2303 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'order_randomiser': 0.32402551859466056}
+664.2366 	EXP 	image_3: autoDraw = False
+664.2366 	EXP 	text_8: autoDraw = False
+664.2366 	EXP 	polygon: autoDraw = True
+664.6997 	DATA 	Keypress: s
+667.1996 	DATA 	Keypress: s
+668.1170 	EXP 	polygon: autoDraw = False
+668.1170 	EXP 	polygon: autoDraw = False
+668.1170 	EXP 	image_3: image = 'Images_Faces/SH52.png'
+668.1170 	EXP 	text_8: text = ''
+668.1170 	EXP 	text_8: text = 'Sjukgymnast'
+668.1170 	EXP 	image_3: autoDraw = True
+668.1170 	EXP 	text_8: autoDraw = True
+669.7024 	DATA 	Keypress: s
+672.0479 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'order_randomiser': 0.24734276736148963}
+672.0567 	EXP 	image_3: autoDraw = False
+672.0567 	EXP 	text_8: autoDraw = False
+672.0567 	EXP 	polygon: autoDraw = True
+672.2007 	DATA 	Keypress: s
+674.7009 	DATA 	Keypress: s
+676.9335 	EXP 	polygon: autoDraw = False
+676.9335 	EXP 	polygon: autoDraw = False
+676.9335 	EXP 	image_3: image = 'Images_Faces/SH35.png'
+676.9335 	EXP 	text_8: text = ''
+676.9335 	EXP 	text_8: text = 'Kock'
+676.9335 	EXP 	image_3: autoDraw = True
+676.9335 	EXP 	text_8: autoDraw = True
+677.1998 	DATA 	Keypress: s
+679.6996 	DATA 	Keypress: s
+680.8480 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Apotekare', 'order_randomiser': 0.05743380358673744}
+680.8556 	EXP 	image_3: autoDraw = False
+680.8556 	EXP 	text_8: autoDraw = False
+680.8556 	EXP 	polygon: autoDraw = True
+682.2010 	DATA 	Keypress: s
+682.9061 	EXP 	polygon: autoDraw = False
+682.9061 	EXP 	polygon: autoDraw = False
+682.9061 	EXP 	image_3: image = 'Images_Faces/SH55.png'
+682.9061 	EXP 	text_8: text = ''
+682.9061 	EXP 	text_8: text = 'Apotekare'
+682.9061 	EXP 	image_3: autoDraw = True
+682.9061 	EXP 	text_8: autoDraw = True
+684.7006 	DATA 	Keypress: s
+686.8564 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Försäkringsrådgivare', 'order_randomiser': 0.45478445938417233}
+686.8639 	EXP 	image_3: autoDraw = False
+686.8639 	EXP 	text_8: autoDraw = False
+686.8639 	EXP 	polygon: autoDraw = True
+687.1995 	DATA 	Keypress: s
+689.7006 	DATA 	Keypress: s
+690.7986 	EXP 	polygon: autoDraw = False
+690.7986 	EXP 	polygon: autoDraw = False
+690.7986 	EXP 	image_3: image = 'Images_Faces/SH44.png'
+690.7986 	EXP 	text_8: text = ''
+690.7986 	EXP 	text_8: text = 'Försäkringsrådgivare'
+690.7986 	EXP 	image_3: autoDraw = True
+690.7986 	EXP 	text_8: autoDraw = True
+692.1989 	DATA 	Keypress: s
+694.6923 	DATA 	Keypress: s
+694.8433 	EXP 	image_3: autoDraw = False
+694.8433 	EXP 	text_8: autoDraw = False
+694.8433 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+694.8433 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+694.8433 	EXP 	text_6: autoDraw = True
+694.8433 	EXP 	fingers: autoDraw = True
+697.2002 	DATA 	Keypress: s
+699.7006 	DATA 	Keypress: s
+700.7679 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+700.7682 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+700.7686 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock', 'order_randomiser': 0.24734276736148963}
+700.7733 	EXP 	text_6: autoDraw = False
+700.7733 	EXP 	fingers: autoDraw = False
+700.7733 	EXP 	polygon: autoDraw = True
+702.2001 	DATA 	Keypress: s
+704.6995 	DATA 	Keypress: s
+706.6614 	EXP 	polygon: autoDraw = False
+706.6614 	EXP 	polygon: autoDraw = False
+706.6614 	EXP 	image: image = 'Images_Faces/SH35.png'
+706.6614 	EXP 	letters_text: text = 'K.\t\t\t\tI.\t\t\t\tP.\t\t\t\tNY'
+706.6614 	EXP 	image: autoDraw = True
+706.6614 	EXP 	letters_text: autoDraw = True
+707.2003 	DATA 	Keypress: s
+708.9083 	DATA 	Keypress: 4
+709.7041 	DATA 	Keypress: s
+710.6303 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Apotekare', 'order_randomiser': 0.05743380358673744}
+710.6348 	EXP 	image: autoDraw = False
+710.6348 	EXP 	letters_text: autoDraw = False
+710.6348 	EXP 	polygon: autoDraw = True
+712.1990 	DATA 	Keypress: s
+714.7083 	DATA 	Keypress: s
+716.6331 	EXP 	polygon: autoDraw = False
+716.6331 	EXP 	polygon: autoDraw = False
+716.6331 	EXP 	image: image = 'Images_Faces/SH55.png'
+716.6331 	EXP 	letters_text: text = 'A.\t\t\t\tM.\t\t\t\tB.\t\t\t\tNY'
+716.6331 	EXP 	image: autoDraw = True
+716.6331 	EXP 	letters_text: autoDraw = True
+717.1990 	DATA 	Keypress: s
+719.7054 	DATA 	Keypress: s
+720.5938 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast', 'order_randomiser': 0.32402551859466056}
+720.6008 	EXP 	image: autoDraw = False
+720.6008 	EXP 	letters_text: autoDraw = False
+720.6008 	EXP 	polygon: autoDraw = True
+722.1997 	DATA 	Keypress: s
+724.6998 	DATA 	Keypress: s
+725.5018 	EXP 	polygon: autoDraw = False
+725.5018 	EXP 	polygon: autoDraw = False
+725.5018 	EXP 	image: image = 'Images_Faces/SH52.png'
+725.5018 	EXP 	letters_text: text = 'F.\t\t\t\tT.\t\t\t\tS.\t\t\t\tNY'
+725.5018 	EXP 	image: autoDraw = True
+725.5018 	EXP 	letters_text: autoDraw = True
+727.2001 	DATA 	Keypress: s
+727.7118 	DATA 	Keypress: 3
+729.4682 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Försäkringsrådgivare', 'order_randomiser': 0.45478445938417233}
+729.4754 	EXP 	image: autoDraw = False
+729.4754 	EXP 	letters_text: autoDraw = False
+729.4754 	EXP 	polygon: autoDraw = True
+729.7062 	DATA 	Keypress: s
+732.1266 	EXP 	polygon: autoDraw = False
+732.1266 	EXP 	polygon: autoDraw = False
+732.1266 	EXP 	image: image = 'Images_Faces/SH44.png'
+732.1266 	EXP 	letters_text: text = 'U.\t\t\t\tH.\t\t\t\tF.\t\t\t\tNY'
+732.1266 	EXP 	image: autoDraw = True
+732.1266 	EXP 	letters_text: autoDraw = True
+732.2008 	DATA 	Keypress: s
+734.0341 	DATA 	Keypress: 3
+734.6917 	DATA 	Keypress: s
+736.0978 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare', 'order_randomiser': 0.32172730747814826}
+736.1044 	EXP 	image: autoDraw = False
+736.1044 	EXP 	letters_text: autoDraw = False
+736.1044 	EXP 	polygon: autoDraw = True
+737.1996 	DATA 	Keypress: s
+739.1173 	EXP 	polygon: autoDraw = False
+739.1173 	EXP 	polygon: autoDraw = False
+739.1173 	EXP 	image: image = 'Images_Faces/SH43.png'
+739.1173 	EXP 	letters_text: text = 'S.\t\t\t\tC.\t\t\t\tA.\t\t\t\tNY'
+739.1173 	EXP 	image: autoDraw = True
+739.1173 	EXP 	letters_text: autoDraw = True
+739.6963 	DATA 	Keypress: s
+740.3626 	DATA 	Keypress: 3
+742.1995 	DATA 	Keypress: s
+743.1840 	EXP 	New trial (rep=1, index=0): None
+743.1882 	EXP 	image: autoDraw = False
+743.1882 	EXP 	letters_text: autoDraw = False
+743.1882 	EXP 	text_9: text = 'Memorera yrkestitel'
+743.1882 	EXP 	text_9: autoDraw = True
+744.7075 	DATA 	Keypress: s
+747.1049 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+747.1054 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+747.1058 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'order_randomiser': 0.22605714690624035}
+747.1102 	EXP 	text_9: autoDraw = False
+747.1102 	EXP 	polygon: autoDraw = True
+747.1991 	DATA 	Keypress: s
+749.6971 	DATA 	Keypress: s
+751.4673 	EXP 	polygon: autoDraw = False
+751.4673 	EXP 	polygon: autoDraw = False
+751.4673 	EXP 	image_3: image = 'Images_Faces/SH33.png'
+751.4673 	EXP 	text_8: text = ''
+751.4673 	EXP 	text_8: text = 'Elektriker'
+751.4673 	EXP 	image_3: autoDraw = True
+751.4673 	EXP 	text_8: autoDraw = True
+752.1971 	DATA 	Keypress: s
+754.7062 	DATA 	Keypress: s
+755.4129 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Vetrinär', 'order_randomiser': 0.2685721616906883}
+755.4203 	EXP 	image_3: autoDraw = False
+755.4203 	EXP 	text_8: autoDraw = False
+755.4203 	EXP 	polygon: autoDraw = True
+757.1984 	DATA 	Keypress: s
+759.7062 	DATA 	Keypress: s
+760.1838 	EXP 	polygon: autoDraw = False
+760.1838 	EXP 	polygon: autoDraw = False
+760.1838 	EXP 	image_3: image = 'Images_Faces/SH45.png'
+760.1838 	EXP 	text_8: text = ''
+760.1838 	EXP 	text_8: text = 'Vetrinär'
+760.1838 	EXP 	image_3: autoDraw = True
+760.1838 	EXP 	text_8: autoDraw = True
+762.1979 	DATA 	Keypress: s
+764.1353 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'Bagare', 'order_randomiser': 0.6732825353877034}
+764.1416 	EXP 	image_3: autoDraw = False
+764.1416 	EXP 	text_8: autoDraw = False
+764.1416 	EXP 	polygon: autoDraw = True
+764.6918 	DATA 	Keypress: s
+767.1974 	DATA 	Keypress: s
+769.7064 	DATA 	Keypress: s
+770.7443 	EXP 	polygon: autoDraw = False
+770.7443 	EXP 	polygon: autoDraw = False
+770.7443 	EXP 	image_3: image = 'Images_Faces/SH36.png'
+770.7443 	EXP 	text_8: text = ''
+770.7443 	EXP 	text_8: text = 'Bagare'
+770.7443 	EXP 	image_3: autoDraw = True
+770.7443 	EXP 	text_8: autoDraw = True
+772.1985 	DATA 	Keypress: s
+774.7040 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'order_randomiser': 0.6661212858487379}
+774.7065 	DATA 	Keypress: s
+774.7116 	EXP 	image_3: autoDraw = False
+774.7116 	EXP 	text_8: autoDraw = False
+774.7116 	EXP 	polygon: autoDraw = True
+777.1978 	DATA 	Keypress: s
+778.2572 	EXP 	polygon: autoDraw = False
+778.2572 	EXP 	polygon: autoDraw = False
+778.2572 	EXP 	image_3: image = 'Images_Faces/SH48.png'
+778.2572 	EXP 	text_8: text = ''
+778.2572 	EXP 	text_8: text = 'Jurist'
+778.2572 	EXP 	image_3: autoDraw = True
+778.2572 	EXP 	text_8: autoDraw = True
+779.6982 	DATA 	Keypress: s
+782.1959 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'order_randomiser': 0.27664949845648457}
+782.1978 	DATA 	Keypress: s
+782.2032 	EXP 	image_3: autoDraw = False
+782.2032 	EXP 	text_8: autoDraw = False
+782.2032 	EXP 	polygon: autoDraw = True
+784.7050 	DATA 	Keypress: s
+786.2512 	EXP 	polygon: autoDraw = False
+786.2512 	EXP 	polygon: autoDraw = False
+786.2512 	EXP 	image_3: image = 'Images_Faces/SH34.png'
+786.2512 	EXP 	text_8: text = ''
+786.2512 	EXP 	text_8: text = 'Marknadsförare'
+786.2512 	EXP 	image_3: autoDraw = True
+786.2512 	EXP 	text_8: autoDraw = True
+787.2056 	DATA 	Keypress: s
+789.6968 	DATA 	Keypress: s
+790.3078 	EXP 	image_3: autoDraw = False
+790.3078 	EXP 	text_8: autoDraw = False
+790.3078 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+790.3078 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+790.3078 	EXP 	text_6: autoDraw = True
+790.3078 	EXP 	fingers: autoDraw = True
+792.1976 	DATA 	Keypress: s
+794.6978 	DATA 	Keypress: s
+796.2170 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+796.2173 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+796.2176 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'Bagare', 'order_randomiser': 0.6732825353877034}
+796.2209 	EXP 	text_6: autoDraw = False
+796.2209 	EXP 	fingers: autoDraw = False
+796.2209 	EXP 	polygon: autoDraw = True
+797.1963 	DATA 	Keypress: s
+798.2550 	EXP 	polygon: autoDraw = False
+798.2550 	EXP 	polygon: autoDraw = False
+798.2550 	EXP 	image: image = 'Images_Faces/SH36.png'
+798.2550 	EXP 	letters_text: text = 'M.\t\t\t\tB.\t\t\t\tE.\t\t\t\tNY'
+798.2550 	EXP 	image: autoDraw = True
+798.2550 	EXP 	letters_text: autoDraw = True
+799.3997 	DATA 	Keypress: 3
+799.7023 	DATA 	Keypress: s
+802.1958 	DATA 	Keypress: s
+802.2166 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare', 'order_randomiser': 0.27664949845648457}
+802.2238 	EXP 	image: autoDraw = False
+802.2238 	EXP 	letters_text: autoDraw = False
+802.2238 	EXP 	polygon: autoDraw = True
+804.6968 	DATA 	Keypress: s
+805.4025 	EXP 	polygon: autoDraw = False
+805.4025 	EXP 	polygon: autoDraw = False
+805.4025 	EXP 	image: image = 'Images_Faces/SH34.png'
+805.4025 	EXP 	letters_text: text = 'O.\t\t\t\tM.\t\t\t\tS.\t\t\t\tNY'
+805.4025 	EXP 	image: autoDraw = True
+805.4025 	EXP 	letters_text: autoDraw = True
+807.1951 	DATA 	Keypress: s
+808.8274 	DATA 	Keypress: 2
+809.3766 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist', 'order_randomiser': 0.6661212858487379}
+809.3823 	EXP 	image: autoDraw = False
+809.3823 	EXP 	letters_text: autoDraw = False
+809.3823 	EXP 	polygon: autoDraw = True
+809.7054 	DATA 	Keypress: s
+812.1973 	DATA 	Keypress: s
+812.6398 	EXP 	polygon: autoDraw = False
+812.6398 	EXP 	polygon: autoDraw = False
+812.6398 	EXP 	image: image = 'Images_Faces/SH48.png'
+812.6398 	EXP 	letters_text: text = 'O.\t\t\t\tE.\t\t\t\tJ.\t\t\t\tNY'
+812.6398 	EXP 	image: autoDraw = True
+812.6398 	EXP 	letters_text: autoDraw = True
+814.7013 	DATA 	Keypress: s
+816.1060 	DATA 	Keypress: 4
+816.6108 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Vetrinär', 'order_randomiser': 0.2685721616906883}
+816.6151 	EXP 	image: autoDraw = False
+816.6151 	EXP 	letters_text: autoDraw = False
+816.6151 	EXP 	polygon: autoDraw = True
+817.1968 	DATA 	Keypress: s
+819.6950 	DATA 	Keypress: s
+822.1975 	DATA 	Keypress: s
+822.9064 	EXP 	polygon: autoDraw = False
+822.9064 	EXP 	polygon: autoDraw = False
+822.9064 	EXP 	image: image = 'Images_Faces/SH45.png'
+822.9064 	EXP 	letters_text: text = 'M.\t\t\t\tV.\t\t\t\tK.\t\t\t\tNY'
+822.9064 	EXP 	image: autoDraw = True
+822.9064 	EXP 	letters_text: autoDraw = True
+824.7044 	DATA 	Keypress: s
+824.9434 	DATA 	Keypress: 2
+826.8737 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker', 'order_randomiser': 0.22605714690624035}
+826.8767 	EXP 	image: autoDraw = False
+826.8767 	EXP 	letters_text: autoDraw = False
+826.8767 	EXP 	polygon: autoDraw = True
+827.1966 	DATA 	Keypress: s
+829.6387 	EXP 	polygon: autoDraw = False
+829.6387 	EXP 	polygon: autoDraw = False
+829.6387 	EXP 	image: image = 'Images_Faces/SH33.png'
+829.6387 	EXP 	letters_text: text = 'N.\t\t\t\tE.\t\t\t\tI.\t\t\t\tNY'
+829.6387 	EXP 	image: autoDraw = True
+829.6387 	EXP 	letters_text: autoDraw = True
+829.7056 	DATA 	Keypress: s
+831.4205 	DATA 	Keypress: 2
+832.1989 	DATA 	Keypress: s
+833.7342 	EXP 	New trial (rep=2, index=0): None
+833.7399 	EXP 	image: autoDraw = False
+833.7399 	EXP 	letters_text: autoDraw = False
+833.7399 	EXP 	text_9: text = 'Memorera yrkestitel'
+833.7399 	EXP 	text_9: autoDraw = True
+834.6960 	DATA 	Keypress: s
+837.1977 	DATA 	Keypress: s
+837.6314 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+837.6320 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+837.6325 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'order_randomiser': 0.045506161487107066}
+837.6368 	EXP 	text_9: autoDraw = False
+837.6368 	EXP 	polygon: autoDraw = True
+839.7046 	DATA 	Keypress: s
+842.1956 	DATA 	Keypress: s
+842.4138 	EXP 	polygon: autoDraw = False
+842.4138 	EXP 	polygon: autoDraw = False
+842.4138 	EXP 	image_3: image = 'Images_Faces/SH42.png'
+842.4138 	EXP 	text_8: text = ''
+842.4138 	EXP 	text_8: text = 'Tandläkare'
+842.4138 	EXP 	image_3: autoDraw = True
+842.4138 	EXP 	text_8: autoDraw = True
+844.7071 	DATA 	Keypress: s
+846.3780 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'order_randomiser': 0.2097558878752076}
+846.3828 	EXP 	image_3: autoDraw = False
+846.3828 	EXP 	text_8: autoDraw = False
+846.3828 	EXP 	polygon: autoDraw = True
+847.1962 	DATA 	Keypress: s
+849.6963 	DATA 	Keypress: s
+850.5116 	EXP 	polygon: autoDraw = False
+850.5116 	EXP 	polygon: autoDraw = False
+850.5116 	EXP 	image_3: image = 'Images_Faces/SH38.png'
+850.5116 	EXP 	text_8: text = ''
+850.5116 	EXP 	text_8: text = 'Maskinoperatör'
+850.5116 	EXP 	image_3: autoDraw = True
+850.5116 	EXP 	text_8: autoDraw = True
+852.2014 	DATA 	Keypress: s
+854.4438 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'order_randomiser': 0.5861841421794051}
+854.4513 	EXP 	image_3: autoDraw = False
+854.4513 	EXP 	text_8: autoDraw = False
+854.4513 	EXP 	polygon: autoDraw = True
+854.7029 	DATA 	Keypress: s
+857.1950 	DATA 	Keypress: s
+858.1257 	EXP 	polygon: autoDraw = False
+858.1257 	EXP 	polygon: autoDraw = False
+858.1257 	EXP 	image_3: image = 'Images_Faces/SH50.png'
+858.1257 	EXP 	text_8: text = ''
+858.1257 	EXP 	text_8: text = 'Bartender'
+858.1257 	EXP 	image_3: autoDraw = True
+858.1257 	EXP 	text_8: autoDraw = True
+859.6948 	DATA 	Keypress: s
+862.0762 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'order_randomiser': 0.38502199212498567}
+862.0843 	EXP 	image_3: autoDraw = False
+862.0843 	EXP 	text_8: autoDraw = False
+862.0843 	EXP 	polygon: autoDraw = True
+862.1962 	DATA 	Keypress: s
+864.7034 	DATA 	Keypress: s
+866.3278 	EXP 	polygon: autoDraw = False
+866.3278 	EXP 	polygon: autoDraw = False
+866.3278 	EXP 	image_3: image = 'Images_Faces/SH40.png'
+866.3278 	EXP 	text_8: text = ''
+866.3278 	EXP 	text_8: text = 'Proffessor'
+866.3278 	EXP 	image_3: autoDraw = True
+866.3278 	EXP 	text_8: autoDraw = True
+867.2039 	DATA 	Keypress: s
+869.7034 	DATA 	Keypress: s
+870.3017 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Inköpare', 'order_randomiser': 0.4317306773705356}
+870.3093 	EXP 	image_3: autoDraw = False
+870.3093 	EXP 	text_8: autoDraw = False
+870.3093 	EXP 	polygon: autoDraw = True
+872.1956 	DATA 	Keypress: s
+872.3513 	EXP 	polygon: autoDraw = False
+872.3513 	EXP 	polygon: autoDraw = False
+872.3513 	EXP 	image_3: image = 'Images_Faces/SH46.png'
+872.3513 	EXP 	text_8: text = ''
+872.3513 	EXP 	text_8: text = 'Inköpare'
+872.3513 	EXP 	image_3: autoDraw = True
+872.3513 	EXP 	text_8: autoDraw = True
+874.6966 	DATA 	Keypress: s
+876.4307 	EXP 	image_3: autoDraw = False
+876.4307 	EXP 	text_8: autoDraw = False
+876.4307 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+876.4307 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+876.4307 	EXP 	text_6: autoDraw = True
+876.4307 	EXP 	fingers: autoDraw = True
+877.1950 	DATA 	Keypress: s
+879.7048 	DATA 	Keypress: s
+882.1944 	DATA 	Keypress: s
+882.3244 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+882.3248 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+882.3252 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender', 'order_randomiser': 0.5861841421794051}
+882.3285 	EXP 	text_6: autoDraw = False
+882.3285 	EXP 	fingers: autoDraw = False
+882.3285 	EXP 	polygon: autoDraw = True
+884.7024 	DATA 	Keypress: s
+887.1949 	DATA 	Keypress: s
+888.1010 	EXP 	polygon: autoDraw = False
+888.1010 	EXP 	polygon: autoDraw = False
+888.1010 	EXP 	image: image = 'Images_Faces/SH50.png'
+888.1010 	EXP 	letters_text: text = 'R.\t\t\t\tB.\t\t\t\tC.\t\t\t\tNY'
+888.1010 	EXP 	image: autoDraw = True
+888.1010 	EXP 	letters_text: autoDraw = True
+889.6906 	DATA 	Keypress: s
+892.0647 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor', 'order_randomiser': 0.38502199212498567}
+892.0713 	EXP 	image: autoDraw = False
+892.0713 	EXP 	letters_text: autoDraw = False
+892.0713 	EXP 	polygon: autoDraw = True
+892.1934 	DATA 	Keypress: s
+894.7034 	DATA 	Keypress: s
+896.3102 	EXP 	polygon: autoDraw = False
+896.3102 	EXP 	polygon: autoDraw = False
+896.3102 	EXP 	image: image = 'Images_Faces/SH40.png'
+896.3102 	EXP 	letters_text: text = 'G.\t\t\t\tP.\t\t\t\tD.\t\t\t\tNY'
+896.3102 	EXP 	image: autoDraw = True
+896.3102 	EXP 	letters_text: autoDraw = True
+897.1971 	DATA 	Keypress: s
+898.8285 	DATA 	Keypress: 3
+899.7037 	DATA 	Keypress: s
+900.2808 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör', 'order_randomiser': 0.2097558878752076}
+900.2879 	EXP 	image: autoDraw = False
+900.2879 	EXP 	letters_text: autoDraw = False
+900.2879 	EXP 	polygon: autoDraw = True
+902.1941 	DATA 	Keypress: s
+902.3168 	EXP 	polygon: autoDraw = False
+902.3168 	EXP 	polygon: autoDraw = False
+902.3168 	EXP 	image: image = 'Images_Faces/SH38.png'
+902.3168 	EXP 	letters_text: text = 'E.\t\t\t\tM.\t\t\t\tC.\t\t\t\tNY'
+902.3168 	EXP 	image: autoDraw = True
+902.3168 	EXP 	letters_text: autoDraw = True
+904.6096 	DATA 	Keypress: 2
+904.6935 	DATA 	Keypress: s
+906.2890 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare', 'order_randomiser': 0.045506161487107066}
+906.2961 	EXP 	image: autoDraw = False
+906.2961 	EXP 	letters_text: autoDraw = False
+906.2961 	EXP 	polygon: autoDraw = True
+907.1945 	DATA 	Keypress: s
+909.7012 	DATA 	Keypress: s
+912.1939 	DATA 	Keypress: s
+914.3254 	EXP 	polygon: autoDraw = False
+914.3254 	EXP 	polygon: autoDraw = False
+914.3254 	EXP 	image: image = 'Images_Faces/SH42.png'
+914.3254 	EXP 	letters_text: text = 'G.\t\t\t\tF.\t\t\t\tT.\t\t\t\tNY'
+914.3254 	EXP 	image: autoDraw = True
+914.3254 	EXP 	letters_text: autoDraw = True
+914.7033 	DATA 	Keypress: s
+917.2020 	DATA 	Keypress: s
+918.2975 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Inköpare', 'order_randomiser': 0.4317306773705356}
+918.3038 	EXP 	image: autoDraw = False
+918.3038 	EXP 	letters_text: autoDraw = False
+918.3038 	EXP 	polygon: autoDraw = True
+919.6947 	DATA 	Keypress: s
+921.4183 	EXP 	polygon: autoDraw = False
+921.4183 	EXP 	polygon: autoDraw = False
+921.4183 	EXP 	image: image = 'Images_Faces/SH46.png'
+921.4183 	EXP 	letters_text: text = 'G.\t\t\t\tA.\t\t\t\tI.\t\t\t\tNY'
+921.4183 	EXP 	image: autoDraw = True
+921.4183 	EXP 	letters_text: autoDraw = True
+922.1949 	DATA 	Keypress: s
+924.7027 	DATA 	Keypress: s
+924.9361 	DATA 	Keypress: 3
+925.4869 	EXP 	New trial (rep=3, index=0): None
+925.4899 	EXP 	image: autoDraw = False
+925.4899 	EXP 	letters_text: autoDraw = False
+925.4899 	EXP 	text_9: text = 'Memorera yrkestitel'
+925.4899 	EXP 	text_9: autoDraw = True
+927.1954 	DATA 	Keypress: s
+929.3994 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+929.3998 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+929.4003 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'order_randomiser': 0.9854606583988191}
+929.4039 	EXP 	text_9: autoDraw = False
+929.4039 	EXP 	polygon: autoDraw = True
+929.6937 	DATA 	Keypress: s
+932.1943 	DATA 	Keypress: s
+932.7214 	EXP 	polygon: autoDraw = False
+932.7214 	EXP 	polygon: autoDraw = False
+932.7214 	EXP 	image_3: image = 'Images_Faces/SH41.png'
+932.7214 	EXP 	text_8: text = ''
+932.7214 	EXP 	text_8: text = 'Säkerhetsvakt'
+932.7214 	EXP 	image_3: autoDraw = True
+932.7214 	EXP 	text_8: autoDraw = True
+934.6970 	DATA 	Keypress: s
+936.6748 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Musiker', 'order_randomiser': 0.7167771155973117}
+936.6824 	EXP 	image_3: autoDraw = False
+936.6824 	EXP 	text_8: autoDraw = False
+936.6824 	EXP 	polygon: autoDraw = True
+937.1927 	DATA 	Keypress: s
+939.7023 	DATA 	Keypress: s
+943.4715 	EXP 	polygon: autoDraw = False
+943.4715 	EXP 	polygon: autoDraw = False
+943.4715 	EXP 	image_3: image = 'Images_Faces/SH56.png'
+943.4715 	EXP 	text_8: text = ''
+943.4715 	EXP 	text_8: text = 'Musiker'
+943.4715 	EXP 	image_3: autoDraw = True
+943.4715 	EXP 	text_8: autoDraw = True
+947.4332 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'order_randomiser': 0.8212304864272226}
+947.4406 	EXP 	image_3: autoDraw = False
+947.4406 	EXP 	text_8: autoDraw = False
+947.4406 	EXP 	polygon: autoDraw = True
+952.9897 	EXP 	polygon: autoDraw = False
+952.9897 	EXP 	polygon: autoDraw = False
+952.9897 	EXP 	image_3: image = 'Images_Faces/SH49.png'
+952.9897 	EXP 	text_8: text = ''
+952.9897 	EXP 	text_8: text = 'Hovmästare'
+952.9897 	EXP 	image_3: autoDraw = True
+952.9897 	EXP 	text_8: autoDraw = True
+956.9494 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'order_randomiser': 0.49847430071286436}
+956.9568 	EXP 	image_3: autoDraw = False
+956.9568 	EXP 	text_8: autoDraw = False
+956.9568 	EXP 	polygon: autoDraw = True
+959.0046 	EXP 	polygon: autoDraw = False
+959.0046 	EXP 	polygon: autoDraw = False
+959.0046 	EXP 	image_3: image = 'Images_Faces/SH37.png'
+959.0046 	EXP 	text_8: text = ''
+959.0046 	EXP 	text_8: text = 'Brevbärare'
+959.0046 	EXP 	image_3: autoDraw = True
+959.0046 	EXP 	text_8: autoDraw = True
+962.9576 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'Lastbilschaufför', 'order_randomiser': 0.9092216347646128}
+962.9652 	EXP 	image_3: autoDraw = False
+962.9652 	EXP 	text_8: autoDraw = False
+962.9652 	EXP 	polygon: autoDraw = True
+965.8005 	EXP 	polygon: autoDraw = False
+965.8005 	EXP 	polygon: autoDraw = False
+965.8005 	EXP 	image_3: image = 'Images_Faces/SH53.png'
+965.8005 	EXP 	text_8: text = ''
+965.8005 	EXP 	text_8: text = 'Lastbilschaufför'
+965.8005 	EXP 	image_3: autoDraw = True
+965.8005 	EXP 	text_8: autoDraw = True
+969.9196 	EXP 	image_3: autoDraw = False
+969.9196 	EXP 	text_8: autoDraw = False
+969.9196 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+969.9196 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+969.9196 	EXP 	text_6: autoDraw = True
+969.9196 	EXP 	fingers: autoDraw = True
+975.7801 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+975.7805 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+975.7809 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare', 'order_randomiser': 0.8212304864272226}
+975.7844 	EXP 	text_6: autoDraw = False
+975.7844 	EXP 	fingers: autoDraw = False
+975.7844 	EXP 	polygon: autoDraw = True
+982.6168 	EXP 	polygon: autoDraw = False
+982.6168 	EXP 	polygon: autoDraw = False
+982.6168 	EXP 	image: image = 'Images_Faces/SH49.png'
+982.6168 	EXP 	letters_text: text = 'H.\t\t\t\tE.\t\t\t\tN.\t\t\t\tNY'
+982.6168 	EXP 	image: autoDraw = True
+982.6168 	EXP 	letters_text: autoDraw = True
+986.3822 	DATA 	Keypress: 1
+986.5915 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt', 'order_randomiser': 0.9854606583988191}
+986.5976 	EXP 	image: autoDraw = False
+986.5976 	EXP 	letters_text: autoDraw = False
+986.5976 	EXP 	polygon: autoDraw = True
+992.0541 	EXP 	polygon: autoDraw = False
+992.0541 	EXP 	polygon: autoDraw = False
+992.0541 	EXP 	image: image = 'Images_Faces/SH41.png'
+992.0541 	EXP 	letters_text: text = 'N.\t\t\t\tK.\t\t\t\tS.\t\t\t\tNY'
+992.0541 	EXP 	image: autoDraw = True
+992.0541 	EXP 	letters_text: autoDraw = True
+993.3664 	DATA 	Keypress: 3
+996.0202 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Musiker', 'order_randomiser': 0.7167771155973117}
+996.0271 	EXP 	image: autoDraw = False
+996.0271 	EXP 	letters_text: autoDraw = False
+996.0271 	EXP 	polygon: autoDraw = True
+1003.8938 	EXP 	polygon: autoDraw = False
+1003.8938 	EXP 	polygon: autoDraw = False
+1003.8938 	EXP 	image: image = 'Images_Faces/SH56.png'
+1003.8938 	EXP 	letters_text: text = 'F.\t\t\t\tM.\t\t\t\tI.\t\t\t\tNY'
+1003.8938 	EXP 	image: autoDraw = True
+1003.8938 	EXP 	letters_text: autoDraw = True
+1005.1238 	DATA 	Keypress: 2
+1007.8610 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare', 'order_randomiser': 0.49847430071286436}
+1007.8682 	EXP 	image: autoDraw = False
+1007.8682 	EXP 	letters_text: autoDraw = False
+1007.8682 	EXP 	polygon: autoDraw = True
+1012.6593 	EXP 	polygon: autoDraw = False
+1012.6593 	EXP 	polygon: autoDraw = False
+1012.6593 	EXP 	image: image = 'Images_Faces/SH37.png'
+1012.6593 	EXP 	letters_text: text = 'G.\t\t\t\tI.\t\t\t\tB.\t\t\t\tNY'
+1012.6593 	EXP 	image: autoDraw = True
+1012.6593 	EXP 	letters_text: autoDraw = True
+1013.8466 	DATA 	Keypress: 3
+1016.6234 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'Lastbilschaufför', 'order_randomiser': 0.9092216347646128}
+1016.6302 	EXP 	image: autoDraw = False
+1016.6302 	EXP 	letters_text: autoDraw = False
+1016.6302 	EXP 	polygon: autoDraw = True
+1023.6762 	EXP 	polygon: autoDraw = False
+1023.6762 	EXP 	polygon: autoDraw = False
+1023.6762 	EXP 	image: image = 'Images_Faces/SH53.png'
+1023.6762 	EXP 	letters_text: text = 'L.\t\t\t\tS.\t\t\t\tU.\t\t\t\tNY'
+1023.6762 	EXP 	image: autoDraw = True
+1023.6762 	EXP 	letters_text: autoDraw = True
+1027.7809 	EXP 	New trial (rep=4, index=0): None
+1027.7843 	EXP 	image: autoDraw = False
+1027.7843 	EXP 	letters_text: autoDraw = False
+1027.7843 	EXP 	text_9: text = 'Memorera yrkestitel'
+1027.7843 	EXP 	text_9: autoDraw = True
+1031.6650 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+1031.6656 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+1031.6661 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'order_randomiser': 0.7308670509386236}
+1031.6700 	EXP 	text_9: autoDraw = False
+1031.6700 	EXP 	polygon: autoDraw = True
+1037.0947 	EXP 	polygon: autoDraw = False
+1037.0947 	EXP 	polygon: autoDraw = False
+1037.0947 	EXP 	image_3: image = 'Images_Faces/SH59.png'
+1037.0947 	EXP 	text_8: text = ''
+1037.0947 	EXP 	text_8: text = 'Körskollärare'
+1037.0947 	EXP 	image_3: autoDraw = True
+1037.0947 	EXP 	text_8: autoDraw = True
+1041.0307 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Rektor', 'order_randomiser': 0.2821875721813104}
+1041.0379 	EXP 	image_3: autoDraw = False
+1041.0379 	EXP 	text_8: autoDraw = False
+1041.0379 	EXP 	polygon: autoDraw = True
+1045.1194 	EXP 	polygon: autoDraw = False
+1045.1194 	EXP 	polygon: autoDraw = False
+1045.1194 	EXP 	image_3: image = 'Images_Faces/SH39.png'
+1045.1194 	EXP 	text_8: text = ''
+1045.1194 	EXP 	text_8: text = 'Rektor'
+1045.1194 	EXP 	image_3: autoDraw = True
+1045.1194 	EXP 	text_8: autoDraw = True
+1049.0799 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Nätverkstekniker', 'order_randomiser': 0.3749649037832139}
+1049.0877 	EXP 	image_3: autoDraw = False
+1049.0877 	EXP 	text_8: autoDraw = False
+1049.0877 	EXP 	polygon: autoDraw = True
+1053.5424 	EXP 	polygon: autoDraw = False
+1053.5424 	EXP 	polygon: autoDraw = False
+1053.5424 	EXP 	image_3: image = 'Images_Faces/SH51.png'
+1053.5424 	EXP 	text_8: text = ''
+1053.5424 	EXP 	text_8: text = 'Nätverkstekniker'
+1053.5424 	EXP 	image_3: autoDraw = True
+1053.5424 	EXP 	text_8: autoDraw = True
+1057.4883 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'order_randomiser': 0.1223308811919066}
+1057.4958 	EXP 	image_3: autoDraw = False
+1057.4958 	EXP 	text_8: autoDraw = False
+1057.4958 	EXP 	polygon: autoDraw = True
+1062.2585 	EXP 	polygon: autoDraw = False
+1062.2585 	EXP 	polygon: autoDraw = False
+1062.2585 	EXP 	image_3: image = 'Images_Faces/SH60.png'
+1062.2585 	EXP 	text_8: text = ''
+1062.2585 	EXP 	text_8: text = 'Polis'
+1062.2585 	EXP 	image_3: autoDraw = True
+1062.2585 	EXP 	text_8: autoDraw = True
+1066.2131 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'order_randomiser': 0.10881627067326916}
+1066.2206 	EXP 	image_3: autoDraw = False
+1066.2206 	EXP 	text_8: autoDraw = False
+1066.2206 	EXP 	polygon: autoDraw = True
+1069.2529 	EXP 	polygon: autoDraw = False
+1069.2529 	EXP 	polygon: autoDraw = False
+1069.2529 	EXP 	image_3: image = 'Images_Faces/SH31.png'
+1069.2529 	EXP 	text_8: text = ''
+1069.2529 	EXP 	text_8: text = 'Fastighetsskötare'
+1069.2529 	EXP 	image_3: autoDraw = True
+1069.2529 	EXP 	text_8: autoDraw = True
+1073.3022 	EXP 	image_3: autoDraw = False
+1073.3022 	EXP 	text_8: autoDraw = False
+1073.3022 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+1073.3022 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+1073.3022 	EXP 	text_6: autoDraw = True
+1073.3022 	EXP 	fingers: autoDraw = True
+1079.1935 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+1079.1939 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+1079.1942 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Nätverkstekniker', 'order_randomiser': 0.3749649037832139}
+1079.1977 	EXP 	text_6: autoDraw = False
+1079.1977 	EXP 	fingers: autoDraw = False
+1079.1977 	EXP 	polygon: autoDraw = True
+1082.8530 	EXP 	polygon: autoDraw = False
+1082.8530 	EXP 	polygon: autoDraw = False
+1082.8530 	EXP 	image: image = 'Images_Faces/SH51.png'
+1082.8530 	EXP 	letters_text: text = 'D.\t\t\t\tN.\t\t\t\tO.\t\t\t\tNY'
+1082.8530 	EXP 	image: autoDraw = True
+1082.8530 	EXP 	letters_text: autoDraw = True
+1086.6000 	DATA 	Keypress: 4
+1086.8145 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare', 'order_randomiser': 0.7308670509386236}
+1086.8202 	EXP 	image: autoDraw = False
+1086.8202 	EXP 	letters_text: autoDraw = False
+1086.8202 	EXP 	polygon: autoDraw = True
+1092.2053 	EXP 	polygon: autoDraw = False
+1092.2053 	EXP 	polygon: autoDraw = False
+1092.2053 	EXP 	image: image = 'Images_Faces/SH59.png'
+1092.2053 	EXP 	letters_text: text = 'L.\t\t\t\tK.\t\t\t\tN.\t\t\t\tNY'
+1092.2053 	EXP 	image: autoDraw = True
+1092.2053 	EXP 	letters_text: autoDraw = True
+1093.1489 	DATA 	Keypress: 2
+1096.1797 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Rektor', 'order_randomiser': 0.2821875721813104}
+1096.1864 	EXP 	image: autoDraw = False
+1096.1864 	EXP 	letters_text: autoDraw = False
+1096.1864 	EXP 	polygon: autoDraw = True
+1104.2205 	EXP 	polygon: autoDraw = False
+1104.2205 	EXP 	polygon: autoDraw = False
+1104.2205 	EXP 	image: image = 'Images_Faces/SH39.png'
+1104.2205 	EXP 	letters_text: text = 'R.\t\t\t\tB.\t\t\t\tC.\t\t\t\tNY'
+1104.2205 	EXP 	image: autoDraw = True
+1104.2205 	EXP 	letters_text: autoDraw = True
+1106.0542 	DATA 	Keypress: 1
+1108.1931 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare', 'order_randomiser': 0.10881627067326916}
+1108.1998 	EXP 	image: autoDraw = False
+1108.1998 	EXP 	letters_text: autoDraw = False
+1108.1998 	EXP 	polygon: autoDraw = True
+1112.6878 	EXP 	polygon: autoDraw = False
+1112.6878 	EXP 	polygon: autoDraw = False
+1112.6878 	EXP 	image: image = 'Images_Faces/SH31.png'
+1112.6878 	EXP 	letters_text: text = 'F.\t\t\t\tP.\t\t\t\tJ.\t\t\t\tNY'
+1112.6878 	EXP 	image: autoDraw = True
+1112.6878 	EXP 	letters_text: autoDraw = True
+1115.7970 	DATA 	Keypress: 2
+1116.6531 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis', 'order_randomiser': 0.1223308811919066}
+1116.6608 	EXP 	image: autoDraw = False
+1116.6608 	EXP 	letters_text: autoDraw = False
+1116.6608 	EXP 	polygon: autoDraw = True
+1122.5351 	EXP 	polygon: autoDraw = False
+1122.5351 	EXP 	polygon: autoDraw = False
+1122.5351 	EXP 	image: image = 'Images_Faces/SH60.png'
+1122.5351 	EXP 	letters_text: text = 'G.\t\t\t\tP.\t\t\t\tM.\t\t\t\tNY'
+1122.5351 	EXP 	image: autoDraw = True
+1122.5351 	EXP 	letters_text: autoDraw = True
+1125.7676 	DATA 	Keypress: 3
+1126.6173 	EXP 	New trial (rep=5, index=0): None
+1126.6231 	EXP 	image: autoDraw = False
+1126.6231 	EXP 	letters_text: autoDraw = False
+1126.6231 	EXP 	text_9: text = 'Memorera yrkestitel'
+1126.6231 	EXP 	text_9: autoDraw = True
+1130.5194 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+1130.5199 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+1130.5203 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Slaktare', 'order_randomiser': 0.3225344699824524}
+1130.5240 	EXP 	text_9: autoDraw = False
+1130.5240 	EXP 	polygon: autoDraw = True
+1133.8280 	EXP 	polygon: autoDraw = False
+1133.8280 	EXP 	polygon: autoDraw = False
+1133.8280 	EXP 	image_3: image = 'Images_Faces/SH57.png'
+1133.8280 	EXP 	text_8: text = ''
+1133.8280 	EXP 	text_8: text = 'Slaktare'
+1133.8280 	EXP 	image_3: autoDraw = True
+1133.8280 	EXP 	text_8: autoDraw = True
+1137.7703 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Smed', 'order_randomiser': 0.4365171190702223}
+1137.7772 	EXP 	image_3: autoDraw = False
+1137.7772 	EXP 	text_8: autoDraw = False
+1137.7772 	EXP 	polygon: autoDraw = True
+1142.6498 	EXP 	polygon: autoDraw = False
+1142.6498 	EXP 	polygon: autoDraw = False
+1142.6498 	EXP 	image_3: image = 'Images_Faces/SH32.png'
+1142.6498 	EXP 	text_8: text = ''
+1142.6498 	EXP 	text_8: text = 'Smed'
+1142.6498 	EXP 	image_3: autoDraw = True
+1142.6498 	EXP 	text_8: autoDraw = True
+1146.6028 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Undersköterska', 'order_randomiser': 0.16067568711583546}
+1146.6103 	EXP 	image_3: autoDraw = False
+1146.6103 	EXP 	text_8: autoDraw = False
+1146.6103 	EXP 	polygon: autoDraw = True
+1150.0558 	EXP 	polygon: autoDraw = False
+1150.0558 	EXP 	polygon: autoDraw = False
+1150.0558 	EXP 	image_3: image = 'Images_Faces/SH58.png'
+1150.0558 	EXP 	text_8: text = ''
+1150.0558 	EXP 	text_8: text = 'Undersköterska'
+1150.0558 	EXP 	image_3: autoDraw = True
+1150.0558 	EXP 	text_8: autoDraw = True
+1154.0025 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'order_randomiser': 0.781854895311222}
+1154.0100 	EXP 	image_3: autoDraw = False
+1154.0100 	EXP 	text_8: autoDraw = False
+1154.0100 	EXP 	polygon: autoDraw = True
+1156.0654 	EXP 	polygon: autoDraw = False
+1156.0654 	EXP 	polygon: autoDraw = False
+1156.0654 	EXP 	image_3: image = 'Images_Faces/SH47.png'
+1156.0654 	EXP 	text_8: text = ''
+1156.0654 	EXP 	text_8: text = 'Plåtslagare'
+1156.0654 	EXP 	image_3: autoDraw = True
+1156.0654 	EXP 	text_8: autoDraw = True
+1160.0108 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'order_randomiser': 0.9452109373673346}
+1160.0181 	EXP 	image_3: autoDraw = False
+1160.0181 	EXP 	text_8: autoDraw = False
+1160.0181 	EXP 	polygon: autoDraw = True
+1162.8140 	EXP 	polygon: autoDraw = False
+1162.8140 	EXP 	polygon: autoDraw = False
+1162.8140 	EXP 	image_3: image = 'Images_Faces/SH54.png'
+1162.8140 	EXP 	text_8: text = ''
+1162.8140 	EXP 	text_8: text = 'Trädgårdsmästare'
+1162.8140 	EXP 	image_3: autoDraw = True
+1162.8140 	EXP 	text_8: autoDraw = True
+1166.9328 	EXP 	image_3: autoDraw = False
+1166.9328 	EXP 	text_8: autoDraw = False
+1166.9328 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+1166.9328 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+1166.9328 	EXP 	text_6: autoDraw = True
+1166.9328 	EXP 	fingers: autoDraw = True
+1172.7827 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 4 params
+1172.7831 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+1172.7835 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Smed', 'order_randomiser': 0.4365171190702223}
+1172.7867 	EXP 	text_6: autoDraw = False
+1172.7867 	EXP 	fingers: autoDraw = False
+1172.7867 	EXP 	polygon: autoDraw = True
+1176.0719 	EXP 	polygon: autoDraw = False
+1176.0719 	EXP 	polygon: autoDraw = False
+1176.0719 	EXP 	image: image = 'Images_Faces/SH32.png'
+1176.0719 	EXP 	letters_text: text = 'S.\t\t\t\tK.\t\t\t\tT.\t\t\t\tNY'
+1176.0719 	EXP 	image: autoDraw = True
+1176.0719 	EXP 	letters_text: autoDraw = True
+1177.8761 	DATA 	Keypress: 1
+1180.0409 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare', 'order_randomiser': 0.9452109373673346}
+1180.0483 	EXP 	image: autoDraw = False
+1180.0483 	EXP 	letters_text: autoDraw = False
+1180.0483 	EXP 	polygon: autoDraw = True
+1182.5618 	EXP 	polygon: autoDraw = False
+1182.5618 	EXP 	polygon: autoDraw = False
+1182.5618 	EXP 	image: image = 'Images_Faces/SH54.png'
+1182.5618 	EXP 	letters_text: text = 'M.\t\t\t\tC.\t\t\t\tT.\t\t\t\tNY'
+1182.5618 	EXP 	image: autoDraw = True
+1182.5618 	EXP 	letters_text: autoDraw = True
+1185.7091 	DATA 	Keypress: 3
+1186.5360 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare', 'order_randomiser': 0.781854895311222}
+1186.5426 	EXP 	image: autoDraw = False
+1186.5426 	EXP 	letters_text: autoDraw = False
+1186.5426 	EXP 	polygon: autoDraw = True
+1188.5720 	EXP 	polygon: autoDraw = False
+1188.5720 	EXP 	polygon: autoDraw = False
+1188.5720 	EXP 	image: image = 'Images_Faces/SH47.png'
+1188.5720 	EXP 	letters_text: text = 'E.\t\t\t\tP.\t\t\t\tR.\t\t\t\tNY'
+1188.5720 	EXP 	image: autoDraw = True
+1188.5720 	EXP 	letters_text: autoDraw = True
+1191.2004 	DATA 	Keypress: 2
+1192.5399 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Undersköterska', 'order_randomiser': 0.16067568711583546}
+1192.5472 	EXP 	image: autoDraw = False
+1192.5472 	EXP 	letters_text: autoDraw = False
+1192.5472 	EXP 	polygon: autoDraw = True
+1197.4019 	EXP 	polygon: autoDraw = False
+1197.4019 	EXP 	polygon: autoDraw = False
+1197.4019 	EXP 	image: image = 'Images_Faces/SH58.png'
+1197.4019 	EXP 	letters_text: text = 'U.\t\t\t\tR.\t\t\t\tD.\t\t\t\tNY'
+1197.4019 	EXP 	image: autoDraw = True
+1197.4019 	EXP 	letters_text: autoDraw = True
+1201.3761 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Slaktare', 'order_randomiser': 0.3225344699824524}
+1201.3836 	EXP 	image: autoDraw = False
+1201.3836 	EXP 	letters_text: autoDraw = False
+1201.3836 	EXP 	polygon: autoDraw = True
+1201.5613 	DATA 	Keypress: 3
+1207.2386 	EXP 	polygon: autoDraw = False
+1207.2386 	EXP 	polygon: autoDraw = False
+1207.2386 	EXP 	image: image = 'Images_Faces/SH57.png'
+1207.2386 	EXP 	letters_text: text = 'S.\t\t\t\tO.\t\t\t\tP.\t\t\t\tNY'
+1207.2386 	EXP 	image: autoDraw = True
+1207.2386 	EXP 	letters_text: autoDraw = True
+1209.2114 	DATA 	Keypress: 1
+1211.3306 	EXP 	image: autoDraw = False
+1211.3306 	EXP 	letters_text: autoDraw = False
+1211.3306 	EXP 	text_2: autoDraw = True
+1217.2169 	EXP 	text_2: autoDraw = False
+1217.2827 	EXP 	window1: mouseVisible = True
