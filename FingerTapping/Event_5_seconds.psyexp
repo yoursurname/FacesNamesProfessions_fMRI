@@ -85,7 +85,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Instruktioner:&amp;#10;&amp;#10;Du kommer att se bilder på ansikten presenterade ett i taget.&amp;#10;Under varje bild så står ett NAMN eller ett YRKE .&amp;#10;Din uppgift är att memorera varje persons namn eller yrke.&amp;#10;&amp;#10;Efter det kommer ansikten visas med 3 bokstäver och &quot;NY&quot; under bilden. Din uppgift då är att välja den korrekta första bokstaven i Namnet eller Yrket till ansiktet som visas. Om du aldrig sett ansiktet tidigare så väljer du &quot;NY&quot;.&amp;#10;&amp;#10;Svara på varje bild med hjälp av följande knappar:&amp;#10;1 (pekfinger) = VÄNSTER       &amp;#10;2 (långfinger) = MITTEN&amp;#10;3 (ringfinger) = HÖGER&amp;#10;4 (lillfinger) = NY&amp;#10;&amp;#10;När du ser ett kors på skärmen så ska du bara titta på det.&amp;#10;&amp;#10;Vi vet att det är en svår uppgift så gör så gott du kan och lycka till!&amp;#10;&amp;#10;Tryck med pekfingret och meddela när du är redo att börja.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="Greetings Mr Spotorno!&amp;#10;&amp;#10;Sorry, I mean Dr Spotorno.&amp;#10;&amp;#10;Let's put those fingers to work!" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -107,26 +107,6 @@
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
-      <VariableComponent name="occupation">
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="occupation" valType="code" updates="None" name="name"/>
-        <Param val="False" valType="bool" updates="constant" name="saveEndExp"/>
-        <Param val="True" valType="bool" updates="constant" name="saveEndRoutine"/>
-        <Param val="never" valType="str" updates="constant" name="saveFrameValue"/>
-        <Param val="False" valType="bool" updates="constant" name="saveStartExp"/>
-        <Param val="False" valType="bool" updates="constant" name="saveStartRoutine"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="None" name="startEstim"/>
-        <Param val="0" valType="code" updates="constant" name="startExpValue"/>
-        <Param val="" valType="code" updates="None" name="startFrameValue"/>
-        <Param val="" valType="code" updates="constant" name="startRoutineValue"/>
-        <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="" valType="code" updates="None" name="startVal"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="" valType="code" updates="constant" name="stopVal"/>
-        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
-      </VariableComponent>
     </Routine>
     <Routine name="fix_cross">
       <PolygonComponent name="polygon">
@@ -201,77 +181,6 @@
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
     </Routine>
-    <Routine name="Encoding_trial">
-      <ImageComponent name="face_image">
-        <Param val="center" valType="str" updates="constant" name="anchor"/>
-        <Param val="white" valType="color" updates="constant" name="color"/>
-        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
-        <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
-        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="$StimFile" valType="file" updates="set every repeat" name="image"/>
-        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
-        <Param val="" valType="str" updates="constant" name="mask"/>
-        <Param val="face_image" valType="code" updates="None" name="name"/>
-        <Param val="" valType="num" updates="constant" name="opacity"/>
-        <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="$image_position" valType="list" updates="constant" name="pos"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="$image_size" valType="list" updates="constant" name="size"/>
-        <Param val="" valType="code" updates="None" name="startEstim"/>
-        <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="code" updates="None" name="startVal"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="$image_duration" valType="code" updates="constant" name="stopVal"/>
-        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
-      </ImageComponent>
-      <TextComponent name="name_profession">
-        <Param val="black" valType="color" updates="constant" name="color"/>
-        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
-        <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="None" valType="str" updates="constant" name="flip"/>
-        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
-        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
-        <Param val="name_profession" valType="code" updates="None" name="name"/>
-        <Param val="" valType="num" updates="constant" name="opacity"/>
-        <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, -0.375)" valType="list" updates="constant" name="pos"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="None" name="startEstim"/>
-        <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="code" updates="None" name="startVal"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="$image_duration" valType="code" updates="constant" name="stopVal"/>
-        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="" valType="str" updates="set every repeat" name="text"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
-        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
-      </TextComponent>
-      <CodeComponent name="code_3">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((Name === 0)) {&amp;#10;    name_profession.text = Proffession;&amp;#10;} else {&amp;#10;    name_profession.text = Name;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="&amp;#10;&amp;#10;if Name == 0:&amp;#10;    name_profession.text = Proffession&amp;#10;else:&amp;#10;    name_profession.text = Name" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="code_3" valType="code" updates="None" name="name"/>
-      </CodeComponent>
-    </Routine>
     <Routine name="Recall_trial">
       <CodeComponent name="code_2">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
@@ -330,7 +239,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="$image_duration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="4" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
@@ -354,7 +263,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="$image_duration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="4" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="$letters" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
@@ -410,8 +319,8 @@
       <CodeComponent name="param_init">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="block = 0&amp;#10;n_images = 30&amp;#10;n_retrieval_images = 10&amp;#10;cross_duration_mean = 5&amp;#10;image_size = (0.748, 0.755)&amp;#10;image_position = (0, 0.05)&amp;#10;&amp;#10;image_duration = 5&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="block = 0;&amp;#10;n_images = 30;&amp;#10;n_retrieval_images = 10;&amp;#10;cross_duration_mean = 5;&amp;#10;image_size = [0.748, 0.755];&amp;#10;image_position = [0, 0.05];&amp;#10;image_duration = 5;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block = 0&amp;#10;n_images = 30&amp;#10;n_retrieval_images = 10&amp;#10;cross_duration_mean = 5&amp;#10;image_size = (0.748, 0.755)&amp;#10;image_position = (0, 0.05)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="block = 0;&amp;#10;n_images = 30;&amp;#10;n_retrieval_images = 10;&amp;#10;cross_duration_mean = 5;&amp;#10;image_size = [0.748, 0.755];&amp;#10;image_position = [0, 0.05];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -426,7 +335,7 @@
       </CodeComponent>
     </Routine>
     <Routine name="Encode_info">
-      <TextComponent name="memorera_text">
+      <TextComponent name="memory_text">
         <Param val="black" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
@@ -436,7 +345,7 @@
         <Param val="Open Sans" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
         <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
-        <Param val="memorera_text" valType="code" updates="None" name="name"/>
+        <Param val="memory_text" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
@@ -447,27 +356,10 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="4" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="Memorera " valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <CodeComponent name="block_update">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="name_occupation = &quot;namn&quot;;&amp;#10;if ((occupation === 1)) {&amp;#10;    name_occupation = &quot;yrkestitel&quot;;&amp;#10;}&amp;#10;memorera_text.setText(`Memorera ${name_occupation}`);&amp;#10;console.log(`Starting block: ${(block + 1)}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="name_occupation = &quot;namn&quot;&amp;#10;if occupation == 1:&amp;#10;    name_occupation = &quot;yrkestitel&quot;&amp;#10;&amp;#10;memorera_text.setText(f&quot;Memorera {name_occupation}&quot;)&amp;#10;&amp;#10;&amp;#10;print(f&quot;Starting block: {block+1}&quot;)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="block += 1;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="block +=1&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="block_update" valType="code" updates="None" name="name"/>
-      </CodeComponent>
     </Routine>
     <Routine name="Recall_info">
       <TextComponent name="text_6">
@@ -500,8 +392,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="name_occupation = &quot;namn&quot;;&amp;#10;if (occupation) {&amp;#10;    name_occupation = &quot;yrkestitel&quot;;&amp;#10;}&amp;#10;text_6.setText(`Välj första bokstaven i personens ${name_occupation}`);&amp;#10;fingers.setText(&quot;1 - Pekfinger, 2 - L\u00e5ngfinger, 3 - Ringfinger, 4 - Lillfinger&quot;);&amp;#10;selection = util.randchoice(n_images, n_retrieval_images, false);&amp;#10;console.log(`Selected rows for retrieval: ${selection}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="name_occupation = &quot;namn&quot;&amp;#10;if occupation:&amp;#10;    name_occupation = &quot;yrkestitel&quot;&amp;#10;&amp;#10;text_6.setText(f&quot;Välj första bokstaven i personens {name_occupation}&quot;)&amp;#10;&amp;#10;fingers.setText(&quot;1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger&quot;)&amp;#10;&amp;#10;selection = randchoice(n_images, n_retrieval_images, False)&amp;#10;&amp;#10;print(f&quot;Selected rows for retrieval: {selection}&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="name_occupation = &quot;namn&quot;;&amp;#10;if (occupation) {&amp;#10;    name_occupation = &quot;yrkestitel&quot;;&amp;#10;}&amp;#10;text_6.setText(`Välj första bokstaven i personens ${name_occupation}`);&amp;#10;fingers.setText(&quot;1 - Pekfinger, 2 - L\u00e5ngfinger, 3 - Ringfinger, 4 - Lillfinger&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="name_occupation = &quot;namn&quot;&amp;#10;if occupation:&amp;#10;    name_occupation = &quot;yrkestitel&quot;&amp;#10;&amp;#10;text_6.setText(f&quot;Välj första bokstaven i personens {name_occupation}&quot;)&amp;#10;&amp;#10;fingers.setText(&quot;1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -600,6 +492,33 @@
         <Param val="code_4" valType="code" updates="None" name="name"/>
       </CodeComponent>
     </Routine>
+    <Routine name="tapping">
+      <TextComponent name="tap">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="tap" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Tap" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="Instructions"/>
@@ -608,64 +527,18 @@
     <Routine name="Encode_info"/>
     <LoopInitiator loopType="TrialHandler" name="Encoding">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Filip', 'Proffession': 0}, {'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0}, {'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0}, {'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0}, {'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0}, {'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0}, {'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0}, {'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0}, {'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0}, {'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0}, {'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0}, {'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0}, {'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0}, {'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0}, {'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0}, {'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0}, {'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0}, {'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0}, {'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0}, {'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0}, {'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0}, {'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0}, {'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0}, {'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0}, {'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0}, {'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0}, {'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0}, {'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0}, {'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0}, {'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="Names_condition.xlsx" valType="file"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="nReps" updates="None" val="60" valType="num"/>
       <Param name="name" updates="None" val="Encoding" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="fix_cross"/>
-    <Routine name="Encoding_trial"/>
+    <Routine name="tapping"/>
     <LoopTerminator name="Encoding"/>
-    <Routine name="Recall_info"/>
-    <LoopInitiator loopType="TrialHandler" name="Recall">
-      <Param name="Selected rows" updates="None" val="$selection" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Filip', 'Proffession': 0}, {'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0}, {'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0}, {'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0}, {'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0}, {'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0}, {'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0}, {'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0}, {'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0}, {'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0}, {'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0}, {'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0}, {'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0}, {'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0}, {'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0}, {'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0}, {'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0}, {'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0}, {'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0}, {'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0}, {'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0}, {'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0}, {'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0}, {'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0}, {'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0}, {'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0}, {'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0}, {'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0}, {'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0}, {'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="Names_condition.xlsx" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="Recall" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
-    <Routine name="fix_cross"/>
-    <Routine name="Recall_trial"/>
-    <LoopTerminator name="Recall"/>
-    <Routine name="instructions_occupation"/>
-    <Routine name="Encode_info"/>
-    <LoopInitiator loopType="TrialHandler" name="Encoding_prof">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare'}, {'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare'}, {'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker'}, {'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare'}, {'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock'}, {'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-montör'}, {'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare'}, {'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör'}, {'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Rektor'}, {'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor'}, {'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt'}, {'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare'}, {'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare'}, {'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Försäkringsrådgivare'}, {'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Vetrinär'}, {'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Inköpare'}, {'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare'}, {'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist'}, {'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare'}, {'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender'}, {'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Nätverkstekniker'}, {'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast'}, {'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'Lastbilschaufför'}, {'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare'}, {'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Apotekare'}, {'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare'}, {'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde'}, {'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Undersköterska'}, {'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare'}, {'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="Profession_condition.xlsx" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="Encoding_prof" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
-    <Routine name="fix_cross"/>
-    <Routine name="Encoding_trial"/>
-    <LoopTerminator name="Encoding_prof"/>
-    <Routine name="Recall_info"/>
-    <LoopInitiator loopType="TrialHandler" name="Recall_prof">
-      <Param name="Selected rows" updates="None" val="$selection" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare'}, {'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare'}, {'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker'}, {'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare'}, {'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock'}, {'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-montör'}, {'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare'}, {'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör'}, {'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Rektor'}, {'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor'}, {'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt'}, {'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare'}, {'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare'}, {'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Försäkringsrådgivare'}, {'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Vetrinär'}, {'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Inköpare'}, {'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare'}, {'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist'}, {'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare'}, {'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender'}, {'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Nätverkstekniker'}, {'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast'}, {'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'Lastbilschaufför'}, {'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare'}, {'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Apotekare'}, {'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare'}, {'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde'}, {'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Undersköterska'}, {'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare'}, {'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="Profession_condition.xlsx" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="Recall_prof" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
-    <Routine name="fix_cross"/>
-    <Routine name="Recall_trial"/>
-    <LoopTerminator name="Recall_prof"/>
     <Routine name="Finished"/>
   </Flow>
 </PsychoPy2experiment>
