@@ -1,0 +1,222 @@
+0.7877 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3186 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000001D5104A8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000001D5609E8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3188 	EXP 	window1: mouseVisible = True
+10.3188 	EXP 	window1: recordFrameIntervals = False
+10.3987 	EXP 	window1: recordFrameIntervals = True
+10.4907 	EXP 	window1: recordFrameIntervals = False
+10.8477 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8576 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Snart börjar experimentet', units='height', win=Window(...), wrapWidth=1)
+10.8652 	EXP 	Created memory_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='memory_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Memorera ', units='height', win=Window(...), wrapWidth=1)
+10.8658 	EXP 	Created tap = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='tap', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.8681 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.9126 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.9382 	EXP 	text: autoDraw = True
+22.8362 	DATA 	Keypress: space
+22.8397 	EXP 	text: autoDraw = False
+22.8397 	EXP 	text_3: autoDraw = True
+75.4473 	DATA 	Keypress: s
+75.4477 	DATA 	Keypress: s
+75.4480 	DATA 	Keypress: s
+75.6515 	EXP 	text_3: autoDraw = False
+75.6515 	EXP 	memory_text: autoDraw = True
+77.1486 	DATA 	Keypress: s
+79.6478 	EXP 	Created sequence: random, trialTypes=1, nReps=8, seed=None
+79.6482 	EXP 	New trial (rep=0, index=0): None
+79.6758 	DATA 	Keypress: s
+79.6781 	EXP 	memory_text: autoDraw = False
+79.6781 	EXP 	memory_text: autoDraw = False
+79.6781 	EXP 	tap: text = 'Tap (20 sec)'
+79.6781 	EXP 	tap: autoDraw = True
+82.1558 	DATA 	Keypress: s
+84.6494 	DATA 	Keypress: s
+87.1485 	DATA 	Keypress: s
+89.6487 	DATA 	Keypress: s
+92.1488 	DATA 	Keypress: s
+94.6489 	DATA 	Keypress: s
+97.1555 	DATA 	Keypress: s
+99.6478 	DATA 	Keypress: s
+99.6621 	EXP 	tap: autoDraw = False
+99.6621 	EXP 	polygon: autoDraw = True
+102.1471 	DATA 	Keypress: s
+104.6472 	DATA 	Keypress: s
+107.1475 	DATA 	Keypress: s
+109.6504 	DATA 	Keypress: s
+112.1465 	DATA 	Keypress: s
+114.6466 	DATA 	Keypress: s
+117.1468 	DATA 	Keypress: s
+119.6470 	DATA 	Keypress: s
+119.6555 	EXP 	New trial (rep=1, index=0): None
+119.6616 	EXP 	polygon: autoDraw = False
+119.6616 	EXP 	polygon: autoDraw = False
+119.6616 	EXP 	tap: text = 'Tap (20 sec)'
+119.6616 	EXP 	tap: autoDraw = True
+122.1467 	DATA 	Keypress: s
+124.6475 	DATA 	Keypress: s
+127.1476 	DATA 	Keypress: s
+129.6462 	DATA 	Keypress: s
+132.1456 	DATA 	Keypress: s
+134.6460 	DATA 	Keypress: s
+137.1470 	DATA 	Keypress: s
+139.6471 	DATA 	Keypress: s
+139.6609 	EXP 	tap: autoDraw = False
+139.6609 	EXP 	tap: autoDraw = False
+139.6609 	EXP 	polygon: autoDraw = True
+142.1469 	DATA 	Keypress: s
+144.6459 	DATA 	Keypress: s
+147.1482 	DATA 	Keypress: s
+149.6462 	DATA 	Keypress: s
+152.1463 	DATA 	Keypress: s
+154.6463 	DATA 	Keypress: s
+157.1452 	DATA 	Keypress: s
+159.6462 	DATA 	Keypress: s
+159.6538 	EXP 	New trial (rep=2, index=0): None
+159.6602 	EXP 	polygon: autoDraw = False
+159.6602 	EXP 	polygon: autoDraw = False
+159.6602 	EXP 	tap: text = 'Tap (20 sec)'
+159.6602 	EXP 	tap: autoDraw = True
+162.1450 	DATA 	Keypress: s
+164.6450 	DATA 	Keypress: s
+167.1546 	DATA 	Keypress: s
+169.6462 	DATA 	Keypress: s
+172.1454 	DATA 	Keypress: s
+174.6445 	DATA 	Keypress: s
+177.1446 	DATA 	Keypress: s
+179.6448 	DATA 	Keypress: s
+179.6597 	EXP 	tap: autoDraw = False
+179.6597 	EXP 	tap: autoDraw = False
+179.6597 	EXP 	polygon: autoDraw = True
+182.1535 	DATA 	Keypress: s
+184.6445 	DATA 	Keypress: s
+187.1443 	DATA 	Keypress: s
+189.6445 	DATA 	Keypress: s
+192.1456 	DATA 	Keypress: s
+194.6459 	DATA 	Keypress: s
+197.1451 	DATA 	Keypress: s
+199.6440 	DATA 	Keypress: s
+199.6524 	EXP 	New trial (rep=3, index=0): None
+199.6591 	EXP 	polygon: autoDraw = False
+199.6591 	EXP 	polygon: autoDraw = False
+199.6591 	EXP 	tap: text = 'Tap (20 sec)'
+199.6591 	EXP 	tap: autoDraw = True
+202.1446 	DATA 	Keypress: s
+204.6438 	DATA 	Keypress: s
+207.1437 	DATA 	Keypress: s
+209.6448 	DATA 	Keypress: s
+212.1450 	DATA 	Keypress: s
+214.6450 	DATA 	Keypress: s
+217.1430 	DATA 	Keypress: s
+219.6431 	DATA 	Keypress: s
+219.6583 	EXP 	tap: autoDraw = False
+219.6583 	EXP 	tap: autoDraw = False
+219.6583 	EXP 	polygon: autoDraw = True
+222.1441 	DATA 	Keypress: s
+224.6440 	DATA 	Keypress: s
+227.1428 	DATA 	Keypress: s
+229.6431 	DATA 	Keypress: s
+232.1432 	DATA 	Keypress: s
+234.6434 	DATA 	Keypress: s
+237.1436 	DATA 	Keypress: s
+239.6437 	DATA 	Keypress: s
+239.6511 	EXP 	New trial (rep=4, index=0): None
+239.6577 	EXP 	polygon: autoDraw = False
+239.6577 	EXP 	polygon: autoDraw = False
+239.6577 	EXP 	tap: text = 'Tap (20 sec)'
+239.6577 	EXP 	tap: autoDraw = True
+242.1441 	DATA 	Keypress: s
+244.6430 	DATA 	Keypress: s
+247.1421 	DATA 	Keypress: s
+249.6514 	DATA 	Keypress: s
+252.1516 	DATA 	Keypress: s
+254.6435 	DATA 	Keypress: s
+257.1437 	DATA 	Keypress: s
+259.6428 	DATA 	Keypress: s
+259.6570 	EXP 	tap: autoDraw = False
+259.6570 	EXP 	tap: autoDraw = False
+259.6570 	EXP 	polygon: autoDraw = True
+262.1425 	DATA 	Keypress: s
+264.6427 	DATA 	Keypress: s
+267.1506 	DATA 	Keypress: s
+269.6430 	DATA 	Keypress: s
+272.1417 	DATA 	Keypress: s
+274.6496 	DATA 	Keypress: s
+277.1419 	DATA 	Keypress: s
+279.6421 	DATA 	Keypress: s
+279.6495 	EXP 	New trial (rep=5, index=0): None
+279.6562 	EXP 	polygon: autoDraw = False
+279.6562 	EXP 	polygon: autoDraw = False
+279.6562 	EXP 	tap: text = 'Tap (20 sec)'
+279.6562 	EXP 	tap: autoDraw = True
+282.1427 	DATA 	Keypress: s
+284.6427 	DATA 	Keypress: s
+287.1419 	DATA 	Keypress: s
+289.6499 	DATA 	Keypress: s
+292.1407 	DATA 	Keypress: s
+294.6421 	DATA 	Keypress: s
+297.1423 	DATA 	Keypress: s
+299.6423 	DATA 	Keypress: s
+299.6558 	EXP 	tap: autoDraw = False
+299.6558 	EXP 	tap: autoDraw = False
+299.6558 	EXP 	polygon: autoDraw = True
+302.1410 	DATA 	Keypress: s
+304.6419 	DATA 	Keypress: s
+307.1396 	DATA 	Keypress: s
+309.6420 	DATA 	Keypress: s
+312.1404 	DATA 	Keypress: s
+314.6422 	DATA 	Keypress: s
+317.1406 	DATA 	Keypress: s
+319.6479 	EXP 	New trial (rep=6, index=0): None
+319.6501 	DATA 	Keypress: s
+319.6549 	EXP 	polygon: autoDraw = False
+319.6549 	EXP 	polygon: autoDraw = False
+319.6549 	EXP 	tap: text = 'Tap (20 sec)'
+319.6549 	EXP 	tap: autoDraw = True
+322.1494 	DATA 	Keypress: s
+324.6413 	DATA 	Keypress: s
+327.1415 	DATA 	Keypress: s
+329.6414 	DATA 	Keypress: s
+332.1396 	DATA 	Keypress: s
+334.6491 	DATA 	Keypress: s
+337.1487 	DATA 	Keypress: s
+339.6494 	DATA 	Keypress: s
+339.6546 	EXP 	tap: autoDraw = False
+339.6546 	EXP 	tap: autoDraw = False
+339.6546 	EXP 	polygon: autoDraw = True
+342.1393 	DATA 	Keypress: s
+344.6487 	DATA 	Keypress: s
+347.1399 	DATA 	Keypress: s
+349.6479 	DATA 	Keypress: s
+352.1481 	DATA 	Keypress: s
+354.6481 	DATA 	Keypress: s
+357.1400 	DATA 	Keypress: s
+359.6480 	EXP 	New trial (rep=7, index=0): None
+359.6512 	DATA 	Keypress: s
+359.6539 	EXP 	polygon: autoDraw = False
+359.6539 	EXP 	polygon: autoDraw = False
+359.6539 	EXP 	tap: text = 'Tap (20 sec)'
+359.6539 	EXP 	tap: autoDraw = True
+362.1388 	DATA 	Keypress: s
+364.6483 	DATA 	Keypress: s
+367.1399 	DATA 	Keypress: s
+369.6482 	DATA 	Keypress: s
+372.1392 	DATA 	Keypress: s
+374.6475 	DATA 	Keypress: s
+377.1382 	DATA 	Keypress: s
+379.6479 	DATA 	Keypress: s
+379.6532 	EXP 	tap: autoDraw = False
+379.6532 	EXP 	tap: autoDraw = False
+379.6532 	EXP 	polygon: autoDraw = True
+382.1391 	DATA 	Keypress: s
+384.6473 	DATA 	Keypress: s
+387.1383 	DATA 	Keypress: s
+389.6475 	DATA 	Keypress: s
+392.1393 	DATA 	Keypress: s
+394.6464 	DATA 	Keypress: s
+397.1395 	DATA 	Keypress: s
+399.6797 	DATA 	Keypress: s
+399.6830 	EXP 	polygon: autoDraw = False
+399.6830 	EXP 	polygon: autoDraw = False
+399.6830 	EXP 	text_2: autoDraw = True
+402.1369 	DATA 	Keypress: s
+404.6467 	DATA 	Keypress: s
+405.6607 	EXP 	text_2: autoDraw = False
+405.6875 	EXP 	window1: mouseVisible = True
