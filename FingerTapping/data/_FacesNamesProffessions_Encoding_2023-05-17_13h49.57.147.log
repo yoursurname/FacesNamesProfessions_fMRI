@@ -1,0 +1,68 @@
+1.7225 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.6680 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000217A58EB310>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000217ABC12760>, multiSample=False, name='window1', numSamples=2, pos=(0, 1200), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6681 	EXP 	window1: mouseVisible = True
+7.6682 	EXP 	window1: mouseVisible = False
+7.6682 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6682 	EXP 	window1: recordFrameIntervals = False
+7.8345 	EXP 	window1: recordFrameIntervals = True
+7.9055 	WARNING 	t of last frame was 21.03ms (=1/47)
+8.0847 	EXP 	Screen (0) actual frame rate measured at 59.78Hz
+8.0848 	EXP 	window1: recordFrameIntervals = False
+9.9228 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.9322 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Snart börjar experimentet', units='height', win=Window(...), wrapWidth=1)
+9.9434 	EXP 	Created memorera_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='memorera_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='These are letters ankflnadskl', units='height', win=Window(...), wrapWidth=1)
+9.9455 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.9460 	EXP 	Created tap = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='tap', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.9632 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.9655 	EXP 	text: autoDraw = True
+11.1570 	DATA 	Keypress: space
+11.1698 	EXP 	text: autoDraw = False
+11.1698 	EXP 	text_3: autoDraw = True
+18.2393 	DATA 	Keypress: s
+18.4422 	EXP 	text_3: autoDraw = False
+18.4422 	EXP 	memorera_text: autoDraw = True
+22.4303 	EXP 	Created sequence: random, trialTypes=1, nReps=30, seed=None
+22.4305 	EXP 	New trial (rep=0, index=0): None
+22.4460 	EXP 	memorera_text: autoDraw = False
+22.4460 	EXP 	memorera_text: autoDraw = False
+22.4460 	EXP 	polygon: autoDraw = True
+31.4868 	EXP 	polygon: autoDraw = False
+31.4868 	EXP 	polygon: autoDraw = False
+31.4868 	EXP 	tap: height = 0.1
+31.4868 	EXP 	tap: height = 0.1
+31.4868 	EXP 	tap: height = 0.1
+31.4868 	EXP 	tap: text = 'Tap'
+31.4868 	EXP 	tap: autoDraw = True
+35.4743 	EXP 	New trial (rep=1, index=0): None
+35.4903 	EXP 	tap: autoDraw = False
+35.4903 	EXP 	polygon: autoDraw = True
+41.7788 	EXP 	polygon: autoDraw = False
+41.7788 	EXP 	polygon: autoDraw = False
+41.7788 	EXP 	tap: text = 'Tap'
+41.7788 	EXP 	tap: autoDraw = True
+45.7664 	EXP 	New trial (rep=2, index=0): None
+45.7818 	EXP 	tap: autoDraw = False
+45.7818 	EXP 	polygon: autoDraw = True
+52.7212 	EXP 	polygon: autoDraw = False
+52.7212 	EXP 	polygon: autoDraw = False
+52.7212 	EXP 	tap: text = 'Tap'
+52.7212 	EXP 	tap: autoDraw = True
+56.7089 	EXP 	New trial (rep=3, index=0): None
+56.7247 	EXP 	tap: autoDraw = False
+56.7247 	EXP 	polygon: autoDraw = True
+58.7263 	EXP 	polygon: autoDraw = False
+58.7263 	EXP 	polygon: autoDraw = False
+58.7263 	EXP 	tap: text = 'Tap'
+58.7263 	EXP 	tap: autoDraw = True
+62.7137 	EXP 	New trial (rep=4, index=0): None
+62.7297 	EXP 	tap: autoDraw = False
+62.7297 	EXP 	polygon: autoDraw = True
+66.6829 	EXP 	polygon: autoDraw = False
+66.6829 	EXP 	polygon: autoDraw = False
+66.6829 	EXP 	tap: text = 'Tap'
+66.6829 	EXP 	tap: autoDraw = True
+70.6704 	EXP 	New trial (rep=5, index=0): None
+70.6862 	EXP 	tap: autoDraw = False
+70.6862 	EXP 	polygon: autoDraw = True
+73.5740 	DATA 	Keypress: escape
+73.8690 	EXP 	window1: mouseVisible = True

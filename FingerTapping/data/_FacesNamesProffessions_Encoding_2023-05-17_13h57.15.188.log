@@ -1,0 +1,44 @@
+1.6887 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.2806 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FC860DB2E0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FC8C5B87C0>, multiSample=False, name='window1', numSamples=2, pos=(0, 1200), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2807 	EXP 	window1: mouseVisible = True
+5.2809 	EXP 	window1: mouseVisible = False
+5.2810 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.2810 	EXP 	window1: recordFrameIntervals = False
+5.4467 	EXP 	window1: recordFrameIntervals = True
+5.6304 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+5.6305 	EXP 	window1: recordFrameIntervals = False
+7.3758 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.3853 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Snart börjar experimentet', units='height', win=Window(...), wrapWidth=1)
+7.3927 	EXP 	Created memory_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='memory_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Memorera ', units='height', win=Window(...), wrapWidth=1)
+7.3947 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.3952 	EXP 	Created tap = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='tap', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.4170 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4192 	EXP 	text: autoDraw = True
+12.7225 	DATA 	Keypress: space
+12.7358 	EXP 	text: autoDraw = False
+12.7358 	EXP 	text_3: autoDraw = True
+20.2221 	DATA 	Keypress: s
+20.4250 	EXP 	text_3: autoDraw = False
+20.4250 	EXP 	memory_text: autoDraw = True
+24.4144 	EXP 	Created sequence: random, trialTypes=1, nReps=30, seed=None
+24.4149 	EXP 	New trial (rep=0, index=0): None
+24.4288 	EXP 	memory_text: autoDraw = False
+24.4288 	EXP 	memory_text: autoDraw = False
+24.4288 	EXP 	polygon: autoDraw = True
+44.4288 	EXP 	New trial (rep=1, index=0): None
+44.4309 	EXP 	polygon: autoDraw = False
+44.4309 	EXP 	polygon: autoDraw = False
+44.4309 	EXP 	tap: height = 0.1
+44.4309 	EXP 	tap: height = 0.1
+44.4309 	EXP 	tap: height = 0.1
+44.4309 	EXP 	tap: text = 'Tap (20 sec)'
+44.4309 	EXP 	tap: autoDraw = False
+44.4309 	EXP 	polygon: autoDraw = True
+64.4304 	EXP 	New trial (rep=2, index=0): None
+64.4455 	EXP 	polygon: autoDraw = False
+64.4455 	EXP 	polygon: autoDraw = False
+64.4455 	EXP 	tap: text = 'Tap (20 sec)'
+64.4455 	EXP 	tap: autoDraw = False
+64.4455 	EXP 	polygon: autoDraw = True
+69.2682 	DATA 	Keypress: escape
+69.7639 	EXP 	window1: mouseVisible = True
