@@ -1,0 +1,1194 @@
+0.8309 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.5077 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000000019EE97B8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000000019EC1CF8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.5078 	EXP 	window1: mouseVisible = True
+9.5079 	EXP 	window1: recordFrameIntervals = False
+9.5879 	EXP 	window1: recordFrameIntervals = True
+9.6799 	EXP 	window1: recordFrameIntervals = False
+10.0934 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.1077 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Snart börjar experimentet', units='height', win=Window(...), wrapWidth=1)
+10.1089 	EXP 	Created tap = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='tap', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1104 	EXP 	Created nothing = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='nothing', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1137 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.1147 	EXP 	Created nothing = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='nothing', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1477 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.1725 	EXP 	text: autoDraw = True
+83.6311 	DATA 	Keypress: space
+83.6438 	EXP 	text: autoDraw = False
+83.6438 	EXP 	text_3: autoDraw = True
+142.6698 	DATA 	Keypress: s
+148.4771 	DATA 	Keypress: s
+148.4774 	DATA 	Keypress: s
+148.6787 	EXP 	Created sequence: random, trialTypes=1, nReps=60, seed=None
+148.6791 	EXP 	New trial (rep=0, index=0): None
+148.6868 	EXP 	text_3: autoDraw = False
+148.6868 	EXP 	tap: text = 'Tap'
+148.6868 	EXP 	tap: autoDraw = True
+150.1775 	DATA 	Keypress: s
+152.6697 	DATA 	Keypress: s
+152.6919 	EXP 	tap: autoDraw = False
+152.6919 	EXP 	nothing: autoDraw = True
+155.1773 	DATA 	Keypress: s
+156.6330 	EXP 	nothing: autoDraw = False
+156.6330 	EXP 	nothing: autoDraw = False
+156.6330 	EXP 	polygon: autoDraw = True
+157.6682 	DATA 	Keypress: s
+160.1781 	DATA 	Keypress: s
+160.6328 	EXP 	polygon: autoDraw = False
+160.6328 	EXP 	polygon: autoDraw = False
+160.6328 	EXP 	nothing: autoDraw = True
+162.6684 	DATA 	Keypress: s
+165.1775 	DATA 	Keypress: s
+167.6688 	DATA 	Keypress: s
+167.7687 	EXP 	New trial (rep=1, index=0): None
+167.7742 	EXP 	nothing: autoDraw = False
+167.7742 	EXP 	nothing: autoDraw = False
+167.7742 	EXP 	tap: text = 'Tap'
+167.7742 	EXP 	tap: autoDraw = True
+170.1776 	DATA 	Keypress: s
+171.7742 	EXP 	tap: autoDraw = False
+171.7742 	EXP 	tap: autoDraw = False
+171.7742 	EXP 	nothing: autoDraw = True
+172.6690 	DATA 	Keypress: s
+174.4742 	EXP 	nothing: autoDraw = False
+174.4742 	EXP 	nothing: autoDraw = False
+174.4742 	EXP 	polygon: autoDraw = True
+175.1758 	DATA 	Keypress: s
+177.6681 	DATA 	Keypress: s
+178.4742 	EXP 	polygon: autoDraw = False
+178.4742 	EXP 	polygon: autoDraw = False
+178.4742 	EXP 	nothing: autoDraw = True
+180.1772 	DATA 	Keypress: s
+182.5433 	EXP 	New trial (rep=2, index=0): None
+182.5489 	EXP 	nothing: autoDraw = False
+182.5489 	EXP 	nothing: autoDraw = False
+182.5489 	EXP 	tap: text = 'Tap'
+182.5489 	EXP 	tap: autoDraw = True
+182.6690 	DATA 	Keypress: s
+185.1771 	DATA 	Keypress: s
+186.5488 	EXP 	tap: autoDraw = False
+186.5488 	EXP 	tap: autoDraw = False
+186.5488 	EXP 	nothing: autoDraw = True
+187.6673 	DATA 	Keypress: s
+190.1756 	DATA 	Keypress: s
+191.3241 	EXP 	nothing: autoDraw = False
+191.3241 	EXP 	nothing: autoDraw = False
+191.3241 	EXP 	polygon: autoDraw = True
+192.6676 	DATA 	Keypress: s
+195.1758 	DATA 	Keypress: s
+195.3236 	EXP 	polygon: autoDraw = False
+195.3236 	EXP 	polygon: autoDraw = False
+195.3236 	EXP 	nothing: autoDraw = True
+197.3179 	EXP 	New trial (rep=3, index=0): None
+197.3235 	EXP 	nothing: autoDraw = False
+197.3235 	EXP 	nothing: autoDraw = False
+197.3235 	EXP 	tap: text = 'Tap'
+197.3235 	EXP 	tap: autoDraw = True
+197.6672 	DATA 	Keypress: s
+200.1764 	DATA 	Keypress: s
+201.3232 	EXP 	tap: autoDraw = False
+201.3232 	EXP 	tap: autoDraw = False
+201.3232 	EXP 	nothing: autoDraw = True
+202.6749 	DATA 	Keypress: s
+204.0982 	EXP 	nothing: autoDraw = False
+204.0982 	EXP 	nothing: autoDraw = False
+204.0982 	EXP 	polygon: autoDraw = True
+205.1747 	DATA 	Keypress: s
+207.6669 	DATA 	Keypress: s
+208.0980 	EXP 	polygon: autoDraw = False
+208.0980 	EXP 	polygon: autoDraw = False
+208.0980 	EXP 	nothing: autoDraw = True
+210.1754 	DATA 	Keypress: s
+211.5913 	EXP 	New trial (rep=4, index=0): None
+211.5979 	EXP 	nothing: autoDraw = False
+211.5979 	EXP 	nothing: autoDraw = False
+211.5979 	EXP 	tap: text = 'Tap'
+211.5979 	EXP 	tap: autoDraw = True
+212.6671 	DATA 	Keypress: s
+215.1764 	DATA 	Keypress: s
+215.5979 	EXP 	tap: autoDraw = False
+215.5979 	EXP 	tap: autoDraw = False
+215.5979 	EXP 	nothing: autoDraw = True
+217.6668 	DATA 	Keypress: s
+220.1747 	DATA 	Keypress: s
+222.6670 	DATA 	Keypress: s
+222.9225 	EXP 	nothing: autoDraw = False
+222.9225 	EXP 	nothing: autoDraw = False
+222.9225 	EXP 	polygon: autoDraw = True
+225.1750 	DATA 	Keypress: s
+226.9223 	EXP 	polygon: autoDraw = False
+226.9223 	EXP 	polygon: autoDraw = False
+226.9223 	EXP 	nothing: autoDraw = True
+227.6752 	DATA 	Keypress: s
+229.9251 	EXP 	New trial (rep=5, index=0): None
+229.9308 	EXP 	nothing: autoDraw = False
+229.9308 	EXP 	nothing: autoDraw = False
+229.9308 	EXP 	tap: text = 'Tap'
+229.9308 	EXP 	tap: autoDraw = True
+230.1759 	DATA 	Keypress: s
+232.6667 	DATA 	Keypress: s
+233.9306 	EXP 	tap: autoDraw = False
+233.9306 	EXP 	tap: autoDraw = False
+233.9306 	EXP 	nothing: autoDraw = True
+235.1743 	DATA 	Keypress: s
+235.9305 	EXP 	nothing: autoDraw = False
+235.9305 	EXP 	nothing: autoDraw = False
+235.9305 	EXP 	polygon: autoDraw = True
+237.6664 	DATA 	Keypress: s
+239.9305 	EXP 	polygon: autoDraw = False
+239.9305 	EXP 	polygon: autoDraw = False
+239.9305 	EXP 	nothing: autoDraw = True
+240.1746 	DATA 	Keypress: s
+242.6747 	DATA 	Keypress: s
+245.1748 	DATA 	Keypress: s
+247.4578 	EXP 	New trial (rep=6, index=0): None
+247.4634 	EXP 	nothing: autoDraw = False
+247.4634 	EXP 	nothing: autoDraw = False
+247.4634 	EXP 	tap: text = 'Tap'
+247.4634 	EXP 	tap: autoDraw = True
+247.6665 	DATA 	Keypress: s
+250.1748 	DATA 	Keypress: s
+251.4634 	EXP 	tap: autoDraw = False
+251.4634 	EXP 	tap: autoDraw = False
+251.4634 	EXP 	nothing: autoDraw = True
+252.6661 	DATA 	Keypress: s
+253.4633 	EXP 	nothing: autoDraw = False
+253.4633 	EXP 	nothing: autoDraw = False
+253.4633 	EXP 	polygon: autoDraw = True
+255.1741 	DATA 	Keypress: s
+257.4633 	EXP 	polygon: autoDraw = False
+257.4633 	EXP 	polygon: autoDraw = False
+257.4633 	EXP 	nothing: autoDraw = True
+257.6729 	DATA 	Keypress: s
+260.1731 	DATA 	Keypress: s
+261.7653 	EXP 	New trial (rep=7, index=0): None
+261.7714 	EXP 	nothing: autoDraw = False
+261.7714 	EXP 	nothing: autoDraw = False
+261.7714 	EXP 	tap: text = 'Tap'
+261.7714 	EXP 	tap: autoDraw = True
+262.6662 	DATA 	Keypress: s
+265.1740 	DATA 	Keypress: s
+265.7710 	EXP 	tap: autoDraw = False
+265.7710 	EXP 	tap: autoDraw = False
+265.7710 	EXP 	nothing: autoDraw = True
+267.6734 	DATA 	Keypress: s
+268.7378 	EXP 	nothing: autoDraw = False
+268.7378 	EXP 	nothing: autoDraw = False
+268.7378 	EXP 	polygon: autoDraw = True
+270.1743 	DATA 	Keypress: s
+272.6658 	DATA 	Keypress: s
+272.7377 	EXP 	polygon: autoDraw = False
+272.7377 	EXP 	polygon: autoDraw = False
+272.7377 	EXP 	nothing: autoDraw = True
+275.1737 	DATA 	Keypress: s
+275.6478 	EXP 	New trial (rep=8, index=0): None
+275.6544 	EXP 	nothing: autoDraw = False
+275.6544 	EXP 	nothing: autoDraw = False
+275.6544 	EXP 	tap: text = 'Tap'
+275.6544 	EXP 	tap: autoDraw = True
+277.6678 	DATA 	Keypress: s
+279.6543 	EXP 	tap: autoDraw = False
+279.6543 	EXP 	tap: autoDraw = False
+279.6543 	EXP 	nothing: autoDraw = True
+280.1731 	DATA 	Keypress: s
+281.9624 	EXP 	nothing: autoDraw = False
+281.9624 	EXP 	nothing: autoDraw = False
+281.9624 	EXP 	polygon: autoDraw = True
+282.6660 	DATA 	Keypress: s
+285.1731 	DATA 	Keypress: s
+285.9640 	EXP 	polygon: autoDraw = False
+285.9640 	EXP 	polygon: autoDraw = False
+285.9640 	EXP 	nothing: autoDraw = True
+287.6665 	DATA 	Keypress: s
+287.9664 	EXP 	New trial (rep=9, index=0): None
+287.9721 	EXP 	nothing: autoDraw = False
+287.9721 	EXP 	nothing: autoDraw = False
+287.9721 	EXP 	tap: text = 'Tap'
+287.9721 	EXP 	tap: autoDraw = True
+290.1731 	DATA 	Keypress: s
+291.9706 	EXP 	tap: autoDraw = False
+291.9706 	EXP 	tap: autoDraw = False
+291.9706 	EXP 	nothing: autoDraw = True
+292.6725 	DATA 	Keypress: s
+295.1725 	DATA 	Keypress: s
+297.6728 	DATA 	Keypress: s
+299.9698 	EXP 	nothing: autoDraw = False
+299.9698 	EXP 	nothing: autoDraw = False
+299.9698 	EXP 	polygon: autoDraw = True
+300.1713 	DATA 	Keypress: s
+302.6735 	DATA 	Keypress: s
+303.9701 	EXP 	polygon: autoDraw = False
+303.9701 	EXP 	polygon: autoDraw = False
+303.9701 	EXP 	nothing: autoDraw = True
+305.1731 	DATA 	Keypress: s
+307.6663 	DATA 	Keypress: s
+309.8142 	EXP 	New trial (rep=10, index=0): None
+309.8199 	EXP 	nothing: autoDraw = False
+309.8199 	EXP 	nothing: autoDraw = False
+309.8199 	EXP 	tap: text = 'Tap'
+309.8199 	EXP 	tap: autoDraw = True
+310.1740 	DATA 	Keypress: s
+312.6731 	DATA 	Keypress: s
+313.8197 	EXP 	tap: autoDraw = False
+313.8197 	EXP 	tap: autoDraw = False
+313.8197 	EXP 	nothing: autoDraw = True
+315.1726 	DATA 	Keypress: s
+316.3448 	EXP 	nothing: autoDraw = False
+316.3448 	EXP 	nothing: autoDraw = False
+316.3448 	EXP 	polygon: autoDraw = True
+317.6715 	DATA 	Keypress: s
+320.1715 	DATA 	Keypress: s
+320.3446 	EXP 	polygon: autoDraw = False
+320.3446 	EXP 	polygon: autoDraw = False
+320.3446 	EXP 	nothing: autoDraw = True
+322.6719 	DATA 	Keypress: s
+324.8884 	EXP 	New trial (rep=11, index=0): None
+324.8942 	EXP 	nothing: autoDraw = False
+324.8942 	EXP 	nothing: autoDraw = False
+324.8942 	EXP 	tap: text = 'Tap'
+324.8942 	EXP 	tap: autoDraw = True
+325.1720 	DATA 	Keypress: s
+327.6737 	DATA 	Keypress: s
+328.8943 	EXP 	tap: autoDraw = False
+328.8943 	EXP 	tap: autoDraw = False
+328.8943 	EXP 	nothing: autoDraw = True
+330.1710 	DATA 	Keypress: s
+332.6711 	DATA 	Keypress: s
+333.1775 	EXP 	nothing: autoDraw = False
+333.1775 	EXP 	nothing: autoDraw = False
+333.1775 	EXP 	polygon: autoDraw = True
+335.1711 	DATA 	Keypress: s
+337.1774 	EXP 	polygon: autoDraw = False
+337.1774 	EXP 	polygon: autoDraw = False
+337.1774 	EXP 	nothing: autoDraw = True
+337.6710 	DATA 	Keypress: s
+340.1715 	DATA 	Keypress: s
+341.4715 	EXP 	New trial (rep=12, index=0): None
+341.4771 	EXP 	nothing: autoDraw = False
+341.4771 	EXP 	nothing: autoDraw = False
+341.4771 	EXP 	tap: text = 'Tap'
+341.4771 	EXP 	tap: autoDraw = True
+342.6724 	DATA 	Keypress: s
+345.1734 	DATA 	Keypress: s
+345.4771 	EXP 	tap: autoDraw = False
+345.4771 	EXP 	tap: autoDraw = False
+345.4771 	EXP 	nothing: autoDraw = True
+347.6707 	DATA 	Keypress: s
+350.1709 	DATA 	Keypress: s
+352.4102 	EXP 	nothing: autoDraw = False
+352.4102 	EXP 	nothing: autoDraw = False
+352.4102 	EXP 	polygon: autoDraw = True
+352.6705 	DATA 	Keypress: s
+355.1709 	DATA 	Keypress: s
+356.4102 	EXP 	polygon: autoDraw = False
+356.4102 	EXP 	polygon: autoDraw = False
+356.4102 	EXP 	nothing: autoDraw = True
+357.6711 	DATA 	Keypress: s
+358.8370 	EXP 	New trial (rep=13, index=0): None
+358.8434 	EXP 	nothing: autoDraw = False
+358.8434 	EXP 	nothing: autoDraw = False
+358.8434 	EXP 	tap: text = 'Tap'
+358.8434 	EXP 	tap: autoDraw = True
+360.1706 	DATA 	Keypress: s
+362.6706 	DATA 	Keypress: s
+362.8430 	EXP 	tap: autoDraw = False
+362.8430 	EXP 	tap: autoDraw = False
+362.8430 	EXP 	nothing: autoDraw = True
+364.8431 	EXP 	nothing: autoDraw = False
+364.8431 	EXP 	nothing: autoDraw = False
+364.8431 	EXP 	polygon: autoDraw = True
+365.1704 	DATA 	Keypress: s
+367.6704 	DATA 	Keypress: s
+368.8430 	EXP 	polygon: autoDraw = False
+368.8430 	EXP 	polygon: autoDraw = False
+368.8430 	EXP 	nothing: autoDraw = True
+370.1707 	DATA 	Keypress: s
+372.6696 	DATA 	Keypress: s
+375.1697 	DATA 	Keypress: s
+376.3287 	EXP 	New trial (rep=14, index=0): None
+376.3345 	EXP 	nothing: autoDraw = False
+376.3345 	EXP 	nothing: autoDraw = False
+376.3345 	EXP 	tap: text = 'Tap'
+376.3345 	EXP 	tap: autoDraw = True
+377.6705 	DATA 	Keypress: s
+380.1706 	DATA 	Keypress: s
+380.3344 	EXP 	tap: autoDraw = False
+380.3344 	EXP 	tap: autoDraw = False
+380.3344 	EXP 	nothing: autoDraw = True
+382.6801 	DATA 	Keypress: s
+385.1702 	DATA 	Keypress: s
+387.4008 	EXP 	nothing: autoDraw = False
+387.4008 	EXP 	nothing: autoDraw = False
+387.4008 	EXP 	polygon: autoDraw = True
+387.6691 	DATA 	Keypress: s
+390.1688 	DATA 	Keypress: s
+391.4007 	EXP 	polygon: autoDraw = False
+391.4007 	EXP 	polygon: autoDraw = False
+391.4007 	EXP 	nothing: autoDraw = True
+392.6695 	DATA 	Keypress: s
+395.1536 	EXP 	New trial (rep=15, index=0): None
+395.1589 	EXP 	nothing: autoDraw = False
+395.1589 	EXP 	nothing: autoDraw = False
+395.1589 	EXP 	tap: text = 'Tap'
+395.1589 	EXP 	tap: autoDraw = True
+395.1702 	DATA 	Keypress: s
+397.6701 	DATA 	Keypress: s
+399.1587 	EXP 	tap: autoDraw = False
+399.1587 	EXP 	tap: autoDraw = False
+399.1587 	EXP 	nothing: autoDraw = True
+400.1698 	DATA 	Keypress: s
+402.6706 	DATA 	Keypress: s
+405.1697 	DATA 	Keypress: s
+406.0252 	EXP 	nothing: autoDraw = False
+406.0252 	EXP 	nothing: autoDraw = False
+406.0252 	EXP 	polygon: autoDraw = True
+407.6689 	DATA 	Keypress: s
+410.0251 	EXP 	polygon: autoDraw = False
+410.0251 	EXP 	polygon: autoDraw = False
+410.0251 	EXP 	nothing: autoDraw = True
+410.1691 	DATA 	Keypress: s
+412.6694 	DATA 	Keypress: s
+415.1695 	DATA 	Keypress: s
+417.3183 	EXP 	New trial (rep=16, index=0): None
+417.3247 	EXP 	nothing: autoDraw = False
+417.3247 	EXP 	nothing: autoDraw = False
+417.3247 	EXP 	tap: text = 'Tap'
+417.3247 	EXP 	tap: autoDraw = True
+417.6691 	DATA 	Keypress: s
+420.1691 	DATA 	Keypress: s
+421.3246 	EXP 	tap: autoDraw = False
+421.3246 	EXP 	tap: autoDraw = False
+421.3246 	EXP 	nothing: autoDraw = True
+422.6688 	DATA 	Keypress: s
+425.1672 	DATA 	Keypress: s
+425.2492 	EXP 	nothing: autoDraw = False
+425.2492 	EXP 	nothing: autoDraw = False
+425.2492 	EXP 	polygon: autoDraw = True
+427.6674 	DATA 	Keypress: s
+429.2491 	EXP 	polygon: autoDraw = False
+429.2491 	EXP 	polygon: autoDraw = False
+429.2491 	EXP 	nothing: autoDraw = True
+430.1677 	DATA 	Keypress: s
+432.6679 	DATA 	Keypress: s
+435.1681 	DATA 	Keypress: s
+435.9756 	EXP 	New trial (rep=17, index=0): None
+435.9824 	EXP 	nothing: autoDraw = False
+435.9824 	EXP 	nothing: autoDraw = False
+435.9824 	EXP 	tap: text = 'Tap'
+435.9824 	EXP 	tap: autoDraw = True
+437.6688 	DATA 	Keypress: s
+439.9823 	EXP 	tap: autoDraw = False
+439.9823 	EXP 	tap: autoDraw = False
+439.9823 	EXP 	nothing: autoDraw = True
+440.1681 	DATA 	Keypress: s
+442.6684 	DATA 	Keypress: s
+445.1674 	DATA 	Keypress: s
+447.6675 	DATA 	Keypress: s
+447.8322 	EXP 	nothing: autoDraw = False
+447.8322 	EXP 	nothing: autoDraw = False
+447.8322 	EXP 	polygon: autoDraw = True
+450.1671 	DATA 	Keypress: s
+451.8320 	EXP 	polygon: autoDraw = False
+451.8320 	EXP 	polygon: autoDraw = False
+451.8320 	EXP 	nothing: autoDraw = True
+452.6757 	DATA 	Keypress: s
+455.1679 	DATA 	Keypress: s
+457.6681 	DATA 	Keypress: s
+459.8259 	EXP 	New trial (rep=18, index=0): None
+459.8316 	EXP 	nothing: autoDraw = False
+459.8316 	EXP 	nothing: autoDraw = False
+459.8316 	EXP 	tap: text = 'Tap'
+459.8316 	EXP 	tap: autoDraw = True
+460.1676 	DATA 	Keypress: s
+462.6670 	DATA 	Keypress: s
+463.8316 	EXP 	tap: autoDraw = False
+463.8316 	EXP 	tap: autoDraw = False
+463.8316 	EXP 	nothing: autoDraw = True
+465.1672 	DATA 	Keypress: s
+467.6753 	DATA 	Keypress: s
+470.1674 	DATA 	Keypress: s
+471.8315 	EXP 	nothing: autoDraw = False
+471.8315 	EXP 	nothing: autoDraw = False
+471.8315 	EXP 	polygon: autoDraw = True
+472.6674 	DATA 	Keypress: s
+475.1664 	DATA 	Keypress: s
+475.8312 	EXP 	polygon: autoDraw = False
+475.8312 	EXP 	polygon: autoDraw = False
+475.8312 	EXP 	nothing: autoDraw = True
+477.6667 	DATA 	Keypress: s
+477.8257 	EXP 	New trial (rep=19, index=0): None
+477.8313 	EXP 	nothing: autoDraw = False
+477.8313 	EXP 	nothing: autoDraw = False
+477.8313 	EXP 	tap: text = 'Tap'
+477.8313 	EXP 	tap: autoDraw = True
+480.1671 	DATA 	Keypress: s
+481.8310 	EXP 	tap: autoDraw = False
+481.8310 	EXP 	tap: autoDraw = False
+481.8310 	EXP 	nothing: autoDraw = True
+482.6668 	DATA 	Keypress: s
+485.1671 	DATA 	Keypress: s
+487.6659 	DATA 	Keypress: s
+489.4726 	EXP 	nothing: autoDraw = False
+489.4726 	EXP 	nothing: autoDraw = False
+489.4726 	EXP 	polygon: autoDraw = True
+490.1660 	DATA 	Keypress: s
+492.6662 	DATA 	Keypress: s
+493.4725 	EXP 	polygon: autoDraw = False
+493.4725 	EXP 	polygon: autoDraw = False
+493.4725 	EXP 	nothing: autoDraw = True
+495.1664 	DATA 	Keypress: s
+496.3835 	EXP 	New trial (rep=20, index=0): None
+496.3907 	EXP 	nothing: autoDraw = False
+496.3907 	EXP 	nothing: autoDraw = False
+496.3907 	EXP 	tap: text = 'Tap'
+496.3907 	EXP 	tap: autoDraw = True
+497.6673 	DATA 	Keypress: s
+500.1672 	DATA 	Keypress: s
+500.3971 	EXP 	tap: autoDraw = False
+500.3971 	EXP 	nothing: autoDraw = True
+502.6656 	DATA 	Keypress: s
+505.1658 	DATA 	Keypress: s
+507.6660 	DATA 	Keypress: s
+508.3970 	EXP 	nothing: autoDraw = False
+508.3970 	EXP 	nothing: autoDraw = False
+508.3970 	EXP 	polygon: autoDraw = True
+510.1658 	DATA 	Keypress: s
+512.3967 	EXP 	polygon: autoDraw = False
+512.3967 	EXP 	polygon: autoDraw = False
+512.3967 	EXP 	nothing: autoDraw = True
+512.6661 	DATA 	Keypress: s
+515.1740 	DATA 	Keypress: s
+517.6654 	DATA 	Keypress: s
+518.3575 	EXP 	New trial (rep=21, index=0): None
+518.3717 	EXP 	nothing: autoDraw = False
+518.3717 	EXP 	nothing: autoDraw = False
+518.3717 	EXP 	tap: text = 'Tap'
+518.3717 	EXP 	tap: autoDraw = True
+520.1661 	DATA 	Keypress: s
+522.3715 	EXP 	tap: autoDraw = False
+522.3715 	EXP 	nothing: autoDraw = True
+522.6735 	DATA 	Keypress: s
+524.8130 	EXP 	nothing: autoDraw = False
+524.8130 	EXP 	nothing: autoDraw = False
+524.8130 	EXP 	polygon: autoDraw = True
+525.1655 	DATA 	Keypress: s
+527.6656 	DATA 	Keypress: s
+528.8129 	EXP 	polygon: autoDraw = False
+528.8129 	EXP 	polygon: autoDraw = False
+528.8129 	EXP 	nothing: autoDraw = True
+530.1658 	DATA 	Keypress: s
+532.0818 	EXP 	New trial (rep=22, index=0): None
+532.0894 	EXP 	nothing: autoDraw = False
+532.0894 	EXP 	nothing: autoDraw = False
+532.0894 	EXP 	tap: text = 'Tap'
+532.0894 	EXP 	tap: autoDraw = True
+532.6656 	DATA 	Keypress: s
+535.1657 	DATA 	Keypress: s
+536.0961 	EXP 	tap: autoDraw = False
+536.0961 	EXP 	nothing: autoDraw = True
+537.6724 	DATA 	Keypress: s
+540.1650 	DATA 	Keypress: s
+541.7376 	EXP 	nothing: autoDraw = False
+541.7376 	EXP 	nothing: autoDraw = False
+541.7376 	EXP 	polygon: autoDraw = True
+542.6651 	DATA 	Keypress: s
+545.1652 	DATA 	Keypress: s
+545.7374 	EXP 	polygon: autoDraw = False
+545.7374 	EXP 	polygon: autoDraw = False
+545.7374 	EXP 	nothing: autoDraw = True
+547.6645 	DATA 	Keypress: s
+547.7314 	EXP 	New trial (rep=23, index=0): None
+547.7375 	EXP 	nothing: autoDraw = False
+547.7375 	EXP 	nothing: autoDraw = False
+547.7375 	EXP 	tap: text = 'Tap'
+547.7375 	EXP 	tap: autoDraw = True
+550.1652 	DATA 	Keypress: s
+551.7371 	EXP 	tap: autoDraw = False
+551.7371 	EXP 	tap: autoDraw = False
+551.7371 	EXP 	nothing: autoDraw = True
+552.6645 	DATA 	Keypress: s
+554.7622 	EXP 	nothing: autoDraw = False
+554.7622 	EXP 	nothing: autoDraw = False
+554.7622 	EXP 	polygon: autoDraw = True
+555.1647 	DATA 	Keypress: s
+557.6636 	DATA 	Keypress: s
+558.7619 	EXP 	polygon: autoDraw = False
+558.7619 	EXP 	polygon: autoDraw = False
+558.7619 	EXP 	nothing: autoDraw = True
+560.1730 	DATA 	Keypress: s
+562.6640 	DATA 	Keypress: s
+563.3640 	EXP 	New trial (rep=24, index=0): None
+563.3702 	EXP 	nothing: autoDraw = False
+563.3702 	EXP 	nothing: autoDraw = False
+563.3702 	EXP 	tap: text = 'Tap'
+563.3702 	EXP 	tap: autoDraw = True
+565.1649 	DATA 	Keypress: s
+567.3700 	EXP 	tap: autoDraw = False
+567.3700 	EXP 	tap: autoDraw = False
+567.3700 	EXP 	nothing: autoDraw = True
+567.6643 	DATA 	Keypress: s
+569.9449 	EXP 	nothing: autoDraw = False
+569.9449 	EXP 	nothing: autoDraw = False
+569.9449 	EXP 	polygon: autoDraw = True
+570.1723 	DATA 	Keypress: s
+572.6632 	DATA 	Keypress: s
+573.9448 	EXP 	polygon: autoDraw = False
+573.9448 	EXP 	polygon: autoDraw = False
+573.9448 	EXP 	nothing: autoDraw = True
+575.1726 	DATA 	Keypress: s
+577.6637 	DATA 	Keypress: s
+580.1717 	DATA 	Keypress: s
+581.9387 	EXP 	New trial (rep=25, index=0): None
+581.9447 	EXP 	nothing: autoDraw = False
+581.9447 	EXP 	nothing: autoDraw = False
+581.9447 	EXP 	tap: text = 'Tap'
+581.9447 	EXP 	tap: autoDraw = True
+582.6643 	DATA 	Keypress: s
+585.1645 	DATA 	Keypress: s
+585.9442 	EXP 	tap: autoDraw = False
+585.9442 	EXP 	tap: autoDraw = False
+585.9442 	EXP 	nothing: autoDraw = True
+587.6624 	DATA 	Keypress: s
+589.0778 	EXP 	nothing: autoDraw = False
+589.0778 	EXP 	nothing: autoDraw = False
+589.0778 	EXP 	polygon: autoDraw = True
+590.1720 	DATA 	Keypress: s
+592.6631 	DATA 	Keypress: s
+593.0779 	EXP 	polygon: autoDraw = False
+593.0779 	EXP 	polygon: autoDraw = False
+593.0779 	EXP 	nothing: autoDraw = True
+595.1713 	DATA 	Keypress: s
+597.6634 	DATA 	Keypress: s
+599.0543 	EXP 	New trial (rep=26, index=0): None
+599.0607 	EXP 	nothing: autoDraw = False
+599.0607 	EXP 	nothing: autoDraw = False
+599.0607 	EXP 	tap: text = 'Tap'
+599.0607 	EXP 	tap: autoDraw = True
+600.1641 	DATA 	Keypress: s
+602.6631 	DATA 	Keypress: s
+603.0607 	EXP 	tap: autoDraw = False
+603.0607 	EXP 	tap: autoDraw = False
+603.0607 	EXP 	nothing: autoDraw = True
+605.0690 	EXP 	nothing: autoDraw = False
+605.0690 	EXP 	nothing: autoDraw = False
+605.0690 	EXP 	polygon: autoDraw = True
+605.1716 	DATA 	Keypress: s
+607.6704 	DATA 	Keypress: s
+609.0688 	EXP 	polygon: autoDraw = False
+609.0688 	EXP 	polygon: autoDraw = False
+609.0688 	EXP 	nothing: autoDraw = True
+610.1709 	DATA 	Keypress: s
+612.6630 	DATA 	Keypress: s
+613.7880 	EXP 	New trial (rep=27, index=0): None
+613.7935 	EXP 	nothing: autoDraw = False
+613.7935 	EXP 	nothing: autoDraw = False
+613.7935 	EXP 	tap: text = 'Tap'
+613.7935 	EXP 	tap: autoDraw = True
+615.1718 	DATA 	Keypress: s
+617.6627 	DATA 	Keypress: s
+617.7936 	EXP 	tap: autoDraw = False
+617.7936 	EXP 	tap: autoDraw = False
+617.7936 	EXP 	nothing: autoDraw = True
+619.7934 	EXP 	nothing: autoDraw = False
+619.7934 	EXP 	nothing: autoDraw = False
+619.7934 	EXP 	polygon: autoDraw = True
+620.1701 	DATA 	Keypress: s
+622.6620 	DATA 	Keypress: s
+623.7932 	EXP 	polygon: autoDraw = False
+623.7932 	EXP 	polygon: autoDraw = False
+623.7932 	EXP 	nothing: autoDraw = True
+625.1705 	DATA 	Keypress: s
+626.4450 	EXP 	New trial (rep=28, index=0): None
+626.4515 	EXP 	nothing: autoDraw = False
+626.4515 	EXP 	nothing: autoDraw = False
+626.4515 	EXP 	tap: text = 'Tap'
+626.4515 	EXP 	tap: autoDraw = True
+627.6630 	DATA 	Keypress: s
+630.1711 	DATA 	Keypress: s
+630.4512 	EXP 	tap: autoDraw = False
+630.4512 	EXP 	tap: autoDraw = False
+630.4512 	EXP 	nothing: autoDraw = True
+632.6615 	DATA 	Keypress: s
+634.1430 	EXP 	nothing: autoDraw = False
+634.1430 	EXP 	nothing: autoDraw = False
+634.1430 	EXP 	polygon: autoDraw = True
+635.1696 	DATA 	Keypress: s
+637.6618 	DATA 	Keypress: s
+638.1429 	EXP 	polygon: autoDraw = False
+638.1429 	EXP 	polygon: autoDraw = False
+638.1429 	EXP 	nothing: autoDraw = True
+640.1700 	DATA 	Keypress: s
+642.6621 	DATA 	Keypress: s
+645.1704 	DATA 	Keypress: s
+646.1357 	EXP 	New trial (rep=29, index=0): None
+646.1427 	EXP 	nothing: autoDraw = False
+646.1427 	EXP 	nothing: autoDraw = False
+646.1427 	EXP 	tap: text = 'Tap'
+646.1427 	EXP 	tap: autoDraw = True
+647.6617 	DATA 	Keypress: s
+650.1423 	EXP 	tap: autoDraw = False
+650.1423 	EXP 	tap: autoDraw = False
+650.1423 	EXP 	nothing: autoDraw = True
+650.1692 	DATA 	Keypress: s
+652.6613 	DATA 	Keypress: s
+655.1695 	DATA 	Keypress: s
+657.5505 	EXP 	nothing: autoDraw = False
+657.5505 	EXP 	nothing: autoDraw = False
+657.5505 	EXP 	polygon: autoDraw = True
+657.6616 	DATA 	Keypress: s
+660.1698 	DATA 	Keypress: s
+661.5503 	EXP 	polygon: autoDraw = False
+661.5503 	EXP 	polygon: autoDraw = False
+661.5503 	EXP 	nothing: autoDraw = True
+662.6610 	DATA 	Keypress: s
+664.7610 	EXP 	New trial (rep=30, index=0): None
+664.7669 	EXP 	nothing: autoDraw = False
+664.7669 	EXP 	nothing: autoDraw = False
+664.7669 	EXP 	tap: text = 'Tap'
+664.7669 	EXP 	tap: autoDraw = True
+665.1694 	DATA 	Keypress: s
+667.6618 	DATA 	Keypress: s
+668.7668 	EXP 	tap: autoDraw = False
+668.7668 	EXP 	tap: autoDraw = False
+668.7668 	EXP 	nothing: autoDraw = True
+670.1689 	DATA 	Keypress: s
+672.2167 	EXP 	nothing: autoDraw = False
+672.2167 	EXP 	nothing: autoDraw = False
+672.2167 	EXP 	polygon: autoDraw = True
+672.6600 	DATA 	Keypress: s
+675.1694 	DATA 	Keypress: s
+676.2166 	EXP 	polygon: autoDraw = False
+676.2166 	EXP 	polygon: autoDraw = False
+676.2166 	EXP 	nothing: autoDraw = True
+677.6684 	DATA 	Keypress: s
+680.1685 	DATA 	Keypress: s
+682.6606 	DATA 	Keypress: s
+682.7013 	EXP 	New trial (rep=31, index=0): None
+682.7081 	EXP 	nothing: autoDraw = False
+682.7081 	EXP 	nothing: autoDraw = False
+682.7081 	EXP 	tap: text = 'Tap'
+682.7081 	EXP 	tap: autoDraw = True
+685.1692 	DATA 	Keypress: s
+686.7078 	EXP 	tap: autoDraw = False
+686.7078 	EXP 	tap: autoDraw = False
+686.7078 	EXP 	nothing: autoDraw = True
+687.6598 	DATA 	Keypress: s
+690.1690 	DATA 	Keypress: s
+690.3329 	EXP 	nothing: autoDraw = False
+690.3329 	EXP 	nothing: autoDraw = False
+690.3329 	EXP 	polygon: autoDraw = True
+692.6679 	DATA 	Keypress: s
+694.3327 	EXP 	polygon: autoDraw = False
+694.3327 	EXP 	polygon: autoDraw = False
+694.3327 	EXP 	nothing: autoDraw = True
+695.1681 	DATA 	Keypress: s
+697.6602 	DATA 	Keypress: s
+700.0433 	EXP 	New trial (rep=32, index=0): None
+700.0493 	EXP 	nothing: autoDraw = False
+700.0493 	EXP 	nothing: autoDraw = False
+700.0493 	EXP 	tap: text = 'Tap'
+700.0493 	EXP 	tap: autoDraw = True
+700.1692 	DATA 	Keypress: s
+702.6598 	DATA 	Keypress: s
+704.0490 	EXP 	tap: autoDraw = False
+704.0490 	EXP 	tap: autoDraw = False
+704.0490 	EXP 	nothing: autoDraw = True
+705.1673 	DATA 	Keypress: s
+707.6596 	DATA 	Keypress: s
+710.1677 	DATA 	Keypress: s
+712.0485 	EXP 	nothing: autoDraw = False
+712.0485 	EXP 	nothing: autoDraw = False
+712.0485 	EXP 	polygon: autoDraw = True
+712.6584 	DATA 	Keypress: s
+715.1665 	DATA 	Keypress: s
+716.0483 	EXP 	polygon: autoDraw = False
+716.0483 	EXP 	polygon: autoDraw = False
+716.0483 	EXP 	nothing: autoDraw = True
+717.6589 	DATA 	Keypress: s
+718.0412 	EXP 	New trial (rep=33, index=0): None
+718.0481 	EXP 	nothing: autoDraw = False
+718.0481 	EXP 	nothing: autoDraw = False
+718.0481 	EXP 	tap: text = 'Tap'
+718.0481 	EXP 	tap: autoDraw = True
+720.1675 	DATA 	Keypress: s
+722.0488 	EXP 	tap: autoDraw = False
+722.0488 	EXP 	tap: autoDraw = False
+722.0488 	EXP 	nothing: autoDraw = True
+722.6592 	DATA 	Keypress: s
+725.1673 	DATA 	Keypress: s
+726.7066 	EXP 	nothing: autoDraw = False
+726.7066 	EXP 	nothing: autoDraw = False
+726.7066 	EXP 	polygon: autoDraw = True
+727.6593 	DATA 	Keypress: s
+730.1675 	DATA 	Keypress: s
+730.7066 	EXP 	polygon: autoDraw = False
+730.7066 	EXP 	polygon: autoDraw = False
+730.7066 	EXP 	nothing: autoDraw = True
+732.6584 	DATA 	Keypress: s
+735.1667 	DATA 	Keypress: s
+737.0585 	EXP 	New trial (rep=34, index=0): None
+737.0663 	EXP 	nothing: autoDraw = False
+737.0663 	EXP 	nothing: autoDraw = False
+737.0663 	EXP 	tap: text = 'Tap'
+737.0663 	EXP 	tap: autoDraw = True
+737.6591 	DATA 	Keypress: s
+740.1674 	DATA 	Keypress: s
+741.0728 	EXP 	tap: autoDraw = False
+741.0728 	EXP 	nothing: autoDraw = True
+742.6577 	DATA 	Keypress: s
+745.1672 	DATA 	Keypress: s
+747.6672 	DATA 	Keypress: s
+748.5809 	EXP 	nothing: autoDraw = False
+748.5809 	EXP 	nothing: autoDraw = False
+748.5809 	EXP 	polygon: autoDraw = True
+750.1661 	DATA 	Keypress: s
+752.5826 	EXP 	polygon: autoDraw = False
+752.5826 	EXP 	polygon: autoDraw = False
+752.5826 	EXP 	nothing: autoDraw = True
+752.6584 	DATA 	Keypress: s
+755.1685 	DATA 	Keypress: s
+756.4994 	EXP 	New trial (rep=35, index=0): None
+756.5057 	EXP 	nothing: autoDraw = False
+756.5057 	EXP 	nothing: autoDraw = False
+756.5057 	EXP 	tap: text = 'Tap'
+756.5057 	EXP 	tap: autoDraw = True
+757.6593 	DATA 	Keypress: s
+760.1674 	DATA 	Keypress: s
+760.5056 	EXP 	tap: autoDraw = False
+760.5056 	EXP 	tap: autoDraw = False
+760.5056 	EXP 	nothing: autoDraw = True
+762.6669 	DATA 	Keypress: s
+763.2725 	EXP 	nothing: autoDraw = False
+763.2725 	EXP 	nothing: autoDraw = False
+763.2725 	EXP 	polygon: autoDraw = True
+765.1670 	DATA 	Keypress: s
+767.2721 	EXP 	polygon: autoDraw = False
+767.2721 	EXP 	polygon: autoDraw = False
+767.2721 	EXP 	nothing: autoDraw = True
+767.6580 	DATA 	Keypress: s
+770.1665 	DATA 	Keypress: s
+772.1491 	EXP 	New trial (rep=36, index=0): None
+772.1553 	EXP 	nothing: autoDraw = False
+772.1553 	EXP 	nothing: autoDraw = False
+772.1553 	EXP 	tap: text = 'Tap'
+772.1553 	EXP 	tap: autoDraw = True
+772.6579 	DATA 	Keypress: s
+775.1667 	DATA 	Keypress: s
+776.1550 	EXP 	tap: autoDraw = False
+776.1550 	EXP 	tap: autoDraw = False
+776.1550 	EXP 	nothing: autoDraw = True
+777.6573 	DATA 	Keypress: s
+780.1654 	DATA 	Keypress: s
+781.1467 	EXP 	nothing: autoDraw = False
+781.1467 	EXP 	nothing: autoDraw = False
+781.1467 	EXP 	polygon: autoDraw = True
+782.6575 	DATA 	Keypress: s
+785.1466 	EXP 	polygon: autoDraw = False
+785.1466 	EXP 	polygon: autoDraw = False
+785.1466 	EXP 	nothing: autoDraw = True
+785.1658 	DATA 	Keypress: s
+787.1406 	EXP 	New trial (rep=37, index=0): None
+787.1464 	EXP 	nothing: autoDraw = False
+787.1464 	EXP 	nothing: autoDraw = False
+787.1464 	EXP 	tap: text = 'Tap'
+787.1464 	EXP 	tap: autoDraw = True
+787.6573 	DATA 	Keypress: s
+790.1668 	DATA 	Keypress: s
+791.1464 	EXP 	tap: autoDraw = False
+791.1464 	EXP 	tap: autoDraw = False
+791.1464 	EXP 	nothing: autoDraw = True
+792.6570 	DATA 	Keypress: s
+795.1650 	DATA 	Keypress: s
+797.0211 	EXP 	nothing: autoDraw = False
+797.0211 	EXP 	nothing: autoDraw = False
+797.0211 	EXP 	polygon: autoDraw = True
+797.6569 	DATA 	Keypress: s
+800.1652 	DATA 	Keypress: s
+801.0210 	EXP 	polygon: autoDraw = False
+801.0210 	EXP 	polygon: autoDraw = False
+801.0210 	EXP 	nothing: autoDraw = True
+802.6653 	DATA 	Keypress: s
+805.1665 	DATA 	Keypress: s
+806.1813 	EXP 	New trial (rep=38, index=0): None
+806.1874 	EXP 	nothing: autoDraw = False
+806.1874 	EXP 	nothing: autoDraw = False
+806.1874 	EXP 	tap: text = 'Tap'
+806.1874 	EXP 	tap: autoDraw = True
+807.6569 	DATA 	Keypress: s
+810.1650 	DATA 	Keypress: s
+810.1876 	EXP 	tap: autoDraw = False
+810.1876 	EXP 	tap: autoDraw = False
+810.1876 	EXP 	nothing: autoDraw = True
+812.6647 	DATA 	Keypress: s
+815.1648 	DATA 	Keypress: s
+817.6726 	DATA 	Keypress: s
+818.1869 	EXP 	nothing: autoDraw = False
+818.1869 	EXP 	nothing: autoDraw = False
+818.1869 	EXP 	polygon: autoDraw = True
+820.1636 	DATA 	Keypress: s
+822.1870 	EXP 	polygon: autoDraw = False
+822.1870 	EXP 	polygon: autoDraw = False
+822.1870 	EXP 	nothing: autoDraw = True
+822.6638 	DATA 	Keypress: s
+825.1640 	DATA 	Keypress: s
+827.2561 	EXP 	New trial (rep=39, index=0): None
+827.2617 	EXP 	nothing: autoDraw = False
+827.2617 	EXP 	nothing: autoDraw = False
+827.2617 	EXP 	tap: text = 'Tap'
+827.2617 	EXP 	tap: autoDraw = True
+827.6570 	DATA 	Keypress: s
+830.1652 	DATA 	Keypress: s
+831.2617 	EXP 	tap: autoDraw = False
+831.2617 	EXP 	tap: autoDraw = False
+831.2617 	EXP 	nothing: autoDraw = True
+832.6645 	DATA 	Keypress: s
+835.1635 	DATA 	Keypress: s
+837.6556 	DATA 	Keypress: s
+838.8615 	EXP 	nothing: autoDraw = False
+838.8615 	EXP 	nothing: autoDraw = False
+838.8615 	EXP 	polygon: autoDraw = True
+840.1663 	DATA 	Keypress: s
+842.6638 	DATA 	Keypress: s
+842.8614 	EXP 	polygon: autoDraw = False
+842.8614 	EXP 	polygon: autoDraw = False
+842.8614 	EXP 	nothing: autoDraw = True
+845.1641 	DATA 	Keypress: s
+847.6557 	DATA 	Keypress: s
+850.1639 	DATA 	Keypress: s
+850.8550 	EXP 	New trial (rep=40, index=0): None
+850.8611 	EXP 	nothing: autoDraw = False
+850.8611 	EXP 	nothing: autoDraw = False
+850.8611 	EXP 	tap: text = 'Tap'
+850.8611 	EXP 	tap: autoDraw = True
+852.6558 	DATA 	Keypress: s
+854.8609 	EXP 	tap: autoDraw = False
+854.8609 	EXP 	tap: autoDraw = False
+854.8609 	EXP 	nothing: autoDraw = True
+855.1632 	DATA 	Keypress: s
+857.6636 	DATA 	Keypress: s
+860.1637 	DATA 	Keypress: s
+860.3357 	EXP 	nothing: autoDraw = False
+860.3357 	EXP 	nothing: autoDraw = False
+860.3357 	EXP 	polygon: autoDraw = True
+862.6624 	DATA 	Keypress: s
+864.3356 	EXP 	polygon: autoDraw = False
+864.3356 	EXP 	polygon: autoDraw = False
+864.3356 	EXP 	nothing: autoDraw = True
+865.1635 	DATA 	Keypress: s
+866.3297 	EXP 	New trial (rep=41, index=0): None
+866.3355 	EXP 	nothing: autoDraw = False
+866.3355 	EXP 	nothing: autoDraw = False
+866.3355 	EXP 	tap: text = 'Tap'
+866.3355 	EXP 	tap: autoDraw = True
+867.6630 	DATA 	Keypress: s
+870.1633 	DATA 	Keypress: s
+870.3354 	EXP 	tap: autoDraw = False
+870.3354 	EXP 	tap: autoDraw = False
+870.3354 	EXP 	nothing: autoDraw = True
+872.6630 	DATA 	Keypress: s
+872.9103 	EXP 	nothing: autoDraw = False
+872.9103 	EXP 	nothing: autoDraw = False
+872.9103 	EXP 	polygon: autoDraw = True
+875.1630 	DATA 	Keypress: s
+876.9103 	EXP 	polygon: autoDraw = False
+876.9103 	EXP 	polygon: autoDraw = False
+876.9103 	EXP 	nothing: autoDraw = True
+877.6553 	DATA 	Keypress: s
+880.1631 	DATA 	Keypress: s
+881.4041 	EXP 	New trial (rep=42, index=0): None
+881.4099 	EXP 	nothing: autoDraw = False
+881.4099 	EXP 	nothing: autoDraw = False
+881.4099 	EXP 	tap: text = 'Tap'
+881.4099 	EXP 	tap: autoDraw = True
+882.6551 	DATA 	Keypress: s
+885.1632 	DATA 	Keypress: s
+885.4099 	EXP 	tap: autoDraw = False
+885.4099 	EXP 	tap: autoDraw = False
+885.4099 	EXP 	nothing: autoDraw = True
+887.6633 	DATA 	Keypress: s
+888.5847 	EXP 	nothing: autoDraw = False
+888.5847 	EXP 	nothing: autoDraw = False
+888.5847 	EXP 	polygon: autoDraw = True
+890.1613 	DATA 	Keypress: s
+892.5848 	EXP 	polygon: autoDraw = False
+892.5848 	EXP 	polygon: autoDraw = False
+892.5848 	EXP 	nothing: autoDraw = True
+892.6617 	DATA 	Keypress: s
+895.1466 	EXP 	New trial (rep=43, index=0): None
+895.1528 	EXP 	nothing: autoDraw = False
+895.1528 	EXP 	nothing: autoDraw = False
+895.1528 	EXP 	tap: text = 'Tap'
+895.1528 	EXP 	tap: autoDraw = True
+895.1626 	DATA 	Keypress: s
+897.6545 	DATA 	Keypress: s
+899.1593 	EXP 	tap: autoDraw = False
+899.1593 	EXP 	nothing: autoDraw = True
+900.1621 	DATA 	Keypress: s
+902.6703 	DATA 	Keypress: s
+905.1609 	DATA 	Keypress: s
+906.3508 	EXP 	nothing: autoDraw = False
+906.3508 	EXP 	nothing: autoDraw = False
+906.3508 	EXP 	polygon: autoDraw = True
+907.6611 	DATA 	Keypress: s
+910.1613 	DATA 	Keypress: s
+910.3512 	EXP 	polygon: autoDraw = False
+910.3512 	EXP 	polygon: autoDraw = False
+910.3512 	EXP 	nothing: autoDraw = True
+912.4864 	EXP 	New trial (rep=44, index=0): None
+912.4924 	EXP 	nothing: autoDraw = False
+912.4924 	EXP 	nothing: autoDraw = False
+912.4924 	EXP 	tap: text = 'Tap'
+912.4924 	EXP 	tap: autoDraw = True
+912.6623 	DATA 	Keypress: s
+915.1622 	DATA 	Keypress: s
+916.4920 	EXP 	tap: autoDraw = False
+916.4920 	EXP 	tap: autoDraw = False
+916.4920 	EXP 	nothing: autoDraw = True
+917.6699 	DATA 	Keypress: s
+920.1608 	DATA 	Keypress: s
+921.6755 	EXP 	nothing: autoDraw = False
+921.6755 	EXP 	nothing: autoDraw = False
+921.6755 	EXP 	polygon: autoDraw = True
+922.6608 	DATA 	Keypress: s
+925.1610 	DATA 	Keypress: s
+925.6754 	EXP 	polygon: autoDraw = False
+925.6754 	EXP 	polygon: autoDraw = False
+925.6754 	EXP 	nothing: autoDraw = True
+927.6612 	DATA 	Keypress: s
+930.1612 	DATA 	Keypress: s
+930.7619 	EXP 	New trial (rep=45, index=0): None
+930.7671 	EXP 	nothing: autoDraw = False
+930.7671 	EXP 	nothing: autoDraw = False
+930.7671 	EXP 	tap: text = 'Tap'
+930.7671 	EXP 	tap: autoDraw = True
+932.6631 	DATA 	Keypress: s
+934.7666 	EXP 	tap: autoDraw = False
+934.7666 	EXP 	tap: autoDraw = False
+934.7666 	EXP 	nothing: autoDraw = True
+935.1602 	DATA 	Keypress: s
+937.6603 	DATA 	Keypress: s
+940.1607 	DATA 	Keypress: s
+941.6415 	EXP 	nothing: autoDraw = False
+941.6415 	EXP 	nothing: autoDraw = False
+941.6415 	EXP 	polygon: autoDraw = True
+942.6606 	DATA 	Keypress: s
+945.1604 	DATA 	Keypress: s
+945.6411 	EXP 	polygon: autoDraw = False
+945.6411 	EXP 	polygon: autoDraw = False
+945.6411 	EXP 	nothing: autoDraw = True
+947.6355 	EXP 	New trial (rep=46, index=0): None
+947.6413 	EXP 	nothing: autoDraw = False
+947.6413 	EXP 	nothing: autoDraw = False
+947.6413 	EXP 	tap: text = 'Tap'
+947.6413 	EXP 	tap: autoDraw = True
+947.6601 	DATA 	Keypress: s
+950.1606 	DATA 	Keypress: s
+951.6413 	EXP 	tap: autoDraw = False
+951.6413 	EXP 	tap: autoDraw = False
+951.6413 	EXP 	nothing: autoDraw = True
+952.6601 	DATA 	Keypress: s
+954.8411 	EXP 	nothing: autoDraw = False
+954.8411 	EXP 	nothing: autoDraw = False
+954.8411 	EXP 	polygon: autoDraw = True
+955.1584 	DATA 	Keypress: s
+957.6681 	DATA 	Keypress: s
+958.8410 	EXP 	polygon: autoDraw = False
+958.8410 	EXP 	polygon: autoDraw = False
+958.8410 	EXP 	nothing: autoDraw = True
+960.1612 	DATA 	Keypress: s
+960.8353 	EXP 	New trial (rep=47, index=0): None
+960.8408 	EXP 	nothing: autoDraw = False
+960.8408 	EXP 	nothing: autoDraw = False
+960.8408 	EXP 	tap: text = 'Tap'
+960.8408 	EXP 	tap: autoDraw = True
+962.6601 	DATA 	Keypress: s
+964.8407 	EXP 	tap: autoDraw = False
+964.8407 	EXP 	tap: autoDraw = False
+964.8407 	EXP 	nothing: autoDraw = True
+965.1595 	DATA 	Keypress: s
+967.0240 	EXP 	nothing: autoDraw = False
+967.0240 	EXP 	nothing: autoDraw = False
+967.0240 	EXP 	polygon: autoDraw = True
+967.6595 	DATA 	Keypress: s
+970.1597 	DATA 	Keypress: s
+971.0238 	EXP 	polygon: autoDraw = False
+971.0238 	EXP 	polygon: autoDraw = False
+971.0238 	EXP 	nothing: autoDraw = True
+972.6679 	DATA 	Keypress: s
+975.1601 	DATA 	Keypress: s
+977.6592 	DATA 	Keypress: s
+978.1681 	EXP 	New trial (rep=48, index=0): None
+978.1756 	EXP 	nothing: autoDraw = False
+978.1756 	EXP 	nothing: autoDraw = False
+978.1756 	EXP 	tap: text = 'Tap'
+978.1756 	EXP 	tap: autoDraw = True
+980.1596 	DATA 	Keypress: s
+982.1819 	EXP 	tap: autoDraw = False
+982.1819 	EXP 	nothing: autoDraw = True
+982.6613 	DATA 	Keypress: s
+985.1569 	EXP 	nothing: autoDraw = False
+985.1569 	EXP 	nothing: autoDraw = False
+985.1569 	EXP 	polygon: autoDraw = True
+985.1595 	DATA 	Keypress: s
+987.6674 	DATA 	Keypress: s
+989.1567 	EXP 	polygon: autoDraw = False
+989.1567 	EXP 	polygon: autoDraw = False
+989.1567 	EXP 	nothing: autoDraw = True
+990.1597 	DATA 	Keypress: s
+994.1676 	EXP 	New trial (rep=49, index=0): None
+994.1731 	EXP 	nothing: autoDraw = False
+994.1731 	EXP 	nothing: autoDraw = False
+994.1731 	EXP 	tap: text = 'Tap'
+994.1731 	EXP 	tap: autoDraw = True
+998.1730 	EXP 	tap: autoDraw = False
+998.1730 	EXP 	tap: autoDraw = False
+998.1730 	EXP 	nothing: autoDraw = True
+1003.4144 	EXP 	nothing: autoDraw = False
+1003.4144 	EXP 	nothing: autoDraw = False
+1003.4144 	EXP 	polygon: autoDraw = True
+1007.4145 	EXP 	polygon: autoDraw = False
+1007.4145 	EXP 	polygon: autoDraw = False
+1007.4145 	EXP 	nothing: autoDraw = True
+1013.1413 	EXP 	New trial (rep=50, index=0): None
+1013.1475 	EXP 	nothing: autoDraw = False
+1013.1475 	EXP 	nothing: autoDraw = False
+1013.1475 	EXP 	tap: text = 'Tap'
+1013.1475 	EXP 	tap: autoDraw = True
+1017.1475 	EXP 	tap: autoDraw = False
+1017.1475 	EXP 	tap: autoDraw = False
+1017.1475 	EXP 	nothing: autoDraw = True
+1021.2221 	EXP 	nothing: autoDraw = False
+1021.2221 	EXP 	nothing: autoDraw = False
+1021.2221 	EXP 	polygon: autoDraw = True
+1025.2222 	EXP 	polygon: autoDraw = False
+1025.2222 	EXP 	polygon: autoDraw = False
+1025.2222 	EXP 	nothing: autoDraw = True
+1027.2159 	EXP 	New trial (rep=51, index=0): None
+1027.2222 	EXP 	nothing: autoDraw = False
+1027.2222 	EXP 	nothing: autoDraw = False
+1027.2222 	EXP 	tap: text = 'Tap'
+1027.2222 	EXP 	tap: autoDraw = True
+1031.2220 	EXP 	tap: autoDraw = False
+1031.2220 	EXP 	tap: autoDraw = False
+1031.2220 	EXP 	nothing: autoDraw = True
+1036.8052 	EXP 	nothing: autoDraw = False
+1036.8052 	EXP 	nothing: autoDraw = False
+1036.8052 	EXP 	polygon: autoDraw = True
+1040.8050 	EXP 	polygon: autoDraw = False
+1040.8050 	EXP 	polygon: autoDraw = False
+1040.8050 	EXP 	nothing: autoDraw = True
+1042.7995 	EXP 	New trial (rep=52, index=0): None
+1042.8050 	EXP 	nothing: autoDraw = False
+1042.8050 	EXP 	nothing: autoDraw = False
+1042.8050 	EXP 	tap: text = 'Tap'
+1042.8050 	EXP 	tap: autoDraw = True
+1046.8048 	EXP 	tap: autoDraw = False
+1046.8048 	EXP 	tap: autoDraw = False
+1046.8048 	EXP 	nothing: autoDraw = True
+1053.2130 	EXP 	nothing: autoDraw = False
+1053.2130 	EXP 	nothing: autoDraw = False
+1053.2130 	EXP 	polygon: autoDraw = True
+1057.2128 	EXP 	polygon: autoDraw = False
+1057.2128 	EXP 	polygon: autoDraw = False
+1057.2128 	EXP 	nothing: autoDraw = True
+1062.7483 	EXP 	New trial (rep=53, index=0): None
+1062.7543 	EXP 	nothing: autoDraw = False
+1062.7543 	EXP 	nothing: autoDraw = False
+1062.7543 	EXP 	tap: text = 'Tap'
+1062.7543 	EXP 	tap: autoDraw = True
+1066.7544 	EXP 	tap: autoDraw = False
+1066.7544 	EXP 	tap: autoDraw = False
+1066.7544 	EXP 	nothing: autoDraw = True
+1069.7124 	EXP 	nothing: autoDraw = False
+1069.7124 	EXP 	nothing: autoDraw = False
+1069.7124 	EXP 	polygon: autoDraw = True
+1073.7123 	EXP 	polygon: autoDraw = False
+1073.7123 	EXP 	polygon: autoDraw = False
+1073.7123 	EXP 	nothing: autoDraw = True
+1078.8805 	EXP 	New trial (rep=54, index=0): None
+1078.8869 	EXP 	nothing: autoDraw = False
+1078.8869 	EXP 	nothing: autoDraw = False
+1078.8869 	EXP 	tap: text = 'Tap'
+1078.8869 	EXP 	tap: autoDraw = True
+1082.8870 	EXP 	tap: autoDraw = False
+1082.8870 	EXP 	tap: autoDraw = False
+1082.8870 	EXP 	nothing: autoDraw = True
+1089.3784 	EXP 	nothing: autoDraw = False
+1089.3784 	EXP 	nothing: autoDraw = False
+1089.3784 	EXP 	polygon: autoDraw = True
+1093.3784 	EXP 	polygon: autoDraw = False
+1093.3784 	EXP 	polygon: autoDraw = False
+1093.3784 	EXP 	nothing: autoDraw = True
+1098.9055 	EXP 	New trial (rep=55, index=0): None
+1098.9114 	EXP 	nothing: autoDraw = False
+1098.9114 	EXP 	nothing: autoDraw = False
+1098.9114 	EXP 	tap: text = 'Tap'
+1098.9114 	EXP 	tap: autoDraw = True
+1102.9114 	EXP 	tap: autoDraw = False
+1102.9114 	EXP 	tap: autoDraw = False
+1102.9114 	EXP 	nothing: autoDraw = True
+1104.9113 	EXP 	nothing: autoDraw = False
+1104.9113 	EXP 	nothing: autoDraw = False
+1104.9113 	EXP 	polygon: autoDraw = True
+1108.9112 	EXP 	polygon: autoDraw = False
+1108.9112 	EXP 	polygon: autoDraw = False
+1108.9112 	EXP 	nothing: autoDraw = True
+1116.9053 	EXP 	New trial (rep=56, index=0): None
+1116.9108 	EXP 	nothing: autoDraw = False
+1116.9108 	EXP 	nothing: autoDraw = False
+1116.9108 	EXP 	tap: text = 'Tap'
+1116.9108 	EXP 	tap: autoDraw = True
+1120.9108 	EXP 	tap: autoDraw = False
+1120.9108 	EXP 	tap: autoDraw = False
+1120.9108 	EXP 	nothing: autoDraw = True
+1126.8857 	EXP 	nothing: autoDraw = False
+1126.8857 	EXP 	nothing: autoDraw = False
+1126.8857 	EXP 	polygon: autoDraw = True
+1130.8855 	EXP 	polygon: autoDraw = False
+1130.8855 	EXP 	polygon: autoDraw = False
+1130.8855 	EXP 	nothing: autoDraw = True
+1135.2051 	EXP 	New trial (rep=57, index=0): None
+1135.2105 	EXP 	nothing: autoDraw = False
+1135.2105 	EXP 	nothing: autoDraw = False
+1135.2105 	EXP 	tap: text = 'Tap'
+1135.2105 	EXP 	tap: autoDraw = True
+1139.2103 	EXP 	tap: autoDraw = False
+1139.2103 	EXP 	tap: autoDraw = False
+1139.2103 	EXP 	nothing: autoDraw = True
+1143.7019 	EXP 	nothing: autoDraw = False
+1143.7019 	EXP 	nothing: autoDraw = False
+1143.7019 	EXP 	polygon: autoDraw = True
+1147.7017 	EXP 	polygon: autoDraw = False
+1147.7017 	EXP 	polygon: autoDraw = False
+1147.7017 	EXP 	nothing: autoDraw = True
+1152.6616 	EXP 	New trial (rep=58, index=0): None
+1152.6682 	EXP 	nothing: autoDraw = False
+1152.6682 	EXP 	nothing: autoDraw = False
+1152.6682 	EXP 	tap: text = 'Tap'
+1152.6682 	EXP 	tap: autoDraw = True
+1156.6680 	EXP 	tap: autoDraw = False
+1156.6680 	EXP 	tap: autoDraw = False
+1156.6680 	EXP 	nothing: autoDraw = True
+1164.6677 	EXP 	nothing: autoDraw = False
+1164.6677 	EXP 	nothing: autoDraw = False
+1164.6677 	EXP 	polygon: autoDraw = True
+1168.6676 	EXP 	polygon: autoDraw = False
+1168.6676 	EXP 	polygon: autoDraw = False
+1168.6676 	EXP 	nothing: autoDraw = True
+1172.7036 	EXP 	New trial (rep=59, index=0): None
+1172.7175 	EXP 	nothing: autoDraw = False
+1172.7175 	EXP 	nothing: autoDraw = False
+1172.7175 	EXP 	tap: text = 'Tap'
+1172.7175 	EXP 	tap: autoDraw = True
+1176.7172 	EXP 	tap: autoDraw = False
+1176.7172 	EXP 	nothing: autoDraw = True
+1178.7173 	EXP 	nothing: autoDraw = False
+1178.7173 	EXP 	nothing: autoDraw = False
+1178.7173 	EXP 	polygon: autoDraw = True
+1182.7172 	EXP 	polygon: autoDraw = False
+1182.7172 	EXP 	polygon: autoDraw = False
+1182.7172 	EXP 	nothing: autoDraw = True
+1188.1500 	EXP 	nothing: autoDraw = False
+1188.1500 	EXP 	nothing: autoDraw = False
+1188.1500 	EXP 	text_2: autoDraw = True
+1194.1251 	EXP 	text_2: autoDraw = False
+1194.1705 	EXP 	window1: mouseVisible = True
