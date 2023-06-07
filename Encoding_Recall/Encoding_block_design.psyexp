@@ -544,9 +544,9 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="" valType="color" updates="constant" name="fillColor"/>
-        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="black" valType="color" updates="constant" name="lineColor"/>
-        <Param val="10" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="15" valType="num" updates="constant" name="lineWidth"/>
         <Param val="4" valType="int" updates="constant" name="nVertices"/>
         <Param val="circle" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
