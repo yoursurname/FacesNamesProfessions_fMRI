@@ -73,7 +73,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Open Sans" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.35" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
         <Param val="text" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -286,7 +286,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="console.log(letters);&amp;#10;console.log(correct_answer);&amp;#10;if (occupation) {&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer);&amp;#10;} else {&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer);&amp;#10;}&amp;#10;thisExp.addData('stimName.tStart', stimName.tStart)&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="console.log(letters);&amp;#10;console.log(correct_answer);&amp;#10;if (occupation) {&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer);&amp;#10;} else {&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer);&amp;#10;}&amp;#10;thisExp.addData('stimName.tStart', image.tStart)&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
         <Param val="print(letters)&amp;#10;print(correct_answer)&amp;#10;&amp;#10;if occupation:&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer)&amp;#10;else:&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_2" valType="code" updates="None" name="name"/>
@@ -561,15 +561,15 @@
       <CodeComponent name="code_4">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="timer = core.Clock()" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="timer = new core.Clock();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="if (key_resp.keys) == 's':&amp;#10;    core.wait(8)&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="if ((key_resp.keys === &quot;s&quot;)) {&amp;#10;    core.wait(8);&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="if (key_resp.keys) == 's':&amp;#10;    expStart = timer.getTime()&amp;#10;    core.wait(5)&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((key_resp.keys === &quot;s&quot;)) {&amp;#10;    expStart = timer.getTime();&amp;#10;    core.wait(5);&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="stopTime = timer.getTime() - expStart&amp;#10;&amp;#10;&amp;#10;print(f&quot;The Experimetn lasted for {stopTime} seconds&quot;)" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="stopTime = (timer.getTime() - expStart);&amp;#10;console.log(`The Experimetn lasted for ${stopTime} seconds`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
@@ -630,10 +630,10 @@
       <CodeComponent name="duration_setter">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="#Two ITI per image for 2 conditions&amp;#10;num_values = n_images*2*2&amp;#10;desired_average = image_duration&amp;#10;&amp;#10;desired_sum = num_values * desired_average&amp;#10;&amp;#10;# Define the possible values&amp;#10;possible_values = [2.5, 5.0, 7.5, 10.0]&amp;#10;&amp;#10;ITI_durations = possible_values * int((num_values/len(possible_values)))&amp;#10;print(sum(ITI_durations))&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="num_values = ((n_images * 2) * 2);&amp;#10;desired_average = image_duration;&amp;#10;desired_sum = (num_values * desired_average);&amp;#10;possible_values = [2.5, 5.0, 7.5, 10.0];&amp;#10;ITI_durations = (possible_values * Number.parseInt((num_values / possible_values.length)));&amp;#10;console.log(util.sum(ITI_durations));&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="ITI_duration = np.random.choice(ITI_durations);&amp;#10;ITI_index = np.where((ITI_durations === ITI_duration))[0][0];&amp;#10;ITI_durations = np.delete(ITI_durations, ITI_index);&amp;#10;console.log(ITI_duration);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="&amp;#10;&amp;#10;ITI_duration = np.random.choice(ITI_durations)&amp;#10;&amp;#10;ITI_index = np.where(ITI_durations==ITI_duration)[0][0]&amp;#10;&amp;#10;# Update the list by removing the extracted numbers&amp;#10;ITI_durations = np.delete(ITI_durations, ITI_index)&amp;#10;&amp;#10;&amp;#10;print(ITI_duration)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="#values = [2.5, 5, 7.5, 10]&amp;#10;#target_sum = 400&amp;#10;#num_values = 80&amp;#10;&amp;#10;# Create an initial list with random values&amp;#10;#initial_list = np.random.choice(values, num_values)&amp;#10;&amp;#10;# Calculate the sum of the initial list&amp;#10;#current_sum = sum(initial_list)&amp;#10;&amp;#10;# Calculate the difference between the target sum and current sum&amp;#10;#diff = target_sum - current_sum&amp;#10;&amp;#10;# Randomly adjust values in the list until the sum matches the target sum&amp;#10;#while diff != 0:&amp;#10;    # Choose a random index in the list&amp;#10;#    index = np.random.randint(0, num_values - 1)&amp;#10;    # Choose a random value from the options&amp;#10;#    new_value = np.random.choice(values)&amp;#10;&amp;#10;    # Update the list at the chosen index with the new value&amp;#10;#    initial_list[index] = new_value&amp;#10;&amp;#10;    # Update the current sum and difference&amp;#10;#    current_sum = sum(initial_list)&amp;#10;#    diff = target_sum - current_sum&amp;#10;&amp;#10;ITI_durations = values = [7.5, 5, 5, 7.5, 2.5, 5, 2.5, 5, 5, 5, 2.5, 7.5, 2.5, 2.5, 5, 5, 5, 7.5, 7.5, 5, 2.5, 5, 10, 7.5, 2.5, 2.5, 2.5, 7.5, 2.5, 2.5, 7.5, 5, 7.5, 2.5, 5, 7.5, 2.5, 5, 10, 5, 5, 7.5, 2.5, 2.5, 5, 10, 2.5, 2.5, 2.5, 10, 2.5, 5, 2.5, 2.5, 2.5, 5, 10, 2.5, 10, 5, 2.5, 2.5, 2.5, 2.5, 7.5, 5, 2.5, 2.5, 7.5, 5, 10, 10, 2.5, 5, 7.5, 7.5, 5, 5, 2.5, 5]&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="ITI_durations = values = [7.5, 5, 5, 7.5, 2.5, 5, 2.5, 5, 5, 5, 2.5, 7.5, 2.5, 2.5, 5, 5, 5, 7.5, 7.5, 5, 2.5, 5, 10, 7.5, 2.5, 2.5, 2.5, 7.5, 2.5, 2.5, 7.5, 5, 7.5, 2.5, 5, 7.5, 2.5, 5, 10, 5, 5, 7.5, 2.5, 2.5, 5, 10, 2.5, 2.5, 2.5, 10, 2.5, 5, 2.5, 2.5, 2.5, 5, 10, 2.5, 10, 5, 2.5, 2.5, 2.5, 2.5, 7.5, 5, 2.5, 2.5, 7.5, 5, 10, 10, 2.5, 5, 7.5, 7.5, 5, 5, 2.5, 5];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="ITI_duration = np.random.choice(ITI_durations);&amp;#10;ITI_index = np.where((ITI_durations === ITI_duration))[0][0];&amp;#10;ITI_durations = np.delete(ITI_durations, ITI_index);&amp;#10;console.log(ITI_duration);&amp;#10;console.log(`Updated ITI duration list length: ${ITI_durations.length}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;&amp;#10;ITI_duration = np.random.choice(ITI_durations)&amp;#10;&amp;#10;ITI_index = np.where(ITI_durations==ITI_duration)[0][0]&amp;#10;&amp;#10;# Update the list by removing the extracted numbers&amp;#10;ITI_durations = np.delete(ITI_durations, ITI_index)&amp;#10;&amp;#10;&amp;#10;print(ITI_duration)&amp;#10;&amp;#10;print(f&quot;Updated ITI duration list length: {len(ITI_durations)}&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
