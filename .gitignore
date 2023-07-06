@@ -1,3 +1,7 @@
 **/data
 **/Data
 .gitignore.txt
+Recall/Recall_with_ITI_Names.py
+Recall/Recall_with_ITI_Names_lastrun.py
+Recall/Recall_with_ITI_Professions_lastrun.py
+Recall/Retrieval_block_design_lastrun.py
