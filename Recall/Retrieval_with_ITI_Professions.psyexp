@@ -2,7 +2,7 @@
 <PsychoPy2experiment encoding="utf-8" version="2022.2.5">
   <Settings>
     <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
-    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
     <Param val="" valType="str" updates="None" name="Completed URL"/>
     <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
     <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
@@ -39,7 +39,7 @@
     <Param val="False" valType="bool" updates="None" name="elSimMode"/>
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
-    <Param val="FaceName_recall" valType="str" updates="None" name="expName"/>
+    <Param val="FaceProfession_recall" valType="str" updates="None" name="expName"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
@@ -85,7 +85,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Instruktioner:&amp;#10;&amp;#10;Du kommer att se bilder på ansikten presenterade ett i taget.&amp;#10;Varje ansikte visas med 3 bokstäver och &quot;NY&quot; under bilden. Din uppgift då är att välja den korrekta första bokstaven i Namnet till ansiktet som visas. Om du aldrig sett ansiktet tidigare så väljer du &quot;NY&quot;.&amp;#10;&amp;#10;Svara på varje bild med hjälp av följande knappar:&amp;#10;1 (pekfinger) = VÄNSTER       &amp;#10;2 (långfinger) = MITTEN&amp;#10;3 (ringfinger) = HÖGER&amp;#10;4 (lillfinger) = NY&amp;#10;&amp;#10;När du ser ett kors på skärmen så ska du bara titta på det.&amp;#10;&amp;#10;Vi vet att det är en svår uppgift så gör så gott du kan och lycka till!&amp;#10;&amp;#10;Tryck med pekfingret och meddela när du är redo att börja.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="Instruktioner:&amp;#10;&amp;#10;Du kommer att se bilder på ansikten presenterade ett i taget.&amp;#10;Varje ansikte visas med 3 bokstäver och &quot;NY&quot; under bilden. Din uppgift då är att välja den korrekta första bokstaven i Yrket till ansiktet som visas. Om du aldrig sett ansiktet tidigare så väljer du &quot;NY&quot;.&amp;#10;&amp;#10;Svara på varje bild med hjälp av följande knappar:&amp;#10;1 (pekfinger) = VÄNSTER       &amp;#10;2 (långfinger) = MITTEN&amp;#10;3 (ringfinger) = HÖGER&amp;#10;4 (lillfinger) = NY&amp;#10;&amp;#10;När du ser ett kors på skärmen så ska du bara titta på det.&amp;#10;&amp;#10;Vi vet att det är en svår uppgift så gör så gott du kan och lycka till!&amp;#10;&amp;#10;Tryck med pekfingret och meddela när du är redo att börja.&amp;#10;" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -107,26 +107,6 @@
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
-      <VariableComponent name="occupation">
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="occupation" valType="code" updates="None" name="name"/>
-        <Param val="False" valType="bool" updates="constant" name="saveEndExp"/>
-        <Param val="True" valType="bool" updates="constant" name="saveEndRoutine"/>
-        <Param val="never" valType="str" updates="constant" name="saveFrameValue"/>
-        <Param val="False" valType="bool" updates="constant" name="saveStartExp"/>
-        <Param val="False" valType="bool" updates="constant" name="saveStartRoutine"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="None" name="startEstim"/>
-        <Param val="0" valType="code" updates="constant" name="startExpValue"/>
-        <Param val="" valType="code" updates="None" name="startFrameValue"/>
-        <Param val="" valType="code" updates="constant" name="startRoutineValue"/>
-        <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="" valType="code" updates="None" name="startVal"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="" valType="code" updates="constant" name="stopVal"/>
-        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
-      </VariableComponent>
     </Routine>
     <Routine name="fix_cross">
       <PolygonComponent name="polygon">
@@ -274,23 +254,6 @@
       </CodeComponent>
     </Routine>
     <Routine name="Recall_trial">
-      <CodeComponent name="draw_letters">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="face_count = 0&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="face_count = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="#Clear keyboard presses&amp;#10;event.clearEvents()&amp;#10;&amp;#10;alphabet = 'ABCDEFGHIJKLMNOPRSTUVÖ'&amp;#10;&amp;#10;&amp;#10;if occupation:&amp;#10;    correct = Profession[0]&amp;#10;else:&amp;#10;    correct = Name[0]&amp;#10;    &amp;#10;    &amp;#10;letter_alternatives = alphabet.replace(correct, '')&amp;#10;&amp;#10;correct = f'{correct}.'&amp;#10;&amp;#10;&amp;#10;letter1 = f'{letter_alternatives[randint(0, len(letter_alternatives)-1)]}.'&amp;#10;letter2 = f'{letter_alternatives[randint(0, len(letter_alternatives)-1)]}.'&amp;#10;&amp;#10;while letter1 == letter2:&amp;#10;    print(&quot;Same letter randomised, performing randmoisation again..&quot;)&amp;#10;    letter2 = f'{letter_alternatives[randint(0, len(letter_alternatives)-1)]}.'&amp;#10;&amp;#10;&amp;#10;letters_lst = [correct, letter1, letter2]&amp;#10;shuffle(letters_lst)&amp;#10;&amp;#10;letters_lst.append(&quot;NY&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;correct_answer = letters_lst.index(correct) + 1&amp;#10;&amp;#10;if Name == &quot;NY&quot;:&amp;#10;    correct_answer = 4&amp;#10; &amp;#10;&amp;#10;&amp;#10;# Create the letter and rectangle stimuli&amp;#10;letter_position = [-0.45, -0.4]&amp;#10;&amp;#10;&amp;#10;# Create the rectangle stimulus for the bounding box&amp;#10;bounding_box_stim = visual.Rect(win, &amp;#10;width=0.135, &amp;#10;height=0.13, &amp;#10;lineWidth=3, &amp;#10;fillColor = [0, 0, 0, 0],&amp;#10;lineColor='black')&amp;#10;&amp;#10;letter_stims = [visual.TextStim(win,&amp;#10;text=letter,&amp;#10;autoDraw=True,&amp;#10;color=&quot;black&quot;,&amp;#10;height=0.1,&amp;#10;alignText = 'center',&amp;#10;pos=(letter_position[0] + (0.3 * i), letter_position[1])) for i, letter in enumerate(letters_lst)]&amp;#10;&amp;#10;&amp;#10;&amp;#10;# Display the stimuli&amp;#10;for letter_stim in letter_stims:&amp;#10;    letter_stim.draw()&amp;#10;win.flip()&amp;#10;&amp;#10;selected_letter_index = None" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="# Get the pressed keys&amp;#10;pressed_keys = event.getKeys()&amp;#10;&amp;#10;# Check the pressed key and update the selected letter&amp;#10;if '1' in pressed_keys:&amp;#10;    selected_letter_index = 0  # Set the selected letter index&amp;#10;elif '2' in pressed_keys:&amp;#10;    selected_letter_index = 1  # Set the selected letter index&amp;#10;elif '3' in pressed_keys:&amp;#10;    selected_letter_index = 2  # Set the selected letter index&amp;#10;elif '4' in pressed_keys:&amp;#10;    selected_letter_index = 3  # Set the selected letter index&amp;#10;&amp;#10;# Redraw the stimuli with the bounding box for the selected letter&amp;#10;for i, letter_stim in enumerate(letter_stims):&amp;#10;    letter_stim.setAutoDraw(True)&amp;#10;    if i == selected_letter_index:&amp;#10;        bounding_box_stim.pos = letter_stim.pos&amp;#10;        bounding_box_stim.setAutoDraw(True)&amp;#10;        &amp;#10;&amp;#10;    &amp;#10;win.flip()&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="console.log(&quot;\t&quot;.join(letters_lst));&amp;#10;console.log(correct_answer);&amp;#10;if (occupation) {&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer);&amp;#10;} else {&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer);&amp;#10;}&amp;#10;bounding_box_stim.autoDraw = false;&amp;#10;for (var letter_stim, _pj_c = 0, _pj_a = letter_stims, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    letter_stim = _pj_a[_pj_c];&amp;#10;    letter_stim.autoDraw = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="print(&quot;\t&quot;.join(letters_lst))&amp;#10;print(correct_answer)&amp;#10;&amp;#10;if occupation:&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer)&amp;#10;else:&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer)&amp;#10;&amp;#10;bounding_box_stim.autoDraw= False&amp;#10;&amp;#10;&amp;#10;for letter_stim in letter_stims:&amp;#10;    letter_stim.autoDraw = False" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="draw_letters" valType="code" updates="None" name="name"/>
-      </CodeComponent>
       <KeyboardComponent name="key_resp_1">
         <Param val="'1','2','3','4'" valType="list" updates="set every repeat" name="allowedKeys"/>
         <Param val="$correct_answer" valType="str" updates="constant" name="correctAns"/>
@@ -336,6 +299,23 @@
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
       </ImageComponent>
+      <CodeComponent name="draw_letters">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="face_count = 0&amp;#10;occupation = True" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="face_count = 0;&amp;#10;occupation = true;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#Clear keyboard presses&amp;#10;event.clearEvents()&amp;#10;&amp;#10;alphabet = 'ABCDEFGHIJKLMNOPRSTUVÖ'&amp;#10;&amp;#10;&amp;#10;correct = Profession[0]&amp;#10;&amp;#10;    &amp;#10;letter_alternatives = alphabet.replace(correct, '')&amp;#10;&amp;#10;correct = f'{correct}.'&amp;#10;&amp;#10;&amp;#10;letter1 = f'{letter_alternatives[randint(0, len(letter_alternatives)-1)]}.'&amp;#10;letter2 = f'{letter_alternatives[randint(0, len(letter_alternatives)-1)]}.'&amp;#10;&amp;#10;while letter1 == letter2:&amp;#10;    print(&quot;Same letter randomised, performing randmoisation again..&quot;)&amp;#10;    letter2 = f'{letter_alternatives[randint(0, len(letter_alternatives)-1)]}.'&amp;#10;&amp;#10;&amp;#10;letters_lst = [correct, letter1, letter2]&amp;#10;shuffle(letters_lst)&amp;#10;&amp;#10;letters_lst.append(&quot;NY&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;correct_answer = letters_lst.index(correct) + 1&amp;#10;&amp;#10;if Profession == &quot;NY&quot;:&amp;#10;    correct_answer = 4&amp;#10; &amp;#10;&amp;#10;&amp;#10;# Create the letter and rectangle stimuli&amp;#10;letter_position = [-0.45, -0.4]&amp;#10;&amp;#10;&amp;#10;# Create the rectangle stimulus for the bounding box&amp;#10;bounding_box_stim = visual.Rect(win, &amp;#10;width=0.135, &amp;#10;height=0.13, &amp;#10;lineWidth=3, &amp;#10;fillColor = [0, 0, 0, 0],&amp;#10;lineColor='black')&amp;#10;&amp;#10;letter_stims = [visual.TextStim(win,&amp;#10;text=letter,&amp;#10;autoDraw=True,&amp;#10;color=&quot;black&quot;,&amp;#10;height=0.1,&amp;#10;alignText = 'center',&amp;#10;pos=(letter_position[0] + (0.3 * i), letter_position[1])) for i, letter in enumerate(letters_lst)]&amp;#10;&amp;#10;&amp;#10;&amp;#10;# Display the stimuli&amp;#10;for letter_stim in letter_stims:&amp;#10;    letter_stim.draw()&amp;#10;win.flip()&amp;#10;&amp;#10;selected_letter_index = None" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# Get the pressed keys&amp;#10;pressed_keys = event.getKeys()&amp;#10;&amp;#10;# Check the pressed key and update the selected letter&amp;#10;if '1' in pressed_keys:&amp;#10;    selected_letter_index = 0  # Set the selected letter index&amp;#10;elif '2' in pressed_keys:&amp;#10;    selected_letter_index = 1  # Set the selected letter index&amp;#10;elif '3' in pressed_keys:&amp;#10;    selected_letter_index = 2  # Set the selected letter index&amp;#10;elif '4' in pressed_keys:&amp;#10;    selected_letter_index = 3  # Set the selected letter index&amp;#10;&amp;#10;# Redraw the stimuli with the bounding box for the selected letter&amp;#10;for i, letter_stim in enumerate(letter_stims):&amp;#10;    letter_stim.setAutoDraw(True)&amp;#10;    if i == selected_letter_index:&amp;#10;        bounding_box_stim.pos = letter_stim.pos&amp;#10;        bounding_box_stim.setAutoDraw(True)&amp;#10;        &amp;#10;&amp;#10;    &amp;#10;win.flip()&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="console.log(&quot;\t&quot;.join(letters_lst));&amp;#10;console.log(correct_answer);&amp;#10;if (occupation) {&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer);&amp;#10;} else {&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer);&amp;#10;}&amp;#10;bounding_box_stim.autoDraw = false;&amp;#10;for (var letter_stim, _pj_c = 0, _pj_a = letter_stims, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    letter_stim = _pj_a[_pj_c];&amp;#10;    letter_stim.autoDraw = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="print(&quot;\t&quot;.join(letters_lst))&amp;#10;print(correct_answer)&amp;#10;&amp;#10;if occupation:&amp;#10;    Professions.addData(&quot;correct&quot;, correct_answer)&amp;#10;else:&amp;#10;    Names.addData(&quot;correct&quot;, correct_answer)&amp;#10;&amp;#10;bounding_box_stim.autoDraw= False&amp;#10;&amp;#10;&amp;#10;for letter_stim in letter_stims:&amp;#10;    letter_stim.autoDraw = False" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="draw_letters" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="code"/>
     <Routine name="instructions_occupation">
@@ -369,8 +349,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="occupation = true;&amp;#10;ITI_index = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="occupation = True&amp;#10;ITI_index = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="ITI_index = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="ITI_index = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -386,8 +366,8 @@
       <CodeComponent name="param_init">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="block = 0&amp;#10;n_images = 40&amp;#10;image_duration = 5&amp;#10;image_size = (0.748, 0.755)&amp;#10;image_position = (0, 0.05)&amp;#10;images_per_condition = 40&amp;#10;&amp;#10;&amp;#10;images_selection = randchoice(images_per_condition, n_images, False)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="block = 0;&amp;#10;n_images = 40;&amp;#10;image_duration = 5;&amp;#10;image_size = [0.748, 0.755];&amp;#10;image_position = [0, 0.05];&amp;#10;images_per_condition = 40;&amp;#10;images_selection = util.randchoice(images_per_condition, n_images, false);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block = 0&amp;#10;n_images = 40&amp;#10;image_duration = 5&amp;#10;image_size = (0.748, 0.755)&amp;#10;image_position = (0, 0.05)&amp;#10;images_per_condition = 40&amp;#10;&amp;#10;occupation = True&amp;#10;&amp;#10;images_selection = randchoice(images_per_condition, n_images, False)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="block = 0;&amp;#10;n_images = 40;&amp;#10;image_duration = 5;&amp;#10;image_size = [0.748, 0.755];&amp;#10;image_position = [0, 0.05];&amp;#10;images_per_condition = 40;&amp;#10;occupation = true;&amp;#10;images_selection = util.randchoice(images_per_condition, n_images, false);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -474,8 +454,8 @@
       <CodeComponent name="code_5">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="name_occupation = &quot;namn&quot;&amp;#10;occupation = False" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="name_occupation = &quot;namn&quot;;&amp;#10;occupation = false;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="occupation = True" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="occupation = true;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="if (occupation) {&amp;#10;    name_occupation = &quot;yrkestitel&quot;;&amp;#10;}&amp;#10;text_6.setText(`Välj första bokstaven i personens ${name_occupation}`);&amp;#10;fingers.setText(&quot;1 - Pekfinger, 2 - L\u00e5ngfinger, 3 - Ringfinger, 4 - Lillfinger&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="&amp;#10;if occupation:&amp;#10;    name_occupation = &quot;yrkestitel&quot;&amp;#10;&amp;#10;text_6.setText(f&quot;Välj första bokstaven i personens {name_occupation}&quot;)&amp;#10;&amp;#10;fingers.setText(&quot;1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -626,22 +606,22 @@
     <Routine name="init_parameters"/>
     <Routine name="Wait_fMRI"/>
     <Routine name="Recall_info"/>
-    <LoopInitiator loopType="TrialHandler" name="Names">
+    <LoopInitiator loopType="TrialHandler" name="Professions">
       <Param name="Selected rows" updates="None" val="$images_selection" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'task': 'recall_names', 'StimFile': 'Images_Faces/O1.jpg', 'Name': 'Karl', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O2.jpg', 'Name': 'Erik', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O3.jpg', 'Name': 'Lars', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O4.jpg', 'Name': 'Anders', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O5.jpg', 'Name': 'Per', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O6.jpg', 'Name': 'Mikael', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O7.jpg', 'Name': 'Johan', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O8.jpg', 'Name': 'Olof', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O9.jpg', 'Name': 'Nils', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O10.jpg', 'Name': 'Jan', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O11.jpg', 'Name': 'Gustav', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O12.jpg', 'Name': 'Hans', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O13.jpg', 'Name': 'Peter', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O14.jpg', 'Name': 'Arvid', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O15.jpg', 'Name': 'Fredrik', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O16.jpg', 'Name': 'Gunnar', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O17.jpg', 'Name': 'Thomas', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O18.jpg', 'Name': 'Sven', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O19.jpg', 'Name': 'Daniel', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O20.jpg', 'Name': 'Alexander', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O21.jpg', 'Name': 'Emanuel', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O22.jpg', 'Name': 'Sebastian', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O23.jpg', 'Name': 'Oskar', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O24.jpg', 'Name': 'Hugo', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O25.jpg', 'Name': 'Andreas', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O26.jpg', 'Name': 'Oliver', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O27.jpg', 'Name': 'Christer', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O28.jpg', 'Name': 'Stefan', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O29.jpg', 'Name': 'Isak', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O30.jpg', 'Name': 'Martin', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Simon', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Anton', 'Profession': 0}, {'task': 'recall_names', 'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Profession': 0}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="Recall_names.xlsx" valType="file"/>
+      <Param name="conditions" updates="None" val="[{'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH1.png', 'Profession': 'Kassabiträde', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH2.png', 'Profession': 'Lärare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH3.png', 'Profession': 'Journalist', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH4.png', 'Profession': 'Fritidspedagog', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH5.png', 'Profession': 'Konstnär', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH6.png', 'Profession': 'Parkeringsvakt', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH7.png', 'Profession': 'Bonde', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH8.png', 'Profession': 'Målare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH9.png', 'Profession': 'Företagssäljare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH10.png', 'Profession': 'Pilot', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH11.png', 'Profession': 'Psykolog', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH12.png', 'Profession': 'Ingenjör', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH13.png', 'Profession': 'Lagerarbetare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH14.png', 'Profession': 'Snickare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH15.png', 'Profession': 'Murare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH16.png', 'Profession': 'Sjuksköterska', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH17.png', 'Profession': 'Servitör', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH18.png', 'Profession': 'Författare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH19.png', 'Profession': 'Djuruppfödare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH20.png', 'Profession': 'Läkare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH21.png', 'Profession': 'Receptionist', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH22.png', 'Profession': 'Bibliotikarie', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH23.png', 'Profession': 'Banktjänsteman', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH24.png', 'Profession': 'Revisor', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH25.png', 'Profession': 'Arkitekt', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH26.png', 'Profession': 'Politiker', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH27.png', 'Profession': 'Golvläggare', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH28.png', 'Profession': 'Tolk', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH29.png', 'Profession': 'Fotograf', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH30.png', 'Profession': 'Brandman', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH51.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH52.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH53.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH54.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH55.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH56.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH57.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH58.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH59.png', 'Profession': 'NY', 'Namn': 0}, {'task': 'recall_proffessions', 'StimFile': 'Images_Faces/SH60.png', 'Profession': 'NY', 'Namn': 0}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Retrieval_professions.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="Names" valType="code"/>
+      <Param name="name" updates="None" val="Professions" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="Recall_trial"/>
     <Routine name="ITI"/>
     <Routine name="fix_cross"/>
     <Routine name="ITI"/>
-    <LoopTerminator name="Names"/>
+    <LoopTerminator name="Professions"/>
     <Routine name="Finished"/>
   </Flow>
 </PsychoPy2experiment>
